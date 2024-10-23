@@ -15,29 +15,25 @@ conda activate osop
 set -u
 
 # pick download location
-<<<<<<< HEAD
-#downloaddir=$SCRATCH/test_downloads
-downloaddir=/home/mohamed/EHTPIII/MODELISATION/DATA
-=======
 downloaddir=$SCRATCH/test_downloads
->>>>>>> b9fa3410e84236043915e683bc8bf5d876c5ee60
 mkdir -p $downloaddir
 
-# loop over all centres of interest and get data
-for centre in meteo_france dwd cmcc ncep ukmo  ecmwf jma eccc ;do 
+# loop over models of interest and get data
+# key models not in C3S
+for model in CFSv2 CCSM4 ;do 
     set +e
-    python get_any_hindcast.py \
-        --centre $centre \
+    python get_any_hc_fc_iri.py \
+        --model $model \
         --month 11 \
         --leads "2,3,4" \
         --area "45,-30,-2.5,60" \
         --downloaddir $downloaddir \
-        > $downloaddir/download_log_djf_${centre}.txt 2>&1
+        > $downloaddir/download_log_djf_${model}.txt 2>&1
     exitcode=$?
     set -e
     if [ $exitcode -eq 0 ]; then
-        echo $centre : download sucessful
+        echo $model : download sucessful
     else
-        echo $centre : download failed
+        echo $model : download failed
     fi
 done

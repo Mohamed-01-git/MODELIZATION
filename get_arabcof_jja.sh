@@ -5,7 +5,7 @@
 # See LICENSE in the root of the repository for full licensing details.
 
 # Script to download common hindcast period (1993-2016) for 
-# ArabCOF region. Hindcasts initialised November for DJF
+# ArabCOF region. Hindcasts initialised May for JJA
 set -eu
 
 # this conda env gives an error on load, so
@@ -15,12 +15,7 @@ conda activate osop
 set -u
 
 # pick download location
-<<<<<<< HEAD
-#downloaddir=$SCRATCH/test_downloads
-downloaddir=/home/mohamed/EHTPIII/MODELISATION/DATA
-=======
 downloaddir=$SCRATCH/test_downloads
->>>>>>> b9fa3410e84236043915e683bc8bf5d876c5ee60
 mkdir -p $downloaddir
 
 # loop over all centres of interest and get data
@@ -28,11 +23,11 @@ for centre in meteo_france dwd cmcc ncep ukmo  ecmwf jma eccc ;do
     set +e
     python get_any_hindcast.py \
         --centre $centre \
-        --month 11 \
+        --month 5 \
         --leads "2,3,4" \
         --area "45,-30,-2.5,60" \
         --downloaddir $downloaddir \
-        > $downloaddir/download_log_djf_${centre}.txt 2>&1
+        > $downloaddir/download_log_jja_${centre}.txt 2>&1
     exitcode=$?
     set -e
     if [ $exitcode -eq 0 ]; then
