@@ -1,0 +1,9 @@
+\babel@toc {french}{}\relax 
+\beamer@sectionintoc {1}{DATA}{3}{0}{1}
+\beamer@sectionintoc {2}{2M-TEMPERATURE}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{DETERMINISTIC EVALUATIONS}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{Probabilistic Evaluation Metrics}{11}{0}{2}
+\beamer@sectionintoc {3}{PRECIPITATION}{21}{0}{3}
+\beamer@subsectionintoc {3}{1}{DETERMINISTIC EVALUATIONS}{21}{0}{3}
+\beamer@subsectionintoc {3}{2}{Probabilistic Evaluation Metrics}{27}{0}{3}
+\beamer@sectionintoc {4}{CONCLUSION}{37}{0}{4}
