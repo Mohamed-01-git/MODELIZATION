@@ -13,7 +13,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import calendar
 
-SCOREDIR ="/home/mohamed/EHTPIII/MODELISATION/output/all_scores"
+SCOREDIR ="/home/mohamed/EHTPIII/MODELISATION/DATA/DATASET/OUT/SF/scores"
 # config = dict(list_vars=['tprate'], hcstarty=1993, hcendy=2016, start_month=11)
 details = "_1993-2016_monthly_mean_5_234_45_-30_-2.5_60"
 available_files = ["ukmo_602", "meteo_france_8", "ecmwf_51", "eccc_3", "eccc_2", "dwd_21", "cmcc_35"]
@@ -105,14 +105,14 @@ def plot_roc(df,variable,TYPE):
         df_center = df[df['center'] == center]
         df_temp=df_center.pivot(index= TYPE, columns="period", values=f"mean_{variable}_{TYPE}")
         # df_temp.columns= [calendar.month_abbr[m] for m in df_temp.columns]
-        sns.heatmap(df_temp, annot=None, fmt=".2f", cmap="seismic", ax=axe[i])
+        sns.heatmap(df_temp,  fmt=".2f", cmap="seismic", ax=axe[i],annot=True)
         axe[i].set_xlabel("start_months")
         axe[i].set_ylabel(f"{TYPE}")
         axe[i].set_title(f'Center: {center}')
     fig.suptitle(f"{df.metric[0]} {variable} / {TYPE}", fontsize=16, fontweight='bold', y=0.981)  
     for j in range(i + 1, len(axe)):
         fig.delaxes(axe[j])
-    plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/output/{df.metric[0]}_{variable}_{TYPE}.png')
+    plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/REPORT/Report_25_11/{df.metric[0]}_{variable}_{TYPE}.png')
         
     plt.tight_layout()
     plt.show()       
@@ -120,3 +120,4 @@ def plot_roc(df,variable,TYPE):
 for x in [roc_df,rocss_df,bs_df] :
     for i in [0,1]:
         plot_roc(x,"RR",TYPE[i])
+        plot_roc(x,"T2M",TYPE[i])

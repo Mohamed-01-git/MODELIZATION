@@ -13,7 +13,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import calendar
 
-SCOREDIR ="/home/mohamed/EHTPIII/MODELISATION/output/all_scores"
+SCOREDIR ="/home/mohamed/EHTPIII/MODELISATION/DATA/DATASET/OUT/SF/scores"
 # config = dict(list_vars=['tprate'], hcstarty=1993, hcendy=2016, start_month=11)
 details = "_1993-2016_monthly_mean_5_234_45_-30_-2.5_60"
 available_files = ["ukmo_602", "meteo_france_8", "ecmwf_51", "eccc_3", "eccc_2", "dwd_21", "cmcc_35"]
@@ -32,11 +32,11 @@ def load_data(file_name, aggr, metric,period):
 # Get the corresponding month
     mois = period_to_month.get(period)
     # file_link = f'{SCOREDIR}/{file_name}_1993-2016_monthly_mean_{mois}_234_45_-30_-2.5_60_{period}.{aggr}.RR.{metric}.nc'
-    file_link_t2m = f'{SCOREDIR}/{file_name}_1993-2016_monthly_mean_{mois}_234_45_-30_-2.5_60_{period}.{aggr}.{metric}.nc'
+    file_link_t2m = f'{SCOREDIR}/{file_name}_1993-2016_monthly_mean_{mois}_234_45_-30_-2_5_60_{period}_{aggr}_{metric}.nc'
     data_t2m= xr.open_dataset(file_link_t2m)
     data_t2m = data_t2m.assign_coords(lon=(((data_t2m.lon + 180) % 360) - 180)).sortby('lon')
     
-    file_link_RR = f'{SCOREDIR}/{file_name}_1993-2016_monthly_mean_{mois}_234_45_-30_-2.5_60_{period}.{aggr}.RR.{metric}.nc'
+    file_link_RR = f'{SCOREDIR}/{file_name}_1993-2016_monthly_mean_{mois}_234_45_-30_-2_5_60_{period}_{aggr}_RR_{metric}.nc'
     data_RR= xr.open_dataset(file_link_RR)
     data_RR = data_RR.assign_coords(lon=(((data_RR.lon + 180) % 360) - 180)).sortby('lon')
     return data_t2m, data_RR
@@ -97,14 +97,14 @@ def plot_determinist(df,variable):
         df_center = df[df['center'] == center]
         df_temp=df_center.pivot(index="lead_time", columns="period", values=f"mean_score_{variable}")
         # df_temp.columns= [calendar.month_abbr[m] for m in df_temp.columns]
-        sns.heatmap(df_temp, annot=None, fmt=".2f", cmap="YlGnBu", ax=axe[i])
+        sns.heatmap(df_temp,  fmt=".2f", cmap="seismic", ax=axe[i],annot=True)
         axe[i].set_xlabel("start_months")
         axe[i].set_ylabel("PERIOD")
         axe[i].set_title(f'Center: {center}')
     fig.suptitle(f"{df.metric[0]}  for {variable}  per  PERIOD", fontsize=16, fontweight='bold', y=0.981)  
     for j in range(i + 1, len(axe)):
         fig.delaxes(axe[j])
-    plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/output/{df.metric[0]}_{variable}_ PERIOD.png',dpi=350)
+    plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/REPORT/Report_25_11/{df.metric[0]}_{variable}_PERIOD.png',dpi=350)
         
     plt.tight_layout()
     plt.show()       
