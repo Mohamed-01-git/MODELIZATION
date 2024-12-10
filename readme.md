@@ -4,7 +4,7 @@ This project involves downloading necessary data, calculating scores for various
 
 ## Project Structure
 
-- **Report**: This folder contains the Report.
+- **Report_25_11**: This folder contains the Report.
 - **ADVANCEMENT_DEC**: This folder contains the presentation materials for the last checkpoint.
 - **CODE**: Contains all the scripts and codes used for downloading data, calculating scores, and plotting results.
 - **DATASETS**: This folder contains the input files in `.grib` format used for data analysis and processing.
