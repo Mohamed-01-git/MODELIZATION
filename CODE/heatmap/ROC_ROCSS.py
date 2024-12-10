@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue Dec  3 11:53:10 2024
+Created on Tue Dec 10 17:35:59 2024
 
 @author: mohamed
 """
 
-import pandas as pd
 import numpy as np
+import pandas as pd
 import xarray as xr
-import seaborn as sns
 import matplotlib.pyplot as plt
+import os
+import seaborn as sns
+import regionmask
 import calendar
 
 SCOREDIR ="/home/mohamed/EHTPIII/MODELISATION/DATA/DATASET/OUT/SF/scores"
@@ -18,7 +20,7 @@ SCOREDIR ="/home/mohamed/EHTPIII/MODELISATION/DATA/DATASET/OUT/SF/scores"
 details = "_1993-2016_monthly_mean_5_234_45_-30_-2.5_60"
 available_files = ["ukmo_602", "meteo_france_8", "ecmwf_51", "eccc_3", "eccc_2", "dwd_21", "cmcc_35"]
 VARNAMES = {'tprate': 'RR'}
-metrics = ["roc", "rocss"]
+metrics = ["rmse", "corr","rsquared"]
 
 period_to_month = {
     "djf": 11,
@@ -40,6 +42,23 @@ def load_data(file_name, aggr, metric,period):
     data_RR= xr.open_dataset(file_link_RR)
     data_RR = data_RR.assign_coords(lon=(((data_RR.lon + 180) % 360) - 180)).sortby('lon')
     return data_t2m, data_RR
+
+# for file in available_files:
+#     df1,df2=load_data(file,"1m","corr","djf")
+#     print(df1.dims)
+
+
+def get_mask(df_t2m,df_rr):
+    countries = regionmask.defined_regions.natural_earth_v5_0_0.countries_110
+    mask=countries.mask(df_t2m)
+    mask=mask.transpose("lat","lon")
+    NA_country_names = ['Algeria','Egypt','Libya','Mauritania','Morocco','Tunisia']
+    na_indices =[countries.map_keys(name) for name in NA_country_names]
+    broadcasted_mask = np.broadcast_to(mask.data, (df_t2m.sizes['forecastMonth'], *mask.shape)).transpose(0,2,1)
+    DATA_t2m=df_t2m.where(np.isin(broadcasted_mask, na_indices))
+    broadcasted_mask_2 = np.broadcast_to(mask.data, (df_rr.sizes['forecastMonth'], *mask.shape))
+    DATA_rr=df_rr.where(np.isin(broadcasted_mask_2, na_indices))
+    return DATA_t2m , DATA_rr
 
 
 def create_combined_dataframe(aggr, metric):
@@ -109,10 +128,10 @@ def plot_roc(df,variable,TYPE):
         axe[i].set_xlabel("start_months")
         axe[i].set_ylabel(f"{TYPE}")
         axe[i].set_title(f'Center: {center}')
-    fig.suptitle(f"{df.metric[0]} {variable} / {TYPE}", fontsize=16, fontweight='bold', y=0.981)  
+    fig.suptitle(f"{df.metric[0]} {variable} / {TYPE} North Africa", fontsize=16, fontweight='bold', y=0.981)  
     for j in range(i + 1, len(axe)):
         fig.delaxes(axe[j])
-    plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/REPORT/Report_25_11/{df.metric[0]}_{variable}_{TYPE}.png')
+    plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/REPORT/Report_25_11/{df.metric[0]}_{variable}_{TYPE}_North_Africa.png')
         
     plt.tight_layout()
     plt.show()       
