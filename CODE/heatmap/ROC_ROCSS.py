@@ -54,9 +54,11 @@ def get_mask(df_t2m,df_rr):
     mask=mask.transpose("lat","lon")
     NA_country_names = ['Algeria','Egypt','Libya','Mauritania','Morocco','Tunisia']
     na_indices =[countries.map_keys(name) for name in NA_country_names]
-    broadcasted_mask = np.broadcast_to(mask.data, (df_t2m.sizes['forecastMonth'], *mask.shape)).transpose(0,2,1)
+    broadcasted_mask = np.broadcast_to(mask.data, (df_t2m.sizes['forecastMonth'], df_t2m.sizes['category'], *mask.shape))
     DATA_t2m=df_t2m.where(np.isin(broadcasted_mask, na_indices))
-    broadcasted_mask_2 = np.broadcast_to(mask.data, (df_rr.sizes['forecastMonth'], *mask.shape))
+    mask=countries.mask(df_rr)
+    mask=mask.transpose("lat","lon")
+    broadcasted_mask_2 = np.broadcast_to(mask.data, (df_rr.sizes['forecastMonth'], df_rr.sizes['category'],*mask.shape))
     DATA_rr=df_rr.where(np.isin(broadcasted_mask_2, na_indices))
     return DATA_t2m , DATA_rr
 
@@ -71,15 +73,15 @@ def create_combined_dataframe(aggr, metric):
         for period in periods:
             # Load data for the current period
             data_t2m,data_RR = load_data(file_name, aggr, metric, period)
-
+            # data_t2m,data_RR = get_mask(data_t2m,data_RR)
+            
             # Compute the mean across all dimensions
             mean_score_RR_lead_time= data_RR.mean(dim=["lon", "lat",  "category"], skipna=True).to_array().values
             mean_score_RR_category= data_t2m.mean(dim=["lon", "lat","forecastMonth"], skipna=True).to_array().values
             
             mean_score_T2M_lead_time= data_RR.mean(dim=["lon", "lat",  "category"], skipna=True).to_array().values
             mean_score_T2M_category= data_t2m.mean(dim=["lon", "lat","forecastMonth"], skipna=True).to_array().values
-
-
+            
             # mean_score = corr.mean(dim=["lon", "lat"], skipna=True).to_array().values
             mean_score_RR_lead_time = mean_score_RR_lead_time.flatten()
             mean_score_RR_category = mean_score_RR_category.flatten()
@@ -124,14 +126,18 @@ def plot_roc(df,variable,TYPE):
         df_center = df[df['center'] == center]
         df_temp=df_center.pivot(index= TYPE, columns="period", values=f"mean_{variable}_{TYPE}")
         # df_temp.columns= [calendar.month_abbr[m] for m in df_temp.columns]
-        sns.heatmap(df_temp,  fmt=".2f", cmap="seismic", ax=axe[i],annot=True)
+        sns.heatmap(df_temp,  fmt=".2f", cmap="Blues", 
+                    ax=axe[i],annot=True,vmin=np.nanmin(df[f"mean_{variable}_{TYPE}"].values),
+                    vmax=np.nanmax(df[f"mean_{variable}_{TYPE}"].values))
         axe[i].set_xlabel("start_months")
         axe[i].set_ylabel(f"{TYPE}")
         axe[i].set_title(f'Center: {center}')
-    fig.suptitle(f"{df.metric[0]} {variable} / {TYPE} North Africa", fontsize=16, fontweight='bold', y=0.981)  
+    fig.suptitle(f"{df.metric[0]} {variable} / {TYPE} ", fontsize=16, fontweight='bold', y=0.981)  
+    # fig.suptitle(f"{df.metric[0]} {variable} / {TYPE} North Africa", fontsize=16, fontweight='bold', y=0.981)
     for j in range(i + 1, len(axe)):
         fig.delaxes(axe[j])
-    plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/REPORT/Report_25_11/{df.metric[0]}_{variable}_{TYPE}_North_Africa.png')
+    # plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/REPORT/Report_25_11/plots/prob/{df.metric[0]}/{df.metric[0]}_{variable}_{TYPE}_North_Africa.png')
+    plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/REPORT/Report_25_11/plots/prob/{df.metric[0]}/{df.metric[0]}_{variable}_{TYPE}.png')
         
     plt.tight_layout()
     plt.show()       

@@ -37,7 +37,7 @@ def load_data(file_name, aggr, metric,period):
     file_link_t2m = f'{SCOREDIR}/{file_name}_1993-2016_monthly_mean_{mois}_234_45_-30_-2_5_60_{period}_{aggr}_{metric}.nc'
     data_t2m= xr.open_dataset(file_link_t2m)
     data_t2m = data_t2m.assign_coords(lon=(((data_t2m.lon + 180) % 360) - 180)).sortby('lon')
-    
+
     file_link_RR = f'{SCOREDIR}/{file_name}_1993-2016_monthly_mean_{mois}_234_45_-30_-2_5_60_{period}_{aggr}_RR_{metric}.nc'
     data_RR= xr.open_dataset(file_link_RR)
     data_RR = data_RR.assign_coords(lon=(((data_RR.lon + 180) % 360) - 180)).sortby('lon')
@@ -74,6 +74,7 @@ def create_combined_dataframe(aggr, metric):
             # Load data for the current period
             data_t2m,data_RR = load_data(file_name, aggr, metric, period)
             data_t2m_masked,data_RR_masked = get_mask(data_t2m,data_RR)
+            # data_t2m_masked,data_RR_masked=data_t2m,data_RR
 
             # Compute the mean across all dimensions
             mean_score_RR= data_RR_masked.mean(dim=["lon", "lat"], skipna=True).to_array().values
@@ -117,14 +118,17 @@ def plot_determinist(df,variable):
         df_center = df[df['center'] == center]
         df_temp=df_center.pivot(index="lead_time", columns="period", values=f"mean_score_{variable}")
         # df_temp.columns= [calendar.month_abbr[m] for m in df_temp.columns]
-        sns.heatmap(df_temp,  fmt=".2f", cmap="seismic", ax=axe[i],annot=True)
+        sns.heatmap(df_temp,  fmt=".2f", cmap="Blues", ax=axe[i],annot=True,vmin=np.nanmin(df[f"mean_score_{variable}"].values),
+        vmax=np.nanmax(df[f"mean_score_{variable}"].values))
         axe[i].set_xlabel("start_months")
         axe[i].set_ylabel("PERIOD")
         axe[i].set_title(f'Center: {center}')
     fig.suptitle(f"{df.metric[0]}  for {variable}  per  PERIOD (North Africa)", fontsize=16, fontweight='bold', y=0.981)  
+    # fig.suptitle(f"{df.metric[0]}  for {variable}  per  PERIOD ", fontsize=16, fontweight='bold', y=0.981)
     for j in range(i + 1, len(axe)):
         fig.delaxes(axe[j])
-    plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/REPORT/Report_25_11/{df.metric[0]}_{variable}_NorthAfrica.png',dpi=350)
+    plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/REPORT/Report_25_11/plots/det/{df.metric[0]}/{df.metric[0]}_{variable}_NorthAfrica.png',dpi=350)
+    # plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/REPORT/Report_25_11/plots/det/{df.metric[0]}/{df.metric[0]}_{variable}.png',dpi=350)
         
     plt.tight_layout()
     plt.show()       
