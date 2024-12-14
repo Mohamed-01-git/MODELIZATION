@@ -1,0 +1,464 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.21)  28 NOV 2024 15:08
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./titlepage.tex
+(titlepage.tex
+LaTeX2e <2024-11-01>
+L3 programming layer <2024-11-02>
+
+! LaTeX Error: Environment titlepage undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{titlepage}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.15     \Huge
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...r Seasonal Forecasting in the MENA Region}
+                                                   \\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (63.61214pt too wide) in paragraph at lines 16--16
+ []\OT1/cmr/bx/n/10 Probabilistic 
+ []
+
+
+Overfull \hbox (53.55522pt too wide) in paragraph at lines 16--16
+ \OT1/cmr/bx/n/10 Evaluation 
+ []
+
+
+Overfull \hbox (9.26384pt too wide) in paragraph at lines 16--16
+ \OT1/cmr/bx/n/10 of 
+ []
+
+
+Overfull \hbox (39.61089pt too wide) in paragraph at lines 16--16
+ \OT1/cmr/bx/n/10 Climate 
+ []
+
+
+Overfull \hbox (36.37619pt too wide) in paragraph at lines 16--16
+ \OT1/cmr/bx/n/10 Models 
+ []
+
+
+Overfull \hbox (16.76381pt too wide) in paragraph at lines 16--16
+ \OT1/cmr/bx/n/10 For 
+ []
+
+
+Overfull \hbox (42.70944pt too wide) in paragraph at lines 16--16
+ \OT1/cmr/bx/n/10 Seasonal 
+ []
+
+
+Overfull \hbox (57.07745pt too wide) in paragraph at lines 16--16
+ \OT1/cmr/bx/n/10 Forecasting 
+ []
+
+
+Overfull \hbox (9.58328pt too wide) in paragraph at lines 16--16
+ \OT1/cmr/bx/n/10 in 
+ []
+
+
+Overfull \hbox (16.13187pt too wide) in paragraph at lines 16--16
+ \OT1/cmr/bx/n/10 the 
+ []
+
+
+Overfull \hbox (36.16647pt too wide) in paragraph at lines 16--16
+ \OT1/cmr/bx/n/10 MENA 
+ []
+
+
+Overfull \hbox (34.97899pt too wide) in paragraph at lines 16--16
+ \OT1/cmr/bx/n/10 Region 
+ []
+
+! Undefined control sequence.
+l.20     \Large
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...{Identification of Windows of Opportunity}
+                                                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (66.6524pt too wide) in paragraph at lines 21--22
+ []\OT1/cmr/bx/n/10 Identification 
+ []
+
+
+Overfull \hbox (9.26384pt too wide) in paragraph at lines 21--22
+ \OT1/cmr/bx/n/10 of 
+ []
+
+
+Overfull \hbox (46.13307pt too wide) in paragraph at lines 21--22
+ \OT1/cmr/bx/n/10 Windows 
+ []
+
+
+Overfull \hbox (9.26384pt too wide) in paragraph at lines 21--22
+ \OT1/cmr/bx/n/10 of 
+ []
+
+
+Overfull \hbox (63.0483pt too wide) in paragraph at lines 21--22
+ \OT1/cmr/bx/n/10 Opportunity 
+ []
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25     \begin{figure}
+                       [H]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25     \begin{figure}[
+                        H]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no ] in font nullfont!
+! Undefined control sequence.
+l.27     \includegraphics
+                         [scale=0.3]{titlepage.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28     \end{figure}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.31     \Large
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32     \textbf{Authors:}
+                           \\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (44.16087pt too wide) in paragraph at lines 32--32
+ []\OT1/cmr/bx/n/10 Authors: 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33     N
+          ohayla BERRAHMOUCH, Mohamed EL-BADRI \\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no N in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no I in font nullfont!
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36     \textbf{Supervised by:}
+                                 \\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (54.9525pt too wide) in paragraph at lines 36--36
+ []\OT1/cmr/bx/n/10 Supervised 
+ []
+
+
+Overfull \hbox (15.33325pt too wide) in paragraph at lines 36--36
+ \OT1/cmr/bx/n/10 by: 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37     W
+          afae BADII (DGM), Nicolas Savage (UKMO)
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no W in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no K in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no ) in font nullfont!
+! Undefined control sequence.
+l.39     \Large
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40     \textbf{Hassania School of Public Works}
+                                                 
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (44.42606pt too wide) in paragraph at lines 40--41
+ []\OT1/cmr/bx/n/10 Hassania 
+ []
+
+
+Overfull \hbox (32.58316pt too wide) in paragraph at lines 40--41
+ \OT1/cmr/bx/n/10 School 
+ []
+
+
+Overfull \hbox (9.26384pt too wide) in paragraph at lines 40--41
+ \OT1/cmr/bx/n/10 of 
+ []
+
+
+Overfull \hbox (32.13872pt too wide) in paragraph at lines 40--41
+ \OT1/cmr/bx/n/10 Public 
+ []
+
+
+Overfull \hbox (32.02205pt too wide) in paragraph at lines 40--41
+ \OT1/cmr/bx/n/10 Works 
+ []
+
+! Undefined control sequence.
+l.45     \Large
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46     \textbf{2024}
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (22.99988pt too wide) in paragraph at lines 46--47
+ []\OT1/cmr/bx/n/10 2024 
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{titlepage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 \end{titlepage}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> ./titlepage.tex
+                   
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 25 strings out of 475617
+ 585 string characters out of 5770827
+ 385929 words of memory out of 5000000
+ 22966 multiletter control sequences out of 15000+600000
+ 558377 words of font info for 37 fonts, out of 8000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 18i,1n,20p,161b,89s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!

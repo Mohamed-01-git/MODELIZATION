@@ -15,7 +15,7 @@ conda activate osop
 set -u
 
 # pick download location
-downloaddir=$SCRATCH/test_downloads
+downloaddir=/home/mohamed/EHTPIII/MODELISATION/DATA/jja
 mkdir -p $downloaddir
 
 # loop over all centres of interest and get data
