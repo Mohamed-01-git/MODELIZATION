@@ -42,14 +42,14 @@ where : \\
 \end{itemize}
 
 \begin{figure}[H]
-\includegraphics[scale=0.3]{CORR_JJA.png}
+\includegraphics[scale=0.3]{plots/det/corr/CORR_jja_RR.png}
 \caption{3-months Rolling mean of Spearman Correlation in MENA Region for all centers JJA}
 \end{figure}
 
 we can show in the figure above that the best model in term of spearman correlation is the \textbf{ECMWF} center due to the great correlation in all the MENA region especially for   SON\footnote{September,October,November},JJA\footnote{June,July,August} and MAM\footnote{Mars,April,May}.
 
 \begin{figure}[H]
-\includegraphics[scale=0.3]{CORR_DJF.png}
+\includegraphics[scale=0.3]{plots/det/corr/CORR_djf_RR.png}
 \caption{3-months Rolling mean of Spearman Correlation in MENA Region for all centers DJF}
 \end{figure}
 
@@ -57,7 +57,7 @@ althought, for DJF\footnote{December,January,February} the ECMWF\footnote{Europe
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.25]{corr_T2M_ PERIOD.png}
+	\includegraphics[scale=0.25]{plots/det/corr/corr_T2M.png}
 	\caption{The Heatmap of correlation for the mena region for every period \textbf{\textit{(1 for perfect Correlation)} }}
 \end{figure}
 
@@ -79,19 +79,19 @@ where :
 for the RMSE\footnote{Root Mean Square Error}, the Meteo-France and ECMWF have the best scores for MAM ans SON. Althought, for DJF Météo-France is better, and for JJA ECMWF is the best.
 
 \begin{figure}[H]
-\includegraphics[scale=0.3]{RMSE_DJF.png}
+\includegraphics[scale=0.3]{plots/det/rmse/rmse_djf_t2m.png}
 \caption{3-months Rolling mean of RMSE in MENA Region for all centers DJF}
 \end{figure}
 
 \begin{figure}[H]
-\includegraphics[scale=0.3]{RMSE_JJA.png}
+\includegraphics[scale=0.3]{plots/det/rmse/rmse_jja_t2m.png}
 \caption{3-months Rolling mean of RMSE in MENA Region for all centers JJA}
 \end{figure}
 
 
 
 \begin{figure}[H]
-\includegraphics[scale=0.25]{rmse_T2M_ PERIOD.png}
+\includegraphics[scale=0.25]{plots/det/rmse/rmse_T2M.png}
 \caption{The Heatmap of RMSE for T2M in the MENA region 
 \textbf{\textit{(0 for perfect RMSE)} }}
 \end{figure}
@@ -121,21 +121,21 @@ where:
 \end{itemize}
 
 \begin{figure}[H]
-\includegraphics[scale=0.3]{RSQUARED_MAM.png}
+\includegraphics[scale=0.3]{plots/det/rsquared/rsquared_mam_t2m.png}
 \caption{3-months Rolling mean of RSQUARED in MENA Region for all centers MAM}
 \end{figure}
 
 we can show in the figure above that the best model in term of R-SQUARED is the \textbf{ECMWF} center for all periods.
 
 \begin{figure}[H]
-\includegraphics[scale=0.3]{RSQUARED_DJF.png}
+\includegraphics[scale=0.3]{plots/det/rsquared/rsquared_djf_t2m.png}
 \caption{3-months Rolling mean of RSQUARED in MENA Region for all centers DJF}
 \end{figure}
 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.25]{rsquared_T2M_ PERIOD.png}
+	\includegraphics[scale=0.25]{plots/det/rsquared/rsquared_T2M.png}
 	\caption{The Heatmap of rsquared for T2M in the mena region for every period \textbf{\textit{(1 for perfect RSQUARED)} }}
 
 \end{figure}
@@ -160,7 +160,7 @@ The BS takes values in the range of 0 to 1. \textbf{\textit{Perfect forecasts re
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.25]{bs_T2M_category.png}
+    \includegraphics[scale=0.25]{plots/prob/bs/bs_T2M_category.png}
     \caption{The Heatmap of Brier Score for each category  . \textbf{\textit{(0 represents perfect BS)}}}
 \end{figure}
 
@@ -172,7 +172,7 @@ we see in the figure above that Météo-France, ECMWF,DWD and CMCC35 are the bes
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.25]{bs_T2M_lead_time.png}
+    \includegraphics[scale=0.25]{plots/prob/bs/bs_T2M_lead_time.png}
     \caption{The Heatmap of Brier Score for lead-time. \textbf{\textit{(0 represents perfect BS)}}}
 \end{figure}
 A deep analyze on each tercile category confirms the previous performance.
@@ -190,7 +190,7 @@ where:
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.3]{rela_all.png}
+    \includegraphics[scale=0.3]{plots/prob/rela/rela_RR.png}
     \caption{The Reliability Score  . \textbf{\textit{(0 means perfect Reliability)}}}
 \end{figure}
 
@@ -198,8 +198,8 @@ In the figure above, all centers demonstrate similar performance.
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.3]{rela_graphe.png}
-\caption{The 3-month rolling mean for Reliability   . \textbf{\textit{Reliability is better in cases where the graphs are closer to the 45-degree line}}}
+\includegraphics[scale=0.3]{plots/prob/rela/rela_diagram_t2m_djf.png}
+\caption{The 3-month rolling mean for Reliability DJF   . \textbf{\textit{Reliability is better in cases where the graphs are closer to the 45-degree line}}}
 \end{figure}
 for the 3-months rolling mean, the ECMWF has the best performance in reliability. The other centers have similar moderate performance, but the ukmo has poor reliability.
 
@@ -234,7 +234,7 @@ observed).
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.25]{rps_T2M_ PERIOD.png}
+    \includegraphics[scale=0.25]{plots/prob/rps/rps_T2M.png}
     \caption{The Heatmap of  RPS Score on MENA region for T2M    . \textbf{\textit{(0 means perfect RPS)}}}
 \end{figure}
 
@@ -259,21 +259,21 @@ actually does occur compared to when either normal or above normal occurs.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.25]{roc_T2M_category.png}
+    \includegraphics[scale=0.25]{plots/prob/roc/roc_T2M_category.png}
     \caption{The Heatmap of ROC Score for each category  . \textbf{\textit{(1 means perfect ROC)}}}
 \end{figure}
 
 In the figure above, it is evident that all centers exhibit similar performance levels. However, the middle tercile consistently achieves the lowest score.
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.25]{roc_T2M_lead_time.png}
+    \includegraphics[scale=0.25]{plots/prob/roc/roc_T2M_lead_time.png}
     \caption{The Heatmap of ROC Score for lead-times. \textbf{\textit{(1 means perfect ROC)}}}
 \end{figure}
 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.3]{ROC_UPPER_SON.png}
+    \includegraphics[scale=0.3]{plots/prob/roc/roc_son_t2m_upper.png}
     \caption{The ROC Score Upper tercile SON    . \textbf{\textit{(1 means perfect ROC)}}}
 \end{figure}
 
@@ -305,21 +305,21 @@ In the figure above, it is evident that the ECMWF exhibit the best performance f
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.25]{roc_T2M_category.png}
+    \includegraphics[scale=0.25]{plots/prob/rocss/rocss_T2M_category.png}
     \caption{The ROCSS Score for each category  . \textbf{\textit{(1 means perfect ROCSS)}}}
 \end{figure}
 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.25]{rocss_T2M_lead_time.png}
+    \includegraphics[scale=0.25]{plots/prob/rocss/rocss_T2M_lead_time.png}
     \caption{The average of  ROCSS Score on all categories    . \textbf{\textit{(1 means perfect ROCSS)}}}
 \end{figure}
 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.3]{ROCSS_MAM_UPPER.png}
+    \includegraphics[scale=0.3]{plots/prob/rocss/rocss_mam_t2m_upper.png}
     \caption{The ROC Skill Score Upper tercile MAM    . \textbf{\textit{(1 means perfect ROC)}}}
 \end{figure}
 

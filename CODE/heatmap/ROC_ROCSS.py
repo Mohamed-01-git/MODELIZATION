@@ -63,7 +63,7 @@ def get_mask(df_t2m,df_rr):
     return DATA_t2m , DATA_rr
 
 
-def create_combined_dataframe(aggr, metric):
+def create_combined_dataframe(aggr, metric,mask_it):
     all_dataframes = []
 
     for file_name in available_files:
@@ -73,7 +73,8 @@ def create_combined_dataframe(aggr, metric):
         for period in periods:
             # Load data for the current period
             data_t2m,data_RR = load_data(file_name, aggr, metric, period)
-            # data_t2m,data_RR = get_mask(data_t2m,data_RR)
+            if mask_it==True:
+                data_t2m,data_RR = get_mask(data_t2m,data_RR)
             
             # Compute the mean across all dimensions
             mean_score_RR_lead_time= data_RR.mean(dim=["lon", "lat",  "category"], skipna=True).to_array().values
@@ -110,15 +111,19 @@ def create_combined_dataframe(aggr, metric):
     return combined_df
 
 
-roc_df = create_combined_dataframe("1m", "roc")
-rocss_df = create_combined_dataframe("1m", "rocss")  
-bs_df = create_combined_dataframe("1m", "bs") 
+roc_df = create_combined_dataframe("1m", "roc",False)
+rocss_df = create_combined_dataframe("1m", "rocss",False)  
+bs_df = create_combined_dataframe("1m", "bs",False) 
+
+roc_df_masked = create_combined_dataframe("1m", "roc",True)
+rocss_df_masked = create_combined_dataframe("1m", "rocss",True)  
+bs_df_masked = create_combined_dataframe("1m", "bs",True)
 
 
 TYPE=[ "lead_time", "category"]
 variable=["T2M","RR"]
-def plot_roc(df,variable,TYPE):
-    fig,axe=plt.subplots(nrows=3,ncols=3,figsize=(30,15))
+def plot_roc(df,variable,TYPE,mask_it):
+    fig,axe=plt.subplots(nrows=3,ncols=3,figsize=(25, 18))
     axe=axe.flatten()
     
     centers=df.center.unique()
@@ -127,22 +132,32 @@ def plot_roc(df,variable,TYPE):
         df_temp=df_center.pivot(index= TYPE, columns="period", values=f"mean_{variable}_{TYPE}")
         # df_temp.columns= [calendar.month_abbr[m] for m in df_temp.columns]
         sns.heatmap(df_temp,  fmt=".2f", cmap="Blues", 
-                    ax=axe[i],annot=True,vmin=np.nanmin(df[f"mean_{variable}_{TYPE}"].values),
+                    ax=axe[i],annot=True,annot_kws={"size": 20},
+                    vmin=np.nanmin(df[f"mean_{variable}_{TYPE}"].values),
                     vmax=np.nanmax(df[f"mean_{variable}_{TYPE}"].values))
-        axe[i].set_xlabel("start_months")
-        axe[i].set_ylabel(f"{TYPE}")
-        axe[i].set_title(f'Center: {center}')
-    fig.suptitle(f"{df.metric[0]} {variable} / {TYPE} ", fontsize=16, fontweight='bold', y=0.981)  
+        axe[i].set_xlabel("SEASON",fontsize=15)
+        axe[i].set_ylabel(f"{TYPE}",fontsize=20)
+        axe[i].set_title(f'Center: {center}',fontsize=20)
+    if mask_it==True:
+        subtitle=f"{df.metric[0]}  for {variable}  per  {TYPE} (North Africa)"
+    else:
+        subtitle=f"{df.metric[0]}  for {variable}  per  {TYPE}"
+    fig.suptitle(subtitle, fontsize=16, fontweight='bold', y=0.981)  
     # fig.suptitle(f"{df.metric[0]} {variable} / {TYPE} North Africa", fontsize=16, fontweight='bold', y=0.981)
     for j in range(i + 1, len(axe)):
         fig.delaxes(axe[j])
+    if mask_it==True:
+        file_out=f"{df.metric[0]}_{variable}_{TYPE}_NorthAfrica.png"
+    else : 
+        file_out=f"{df.metric[0]}_{variable}_{TYPE}.png"
+    plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/REPORT/Report_25_11/plots/prob/{df.metric[0]}/{file_out}',dpi=350)
     # plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/REPORT/Report_25_11/plots/prob/{df.metric[0]}/{df.metric[0]}_{variable}_{TYPE}_North_Africa.png')
-    plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/REPORT/Report_25_11/plots/prob/{df.metric[0]}/{df.metric[0]}_{variable}_{TYPE}.png')
+    # plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/REPORT/Report_25_11/plots/prob/{df.metric[0]}/{df.metric[0]}_{variable}_{TYPE}.png')
         
     plt.tight_layout()
     plt.show()       
 
-for x in [roc_df,rocss_df,bs_df] :
+for mask_it,df in zip([False]*3+[True]*3,[roc_df,rocss_df,bs_df,roc_df_masked,rocss_df_masked,bs_df_masked] ):
     for i in [0,1]:
-        plot_roc(x,"RR",TYPE[i])
-        plot_roc(x,"T2M",TYPE[i])
+        plot_roc(df,"RR",TYPE[i],mask_it)
+        plot_roc(df,"T2M",TYPE[i],mask_it)

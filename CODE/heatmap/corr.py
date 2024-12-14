@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue Dec 10 15:23:12 2024
+Created on Sat Dec 14 10:08:35 2024
 
 @author: mohamed
 """
+
 
 import numpy as np
 import pandas as pd
@@ -61,7 +62,7 @@ def get_mask(df_t2m,df_rr):
     return DATA_t2m , DATA_rr
     
     
-def create_combined_dataframe(aggr, metric):
+def create_combined_dataframe(aggr, metric,mask_it):
     all_dataframes = []
 
     for file_name in available_files:
@@ -69,16 +70,19 @@ def create_combined_dataframe(aggr, metric):
         center_data = []
         
         print(f"working on file {file_name} for {metric}")
+        
 
         for period in periods:
             # Load data for the current period
             data_t2m,data_RR = load_data(file_name, aggr, metric, period)
-            data_t2m_masked,data_RR_masked = get_mask(data_t2m,data_RR)
+            if mask_it==True:
+                data_t2m,data_RR = get_mask(data_t2m,data_RR)
+            
             # data_t2m_masked,data_RR_masked=data_t2m,data_RR
 
             # Compute the mean across all dimensions
-            mean_score_RR= data_RR_masked.mean(dim=["lon", "lat"], skipna=True).to_array().values
-            mean_score_T2M= data_t2m_masked.mean(dim=["lon", "lat"], skipna=True).to_array().values
+            mean_score_RR= data_RR.mean(dim=["lon", "lat"], skipna=True).to_array().values
+            mean_score_T2M= data_t2m.mean(dim=["lon", "lat"], skipna=True).to_array().values
 
 
             # mean_score = corr.mean(dim=["lon", "lat"], skipna=True).to_array().values
@@ -103,14 +107,17 @@ def create_combined_dataframe(aggr, metric):
     return combined_df
 
 
-rmse_df= create_combined_dataframe("1m", "rmse")
-corr_df= create_combined_dataframe("1m", "corr")  
-rsquared_df = create_combined_dataframe("1m", "rsquared")  
+rmse_df= create_combined_dataframe("1m", "rmse",False)
+corr_df= create_combined_dataframe("1m", "corr",False)  
+rsquared_df = create_combined_dataframe("1m", "rsquared",False)  
+rmse_df_masked= create_combined_dataframe("1m", "rmse",True)
+corr_df_masked= create_combined_dataframe("1m", "corr",True)  
+rsquared_df_masked = create_combined_dataframe("1m", "rsquared",True)
 # rps_df=create_combined_dataframe("1m", "rps")
 
 
-def plot_determinist(df,variable):
-    fig,axe=plt.subplots(nrows=3,ncols=3,figsize=(30,15))
+def plot_determinist(df,variable,mask_it):
+    fig,axe=plt.subplots(nrows=3,ncols=3,figsize=(25, 18))
     axe=axe.flatten()
     
     centers=df.center.unique()
@@ -118,23 +125,34 @@ def plot_determinist(df,variable):
         df_center = df[df['center'] == center]
         df_temp=df_center.pivot(index="lead_time", columns="period", values=f"mean_score_{variable}")
         # df_temp.columns= [calendar.month_abbr[m] for m in df_temp.columns]
-        sns.heatmap(df_temp,  fmt=".2f", cmap="Blues", ax=axe[i],annot=True,vmin=np.nanmin(df[f"mean_score_{variable}"].values),
-        vmax=np.nanmax(df[f"mean_score_{variable}"].values))
-        axe[i].set_xlabel("start_months")
-        axe[i].set_ylabel("PERIOD")
-        axe[i].set_title(f'Center: {center}')
-    fig.suptitle(f"{df.metric[0]}  for {variable}  per  PERIOD (North Africa)", fontsize=16, fontweight='bold', y=0.981)  
+        sns.heatmap(df_temp,  fmt=".2f", cmap="Blues", 
+                    ax=axe[i],annot=True,annot_kws={"size": 20},
+                    vmin=np.nanmin(df[f"mean_score_{variable}"].values),
+                    vmax=np.nanmax(df[f"mean_score_{variable}"].values))
+        axe[i].set_xlabel("SEASON",fontsize=15)
+        axe[i].set_ylabel("LEAD TIME",fontsize=20)
+        axe[i].set_title(f'{center}',fontsize=20)
+    if mask_it==True:
+        subtitle=f"{df.metric[0]}  for {variable}  per  LEAD TIME (North Africa)"
+    else:
+        subtitle=f"{df.metric[0]}  for {variable}  per  LEAD TIME"
+    fig.suptitle(subtitle, fontsize=16, fontweight='bold', y=0.981)  
     # fig.suptitle(f"{df.metric[0]}  for {variable}  per  PERIOD ", fontsize=16, fontweight='bold', y=0.981)
     for j in range(i + 1, len(axe)):
         fig.delaxes(axe[j])
-    plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/REPORT/Report_25_11/plots/det/{df.metric[0]}/{df.metric[0]}_{variable}_NorthAfrica.png',dpi=350)
+    if mask_it==True:
+        file_out=f"{df.metric[0]}_{variable}_NorthAfrica.png"
+    else : 
+        file_out=f"{df.metric[0]}_{variable}.png"
+    plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/REPORT/Report_25_11/plots/det/{df.metric[0]}/{file_out}',dpi=350)
     # plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/REPORT/Report_25_11/plots/det/{df.metric[0]}/{df.metric[0]}_{variable}.png',dpi=350)
         
     plt.tight_layout()
     plt.show()       
 
-for df in [corr_df,rsquared_df,rmse_df]:
-    plot_determinist(df,"RR")
+file_list=[corr_df,rsquared_df,rmse_df,corr_df_masked,rsquared_df_masked,rmse_df_masked]
+for mask , df in zip([False]*3+[True]*3,file_list):
+    plot_determinist(df,"RR",mask)
     
-for df in [corr_df,rsquared_df,rmse_df]:
-    plot_determinist(df,"T2M")
+for mask , df in zip([False]*3+[True]*3,file_list):
+    plot_determinist(df,"T2M",mask)

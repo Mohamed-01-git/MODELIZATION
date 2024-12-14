@@ -5,180 +5,104 @@
 
 IN general, the forecast of precipitations is more complicated than temperature, thus the scores are a little less good for this part especially the deterministic ones. 
 
-    
+
 
 \subsection{Deterministic Evaluation Metrics}
 
 \subsubsection{Spearman rank correlation}
 
 \begin{figure}[H]
-\includegraphics[scale=0.3]{corr_RR_PERIOD.png}
-\caption{3-months Rolling mean of Spearman Correlation in MENA Region for all centers JJA}
+	\centering
+	\includegraphics[scale=0.25]{plots/det/corr/corr_RR.png}
+	\caption{The Heatmap of correlation for the mena region for every period \textbf{\textit{(1 for perfect Correlation)} }}
 \end{figure}
+In general, correlation is very week for all centers, the maximum correlation is 0.175 for ecmwf. There is also some differences between centers. We can sea that in general the performance decrease with lead-time. the best models in term of Correlation are \textbf{\textit{ecmwf , ukmo and meteo-france}} .In general the performance decreases with time for all periods except for the SON period where the performance may increase with lead-time. 
 
-we can show in the figure above that the best model in term of spearman correlation is the \textbf{ECMWF} center due to the great correlation in all the MENA region especially for   SON\footnote{September,October,November},JJA\footnote{June,July,August} and MAM\footnote{Mars,April,May}.
+
 
 \begin{figure}[H]
-\includegraphics[scale=0.3]{CORR_DJF.png}
+\includegraphics[scale=0.3]{plots/det/corr/CORR_son_RR.png}
 \caption{3-months Rolling mean of Spearman Correlation in MENA Region for all centers DJF}
 \end{figure}
 
-althought, for DJF\footnote{December,January,February} the ECMWF\footnote{European Centre for Medium-Range Weather Forecasts } , ECCC3\footnote{Environment and Climate Change Canada (ECCC) generation 3}, UKMO\footnote{UK Met Office} and CMCC 35 \footnote{Centro Euro-Mediterraneo sui Cambiamenti Climatici version 3.5} have the same performance.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[scale=0.3]{corr.png}
-	\caption{The average of correlation in all lead time for the mena region for every period \textbf{\textit{(1 for perfect Correlation)} }}
-
-\end{figure}
-
-
-
+For temperature, the models demonstrate the best performance in the tropical regions. However, for precipitation, the situation is different. In the figure above, we observe an unusual performance during SON, where the Middle East, East Africa, and North Africa exhibit the highest correlation performance. 
 
 
 \subsubsection{RMSE}
  
- $RMSE$ measures the average difference between a the hindcast and the observation.
- 
-$$RMSE=\sqrt{\frac{1}{n} \sum\limits_{i=1}^{n}(H_i -O_i)^2}$$
-where :
-\begin{itemize}
-	\item H : the Hindcast.
-	\item O : the observation.
-	\item i : the valid time.
-\end{itemize}
-
-for the RMSE\footnote{Root Mean Square Error}, the Meteo-France and ECMWF have the best scores for MAM ans SON. Althought, for DJF Météo-France is better, and for JJA ECMWF is the best.
+for the Root Mean Squared Error, the best models shown in the heatmap below are \textbf{\textit{DWD, ECMWF and UKMO}}. The RMSE score demonstrate an excellent performance for all models especially \textbf{\textit{DWD, ECMWF and UKMO}}. The performance is stable over lead-times and it is much better for djf in all centers.
 
 \begin{figure}[H]
-\includegraphics[scale=0.3]{rmse_RR_PERIOD.png}
+\includegraphics[scale=0.3]{plots/det/rmse/rmse_RR.png}
 \caption{3-months Rolling mean of RMSE in MENA Region for all centers DJF}
 \end{figure}
 
 \begin{figure}[H]
-\includegraphics[scale=0.3]{RMSE_JJA.png}
+\includegraphics[scale=0.3]{plots/det/rmse/rmse_djf_RR.png}
 \caption{3-months Rolling mean of RMSE in MENA Region for all centers JJA}
 \end{figure}
 
-
-
-\begin{figure}[H]
-\includegraphics[scale=0.3]{rmse.png}
-\caption{The average of RMSE in all lead time for the MENA region for every period \textbf{\textit{(0 for perfect RMSE)} }}
-\end{figure}
-
-
-
-
+also for the spacial dimension, the RMSE stay stable and exhibit very good performance for all centers. 
 
 
 \subsubsection{Coefficient of Determination (\( R^2 \))}
 
-The coefficient of determination, \( R^2 \), is a statistical measure used to evaluate the goodness of fit of a model. It indicates the proportion of the variance in the dependent variable that is predictable from the independent variable(s). A value of \( R^2 \) close to 1 suggests that the model explains a large portion of the variance, while a value close to 0 indicates a weak relationship.
+for precipitation, the R-SQUARED is very low, the maximum value is less than 0.1. However, the ecmwf is the best in term of R-SQUARED.
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.25]{plots/det/rsquared/rsquared_RR.png}
+	\caption{The Heatmap of rsquared for Precipitations in the mena region for every period \textbf{\textit{(1 for perfect RSQUARED)} }}
+\end{figure}
 
-\[
-R^2 = 1 - \frac{\sum_{i=1}^n (O_i - H_i)^2}{\sum_{i=1}^n (O_i - \bar{O})^2}
-\]
 
-where:
-
-\begin{itemize}
-	\item \( R^2 \): Coefficient of determination.
-	\item \( H_i \): Predicted value (Hindcast).
-	\item \( O_i \): Observed value (Observation).
-	\item \( \bar{O} \): Mean of the observed values.
-	\item \( \sum_{i=1}^n (O_i - H_i)^2 \): Residual sum of squares (unexplained variance).
-	\item \( \sum_{i=1}^n (O_i - \bar{O})^2 \): Total sum of squares (total variance).
-\end{itemize}
 
 \begin{figure}[H]
-\includegraphics[scale=0.3]{rsquared_RR_PERIOD.png}
+\includegraphics[scale=0.3]{plots/det/rsquared/rsquared_mam_RR.png}
 \caption{3-months Rolling mean of RSQUARED in MENA Region for all centers MAM}
 \end{figure}
 
-we can show in the figure above that the best model in term of R-SQUARED is the \textbf{ECMWF} center for all periods.
-
-\begin{figure}[H]
-\includegraphics[scale=0.3]{RSQUARED_DJF.png}
-\caption{3-months Rolling mean of RSQUARED in MENA Region for all centers DJF}
-\end{figure}
-
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[scale=0.3]{rsquared.png}
-	\caption{The average of rsquared in all lead time for the mena region for every period \textbf{\textit{(1 for perfect RSQUARED)} }}
-
-\end{figure}
-
+there is some isolated zones where the rsquared is good especially in the Middle East for CMCC-35 Center or the equator for DWD, but in general the score is very low.
 
 
 \subsection{Probabilistic Evaluation Metrics}
 
 \subsubsection{The Brier Score (BS)}
-The Brier Score (BS)\footnote{wmo guidance verification} is the mean squared differences between pairs of forecast probabilities p and the binary observations y. N is the total forecast number. It measures the total probability error, considering that the observation is 1 if the event occurs, and 0 if the event does not occur (dichotomous events).
 
-$$BS_j=\frac{1}{N} \sum\limits_{i}^{N} (y_{j,i} - p_{j,i})^2$$
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{plots/prob/bs/bs_RR_category.png}
+    \caption{The Heatmap of Brier Score for each category  . \textbf{\textit{(0 represents perfect BS)}}}
+\end{figure}
 
-where:
-\begin{itemize}
-	\item n is the number of forecasts
-	\item $y_{j,i} $ is 1 if the $i^th$ observation was in category $j$, and is 0 otherwise.
-	\item $p_{j,i}$  is the $i^th$ forecast probability for category $j$.
-\end{itemize}
-The BS takes values in the range of 0 to 1. \textbf{\textit{Perfect forecasts receive 0}} and less accurate forecasts receive higher scores. Under the condition that x is 0.5 when the observation data is uncertain, the mean squared differences between the forecast probabilities and observation at 0.5 is calculated.
+for the analysis per category, we can see in the figure above that all centers exhibit good performance in term of Brier Score except the UMKO that shows moderate BS.
+the figure below shows the analysis per lead-time. the same result is found, but the \textbf{\textit{ECMWF,METEO-FRANCE and CMCC-35}} are the best models in Brier Score for lead-time analysis. \\ 
+In general, the performance stays stable over category, lead-time and space.
 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.3]{bs_RR_lead_time.png}
-    \caption{The Brier Score for each category  . \textbf{\textit{(0 represents perfect BS)}}}
+    \includegraphics[scale=0.25]{plots/prob/bs/bs_RR_lead_time.png}
+    \caption{The Heatmap of Brier Score for lead-time. \textbf{\textit{(0 represents perfect BS)}}}
 \end{figure}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.3]{bs_RR_category.png}
-    \caption{The Brier Score for each category  . \textbf{\textit{(0 represents perfect BS)}}}
-\end{figure}
-
-we see in the figure above that Météo-France, ECMWF,DWD and CMCC35 are the best in Brier Score in the MENA region.
-
-
-
-
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.3]{bs.png}
-    \caption{The average of  Brier Score on all categories    . \textbf{\textit{(0 represents perfect BS)}}}
-\end{figure}
-A deep analyze on each tercile category confirms the previous performance.
 
 
 
 \subsubsection{Reliability}
-the reliability\footnote{wmo guidance verification} measures the degree of correspondence between the forecast probability and the observed frequency for an event or outcome that is being predicted. It summarizes the conditional bias of the forecasts for a given event and is equal to the weighted average of squared differences between the forecast and conditional observed probabilities. If the reliability is 0, the forecast is perfectly reliable. To observe the frequency distribution, the forecast probability, from 0 to 1, is divided into 5 bins (0.1,0.3,0.5,0.7,0.9) to compare to the observed frequency in each of the same bin in this study. 
-$$Reliability=\frac{1}{n} \sum\limits_{k=1}^{d} n_k(\bar{p_k}-\bar{y_k})^2$$
-where:
-\begin{itemize}
-	\item $n_k$ is the number of forecasts for the $k_th$ probability value ($\bar{p_k}$)
-	\item ($\bar{y_k}$) is the observed relative frequency for that value.
-\end{itemize} 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.3]{rela_all.png}
+    \includegraphics[scale=0.25]{plots/prob/rela/rela_RR.png}
     \caption{The Reliability Score  . \textbf{\textit{(0 means perfect Reliability)}}}
 \end{figure}
 
-In the figure above, all centers demonstrate similar performance.
+In the figure above, all centers demonstrate similar moderate performance in term of reliability. But deep analysis within the figure below, shows that UKMO has very bad performance, also we can distinguish three models that have the best reliability according to the reliability diagram, the centers are \textbf{\textit{ECMWF,CMCC and METEO-FRANCE}}. 
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.3]{rela_graphe.png}
-\caption{The 3-month rolling mean for Reliability   . \textbf{\textit{Reliability is better in cases where the graphs are closer to the 45-degree line}}}
+\includegraphics[scale=0.3]{plots/prob/rela/rela_diagram_RR_djf.png}
+\caption{The 3-month rolling mean for Reliability DJF   . \textbf{\textit{Reliability is better in cases where the graphs are closer to the 45-degree line}}}
 \end{figure}
-for the 3-months rolling mean, the ECMWF has the best performance in reliability. The other centers have similar moderate performance, but the ukmo has poor reliability.
 
 
 
@@ -211,18 +135,11 @@ observed).
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.3]{rps_RR_lead_time.png}
-    \caption{The average of  RPS Score on all categories    . \textbf{\textit{(0 means perfect RPS)}}}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.3]{rps_RR_category.png}
-    \caption{The average of  RPS Score on all categories    . \textbf{\textit{(0 means perfect RPS)}}}
+    \includegraphics[scale=0.25]{plots/prob/rps/rps_RR.png}
+    \caption{The Heatmap of  RPS Score on MENA region for Precipitations    . \textbf{\textit{(0 means perfect RPS)}}}
 \end{figure}
 
 In the figure above, all centers demonstrate similar performance, except for UKMO, which shows noticeably lower performance.
-
 
 
 
@@ -243,21 +160,21 @@ actually does occur compared to when either normal or above normal occurs.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.3]{roc.png}
-    \caption{The ROC Score for each category  . \textbf{\textit{(1 means perfect ROC)}}}
+    \includegraphics[scale=0.25]{plots/prob/roc/roc_RR_category.png}
+    \caption{The Heatmap of ROC Score for each category  . \textbf{\textit{(1 means perfect ROC)}}}
 \end{figure}
 
 In the figure above, it is evident that all centers exhibit similar performance levels. However, the middle tercile consistently achieves the lowest score.
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.3]{roc_all.png}
-    \caption{The average of  ROC Score on all categories    . \textbf{\textit{(1 means perfect ROC)}}}
+    \includegraphics[scale=0.25]{plots/prob/roc/roc_RR_lead_time.png}
+    \caption{The Heatmap of ROC Score for lead-times. \textbf{\textit{(1 means perfect ROC)}}}
 \end{figure}
 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.3]{ROC_UPPER_SON.png}
+    \includegraphics[scale=0.3]{plots/prob/roc/roc_son_RR_upper.png}
     \caption{The ROC Score Upper tercile SON    . \textbf{\textit{(1 means perfect ROC)}}}
 \end{figure}
 
@@ -289,21 +206,21 @@ In the figure above, it is evident that the ECMWF exhibit the best performance f
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.3]{rocss.png}
+    \includegraphics[scale=0.25]{plots/prob/rocss/rocss_RR_category.png}
     \caption{The ROCSS Score for each category  . \textbf{\textit{(1 means perfect ROCSS)}}}
 \end{figure}
 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.3]{rocss_all.png}
+    \includegraphics[scale=0.25]{plots/prob/rocss/rocss_RR_lead_time.png}
     \caption{The average of  ROCSS Score on all categories    . \textbf{\textit{(1 means perfect ROCSS)}}}
 \end{figure}
 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.3]{ROCSS_MAM_UPPER.png}
+    \includegraphics[scale=0.3]{plots/prob/rocss/rocss_mam_RR_upper.png}
     \caption{The ROC Skill Score Upper tercile MAM    . \textbf{\textit{(1 means perfect ROC)}}}
 \end{figure}
 
