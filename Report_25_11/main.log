@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.21)  14 DEC 2024 09:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.21)  16 DEC 2024 10:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1094,24 +1094,24 @@ LaTeX Warning: Label `tab:forecast_metrics' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
  (/home/mohamed/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count478
@@ -1134,7 +1134,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (/home/mohamed/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 29.
+Package hyperref Info: Link coloring OFF on input line 30.
 
 (main.out) (main.out)
 \@outlinefile=\write5
@@ -1210,10 +1210,10 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' not found.
 
 No file main.bbl.
-Package biblatex Info: Reference section=0 on input line 29.
-Package biblatex Info: Reference segment=0 on input line 29.
+Package biblatex Info: Reference section=0 on input line 30.
+Package biblatex Info: Reference segment=0 on input line 30.
 (titlepage.tex
-<titlepage.png, id=186, 1300.86pt x 722.7pt>
+<titlepage.png, id=142, 1300.86pt x 722.7pt>
 File: titlepage.png Graphic file (type png)
 <use titlepage.png>
 Package pdftex.def Info: titlepage.png  used on input line 27.
@@ -1223,17 +1223,32 @@ Package pdftex.def Info: titlepage.png  used on input line 27.
 [1
 
 {/home/mohamed/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map} <./titlepage.pn
-g>]) (main.toc
+g>]) (main.toc)
+\tf@toc=\write6
+\openout6 = `main.toc'.
+
+
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.46 ...e {4.2.6}summary}{53}{subsubsection.4.2.6}
-                                                  % [1])
-\tf@toc=\write6
-\openout6 = `main.toc'.
+l.37 \newpage
+              [1] (nohaila.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
 
 
 
@@ -1245,13 +1260,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[2] (nohaila.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
+[2]
+Overfull \hbox (21.86899pt too wide) in paragraph at lines 18--20
+\OT1/cmr/m/n/10.95 The MENA seasonal forecasting models have undergone both pro
+babilistic and deterministic evaluations.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--20
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
@@ -1266,28 +1297,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [3]
-Overfull \hbox (21.86899pt too wide) in paragraph at lines 15--17
-\OT1/cmr/m/n/10.95 The MENA seasonal forecasting models have undergone both pro
-babilistic and deterministic evaluations.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--17
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
@@ -1302,27 +1317,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
-
- []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[5]
-Overfull \hbox (19.68524pt too wide) in paragraph at lines 35--36
+Overfull \hbox (19.68524pt too wide) in paragraph at lines 38--39
 \OT1/cmr/m/n/10.95 (ENSO).[][][] The basic principle behind seasonal forecastin
 g is to leverage these slowly varying components,
  []
@@ -1337,38 +1332,38 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[6]
-Underfull \hbox (badness 2189) in paragraph at lines 42--42
+[5]
+Underfull \hbox (badness 2189) in paragraph at lines 45--45
 [][]\OT1/cmr/m/n/9 Portele et al., 2021. Seasonal forecasts for hydrological de
 cision-making. []$https : / / doi . org / 10 . 1038 /
  []
 
 
-Overfull \hbox (5.77855pt too wide) in paragraph at lines 42--43
+Overfull \hbox (5.77855pt too wide) in paragraph at lines 45--46
 \OT1/cmr/m/n/10.95 Seasonal climate forecasts are critically important across t
 he MENA region, where high temperatures,
  []
 
 
-Overfull \hbox (10.95064pt too wide) in paragraph at lines 46--47
+Overfull \hbox (10.95064pt too wide) in paragraph at lines 49--50
 \OT1/cmr/m/n/10.95 specifically on their performance in predicting key climate 
 variables such as temperature, precipitation.
  []
 
 
-Underfull \hbox (badness 6641) in paragraph at lines 50--50
+Underfull \hbox (badness 6641) in paragraph at lines 53--53
 [][]\OT1/cmr/m/n/9 PreventionWeb, 2021. *Deterministic and Probabilistic Risk*.
  []$https : / / www . preventionweb . net /
  []
 
 
-Overfull \hbox (8.92975pt too wide) in paragraph at lines 50--51
+Overfull \hbox (8.92975pt too wide) in paragraph at lines 53--54
 \OT1/cmr/m/n/10.95 and variability.[][][] These models are particularly benefic
 ial for strategic planning and risk management,
  []
 
 
-Overfull \hbox (23.33017pt too wide) in paragraph at lines 50--51
+Overfull \hbox (23.33017pt too wide) in paragraph at lines 53--54
 \OT1/cmr/m/n/10.95 Additionally, risk assessment is a vital component, with det
 erministic approaches offering straightforward
  []
@@ -1383,7 +1378,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[7]
+[6]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1393,8 +1388,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[8]
-Overfull \hbox (13.82999pt too wide) in paragraph at lines 58--59
+[7]
+Overfull \hbox (13.82999pt too wide) in paragraph at lines 61--62
 \OT1/cmr/m/n/10.95 usability, and application of climate forecasts. Recommendat
 ions also address how future developments
  []
@@ -1433,7 +1428,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[9]
+[8]
 Overfull \hbox (0.79141pt too wide) in paragraph at lines 21--22
 \OT1/cmr/m/n/10.95 provide stakeholders with a clearer understanding of risks a
 nd potential scenarios, enabling proactive
@@ -1525,14 +1520,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[10
+[9
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.71 
      ]
-<actual_vs_past.png, id=431, 1443.3925pt x 444.66125pt>
+<actual_vs_past.png, id=372, 1443.3925pt x 444.66125pt>
 File: actual_vs_past.png Graphic file (type png)
 <use actual_vs_past.png>
 Package pdftex.def Info: actual_vs_past.png  used on input line 75.
@@ -1547,7 +1542,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[11
+[10
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1563,33 +1558,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[12]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[13]
-Overfull \hbox (20.04103pt too wide) in paragraph at lines 157--158
-[]\OT1/cmr/m/n/10.95 The following equation represents the "resolution" compone
-nt of the Brier Score (BS) decomposition,
- []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[14]) (T_2_M_SCORES.tex
+[11]) (methodology.tex
 Overfull \hbox (2.67427pt too wide) in paragraph at lines 8--9
 []\OT1/cmr/m/n/10.95 The hindcast data spans the common period 1993{2016 and wa
 s downloaded from the Copernicus
@@ -1605,18 +1574,56 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[15]
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
 
-<plots/det/corr/CORR_jja_RR.png, id=486, 1445.4pt x 1300.86pt>
-File: plots/det/corr/CORR_jja_RR.png Graphic file (type png)
-<use plots/det/corr/CORR_jja_RR.png>
-Package pdftex.def Info: plots/det/corr/CORR_jja_RR.png  used on input line 45.
 
-(pdftex.def)             Requested size: 433.62335pt x 390.26102pt.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 61.
 
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 61.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[13]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[14]
+Overfull \hbox (20.04103pt too wide) in paragraph at lines 102--103
+[]\OT1/cmr/m/n/10.95 The following equation represents the "resolution" compone
+nt of the Brier Score (BS) decomposition,
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[15]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1627,13 +1634,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [16]
-<plots/det/corr/CORR_djf_RR.png, id=498, 1445.4pt x 1300.86pt>
-File: plots/det/corr/CORR_djf_RR.png Graphic file (type png)
-<use plots/det/corr/CORR_djf_RR.png>
-Package pdftex.def Info: plots/det/corr/CORR_djf_RR.png  used on input line 52.
-
-(pdftex.def)             Requested size: 433.62335pt x 390.26102pt.
-
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1643,21 +1643,84 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[17
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.55 
-      <./plots/det/corr/CORR_jja_RR.png>]
-<plots/det/corr/corr_T2M.png, id=513, 2168.1pt x 1084.05pt>
-File: plots/det/corr/corr_T2M.png Graphic file (type png)
-<use plots/det/corr/corr_T2M.png>
-Package pdftex.def Info: plots/det/corr/corr_T2M.png  used on input line 60.
-(pdftex.def)             Requested size: 542.02368pt x 271.01184pt.
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
+[]|\OT1/cmr/bx/n/10.95 Dependent
+ []
 
-Overfull \hbox (72.26866pt too wide) in paragraph at lines 60--61
- [][] 
+
+Overfull \hbox (21.55861pt too wide) in paragraph at lines 258--258
+[]|\OT1/cmr/bx/n/10.95 Visualization/Tools| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
+[]|\OT1/cmr/m/n/10.95 Probabilities match
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
+[]|\OT1/cmr/m/n/10.95 Calibration of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
+[]|\OT1/cmr/m/n/10.95 Reliability
+ []
+
+
+Overfull \hbox (10.0664pt too wide) in paragraph at lines 258--258
+[]|\OT1/cmr/bx/n/10.95 Discrimination| 
+ []
+
+
+Underfull \hbox (badness 3364) in paragraph at lines 258--258
+[]|\OT1/cmr/m/n/10.95 Ability to distinguish
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
+[]|\OT1/cmr/m/n/10.95 Boldness of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
+\OT1/cmr/m/n/10.95 probabilities (away
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
+[]|\OT1/cmr/m/n/10.95 Confidence of the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
+[]|\OT1/cmr/m/n/10.95 Histogram
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
+\OT1/cmr/m/n/10.95 of forecast
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
+[]|\OT1/cmr/m/n/10.95 Informativeness and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
+[]|\OT1/cmr/m/n/10.95 Ability to provide
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
+[]|\OT1/cmr/m/n/10.95 Brier Score
+ []
+
+
+Overfull \hbox (33.48904pt too wide) in alignment at lines 258--258
+[][][][][] 
  []
 
 
@@ -1671,40 +1734,44 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [18
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
-s been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
+ been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.63 
-      <./plots/det/corr/CORR_djf_RR.png>]
-<plots/det/rmse/rmse_djf_t2m.png, id=527, 1445.4pt x 1300.86pt>
-File: plots/det/rmse/rmse_djf_t2m.png Graphic file (type png)
-<use plots/det/rmse/rmse_djf_t2m.png>
-Package pdftex.def Info: plots/det/rmse/rmse_djf_t2m.png  used on input line 82
-.
+l.263 \newpage
+              ]) (Results.tex
+<plots/det/corr/corr_RR.png, id=454, 1806.75pt x 1300.86pt>
+File: plots/det/corr/corr_RR.png Graphic file (type png)
+<use plots/det/corr/corr_RR.png>
+Package pdftex.def Info: plots/det/corr/corr_RR.png  used on input line 16.
+(pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
+
+Overfull \hbox (1.99316pt too wide) in paragraph at lines 19--21
+\OT1/cmr/bx/it/10.95 CMCC-35\OT1/cmr/m/n/10.95 . There is no clear variability 
+in performance along lead-time. For SON, the performance
+ []
+
+<plots/det/corr/CORR_son_RR.png, id=455, 1445.4pt x 1300.86pt>
+File: plots/det/corr/CORR_son_RR.png Graphic file (type png)
+<use plots/det/corr/CORR_son_RR.png>
+Package pdftex.def Info: plots/det/corr/CORR_son_RR.png  used on input line 27.
+
 (pdftex.def)             Requested size: 433.62335pt x 390.26102pt.
 
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
 [19
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.85 
-      <./plots/det/corr/corr_T2M.png>]
-<plots/det/rmse/rmse_jja_t2m.png, id=535, 1445.4pt x 1300.86pt>
-File: plots/det/rmse/rmse_jja_t2m.png Graphic file (type png)
-<use plots/det/rmse/rmse_jja_t2m.png>
-Package pdftex.def Info: plots/det/rmse/rmse_jja_t2m.png  used on input line 87
-.
+l.30 F
+      or temperature, the models demonstrate the best performance in the tro...
+ <./plots/det/corr/corr_RR.png>]
+<plots/det/corr/CORR_djf_RR.png, id=463, 1445.4pt x 1300.86pt>
+File: plots/det/corr/CORR_djf_RR.png Graphic file (type png)
+<use plots/det/corr/CORR_djf_RR.png>
+Package pdftex.def Info: plots/det/corr/CORR_djf_RR.png  used on input line 32.
+
 (pdftex.def)             Requested size: 433.62335pt x 390.26102pt.
 
 
@@ -1717,19 +1784,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [20
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.90 
-      <./plots/det/rmse/rmse_djf_t2m.png>]
-<plots/det/rmse/rmse_T2M.png, id=542, 2168.1pt x 1084.05pt>
-File: plots/det/rmse/rmse_T2M.png Graphic file (type png)
-<use plots/det/rmse/rmse_T2M.png>
-Package pdftex.def Info: plots/det/rmse/rmse_T2M.png  used on input line 94.
-(pdftex.def)             Requested size: 542.02368pt x 271.01184pt.
+l.35 
+      <./plots/det/corr/CORR_son_RR.png>]
+<plots/det/rmse/rmse_RR.png, id=470, 1806.75pt x 1300.86pt>
+File: plots/det/rmse/rmse_RR.png Graphic file (type png)
+<use plots/det/rmse/rmse_RR.png>
+Package pdftex.def Info: plots/det/rmse/rmse_RR.png  used on input line 48.
+(pdftex.def)             Requested size: 542.02919pt x 390.26102pt.
 
-Overfull \hbox (72.26866pt too wide) in paragraph at lines 94--96
+Overfull \hbox (72.27417pt too wide) in paragraph at lines 48--49
 [][]
  []
 
@@ -1744,25 +1811,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [21
-pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.98 
-      <./plots/det/rmse/rmse_jja_t2m.png>]
+l.51 
+      <./plots/det/corr/CORR_djf_RR.png>]
+<plots/det/rmse/rmse_djf_RR.png, id=478, 1445.4pt x 1300.86pt>
+File: plots/det/rmse/rmse_djf_RR.png Graphic file (type png)
+<use plots/det/rmse/rmse_djf_RR.png>
+Package pdftex.def Info: plots/det/rmse/rmse_djf_RR.png  used on input line 53.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 104.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 104.
-
-<plots/det/rsquared/rsquared_mam_t2m.png, id=549, 1445.4pt x 1300.86pt>
-File: plots/det/rsquared/rsquared_mam_t2m.png Graphic file (type png)
-<use plots/det/rsquared/rsquared_mam_t2m.png>
-Package pdftex.def Info: plots/det/rsquared/rsquared_mam_t2m.png  used on input
- line 124.
 (pdftex.def)             Requested size: 433.62335pt x 390.26102pt.
 
 
@@ -1775,18 +1834,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [22
-pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.127 
-       <./plots/det/rmse/rmse_T2M.png>]
-<plots/det/rsquared/rsquared_djf_t2m.png, id=556, 1445.4pt x 1300.86pt>
-File: plots/det/rsquared/rsquared_djf_t2m.png Graphic file (type png)
-<use plots/det/rsquared/rsquared_djf_t2m.png>
-Package pdftex.def Info: plots/det/rsquared/rsquared_djf_t2m.png  used on input
- line 131.
-(pdftex.def)             Requested size: 433.62335pt x 390.26102pt.
+l.56 
+      <./plots/det/rmse/rmse_RR.png>]
+<plots/det/rsquared/rsquared_RR.png, id=485, 1806.75pt x 1300.86pt>
+File: plots/det/rsquared/rsquared_RR.png Graphic file (type png)
+<use plots/det/rsquared/rsquared_RR.png>
+Package pdftex.def Info: plots/det/rsquared/rsquared_RR.png  used on input line
+ 64.
+(pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
 
 
 
@@ -1798,23 +1857,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [23
-pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.134 
-       <./plots/det/rsquared/rsquared_mam_t2m.png>]
-<plots/det/rsquared/rsquared_T2M.png, id=563, 2168.1pt x 1084.05pt>
-File: plots/det/rsquared/rsquared_T2M.png Graphic file (type png)
-<use plots/det/rsquared/rsquared_T2M.png>
-Package pdftex.def Info: plots/det/rsquared/rsquared_T2M.png  used on input lin
-e 138.
-(pdftex.def)             Requested size: 542.02368pt x 271.01184pt.
-
-Overfull \hbox (72.26866pt too wide) in paragraph at lines 138--139
- [][] 
- []
-
+l.67 
+      <./plots/det/rmse/rmse_djf_RR.png>]
+<plots/det/rsquared/rsquared_son_RR.png, id=493, 1445.4pt x 1300.86pt>
+File: plots/det/rsquared/rsquared_son_RR.png Graphic file (type png)
+<use plots/det/rsquared/rsquared_son_RR.png>
+Package pdftex.def Info: plots/det/rsquared/rsquared_son_RR.png  used on input 
+line 71.
+(pdftex.def)             Requested size: 433.62335pt x 390.26102pt.
 
 
 
@@ -1826,23 +1880,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [24
-pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.142 
-       <./plots/det/rsquared/rsquared_djf_t2m.png>]
-<plots/prob/bs/bs_T2M_category.png, id=572, 2168.1pt x 1084.05pt>
-File: plots/prob/bs/bs_T2M_category.png Graphic file (type png)
-<use plots/prob/bs/bs_T2M_category.png>
-Package pdftex.def Info: plots/prob/bs/bs_T2M_category.png  used on input line 
-163.
-(pdftex.def)             Requested size: 542.02368pt x 271.01184pt.
-
-Overfull \hbox (72.26866pt too wide) in paragraph at lines 163--164
- [][] 
- []
-
+l.74 
+      <./plots/det/rsquared/rsquared_RR.png>]
+<plots/prob/bs/bs_RR_category.png, id=501, 1806.75pt x 1300.86pt>
+File: plots/prob/bs/bs_RR_category.png Graphic file (type png)
+<use plots/prob/bs/bs_RR_category.png>
+Package pdftex.def Info: plots/prob/bs/bs_RR_category.png  used on input line 8
+4.
+(pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
 
 
 
@@ -1854,23 +1903,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [25
-pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
-as been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
+s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.166 
-       <./plots/det/rsquared/rsquared_T2M.png>]
-<plots/prob/bs/bs_T2M_lead_time.png, id=580, 2168.1pt x 1084.05pt>
-File: plots/prob/bs/bs_T2M_lead_time.png Graphic file (type png)
-<use plots/prob/bs/bs_T2M_lead_time.png>
-Package pdftex.def Info: plots/prob/bs/bs_T2M_lead_time.png  used on input line
- 175.
-(pdftex.def)             Requested size: 542.02368pt x 271.01184pt.
-
-Overfull \hbox (72.26866pt too wide) in paragraph at lines 175--176
- [][] 
- []
-
+l.87 
+      <./plots/det/rsquared/rsquared_son_RR.png>]
+<plots/prob/bs/bs_RR_lead_time.png, id=508, 1806.75pt x 1300.86pt>
+File: plots/prob/bs/bs_RR_lead_time.png Graphic file (type png)
+<use plots/prob/bs/bs_RR_lead_time.png>
+Package pdftex.def Info: plots/prob/bs/bs_RR_lead_time.png  used on input line 
+95.
+(pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
 
 
 
@@ -1882,23 +1926,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [26
-pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
-as been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
+s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.178 A
-        deep analyze on each tercile category confirms the previous performa...
- <./plots/prob/bs/bs_T2M_category.png>]
-<plots/prob/rela/rela_RR.png, id=588, 2168.1pt x 1084.05pt>
-File: plots/prob/rela/rela_RR.png Graphic file (type png)
-<use plots/prob/rela/rela_RR.png>
-Package pdftex.def Info: plots/prob/rela/rela_RR.png  used on input line 193.
-(pdftex.def)             Requested size: 650.43503pt x 325.21751pt.
-
-Overfull \hbox (180.68001pt too wide) in paragraph at lines 193--194
- [][] 
- []
-
+l.98 
+      <./plots/prob/bs/bs_RR_category.png>]
+<plots/prob/bs/bs_mam_RR_middle.png, id=516, 1445.4pt x 1300.86pt>
+File: plots/prob/bs/bs_mam_RR_middle.png Graphic file (type png)
+<use plots/prob/bs/bs_mam_RR_middle.png>
+Package pdftex.def Info: plots/prob/bs/bs_mam_RR_middle.png  used on input line
+ 101.
+(pdftex.def)             Requested size: 433.62335pt x 390.26102pt.
 
 
 
@@ -1910,18 +1949,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [27
-pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) h
+pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.196 
-       <./plots/prob/bs/bs_T2M_lead_time.png>]
-<plots/prob/rela/rela_diagram_t2m_djf.png, id=596, 1445.4pt x 1300.86pt>
-File: plots/prob/rela/rela_diagram_t2m_djf.png Graphic file (type png)
-<use plots/prob/rela/rela_diagram_t2m_djf.png>
-Package pdftex.def Info: plots/prob/rela/rela_diagram_t2m_djf.png  used on inpu
-t line 201.
-(pdftex.def)             Requested size: 433.62335pt x 390.26102pt.
+l.104 
+       <./plots/prob/bs/bs_RR_lead_time.png>]
+<plots/prob/rela/rela_RR.png, id=523, 1806.75pt x 1300.86pt>
+File: plots/prob/rela/rela_RR.png Graphic file (type png)
+<use plots/prob/rela/rela_RR.png>
+Package pdftex.def Info: plots/prob/rela/rela_RR.png  used on input line 113.
+(pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
 
 
 
@@ -1933,13 +1971,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [28
-pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) h
+pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.204 f
-       or the 3-months rolling mean, the ECMWF has the best performance in r...
- <./plots/prob/rela/rela_RR.png>]
+l.116 
+       <./plots/prob/bs/bs_mam_RR_middle.png>]
+Overfull \hbox (3.82747pt too wide) in paragraph at lines 117--118
+\OT1/cmr/m/n/10.95 centers are \OT1/cmr/bx/it/10.95 ECMWF,CMCC and METEO-FRANCE
+\OT1/cmr/m/n/10.95 . Hence,all centers give similar description
+ []
+
+<plots/prob/rela/rela_diagram_RR_djf.png, id=530, 1445.4pt x 1300.86pt>
+File: plots/prob/rela/rela_diagram_RR_djf.png Graphic file (type png)
+<use plots/prob/rela/rela_diagram_RR_djf.png>
+Package pdftex.def Info: plots/prob/rela/rela_diagram_RR_djf.png  used on input
+ line 121.
+(pdftex.def)             Requested size: 433.62335pt x 390.26102pt.
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1950,23 +1999,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [29
-pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) h
+pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.223 	\item $
-              y_{j,i}$ is 1 if the $i^th$ observation was in category j, and...
- <./plots/prob/rela/rela_diagram_t2m_djf.png>]
-<plots/prob/rps/rps_T2M.png, id=610, 2168.1pt x 1084.05pt>
-File: plots/prob/rps/rps_T2M.png Graphic file (type png)
-<use plots/prob/rps/rps_T2M.png>
-Package pdftex.def Info: plots/prob/rps/rps_T2M.png  used on input line 237.
-(pdftex.def)             Requested size: 542.02368pt x 271.01184pt.
-
-Overfull \hbox (72.26866pt too wide) in paragraph at lines 237--238
- [][] 
- []
-
+l.124 
+       <./plots/prob/rela/rela_RR.png>]
+<plots/prob/rps/rps_RR.png, id=538, 1806.75pt x 1300.86pt>
+File: plots/prob/rps/rps_RR.png Graphic file (type png)
+<use plots/prob/rps/rps_RR.png>
+Package pdftex.def Info: plots/prob/rps/rps_RR.png  used on input line 133.
+(pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
 
 
 
@@ -1978,34 +2021,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [30
-pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) h
+pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.258 
-       <./plots/prob/rps/rps_T2M.png>]
-<plots/prob/roc/roc_T2M_category.png, id=620, 2168.1pt x 1084.05pt>
-File: plots/prob/roc/roc_T2M_category.png Graphic file (type png)
-<use plots/prob/roc/roc_T2M_category.png>
-Package pdftex.def Info: plots/prob/roc/roc_T2M_category.png  used on input lin
-e 262.
-(pdftex.def)             Requested size: 542.02368pt x 271.01184pt.
+l.136 
+       <./plots/prob/rela/rela_diagram_RR_djf.png>]
+<plots/prob/rps/rps_djf_RR.png, id=546, 1445.4pt x 1300.86pt>
+File: plots/prob/rps/rps_djf_RR.png Graphic file (type png)
+<use plots/prob/rps/rps_djf_RR.png>
+Package pdftex.def Info: plots/prob/rps/rps_djf_RR.png  used on input line 142.
 
-Overfull \hbox (72.26866pt too wide) in paragraph at lines 262--263
- [][] 
- []
-
-<plots/prob/roc/roc_T2M_lead_time.png, id=621, 2168.1pt x 1084.05pt>
-File: plots/prob/roc/roc_T2M_lead_time.png Graphic file (type png)
-<use plots/prob/roc/roc_T2M_lead_time.png>
-Package pdftex.def Info: plots/prob/roc/roc_T2M_lead_time.png  used on input li
-ne 269.
-(pdftex.def)             Requested size: 542.02368pt x 271.01184pt.
-
-Overfull \hbox (72.26866pt too wide) in paragraph at lines 269--270
- [][] 
- []
-
+(pdftex.def)             Requested size: 361.34912pt x 325.2142pt.
 
 
 
@@ -2017,18 +2044,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [31
-pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) h
+pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.272 
-       <./plots/prob/roc/roc_T2M_category.png>]
-<plots/prob/roc/roc_son_t2m_upper.png, id=628, 1445.4pt x 1300.86pt>
-File: plots/prob/roc/roc_son_t2m_upper.png Graphic file (type png)
-<use plots/prob/roc/roc_son_t2m_upper.png>
-Package pdftex.def Info: plots/prob/roc/roc_son_t2m_upper.png  used on input li
-ne 276.
-(pdftex.def)             Requested size: 433.62335pt x 390.26102pt.
+l.145 
+       <./plots/prob/rps/rps_RR.png>]
+<plots/prob/roc/roc_RR_category.png, id=554, 1806.75pt x 1300.86pt>
+File: plots/prob/roc/roc_RR_category.png Graphic file (type png)
+<use plots/prob/roc/roc_RR_category.png>
+Package pdftex.def Info: plots/prob/roc/roc_RR_category.png  used on input line
+ 153.
+(pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
 
 
 
@@ -2040,12 +2067,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [32
-pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) h
+pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.279 
-       <./plots/prob/roc/roc_T2M_lead_time.png>]
+l.156 
+       <./plots/prob/rps/rps_djf_RR.png>]
+<plots/prob/roc/roc_RR_lead_time.png, id=561, 1806.75pt x 1300.86pt>
+File: plots/prob/roc/roc_RR_lead_time.png Graphic file (type png)
+<use plots/prob/roc/roc_RR_lead_time.png>
+Package pdftex.def Info: plots/prob/roc/roc_RR_lead_time.png  used on input lin
+e 160.
+(pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2056,35 +2090,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [33
-pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) h
+pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.293 	\item $
-              AUC_{no-skill}$ : Area Under the Curve for a no-skill forecast...
- <./plots/prob/roc/roc_son_t2m_upper.png>]
-<plots/prob/rocss/rocss_T2M_category.png, id=641, 2168.1pt x 1084.05pt>
-File: plots/prob/rocss/rocss_T2M_category.png Graphic file (type png)
-<use plots/prob/rocss/rocss_T2M_category.png>
-Package pdftex.def Info: plots/prob/rocss/rocss_T2M_category.png  used on input
- line 308.
-(pdftex.def)             Requested size: 542.02368pt x 271.01184pt.
-
-Overfull \hbox (72.26866pt too wide) in paragraph at lines 308--309
- [][] 
- []
-
-<plots/prob/rocss/rocss_T2M_lead_time.png, id=642, 2168.1pt x 1084.05pt>
-File: plots/prob/rocss/rocss_T2M_lead_time.png Graphic file (type png)
-<use plots/prob/rocss/rocss_T2M_lead_time.png>
-Package pdftex.def Info: plots/prob/rocss/rocss_T2M_lead_time.png  used on inpu
-t line 315.
-(pdftex.def)             Requested size: 542.02368pt x 271.01184pt.
-
-Overfull \hbox (72.26866pt too wide) in paragraph at lines 315--316
- [][] 
- []
-
+l.163 
+       <./plots/prob/roc/roc_RR_category.png>]
+<plots/prob/roc/roc_son_RR_upper.png, id=569, 1445.4pt x 1300.86pt>
+File: plots/prob/roc/roc_son_RR_upper.png Graphic file (type png)
+<use plots/prob/roc/roc_son_RR_upper.png>
+Package pdftex.def Info: plots/prob/roc/roc_son_RR_upper.png  used on input lin
+e 168.
+(pdftex.def)             Requested size: 433.62335pt x 390.26102pt.
 
 
 
@@ -2096,18 +2113,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [34
-pdfTeX warning (ext4): destination with the same identifier (name{figure.19}) h
+pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.318 
-       <./plots/prob/rocss/rocss_T2M_category.png>]
-<plots/prob/rocss/rocss_mam_t2m_upper.png, id=649, 1445.4pt x 1300.86pt>
-File: plots/prob/rocss/rocss_mam_t2m_upper.png Graphic file (type png)
-<use plots/prob/rocss/rocss_mam_t2m_upper.png>
-Package pdftex.def Info: plots/prob/rocss/rocss_mam_t2m_upper.png  used on inpu
-t line 322.
-(pdftex.def)             Requested size: 433.62335pt x 390.26102pt.
+l.171 
+       <./plots/prob/roc/roc_RR_lead_time.png>]
+<plots/prob/rocss/rocss_RR_category.png, id=576, 1806.75pt x 1300.86pt>
+File: plots/prob/rocss/rocss_RR_category.png Graphic file (type png)
+<use plots/prob/rocss/rocss_RR_category.png>
+Package pdftex.def Info: plots/prob/rocss/rocss_RR_category.png  used on input 
+line 181.
+(pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
 
 
 
@@ -2119,94 +2136,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [35
-pdfTeX warning (ext4): destination with the same identifier (name{figure.20}) h
+pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.325 
-       <./plots/prob/rocss/rocss_T2M_lead_time.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 343--343
-[]|\OT1/cmr/bx/n/10.95 Dependent
- []
-
-
-Overfull \hbox (21.55861pt too wide) in paragraph at lines 343--343
-[]|\OT1/cmr/bx/n/10.95 Visualization/Tools| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 343--343
-[]|\OT1/cmr/m/n/10.95 Probabilities match
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 343--343
-[]|\OT1/cmr/m/n/10.95 Calibration of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 343--343
-[]|\OT1/cmr/m/n/10.95 Reliability
- []
-
-
-Overfull \hbox (10.0664pt too wide) in paragraph at lines 343--343
-[]|\OT1/cmr/bx/n/10.95 Discrimination| 
- []
-
-
-Underfull \hbox (badness 3364) in paragraph at lines 343--343
-[]|\OT1/cmr/m/n/10.95 Ability to distinguish
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 343--343
-[]|\OT1/cmr/m/n/10.95 Boldness of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 343--343
-\OT1/cmr/m/n/10.95 probabilities (away
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 343--343
-[]|\OT1/cmr/m/n/10.95 Confidence of the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 343--343
-[]|\OT1/cmr/m/n/10.95 Histogram
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 343--343
-\OT1/cmr/m/n/10.95 of forecast
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 343--343
-[]|\OT1/cmr/m/n/10.95 Informativeness and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 343--343
-[]|\OT1/cmr/m/n/10.95 Ability to provide
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 343--343
-[]|\OT1/cmr/m/n/10.95 Brier Score
- []
-
-
-Overfull \hbox (33.48904pt too wide) in alignment at lines 343--343
-[][][][][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+l.184 
+       <./plots/prob/roc/roc_son_RR_upper.png>]
+<plots/prob/rocss/rocss_RR_lead_time.png, id=584, 1806.75pt x 1300.86pt>
+File: plots/prob/rocss/rocss_RR_lead_time.png Graphic file (type png)
+<use plots/prob/rocss/rocss_RR_lead_time.png>
+Package pdftex.def Info: plots/prob/rocss/rocss_RR_lead_time.png  used on input
+ line 188.
+(pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
 
 
 
@@ -2218,435 +2159,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [36
-pdfTeX warning (ext4): destination with the same identifier (name{figure.21}) h
+pdfTeX warning (ext4): destination with the same identifier (name{figure.19}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.348 \newpage
-               <./plots/prob/rocss/rocss_mam_t2m_upper.png>]) (RR.tex
-<plots/det/corr/corr_RR.png, id=663, 2168.1pt x 1084.05pt>
-File: plots/det/corr/corr_RR.png Graphic file (type png)
-<use plots/det/corr/corr_RR.png>
-Package pdftex.def Info: plots/det/corr/corr_RR.png  used on input line 16.
-(pdftex.def)             Requested size: 542.02368pt x 271.01184pt.
-
-Overfull \hbox (72.26866pt too wide) in paragraph at lines 16--17
- [][] 
- []
-
-
-
-[37
-pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
- been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.19 I
-      n general, correlation is very week for all centers, the maximum corre...
-]
-<plots/det/corr/CORR_son_RR.png, id=669, 1445.4pt x 1300.86pt>
-File: plots/det/corr/CORR_son_RR.png Graphic file (type png)
-<use plots/det/corr/CORR_son_RR.png>
-Package pdftex.def Info: plots/det/corr/CORR_son_RR.png  used on input line 24.
-
-(pdftex.def)             Requested size: 433.62335pt x 390.26102pt.
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[38
-pdfTeX warning (ext4): destination with the same identifier (name{figure.22}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.27 
-      <./plots/det/corr/corr_RR.png>]
-<plots/det/rmse/rmse_RR.png, id=676, 2168.1pt x 1084.05pt>
-File: plots/det/rmse/rmse_RR.png Graphic file (type png)
-<use plots/det/rmse/rmse_RR.png>
-Package pdftex.def Info: plots/det/rmse/rmse_RR.png  used on input line 36.
-(pdftex.def)             Requested size: 650.43503pt x 325.21751pt.
-
-Overfull \hbox (180.68001pt too wide) in paragraph at lines 36--37
-[][]
- []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[39
-pdfTeX warning (ext4): destination with the same identifier (name{figure.23}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.39 
-      <./plots/det/corr/CORR_son_RR.png>]
-<plots/det/rmse/rmse_djf_RR.png, id=683, 1445.4pt x 1300.86pt>
-File: plots/det/rmse/rmse_djf_RR.png Graphic file (type png)
-<use plots/det/rmse/rmse_djf_RR.png>
-Package pdftex.def Info: plots/det/rmse/rmse_djf_RR.png  used on input line 41.
-
-(pdftex.def)             Requested size: 433.62335pt x 390.26102pt.
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[40
-pdfTeX warning (ext4): destination with the same identifier (name{figure.24}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.44 
-      <./plots/det/rmse/rmse_RR.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 48.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 48.
-
-<plots/det/rsquared/rsquared_RR.png, id=690, 2168.1pt x 1084.05pt>
-File: plots/det/rsquared/rsquared_RR.png Graphic file (type png)
-<use plots/det/rsquared/rsquared_RR.png>
-Package pdftex.def Info: plots/det/rsquared/rsquared_RR.png  used on input line
- 53.
-(pdftex.def)             Requested size: 542.02368pt x 271.01184pt.
-
-Overfull \hbox (72.26866pt too wide) in paragraph at lines 53--54
- [][] 
- []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[41
-pdfTeX warning (ext4): destination with the same identifier (name{figure.25}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.56 
-      <./plots/det/rmse/rmse_djf_RR.png>]
-<plots/det/rsquared/rsquared_mam_RR.png, id=697, 1445.4pt x 1300.86pt>
-File: plots/det/rsquared/rsquared_mam_RR.png Graphic file (type png)
-<use plots/det/rsquared/rsquared_mam_RR.png>
-Package pdftex.def Info: plots/det/rsquared/rsquared_mam_RR.png  used on input 
-line 60.
-(pdftex.def)             Requested size: 433.62335pt x 390.26102pt.
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[42
-pdfTeX warning (ext4): destination with the same identifier (name{figure.26}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.63 
-      <./plots/det/rsquared/rsquared_RR.png>]
-<plots/prob/bs/bs_RR_category.png, id=705, 2168.1pt x 1084.05pt>
-File: plots/prob/bs/bs_RR_category.png Graphic file (type png)
-<use plots/prob/bs/bs_RR_category.png>
-Package pdftex.def Info: plots/prob/bs/bs_RR_category.png  used on input line 7
-3.
-(pdftex.def)             Requested size: 542.02368pt x 271.01184pt.
-
-Overfull \hbox (72.26866pt too wide) in paragraph at lines 73--74
- [][] 
- []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[43
-pdfTeX warning (ext4): destination with the same identifier (name{figure.27}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.76 
-      <./plots/det/rsquared/rsquared_mam_RR.png>]
-<plots/prob/bs/bs_RR_lead_time.png, id=712, 2168.1pt x 1084.05pt>
-File: plots/prob/bs/bs_RR_lead_time.png Graphic file (type png)
-<use plots/prob/bs/bs_RR_lead_time.png>
-Package pdftex.def Info: plots/prob/bs/bs_RR_lead_time.png  used on input line 
-84.
-(pdftex.def)             Requested size: 542.02368pt x 271.01184pt.
-
-Overfull \hbox (72.26866pt too wide) in paragraph at lines 84--85
- [][] 
- []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[44
-pdfTeX warning (ext4): destination with the same identifier (name{figure.28}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.87 
-      <./plots/prob/bs/bs_RR_category.png>]
-File: plots/prob/rela/rela_RR.png Graphic file (type png)
-<use plots/prob/rela/rela_RR.png>
-Package pdftex.def Info: plots/prob/rela/rela_RR.png  used on input line 95.
-(pdftex.def)             Requested size: 542.02368pt x 271.01184pt.
-
-Overfull \hbox (72.26866pt too wide) in paragraph at lines 95--96
- [][] 
- []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[45
-pdfTeX warning (ext4): destination with the same identifier (name{figure.29}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.98 
-      <./plots/prob/bs/bs_RR_lead_time.png>]
-<plots/prob/rela/rela_diagram_RR_djf.png, id=725, 1445.4pt x 1300.86pt>
-File: plots/prob/rela/rela_diagram_RR_djf.png Graphic file (type png)
-<use plots/prob/rela/rela_diagram_RR_djf.png>
-Package pdftex.def Info: plots/prob/rela/rela_diagram_RR_djf.png  used on input
- line 103.
-(pdftex.def)             Requested size: 433.62335pt x 390.26102pt.
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[46
-pdfTeX warning (ext4): destination with the same identifier (name{figure.30}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.106 
-      ]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[47
-pdfTeX warning (ext4): destination with the same identifier (name{figure.31}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.126 \end{itemize}
-                    <./plots/prob/rela/rela_diagram_RR_djf.png>]
-<plots/prob/rps/rps_RR.png, id=737, 2168.1pt x 1084.05pt>
-File: plots/prob/rps/rps_RR.png Graphic file (type png)
-<use plots/prob/rps/rps_RR.png>
-Package pdftex.def Info: plots/prob/rps/rps_RR.png  used on input line 138.
-(pdftex.def)             Requested size: 542.02368pt x 271.01184pt.
-
-Overfull \hbox (72.26866pt too wide) in paragraph at lines 138--139
- [][] 
- []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[48
-pdfTeX warning (ext4): destination with the same identifier (name{figure.32}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.159 
-       <./plots/prob/rps/rps_RR.png>]
-<plots/prob/roc/roc_RR_category.png, id=747, 2168.1pt x 1084.05pt>
-File: plots/prob/roc/roc_RR_category.png Graphic file (type png)
-<use plots/prob/roc/roc_RR_category.png>
-Package pdftex.def Info: plots/prob/roc/roc_RR_category.png  used on input line
- 163.
-(pdftex.def)             Requested size: 542.02368pt x 271.01184pt.
-
-Overfull \hbox (72.26866pt too wide) in paragraph at lines 163--164
- [][] 
- []
-
-<plots/prob/roc/roc_RR_lead_time.png, id=748, 2168.1pt x 1084.05pt>
-File: plots/prob/roc/roc_RR_lead_time.png Graphic file (type png)
-<use plots/prob/roc/roc_RR_lead_time.png>
-Package pdftex.def Info: plots/prob/roc/roc_RR_lead_time.png  used on input lin
-e 170.
-(pdftex.def)             Requested size: 542.02368pt x 271.01184pt.
-
-Overfull \hbox (72.26866pt too wide) in paragraph at lines 170--171
- [][] 
- []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[49
-pdfTeX warning (ext4): destination with the same identifier (name{figure.33}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.173 
-       <./plots/prob/roc/roc_RR_category.png>]
-<plots/prob/roc/roc_son_RR_upper.png, id=755, 1445.4pt x 1300.86pt>
-File: plots/prob/roc/roc_son_RR_upper.png Graphic file (type png)
-<use plots/prob/roc/roc_son_RR_upper.png>
-Package pdftex.def Info: plots/prob/roc/roc_son_RR_upper.png  used on input lin
-e 177.
-(pdftex.def)             Requested size: 433.62335pt x 390.26102pt.
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[50
-pdfTeX warning (ext4): destination with the same identifier (name{figure.34}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.180 
-       <./plots/prob/roc/roc_RR_lead_time.png>]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[51
-pdfTeX warning (ext4): destination with the same identifier (name{figure.35}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.194 	\item $
-              AUC_{no-skill}$ : Area Under the Curve for a no-skill forecast...
- <./plots/prob/roc/roc_son_RR_upper.png>]
-<plots/prob/rocss/rocss_RR_category.png, id=768, 2168.1pt x 1084.05pt>
-File: plots/prob/rocss/rocss_RR_category.png Graphic file (type png)
-<use plots/prob/rocss/rocss_RR_category.png>
-Package pdftex.def Info: plots/prob/rocss/rocss_RR_category.png  used on input 
-line 209.
-(pdftex.def)             Requested size: 542.02368pt x 271.01184pt.
-
-Overfull \hbox (72.26866pt too wide) in paragraph at lines 209--210
- [][] 
- []
-
-<plots/prob/rocss/rocss_RR_lead_time.png, id=769, 2168.1pt x 1084.05pt>
-File: plots/prob/rocss/rocss_RR_lead_time.png Graphic file (type png)
-<use plots/prob/rocss/rocss_RR_lead_time.png>
-Package pdftex.def Info: plots/prob/rocss/rocss_RR_lead_time.png  used on input
- line 216.
-(pdftex.def)             Requested size: 542.02368pt x 271.01184pt.
-
-Overfull \hbox (72.26866pt too wide) in paragraph at lines 216--217
- [][] 
- []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[52
-pdfTeX warning (ext4): destination with the same identifier (name{figure.36}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.219 
+l.191 
        <./plots/prob/rocss/rocss_RR_category.png>]
-<plots/prob/rocss/rocss_mam_RR_upper.png, id=776, 1445.4pt x 1300.86pt>
+<plots/prob/rocss/rocss_mam_RR_upper.png, id=592, 1445.4pt x 1300.86pt>
 File: plots/prob/rocss/rocss_mam_RR_upper.png Graphic file (type png)
 <use plots/prob/rocss/rocss_mam_RR_upper.png>
 Package pdftex.def Info: plots/prob/rocss/rocss_mam_RR_upper.png  used on input
- line 223.
+ line 196.
 (pdftex.def)             Requested size: 433.62335pt x 390.26102pt.
 
 
@@ -2658,89 +2181,89 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[53
-pdfTeX warning (ext4): destination with the same identifier (name{figure.37}) h
+[37
+pdfTeX warning (ext4): destination with the same identifier (name{figure.20}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.226 
+l.199 
        <./plots/prob/rocss/rocss_RR_lead_time.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 244--244
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
 []|\OT1/cmr/bx/n/10.95 Dependent
  []
 
 
-Overfull \hbox (21.55861pt too wide) in paragraph at lines 244--244
+Overfull \hbox (21.55861pt too wide) in paragraph at lines 219--219
 []|\OT1/cmr/bx/n/10.95 Visualization/Tools| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--244
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
 []|\OT1/cmr/m/n/10.95 Probabilities match
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--244
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
 []|\OT1/cmr/m/n/10.95 Calibration of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--244
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
 []|\OT1/cmr/m/n/10.95 Reliability
  []
 
 
-Overfull \hbox (10.0664pt too wide) in paragraph at lines 244--244
+Overfull \hbox (10.0664pt too wide) in paragraph at lines 219--219
 []|\OT1/cmr/bx/n/10.95 Discrimination| 
  []
 
 
-Underfull \hbox (badness 3364) in paragraph at lines 244--244
+Underfull \hbox (badness 3364) in paragraph at lines 219--219
 []|\OT1/cmr/m/n/10.95 Ability to distinguish
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--244
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
 []|\OT1/cmr/m/n/10.95 Boldness of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--244
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
 \OT1/cmr/m/n/10.95 probabilities (away
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--244
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
 []|\OT1/cmr/m/n/10.95 Confidence of the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--244
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
 []|\OT1/cmr/m/n/10.95 Histogram
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--244
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
 \OT1/cmr/m/n/10.95 of forecast
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--244
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
 []|\OT1/cmr/m/n/10.95 Informativeness and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--244
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
 []|\OT1/cmr/m/n/10.95 Ability to provide
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--244
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
 []|\OT1/cmr/m/n/10.95 Brier Score
  []
 
 
-Overfull \hbox (33.48904pt too wide) in alignment at lines 244--244
+Overfull \hbox (33.48904pt too wide) in alignment at lines 219--219
 [][][][][] 
  []
 
@@ -2757,39 +2280,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[54
-pdfTeX warning (ext4): destination with the same identifier (name{figure.38}) h
+[38
+pdfTeX warning (ext4): destination with the same identifier (name{figure.21}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.249 \newpage
+l.224 \newpage
                <./plots/prob/rocss/rocss_mam_RR_upper.png>])
 
-[55
+[39
 pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.43 \clearpage
-               ] (main.lof
-
-[56
-
-])
+l.44 \clearpage
+               ] (main.lof)
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
 
 
+[40
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[57] (main.lot
+] (main.lot
 Overfull \hbox (10.55527pt too wide) in paragraph at lines 3--3
  [][] [][]\OT1/cmr/m/n/10.95 Key differences between reliability, discriminatio
 n, sharpness, and resolution in seasonal 
@@ -2807,7 +2320,7 @@ n, sharpness, and resolution in seasonal
 
 
 
-[58
+[41
 
 ] (main.aux)
  ***********
@@ -2819,63 +2332,19 @@ L3 programming layer <2024-11-02>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E47CA40574B73C21DB2C624022DBF039;8538.
+(rerunfilecheck)             Checksum: C01BB8D1BCC281C9F0C6F7D26ECD4591;6513.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30616 strings out of 475617
- 585468 string characters out of 5770827
- 1508358 words of memory out of 5000000
- 52783 multiletter control sequences out of 15000+600000
+ 30446 strings out of 475617
+ 580030 string characters out of 5770827
+ 1505349 words of memory out of 5000000
+ 52660 multiletter control sequences out of 15000+600000
  567682 words of font info for 68 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  84i,12n,93p,3179b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{Hfootnote.54} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.53} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.52} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.51} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.50} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.49} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.48} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.47} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.46} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.45} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.44} has been referenced but does not exis
-t, replaced by a fixed one
-
 
 pdfTeX warning (dest): name{Hfootnote.43} has been referenced but does not exis
 t, replaced by a fixed one
@@ -3068,9 +2537,9 @@ cmsy8.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/
 cmti10.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm
 /cmti12.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/c
 m/cmti9.pfb>
-Output written on main.pdf (59 pages, 20293220 bytes).
+Output written on main.pdf (42 pages, 11041280 bytes).
 PDF statistics:
- 986 PDF objects out of 1000 (max. 8388607)
- 205 named destinations out of 1000 (max. 500000)
- 563 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 770 PDF objects out of 1000 (max. 8388607)
+ 158 named destinations out of 1000 (max. 500000)
+ 395 words of extra memory for PDF output out of 10000 (max. 10000000)
 

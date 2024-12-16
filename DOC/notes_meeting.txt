@@ -1,0 +1,13 @@
+alex: IA expert
+deep evaluation of models 
+benchmark of multimodels 
+classifications of mena region
+copernicus model, 
+package (pcpt) cds, 
+xarray 
+
+CCA : DJF ==>  
+
+NOTES:
+ROC CURVES.
+what do we mean by seasonal forcast in tropical zones for example, because the notion of season isn't the same in mid-lattitudes and troopical zones

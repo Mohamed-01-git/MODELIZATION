@@ -1,39 +1,22 @@
 \babel@toc {english}{}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Projected change in annual mean temperature (left) and annual mean precipitation (right) between 1995–2014 and 2081–2100 under the SSP5–RCP8.5 scenario based on CMIP6 models (Gutiérrez et al., 2021). Note that precipitation change is given as a percentage: the large increases projected over Sahara and Arabian deserts equate to only a few millimetres of additional rainfall.}}{11}{figure.1}%
-\contentsline {figure}{\numberline {2}{\ignorespaces 3-months Rolling mean of Spearman Correlation in MENA Region for all centers JJA}}{17}{figure.2}%
-\contentsline {figure}{\numberline {3}{\ignorespaces 3-months Rolling mean of Spearman Correlation in MENA Region for all centers DJF}}{18}{figure.3}%
-\contentsline {figure}{\numberline {4}{\ignorespaces The Heatmap of correlation for the mena region for every period \textbf {\textit {(1 for perfect Correlation)} }}}{19}{figure.4}%
-\contentsline {figure}{\numberline {5}{\ignorespaces 3-months Rolling mean of RMSE in MENA Region for all centers DJF}}{20}{figure.5}%
-\contentsline {figure}{\numberline {6}{\ignorespaces 3-months Rolling mean of RMSE in MENA Region for all centers JJA}}{21}{figure.6}%
-\contentsline {figure}{\numberline {7}{\ignorespaces The Heatmap of RMSE for T2M in the MENA region \textbf {\textit {(0 for perfect RMSE)} }}}{22}{figure.7}%
-\contentsline {figure}{\numberline {8}{\ignorespaces 3-months Rolling mean of RSQUARED in MENA Region for all centers MAM}}{23}{figure.8}%
-\contentsline {figure}{\numberline {9}{\ignorespaces 3-months Rolling mean of RSQUARED in MENA Region for all centers DJF}}{24}{figure.9}%
-\contentsline {figure}{\numberline {10}{\ignorespaces The Heatmap of rsquared for T2M in the mena region for every period \textbf {\textit {(1 for perfect RSQUARED)} }}}{25}{figure.10}%
-\contentsline {figure}{\numberline {11}{\ignorespaces The Heatmap of Brier Score for each category . \textbf {\textit {(0 represents perfect BS)}}}}{26}{figure.11}%
-\contentsline {figure}{\numberline {12}{\ignorespaces The Heatmap of Brier Score for lead-time. \textbf {\textit {(0 represents perfect BS)}}}}{27}{figure.12}%
-\contentsline {figure}{\numberline {13}{\ignorespaces The Reliability Score . \textbf {\textit {(0 means perfect Reliability)}}}}{28}{figure.13}%
-\contentsline {figure}{\numberline {14}{\ignorespaces The 3-month rolling mean for Reliability DJF . \textbf {\textit {Reliability is better in cases where the graphs are closer to the 45-degree line}}}}{29}{figure.14}%
-\contentsline {figure}{\numberline {15}{\ignorespaces The Heatmap of RPS Score on MENA region for T2M . \textbf {\textit {(0 means perfect RPS)}}}}{30}{figure.15}%
-\contentsline {figure}{\numberline {16}{\ignorespaces The Heatmap of ROC Score for each category . \textbf {\textit {(1 means perfect ROC)}}}}{31}{figure.16}%
-\contentsline {figure}{\numberline {17}{\ignorespaces The Heatmap of ROC Score for lead-times. \textbf {\textit {(1 means perfect ROC)}}}}{32}{figure.17}%
-\contentsline {figure}{\numberline {18}{\ignorespaces The ROC Score Upper tercile SON . \textbf {\textit {(1 means perfect ROC)}}}}{33}{figure.18}%
-\contentsline {figure}{\numberline {19}{\ignorespaces The ROCSS Score for each category . \textbf {\textit {(1 means perfect ROCSS)}}}}{34}{figure.19}%
-\contentsline {figure}{\numberline {20}{\ignorespaces The average of ROCSS Score on all categories . \textbf {\textit {(1 means perfect ROCSS)}}}}{35}{figure.20}%
-\contentsline {figure}{\numberline {21}{\ignorespaces The ROC Skill Score Upper tercile MAM . \textbf {\textit {(1 means perfect ROC)}}}}{36}{figure.21}%
-\contentsline {figure}{\numberline {22}{\ignorespaces The Heatmap of correlation for the mena region for every period \textbf {\textit {(1 for perfect Correlation)} }}}{38}{figure.22}%
-\contentsline {figure}{\numberline {23}{\ignorespaces 3-months Rolling mean of Spearman Correlation in MENA Region for all centers DJF}}{39}{figure.23}%
-\contentsline {figure}{\numberline {24}{\ignorespaces 3-months Rolling mean of RMSE in MENA Region for all centers DJF}}{40}{figure.24}%
-\contentsline {figure}{\numberline {25}{\ignorespaces 3-months Rolling mean of RMSE in MENA Region for all centers JJA}}{41}{figure.25}%
-\contentsline {figure}{\numberline {26}{\ignorespaces The Heatmap of rsquared for Precipitations in the mena region for every period \textbf {\textit {(1 for perfect RSQUARED)} }}}{42}{figure.26}%
-\contentsline {figure}{\numberline {27}{\ignorespaces 3-months Rolling mean of RSQUARED in MENA Region for all centers MAM}}{43}{figure.27}%
-\contentsline {figure}{\numberline {28}{\ignorespaces The Heatmap of Brier Score for each category . \textbf {\textit {(0 represents perfect BS)}}}}{44}{figure.28}%
-\contentsline {figure}{\numberline {29}{\ignorespaces The Heatmap of Brier Score for lead-time. \textbf {\textit {(0 represents perfect BS)}}}}{45}{figure.29}%
-\contentsline {figure}{\numberline {30}{\ignorespaces The Reliability Score . \textbf {\textit {(0 means perfect Reliability)}}}}{46}{figure.30}%
-\contentsline {figure}{\numberline {31}{\ignorespaces The 3-month rolling mean for Reliability DJF . \textbf {\textit {Reliability is better in cases where the graphs are closer to the 45-degree line}}}}{47}{figure.31}%
-\contentsline {figure}{\numberline {32}{\ignorespaces The Heatmap of RPS Score on MENA region for Precipitations . \textbf {\textit {(0 means perfect RPS)}}}}{48}{figure.32}%
-\contentsline {figure}{\numberline {33}{\ignorespaces The Heatmap of ROC Score for each category . \textbf {\textit {(1 means perfect ROC)}}}}{49}{figure.33}%
-\contentsline {figure}{\numberline {34}{\ignorespaces The Heatmap of ROC Score for lead-times. \textbf {\textit {(1 means perfect ROC)}}}}{50}{figure.34}%
-\contentsline {figure}{\numberline {35}{\ignorespaces The ROC Score Upper tercile SON . \textbf {\textit {(1 means perfect ROC)}}}}{51}{figure.35}%
-\contentsline {figure}{\numberline {36}{\ignorespaces The ROCSS Score for each category . \textbf {\textit {(1 means perfect ROCSS)}}}}{52}{figure.36}%
-\contentsline {figure}{\numberline {37}{\ignorespaces The average of ROCSS Score on all categories . \textbf {\textit {(1 means perfect ROCSS)}}}}{53}{figure.37}%
-\contentsline {figure}{\numberline {38}{\ignorespaces The ROC Skill Score Upper tercile MAM . \textbf {\textit {(1 means perfect ROC)}}}}{54}{figure.38}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Projected change in annual mean temperature (left) and annual mean precipitation (right) between 1995–2014 and 2081–2100 under the SSP5–RCP8.5 scenario based on CMIP6 models (Gutiérrez et al., 2021). Note that precipitation change is given as a percentage: the large increases projected over Sahara and Arabian deserts equate to only a few millimetres of additional rainfall.}}{10}{figure.1}%
+\contentsline {figure}{\numberline {2}{\ignorespaces The Heatmap of correlation for the mena region for every period \textbf {\textit {(1 for perfect Correlation)} }}}{19}{figure.2}%
+\contentsline {figure}{\numberline {3}{\ignorespaces 3-months Rolling mean of Spearman Correlation in MENA Region for all centers SON}}{20}{figure.3}%
+\contentsline {figure}{\numberline {4}{\ignorespaces 3-months Rolling mean of Spearman Correlation in MENA Region for all centers DJF}}{21}{figure.4}%
+\contentsline {figure}{\numberline {5}{\ignorespaces 3-months Rolling mean of RMSE in MENA Region for all centers DJF}}{22}{figure.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces 3-months Rolling mean of RMSE in MENA Region for all centers JJA}}{23}{figure.6}%
+\contentsline {figure}{\numberline {7}{\ignorespaces The Heatmap of rsquared for Precipitations in the mena region for every period \textbf {\textit {(1 for perfect RSQUARED)} }}}{24}{figure.7}%
+\contentsline {figure}{\numberline {8}{\ignorespaces 3-months Rolling mean of RSQUARED in MENA Region for all centers SON}}{25}{figure.8}%
+\contentsline {figure}{\numberline {9}{\ignorespaces The Heatmap of Brier Score for each category . \textbf {\textit {(0 represents perfect BS)}}}}{26}{figure.9}%
+\contentsline {figure}{\numberline {10}{\ignorespaces The Heatmap of Brier Score for lead-time. \textbf {\textit {(0 represents perfect BS)}}}}{27}{figure.10}%
+\contentsline {figure}{\numberline {11}{\ignorespaces 3-months Rolling mean of Brier Score in MENA Region for all centers middle tercile MAM}}{28}{figure.11}%
+\contentsline {figure}{\numberline {12}{\ignorespaces The Reliability Score . \textbf {\textit {(0 means perfect Reliability)}}}}{29}{figure.12}%
+\contentsline {figure}{\numberline {13}{\ignorespaces The 3-month rolling mean for Reliability DJF . \textbf {\textit {Reliability is better in cases where the graphs are closer to the 45-degree line}}}}{30}{figure.13}%
+\contentsline {figure}{\numberline {14}{\ignorespaces The Heatmap of RPS Score on MENA region for Precipitations . \textbf {\textit {(0 means perfect RPS)}}}}{31}{figure.14}%
+\contentsline {figure}{\numberline {15}{\ignorespaces The RPS Score on MENA region for Precipitations DJF . \textbf {\textit {(0 means perfect RPS)}}}}{32}{figure.15}%
+\contentsline {figure}{\numberline {16}{\ignorespaces The Heatmap of ROC Score for each category . \textbf {\textit {(1 means perfect ROC)}}}}{33}{figure.16}%
+\contentsline {figure}{\numberline {17}{\ignorespaces The Heatmap of ROC Score for lead-times. \textbf {\textit {(1 means perfect ROC)}}}}{34}{figure.17}%
+\contentsline {figure}{\numberline {18}{\ignorespaces The ROC Score Upper tercile SON . \textbf {\textit {(1 means perfect ROC)}}}}{35}{figure.18}%
+\contentsline {figure}{\numberline {19}{\ignorespaces The ROCSS Score for each category . \textbf {\textit {(1 means perfect ROCSS)}}}}{36}{figure.19}%
+\contentsline {figure}{\numberline {20}{\ignorespaces The average of ROCSS Score on all categories . \textbf {\textit {(1 means perfect ROCSS)}}}}{37}{figure.20}%
+\contentsline {figure}{\numberline {21}{\ignorespaces The ROC Skill Score Upper tercile MAM . \textbf {\textit {(1 means perfect ROC)}}}}{38}{figure.21}%

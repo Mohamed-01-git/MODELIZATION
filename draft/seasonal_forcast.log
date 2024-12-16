@@ -1,0 +1,102 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.21)  21 NOV 2024 11:34
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./seasonal_forcast.tex
+(seasonal_forcast.tex
+LaTeX2e <2024-11-01>
+L3 programming layer <2024-11-02>
+(/home/mohamed/.miktex/texmfs/install/tex/latex/base/article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(/home/mohamed/.miktex/texmfs/install/tex/latex/base/size10.clo
+File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count196
+\c@section=\count197
+\c@subsection=\count198
+\c@subsubsection=\count199
+\c@paragraph=\count266
+\c@subparagraph=\count267
+\c@figure=\count268
+\c@table=\count269
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count270
+\l__pdf_internal_box=\box52
+) (seasonal_forcast.aux)
+\openout1 = `seasonal_forcast.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+ (SCORES.tex
+Overfull \hbox (6.91733pt too wide) in paragraph at lines 4--7
+\OT1/cmr/m/n/10 Spearman's correlation is a non-parametric measure of rank corr
+elation (statistical
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 8.
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
+
+ []
+
+
+Overfull \hbox (13.46225pt too wide) in paragraph at lines 21--22
+$\OML/cmm/m/it/10 RMSE$ \OT1/cmr/m/n/10 measures the average difference between
+ a the hindcast and the observation. 
+ []
+
+)
+
+[1
+
+{/home/mohamed/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}]
+(seasonal_forcast.aux)
+ ***********
+LaTeX2e <2024-11-01>
+L3 programming layer <2024-11-02>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 456 strings out of 475617
+ 8894 string characters out of 5770827
+ 392099 words of memory out of 5000000
+ 23374 multiletter control sequences out of 15000+600000
+ 559614 words of font info for 41 fonts, out of 8000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 35i,5n,50p,174b,121s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/mohamed/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmex10.p
+k> </home/mohamed/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm10
+00.pk> </home/mohamed/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmsy
+10.pk> </home/mohamed/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmr7
+.pk> </home/mohamed/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmmi7.
+pk> </home/mohamed/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmmi10.
+pk> </home/mohamed/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmr10.p
+k> </home/mohamed/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmbx12.p
+k> </home/mohamed/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi720/cmbx12.p
+k>
+Output written on seasonal_forcast.pdf (1 page, 38660 bytes).
+PDF statistics:
+ 142 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

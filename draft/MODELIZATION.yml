@@ -1,0 +1,15 @@
+name: MODELIZATION
+channles:
+  - conda
+dependencies:
+  - python=3.9
+  - numpy
+  - cartopy
+  - xskillscore
+  - matplotlib
+  - xarray
+  - pandas
+  - numpy
+  - cdsapi
+  - cfgrib
+  

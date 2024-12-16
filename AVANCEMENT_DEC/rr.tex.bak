@@ -23,7 +23,7 @@ where:
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{corr_RR_ PERIOD.png}
-    \caption{Heatmap for Spearman's Rank Correlation (2M Temperature)}
+    \caption{Heatmap for Spearman's Rank Correlation (PRECIPITATION)}
     \label{fig:spearman-correlation}
 \end{figure}
 \end{frame}
@@ -50,7 +50,7 @@ where:
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{rmse_RR_ PERIOD.png}
-    \caption{Heatmap for RMSE (2M Temperature)}
+    \caption{Heatmap for RMSE (PRECIPITATION)}
     \label{fig:rmse-heatmap}
 \end{figure}
 \end{frame}
@@ -81,39 +81,13 @@ where:
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{rsquared_RR_ PERIOD.png}
-    \caption{Heatmap for R² (2M Temperature)}
+    \caption{Heatmap for R² (PRECIPITATION)}
     \label{fig:rsquared-heatmap}
 \end{figure}
 \end{frame}
 
 
 \subsection{Probabilistic Evaluation Metrics}
-
-\begin{frame}
-\frametitle{Probabilistic Evaluation Metrics}
-\framesubtitle{The Brier Score (BS)}
-
-$$BS_j=\frac{1}{N} \sum\limits_{i}^{N} (y_{j,i} - p_{j,i})^2$$
-
-where:
-\begin{itemize}
-	\item n is the number of forecasts
-	\item $y_{j,i} $ is 1 if the $i^th$ observation was in category $j$, and is 0 otherwise.
-	\item $p_{j,i}$  is the $i^th$ forecast probability for category $j$.
-\end{itemize}
-\end{frame}
-
-\begin{frame}
-\frametitle{Probabilistic Evaluation Metrics}
-\framesubtitle{The Brier Score (BS)}
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.15]{bs_RR_lead_time.png}
-    \caption{The Brier Score for each category  . \textbf{\textit{(0 represents perfect BS)}}}
-\end{figure}
-\end{frame}
-
-
 
 
 \begin{frame}
@@ -159,7 +133,40 @@ where :
 \end{frame}
 
 
+\begin{frame}
+\frametitle{Probabilistic Evaluation Metrics}
+\framesubtitle{The Brier Score (BS)}
 
+$$BS_j=\frac{1}{N} \sum\limits_{i}^{N} (y_{j,i} - p_{j,i})^2$$
+
+where:
+\begin{itemize}
+	\item n is the number of forecasts
+	\item $y_{j,i} $ is 1 if the $i^th$ observation was in category $j$, and is 0 otherwise.
+	\item $p_{j,i}$  is the $i^th$ forecast probability for category $j$.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Probabilistic Evaluation Metrics}
+\framesubtitle{The Brier Score (BS)}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.15]{bs_RR_lead_time.png}
+    \caption{The Brier Score for each lead time  . \textbf{\textit{(0 represents perfect BS)}}}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Probabilistic Evaluation Metrics}
+\framesubtitle{The Brier Score (BS)}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.15]{bs_RR_category.png}
+    \caption{The Brier Score for each category  . \textbf{\textit{(0 represents perfect BS)}}}
+\end{figure}
+\end{frame}
 
 
 
@@ -182,7 +189,7 @@ where :
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.15]{roc_RR_lead_time.png}
-    \caption{The ROC Score for each category  . \textbf{\textit{(1 means perfect ROC)}}}
+    \caption{The ROC Score for each LEAD TIME. \textbf{\textit{(1 means perfect ROC)}}}
 \end{figure}
 \end{frame}
 
@@ -228,26 +235,3 @@ Interpretation of ROCSS:
     \caption{The ROCSS Score for each lead time  . \textbf{\textit{(1 means perfect ROCSS)}}}
 \end{figure}
 \end{frame}
-
-
-
-
-%
-%\begin{frame}
-%\frametitle{Probabilistic Evaluation Metrics}
-%\framesubtitle{RESUME}
-%\begin{table}[h!]
-%\centering
-%\begin{tabularx}{\textwidth}{@{}p{2.5cm}p{4cm}p{4cm}p{2.5cm}p{3cm}@{}}
-%\toprule
-%\textbf{Metric}       & \textbf{Focus}                                    & \textbf{What it Measures}                         & \textbf{Dependent on Observed Outcomes?} & \textbf{Visualization/Tools}             \\ \midrule
-%\textbf{Reliability}   & Probabilities match observed frequencies          & Calibration of probabilities                      & Yes                                      & Reliability diagram                      \\
-%\textbf{Discrimination} & Differentiating between outcomes                 & Ability to distinguish events from non-events    & Yes                                      & ROC curve, AUC                           \\
-%\textbf{Sharpness}     & Boldness of probabilities (away from average)     & Confidence of the forecast                        & No                                       & Histogram of forecast probabilities      \\
-%\textbf{Resolution}    & Informativeness and variability of forecast       & Ability to provide specific, useful info         & Yes                                      & Brier Score decomposition                \\ \bottomrule
-%\end{tabularx}
-%\caption{Key differences between reliability, discrimination, sharpness, and resolution in seasonal forecasting.}
-%\label{tab:forecast_metrics}
-%\end{table}
-%
-%\end{frame}

@@ -20,7 +20,7 @@
 \usepackage{xcolor}
 \usepackage{array} 
 \usepackage{colortbl}    % For coloring table cells
-
+\usepackage{tabularx}
 \useoutertheme[subsection=false]{miniframes}
 
 % Define navy color and apply it to structure theme
@@ -39,8 +39,8 @@
 
 \title[S-F]{Seasonal Forcasting Verification}
 
-\author[N.BERRAHMOUCH \& M.EL-BADRI]{Nohayla BERRAHMOUCH  \& Mohamed El-Badri}
-\institute{EHTP}
+\author[N.BERAHMOUCH \& M.ELBADRI]{Nohayla BERRAHMOUCH  \& Mohamed El-Badri}
+\institute[EHTP]{EHTP}
 \date{\today}
 
 \begin{document}
@@ -53,9 +53,6 @@
 \begin{frame}{Outline}
 	\tableofcontents
 \end{frame}
-\author{Berrahmouch et El-Badri}
-\institute{Encadré par : \\ \textbf{Mme. Ouafaa Badi}}
-\date{\today}
 
 %% Title Graphics with Logos
 %\titlegraphic{
@@ -75,5 +72,6 @@
 \input{generalites.tex}
 \input{t2m.tex}
 \input{rr.tex}
+\input{conclusion.tex}
 
 \end{document}

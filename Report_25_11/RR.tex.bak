@@ -1,8 +1,6 @@
 \section{PRECIPITATIONS}
 
 
-
-
 IN general, the forecast of precipitations is more complicated than temperature, thus the scores are a little less good for this part especially the deterministic ones. 
 
 
@@ -16,16 +14,28 @@ IN general, the forecast of precipitations is more complicated than temperature,
 	\includegraphics[scale=0.25]{plots/det/corr/corr_RR.png}
 	\caption{The Heatmap of correlation for the mena region for every period \textbf{\textit{(1 for perfect Correlation)} }}
 \end{figure}
-In general, correlation is very week for all centers, the maximum correlation is 0.175 for ecmwf. There is also some differences between centers. We can sea that in general the performance decrease with lead-time. the best models in term of Correlation are \textbf{\textit{ecmwf , ukmo and meteo-france}} .In general the performance decreases with time for all periods except for the SON period where the performance may increase with lead-time. 
+The correlation is weak for all centers; however, the best models are \textbf{\textit{ECMWF, UKMO, and CMCC-35}}. There is no clear variability in performance along lead-time. For SON, the performance is excellent at lead-time 2 for all centers. As for the other seasons, the performance is generally strong at the 1st lead-time but decreases with increasing lead-time.
+Hence, Meteo-France also shows good performance, but it decreases significantly over time.
+
+
 
 
 
 \begin{figure}[H]
 \includegraphics[scale=0.3]{plots/det/corr/CORR_son_RR.png}
+\caption{3-months Rolling mean of Spearman Correlation in MENA Region for all centers SON}
+\end{figure}
+For temperature, the models demonstrate the best performance in the tropical regions. However, for precipitation, the situation is different. Hence the results show good performance during SON, where the Middle East, East Africa, and North Africa exhibit the highest correlation performance.
+\begin{figure}[H]
+\includegraphics[scale=0.3]{plots/det/corr/CORR_djf_RR.png}
 \caption{3-months Rolling mean of Spearman Correlation in MENA Region for all centers DJF}
 \end{figure}
 
-For temperature, the models demonstrate the best performance in the tropical regions. However, for precipitation, the situation is different. In the figure above, we observe an unusual performance during SON, where the Middle East, East Africa, and North Africa exhibit the highest correlation performance. 
+The 3-month rolling mean for SON correlation shows that the best models are \textbf{\textit{ECMWF, UKMO, and Meteo-France}}. The correlation is significant across most of the MENA region, except in the east of Africa, Palestine, Syria, Jordan, and Iraq, where the correlation is maximal, for all centers the Middle East and East of Africa are have the highest score. However, near the equator, the correlation is negative and weak. This results are confirmed in all centers.
+ 
+For DJF, the situation is generally better than for SON. The best model for North Africa is \textbf{\textit{Meteo-France}}, as it shows good and significant correlation. In general, \textbf{\textit{ECMWF and Meteo-France}} are the best. In general we notice that there is differences between centers, especially in the Middle East and Center Africa.
+
+
 
 
 \subsubsection{RMSE}
@@ -42,12 +52,11 @@ for the Root Mean Squared Error, the best models shown in the heatmap below are 
 \caption{3-months Rolling mean of RMSE in MENA Region for all centers JJA}
 \end{figure}
 
-also for the spacial dimension, the RMSE stay stable and exhibit very good performance for all centers. 
+also for the spacial dimension, the RMSE stay stable and exhibit very good performance for all centers. Thus, all models have high skill and they are consistent with each other.
 
 
 \subsubsection{Coefficient of Determination (\( R^2 \))}
-
-for precipitation, the R-SQUARED is very low, the maximum value is less than 0.1. However, the ecmwf is the best in term of R-SQUARED.
+for precipitation, the R-SQUARED is very low, the maximum value is less than 0.1. However, the ecmwf is the best in term of R-SQUARED. for DJF,JJA and MAM the highest performance is in the first Lead-time, and it decrease along time, But for SON the best score is in the second Lead-time for all centers.
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.25]{plots/det/rsquared/rsquared_RR.png}
@@ -57,11 +66,11 @@ for precipitation, the R-SQUARED is very low, the maximum value is less than 0.1
 
 
 \begin{figure}[H]
-\includegraphics[scale=0.3]{plots/det/rsquared/rsquared_mam_RR.png}
-\caption{3-months Rolling mean of RSQUARED in MENA Region for all centers MAM}
+\includegraphics[scale=0.3]{plots/det/rsquared/rsquared_son_RR.png}
+\caption{3-months Rolling mean of RSQUARED in MENA Region for all centers SON}
 \end{figure}
 
-there is some isolated zones where the rsquared is good especially in the Middle East for CMCC-35 Center or the equator for DWD, but in general the score is very low.
+there is some isolated zones where the r-squared is good especially in Syria, Irak, Jordan ,Palestine  and East Africa, this high performance is observed in all centers. For the rest of the MENA region the performance is very bad with score near to 0. Hence, there is no constant pattern for the R-SQUARED, the spacial variation is very high for all centers.
 
 
 \subsection{Probabilistic Evaluation Metrics}
@@ -74,8 +83,8 @@ there is some isolated zones where the rsquared is good especially in the Middle
     \caption{The Heatmap of Brier Score for each category  . \textbf{\textit{(0 represents perfect BS)}}}
 \end{figure}
 
-for the analysis per category, we can see in the figure above that all centers exhibit good performance in term of Brier Score except the UMKO that shows moderate BS.
-the figure below shows the analysis per lead-time. the same result is found, but the \textbf{\textit{ECMWF,METEO-FRANCE and CMCC-35}} are the best models in Brier Score for lead-time analysis. \\ 
+for the analysis per category, we can see in the figure above that all centers exhibit good performance in term of Brier Score except the UMKO that shows moderate BS. Overall, the middle tercile shows lower performance (higher Brier Score) for all centers. 
+the figure below shows the analysis per lead-time. the same result is found, but the \textbf{\textit{ECMWF,METEO-FRANCE and CMCC-35}} are the best models in Brier Score for lead-time analysis.The performance stay stable along time which is a reliable signal. Despite the UKMO have the lower performance, it stays close to the other centers, the difference isn't so wide. 
 In general, the performance stays stable over category, lead-time and space.
 
 
@@ -86,6 +95,13 @@ In general, the performance stays stable over category, lead-time and space.
 \end{figure}
 
 
+\begin{figure}[H]
+\includegraphics[scale=0.3]{plots/prob/bs/bs_mam_RR_middle.png}
+\caption{3-months Rolling mean of Brier Score in MENA Region for all centers middle tercile MAM}
+\end{figure}
+
+the spacial distribution of the BS is homogeneous, the same performance across the MENA region, almost all centers perform well for all lead-times, for  tercile there is a little lower performance for the middle tercile.
+Hint, for the other seasons the results are almost the same. 
 
 
 \subsubsection{Reliability}
@@ -96,7 +112,7 @@ In general, the performance stays stable over category, lead-time and space.
     \caption{The Reliability Score  . \textbf{\textit{(0 means perfect Reliability)}}}
 \end{figure}
 
-In the figure above, all centers demonstrate similar moderate performance in term of reliability. But deep analysis within the figure below, shows that UKMO has very bad performance, also we can distinguish three models that have the best reliability according to the reliability diagram, the centers are \textbf{\textit{ECMWF,CMCC and METEO-FRANCE}}. 
+In the figure above, all centers demonstrate similar moderate performance in term of reliability. But deep analysis within the figure below, shows that UKMO has very bad performance, also we can distinguish three models that have the best reliability according to the reliability diagram, the centers are \textbf{\textit{ECMWF,CMCC and METEO-FRANCE}}. Hence,all centers give similar description of the reliability, also the stability along lead-time is a good indicator despite of the moderate results (0.3), we can rely on the models cited above because of the acceptable results and the stability along time.
 
 \begin{figure}[H]
 \centering
@@ -104,33 +120,10 @@ In the figure above, all centers demonstrate similar moderate performance in ter
 \caption{The 3-month rolling mean for Reliability DJF   . \textbf{\textit{Reliability is better in cases where the graphs are closer to the 45-degree line}}}
 \end{figure}
 
-
-
-
-
+for the reliability diagram, all centers show moderate results, except for the ukmo that shows lower reliability.Thus, for the lower and upper terciles, models in general show good reliability, but for the middle tercile, this models aren't reliable. above all, \textbf{\textit{ecmwf}}  shows the highest performance for reliability.
 
 
 \subsubsection{The ranked probability score (RPS)}
-
-The Ranked Probability Score (RPS) is a performance metric used in probabilistic forecasting to assess how well the predicted probability distribution matches the observed outcome distribution. It is particularly useful when there are multiple categories (e.g., terciles such as lower, middle, and upper) and is commonly applied in fields such as meteorology, climatology, and economics.
-
-$$RPS=\frac{1}{n(m-1)}\sum\limits_{i=1}^{n} \sum\limits_{k=1}^{m-1} \left(\sum\limits_{j=1}^{k}(y_{j,i} - p_{j,i})\right)^2  $$
-
-where : 
-
-\begin{itemize}
-	\item n is the number of forecasts.
-	\item m is the number of categories.
-	\item $y_{j,i}$ is 1 if the $i^th$ observation was in category j, and is 0 otherwise.
-	\item $p_{j,i}$ is the $i^th$ forecast probability for category j
-\end{itemize}
-
-The score is the average squared “error” in the cumulative
-probabilistic forecasts, and it ranges between 0\% for perfect forecasts (a probability of 100\%
-was assigned to the observed category on each forecast) to a maximum of 100\% that can only
-be achieved if all the observations are in the outermost categories, and if the forecasts are
-perfectly bad (a probability of 100\% was assigned to the opposite outermost category to that
-observed).
 
 
 \begin{figure}[H]
@@ -139,24 +132,19 @@ observed).
     \caption{The Heatmap of  RPS Score on MENA region for Precipitations    . \textbf{\textit{(0 means perfect RPS)}}}
 \end{figure}
 
-In the figure above, all centers demonstrate similar performance, except for UKMO, which shows noticeably lower performance.
+In the figure above, all centers demonstrate moderate performance, except for UKMO, which shows noticeably lower performance. 
 
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{plots/prob/rps/rps_djf_RR.png}
+    \caption{The   RPS Score on MENA region for Precipitations DJF   . \textbf{\textit{(0 means perfect RPS)}}}
+\end{figure}
+
+the spacial distribution of the RPS, is homogeneous, in all the region the score is good for all centers.Thus, the ukmo shows lower performance for this score.
 
 
 \subsubsection{Relative operating characteristics}
-The ROC\footnote{wmo guidance verification} can be used in forecast verification to measure \textbf{\textit{the ability of the forecasts to distinguish an event from a non-event}}. For seasonal forecasts with three or more categories, the first
-problem is to define the “event”. One of the categories must be selected as the current category
-of interest, and an occurrence of this category is known as an event. An observation in any of
-the other categories is defined as a non-event and no distinction is made as to which of these
-two categories does occur. So, for example, if below normal is selected as the event, normal
-and above normal are treated equally as non-events.
-
-the score indicates the probability of successfully
-discriminating below-normal observations from normal and above-normal observations. It
-indicates how often the forecast probability for below normal is higher when below normal
-actually does occur compared to when either normal or above normal occurs.
-
 
 \begin{figure}[H]
     \centering
@@ -171,6 +159,7 @@ In the figure above, it is evident that all centers exhibit similar performance 
     \caption{The Heatmap of ROC Score for lead-times. \textbf{\textit{(1 means perfect ROC)}}}
 \end{figure}
 
+for the ROC score, all centers show similar good performance, in general the best score is observed for tha first lead-time, except for the SON season where the best performance is for the second lead-time.
 
 \begin{figure}[H]
     \centering
@@ -178,31 +167,12 @@ In the figure above, it is evident that all centers exhibit similar performance 
     \caption{The ROC Score Upper tercile SON    . \textbf{\textit{(1 means perfect ROC)}}}
 \end{figure}
 
+the spacial distribution of the roc score confirms an important result. For precipitation all centers shows better performance for the East of Africa, Irak,Syria,Jordan and Palestine. The performance in this zone is very high (score near to 1). For the rest of MENA region the performance is similar, with moderate to good score.
+
 
 \subsubsection{Relative operating characteristics Skill Score}
-The Relative Operating Characteristic Skill Score (ROCSS) is a measure used in forecast verification to assess the ability of probabilistic forecasts to discriminate between events and non-events. It builds on the Relative Operating Characteristic (ROC) curve, which plots the hit rate (true positive rate) against the false alarm rate (false positive rate) at various forecast probability thresholds.
 
-\begin{itemize}
-	\item The ROC curve evaluates the discrimination capability of a forecast, i.e., how well the forecast can separate occurrences of an event (e.g., below-normal temperature) from non-events (e.g., normal or above-normal temperature).
-	\item The ROC Skill Score quantifies the area under the ROC curve (AUC) and compares it to a no-skill forecast.
-\end{itemize}
-
-	$$ROCSS=\frac{AUC-AUC_{no-skill}}{1-AUC_{no-skill}}$$
-where:
-\begin{itemize}
-	\item $AUC$ : Area Under the ROC Curve for the forecast being evaluated.
-	\item $AUC_{no-skill}$ : Area Under the Curve for a no-skill forecast 0.5 for our case.
-\end{itemize}
-
-Interpretation of ROCSS:
-\begin{itemize}
-	\item 1: Perfect discrimination ability.
-	\item 0: No skill (forecast performs no better than random guessing).
-	\item Negative values: Forecast performs worse than random guessing.
-\end{itemize}
-	
-
-In the figure above, it is evident that the ECMWF exhibit the best performance for all terciles and periods. HOwever, we should notice that the performance is very bad for the middle tercile in all centers.
+In the figure above, the ECMWF exhibit the best performance for all terciles and periods. However, we should notice that the performance is very low for the middle tercile in all centers. For the analysis along time, the performance is so low, the best performance is in the first lead-time, except the SON which shows the best performance for the second lead-time. Above all, the \textbf{\textit{ecmwf}} shows the best performance.
 
 \begin{figure}[H]
     \centering
@@ -218,11 +188,14 @@ In the figure above, it is evident that the ECMWF exhibit the best performance f
 \end{figure}
 
 
+
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.3]{plots/prob/rocss/rocss_mam_RR_upper.png}
     \caption{The ROC Skill Score Upper tercile MAM    . \textbf{\textit{(1 means perfect ROC)}}}
 \end{figure}
+
+the spacial distribution of the ROCSS, shows that all centers are consistent for this score. The spacial distribution isn't clear, there is a high spacial variability.
 
 
 

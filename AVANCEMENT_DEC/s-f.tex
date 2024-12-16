@@ -1,0 +1,81 @@
+\documentclass[11pt]{beamer}
+\mode<presentation>{
+    \usetheme{Madrid}
+    %\usecolortheme{beaver}
+    %\usecolortheme{crane}
+}
+
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage{pgfplots}
+\pgfplotsset{/pgf/number format/use comma,compat=newest}
+\usepackage{xcolor}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usepackage{caption}
+\usepackage{blindtext}
+\usepackage{multicol}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{array} 
+\usepackage{colortbl}    % For coloring table cells
+\usepackage{tabularx}
+\useoutertheme[subsection=false]{miniframes}
+
+% Define navy color and apply it to structure theme
+\definecolor{navy}{rgb}{0, 0, 0.5}
+\usecolortheme[named=navy]{structure}
+
+\titlegraphic{
+    \begin{tikzpicture}[remember picture, overlay]
+        \node[anchor=north west, xshift=0.5cm, yshift=-0.5cm] at (current page.north west) {\includegraphics[width=1.5cm]{ehtp.jpg}};
+        
+        \node[anchor=north east, xshift=-0.5cm, yshift=-0.5cm] at (current page.north east) {\includegraphics[width=1cm]{logometeo.jpg}};
+
+    \end{tikzpicture}
+}
+
+\title[S-F]{Seasonal Forcasting Verification}
+
+\author[BERRAHMOUCH \& EL-BADRI]{Nohayla BERRAHMOUCH  \& Mohamed EL-BADRI}
+\institute[EHTP]{EHTP}
+\date{\today}
+
+% Added supervisors
+\subtitle{Supervised by Ouafae BADI, Idriss BARI,  and Nicholas SAVAGE}
+
+
+
+\begin{document}
+
+
+\begin{frame}
+	\maketitle
+\end{frame}
+
+\begin{frame}{Outline}
+	\tableofcontents
+\end{frame}
+
+%% Title Graphics with Logos
+%\titlegraphic{
+%    \includegraphics[height=1cm]{ehtp.jpg} \hfill
+%    \includegraphics[height=1cm]{logometeo.jpg}
+%}
+
+
+
+% Table of Contents
+%\begin{frame}
+%    \frametitle{Plan}
+%    \tableofcontents
+%\end{frame}
+
+% Input Other Sections
+\input{generalites.tex}
+\input{t2m.tex}
+\input{rr.tex}
+\input{conclusion.tex}
+
+\end{document}
