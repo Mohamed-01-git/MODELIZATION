@@ -7,11 +7,7 @@ This project involves downloading necessary data, calculating scores for various
 - **Report_25_11**: This folder contains the Report.
 - **ADVANCEMENT_DEC**: This folder contains the presentation materials for the last checkpoint.
 - **CODE**: Contains all the scripts and codes used for downloading data, calculating scores, and plotting results.
-- **DATASETS**: This folder contains the input files in `.grib` format used for data analysis and processing.
-- **SFscores**: Contains pre-calculated scores for various climate variables, including TPRATE, TP (Total Precipitation), and T2M (Temperature at 2 meters).
-- **shapefile_morocco_world**: Contains a world map with the correct shapefile of Morocco, used for plotting maps.
-- **AUTOMATION_SF**: Kaggle notebook for automating seasonal forecast processes.
-- **MAPS.odt**: This file contains the updated work of the final report on SPI-SPEI.
+
 - **readme.md**: This readme file.
 
 ## Requirements
