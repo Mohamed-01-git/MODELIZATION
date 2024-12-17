@@ -150,7 +150,7 @@ def plot_roc(df,variable,TYPE,mask_it):
         file_out=f"{df.metric[0]}_{variable}_{TYPE}_NorthAfrica.png"
     else : 
         file_out=f"{df.metric[0]}_{variable}_{TYPE}.png"
-    plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/REPORT/Report_25_11/plots/prob/{df.metric[0]}/{file_out}',dpi=350)
+    plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/{df.metric[0]}/{file_out}',dpi=350)
     # plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/REPORT/Report_25_11/plots/prob/{df.metric[0]}/{df.metric[0]}_{variable}_{TYPE}_North_Africa.png')
     # plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/REPORT/Report_25_11/plots/prob/{df.metric[0]}/{df.metric[0]}_{variable}_{TYPE}.png')
         

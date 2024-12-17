@@ -137,7 +137,7 @@ def plot_determinist(df,variable,mask_it):
         file_out=f"{df.metric[0]}_{variable}_NorthAfrica.png"
     else : 
         file_out=f"{df.metric[0]}_{variable}.png"
-    plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/REPORT/Report_25_11/plots/prob/{df.metric[0]}/{file_out}')    
+    plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/{df.metric[0]}/{file_out}')    
     plt.tight_layout()
     plt.show()       
 
