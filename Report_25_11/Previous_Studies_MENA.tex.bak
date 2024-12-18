@@ -1,6 +1,6 @@
-\section{LITERATURE REVIEW}
-\subsection{Overview of Climate Models}
-\subsubsection{Deterministic Models}
+\chapter{LITERATURE REVIEW}
+\section{Overview of Climate Models}
+\subsection{Deterministic Models}
 Deterministic models rely on mathematical equations that describe the physical processes of the atmosphere. These models use fixed initial conditions to provide precise predictions, making them suitable for short-term forecasting. However, due to the chaotic nature of atmospheric systems, as demonstrated by Lorenz's theorem, deterministic models are limited in their ability to predict long-term outcomes. Small errors in initial conditions can lead to significant differences in results, reducing their reliability for seasonal or long-term forecasting.\footnote{Lorenz, E. N. (1963). Deterministic Nonperiodic 
 Flow. \textit{Journal of the Atmospheric Sciences, 20}(2), 130–141.}
 
@@ -8,7 +8,7 @@ Deterministic climate models operate based on fixed initial conditions and mathe
 
 For seasonal forecasting, deterministic models often fail because minor errors in the initial conditions can amplify, resulting in inaccurate predictions for longer timescales. Despite these challenges, deterministic models are vital for understanding specific phenomena over shorter durations with high spatial and temporal resolution.
 
-\subsubsection{Probabilistic Models}
+\subsection{Probabilistic Models}
 Probabilistic models address the limitations of deterministic approaches by incorporating uncertainty into forecasts. Instead of producing a single outcome, these models generate a range of possible scenarios, each with an associated probability, using ensemble simulations or statistical techniques. This makes probabilistic models particularly useful for medium- to long-term forecasts and risk assessment in climate-sensitive sectors such as agriculture, water management, and disaster mitigation.\footnote{World Meteorological Organization (2024). \textit{Guidance on Verification of Operational Seasonal Climate Forecasts}. \url{https://library.wmo.int/records/item/56227-guidance-on-verification-of-operational-seasonal-climate-forecasts}}
 
 The evaluation of probabilistic models relies on metrics that assess their ability to represent uncertainty and provide actionable insights:
@@ -48,8 +48,8 @@ Deterministic and probabilistic models serve complementary roles in climate mode
 
 
 
-\subsection{ STUDIES IN "MENA" REGION }
-\subsubsection{The current and changing climate in MENA}
+\section{ STUDIES IN "MENA".}
+\subsection{The current and changing climate in MENA}
 Much \footnote{\href{https://www.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/business/international/wiser/wiser-mena-scoping-study-external-v2.pdf}{Met Office WISER Report}} of the MENA region is characterised by high temperature and low water availability, a
 combination of variables that have the potential to lead towards the environmental
 limits/threshold for safe human habitation. This makes the region
@@ -82,7 +82,7 @@ additional rainfall.}
 
 
 
-\subsubsection{Impact-Based Evaluation}
+\subsection{Impact-Based Evaluation}
 Impact-based forecasting refers to a type of weather or climate forecasting that goes beyond predicting the meteorological parameters (e.g., temperature, rainfall, wind speed) and instead focuses on predicting the potential impacts of those conditions on society, infrastructure, and ecosystems. The goal is to provide actionable insights that help communities and decision-makers prepare for and mitigate the effects of extreme weather and climate events.
 
 \textbf{Evaluation of Seasonal Forecast Models}\\
@@ -121,7 +121,7 @@ In tropical and subtropical regions, models like \textbf{\textit{UK‐Met}}  and
 The \textbf{\textit{UK‐Met}} model consistently demonstrates lower biases and stronger performance globally compared to the \textbf{\textit{Météo‐France} }  model, highlighting its effectiveness in representing climate patterns. However, all models show limitations in accurately modeling persistent extreme wet and dry periods, particularly in extratropical areas.
 
 
-\subsubsection{SYSTEM 7 FRANCE}
+\subsection{SYSTEM 7 FRANCE}
 
 seasonal forecasting evaluation has been the subject of numerous studies, with a focus on improving the accuracy and reliability of predictions related to precipitation and other weather parameters. One such study\footnote{https://www.mdpi.com/2674-0494/1/3/16} conducted a probabilistic evaluation of seasonal precipitation re-forecasting from May to November over a period of 23 years (1993–2015). The study utilized the Brier Score (BS) and its decomposition to assess forecast performance, with the aim of providing more reliable and actionable predictions for extreme weather events.
 

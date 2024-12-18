@@ -1,35 +1,59 @@
 \babel@toc {english}{}\relax 
-\contentsline {section}{\numberline {1}Introduction}{5}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Context}{5}{subsection.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.1}Overview of Climate Modeling and Seasonal Forecasting}{5}{subsubsection.1.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.2}Importance of Seasonal Climate Forecasts in MENA}{6}{subsubsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.2}Objectives of the Work}{6}{subsection.1.2}%
-\contentsline {subsubsection}{\numberline {1.2.1}Specific aims of evaluating deterministic and probabilistic models. }{7}{subsubsection.1.2.1}%
-\contentsline {subsubsection}{\numberline {1.2.2}Description of Content}{7}{subsubsection.1.2.2}%
-\contentsline {section}{\numberline {2}LITERATURE REVIEW}{8}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Overview of Climate Models}{8}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Deterministic Models}{8}{subsubsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.2}Probabilistic Models}{8}{subsubsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.2} STUDIES IN "MENA" REGION }{9}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}The current and changing climate in MENA}{9}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}Impact-Based Evaluation}{10}{subsubsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.3}SYSTEM 7 FRANCE}{11}{subsubsection.2.2.3}%
-\contentsline {section}{\numberline {3}Methodology}{12}{section.3}%
-\contentsline {subsection}{\numberline {3.1}DATA}{12}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Deterministic Evaluation Metrics}{13}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Spearman rank correlation}{13}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}RMSE}{13}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}Coefficient of Determination (\( R^2 \))}{14}{subsubsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.3}Probabilistic Evaluation Metrics}{14}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Resolution}{14}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Discrimination}{15}{subsubsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.3}Reliability}{15}{subsubsection.3.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.4}Sharpness}{16}{subsubsection.3.3.4}%
-\contentsline {subsubsection}{\numberline {3.3.5}The Brier Score (BS)}{16}{subsubsection.3.3.5}%
-\contentsline {subsubsection}{\numberline {3.3.6}The ranked probability score (RPS)}{17}{subsubsection.3.3.6}%
-\contentsline {subsubsection}{\numberline {3.3.7}Relative operating characteristics}{17}{subsubsection.3.3.7}%
-\contentsline {subsubsection}{\numberline {3.3.8}Relative operating characteristics Skill Score}{17}{subsubsection.3.3.8}%
-\contentsline {subsubsection}{\numberline {3.3.9}summary}{18}{subsubsection.3.3.9}%
-\contentsline {subsection}{\numberline {3.4}PRECIPITATIONS}{19}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Deterministic Evaluation Metrics}{19}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}Probabilistic Evaluation Metrics}{26}{subsubsection.3.4.2}%
+\contentsline {chapter}{Acknowledgments}{3}{Doc-Start}%
+\contentsline {chapter}{Preface}{4}{Doc-Start}%
+\contentsline {chapter}{Overview and Rationale of the Study}{5}{Doc-Start}%
+\contentsline {chapter}{\numberline {1}Introduction}{6}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Context}{6}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Overview of Climate Modeling and Seasonal Forecasting}{6}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Importance of Seasonal Climate Forecasts in MENA}{7}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}Objectives of the Work}{8}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Specific aims of evaluating deterministic and probabilistic models.}{8}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Description of Content}{9}{subsection.1.2.2}%
+\contentsline {chapter}{\numberline {2}LITERATURE REVIEW}{10}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Overview of Climate Models}{10}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Deterministic Models}{10}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Probabilistic Models}{10}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2} STUDIES IN "MENA".}{12}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}The current and changing climate in MENA}{12}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Impact-Based Evaluation}{12}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}SYSTEM 7 FRANCE}{14}{subsection.2.2.3}%
+\contentsline {chapter}{\numberline {3}Methodology}{15}{chapter.3}%
+\contentsline {section}{\numberline {3.1}DATA}{15}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Deterministic Metrics}{15}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Spearman rank correlation}{15}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}RMSE}{16}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Coefficient of Determination (\( R^2 \))}{16}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Probabilistic Metrics}{17}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Resolution}{17}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Discrimination}{18}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Reliability}{18}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Sharpness}{18}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}The Brier Score (BS)}{19}{subsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.3.6}The ranked probability score (RPS)}{19}{subsection.3.3.6}%
+\contentsline {subsection}{\numberline {3.3.7}Relative operating characteristics}{20}{subsection.3.3.7}%
+\contentsline {subsection}{\numberline {3.3.8}Relative operating characteristics Skill Score}{20}{subsection.3.3.8}%
+\contentsline {subsection}{\numberline {3.3.9}summary}{20}{subsection.3.3.9}%
+\contentsline {chapter}{\numberline {4}Results}{22}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Temperature}{22}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Deterministic evaluation results}{22}{subsection.4.1.1}%
+\contentsline {subsubsection}{Correlation}{22}{section*.1}%
+\contentsline {subsubsection}{Root Mean Square Error}{28}{section*.2}%
+\contentsline {subsubsection}{Coefficient of Determination (\( R^2 \))}{32}{section*.3}%
+\contentsline {subsection}{\numberline {4.1.2}Probabilistic evaluation results}{34}{subsection.4.1.2}%
+\contentsline {subsubsection}{Brier score}{34}{section*.4}%
+\contentsline {subsubsection}{Reliability}{38}{section*.5}%
+\contentsline {subsubsection}{The ranked probability score }{41}{section*.6}%
+\contentsline {subsubsection}{Receiver Operating Characteristic}{43}{section*.7}%
+\contentsline {subsubsection}{Relative operating characteristics Skill Score}{45}{section*.8}%
+\contentsline {section}{\numberline {4.2}PRECIPITATIONS}{47}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Deterministic Evaluation Metrics}{48}{subsection.4.2.1}%
+\contentsline {subsubsection}{Spearman rank correlation}{48}{section*.9}%
+\contentsline {subsubsection}{RMSE}{50}{section*.10}%
+\contentsline {subsubsection}{Coefficient of Determination (\( R^2 \))}{52}{section*.11}%
+\contentsline {subsection}{\numberline {4.2.2}Probabilistic Evaluation Metrics}{55}{subsection.4.2.2}%
+\contentsline {subsubsection}{The Brier Score (BS)}{55}{section*.12}%
+\contentsline {subsubsection}{Reliability}{58}{section*.13}%
+\contentsline {subsubsection}{The ranked probability score (RPS)}{60}{section*.14}%
+\contentsline {subsubsection}{Relative operating characteristics}{62}{section*.15}%
+\contentsline {subsubsection}{Relative operating characteristics Skill Score}{64}{section*.16}%
+\contentsline {subsubsection}{summary}{67}{section*.17}%

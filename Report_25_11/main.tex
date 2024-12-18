@@ -1,4 +1,4 @@
-\documentclass[11pt]{article}
+\documentclass[11pt]{report}
 \usepackage{graphicx,multicol}
 \usepackage[hidelinks]{hyperref}
 \usepackage[Glenn]{fncychap}  % Custom chapter style
@@ -6,7 +6,7 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \usepackage{colortbl}
-\usepackage[utf8]{inputenc}
+%\usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{geometry}
 \usepackage{tikz}
@@ -21,26 +21,33 @@
 \usepackage{geometry} % Adjust page margins if needed
 \geometry{margin=1in}
 
+\DeclareUnicodeCharacter{200B}{}
+
+
+% Load other necessary packages (avoid redundancy)
+%\usepackage{amsmath}  % Already included above
+%\usepackage{hyperref}  % Already included above
+
+
+
 %\geometry{margin=1in}  % Set margins to 1 inch
 %\setlength{\columnsep}{1pt}  % Adjust space between columns if using multicol
 %\title{Probabilistic Evaluation of Climate Models For Seasonal Forecasting in the MENA Region}
 %\author{Nohaila BERRAHMOUCH, Mohamed EL-BADRI}
 %\date{\textbf{2024}}
 
+
 \begin{document}
 
-% Title page with adjusted spacing and format
-\input{titlepage.tex}
-
-% Table of contents and section formatting
-\tableofcontents
-\newpage
 
 
-\input{nohaila.tex}  % Include content from nohaila.tex file
-\input{Previous_Studies_MENA.tex}  % Include content from Previous_Studies_MENA.tex file
-\input{methodology.tex}  % Include content fromSCORES.tex file
+\input{titlepage2.tex}
+
+\input{introduction.tex} 
+\input{Previous_Studies_MENA.tex} 
+\input{methodology.tex} 
 \input{Results.tex}
+%\input{focus_on_North_Africa.tex}
 \clearpage
 \listoffigures
 \clearpage
