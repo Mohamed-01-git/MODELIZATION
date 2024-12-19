@@ -34,11 +34,11 @@ def load_data(file_name, aggr, metric,period):
 # Get the corresponding month
     mois = period_to_month.get(period)
     # file_link = f'{SCOREDIR}/{file_name}_1993-2016_monthly_mean_{mois}_234_45_-30_-2.5_60_{period}.{aggr}.RR.{metric}.nc'
-    file_link_t2m = f'{SCOREDIR}/{file_name}_1993-2016_monthly_mean_{mois}_234_45_-30_-2_5_60_{period}_{aggr}_{metric}.nc'
+    file_link_t2m = f'{SCOREDIR}/{file_name}_1993-2016_monthly_mean_{mois}_234_45_-30_-2.5_60_{period}.{aggr}.{metric}.nc'
     data_t2m= xr.open_dataset(file_link_t2m)
     data_t2m = data_t2m.assign_coords(lon=(((data_t2m.lon + 180) % 360) - 180)).sortby('lon')
     
-    file_link_RR = f'{SCOREDIR}/{file_name}_1993-2016_monthly_mean_{mois}_234_45_-30_-2_5_60_{period}_{aggr}_RR_{metric}.nc'
+    file_link_RR = f'{SCOREDIR}/{file_name}_1993-2016_monthly_mean_{mois}_234_45_-30_-2.5_60_{period}.{aggr}.RR.{metric}.nc'
     data_RR= xr.open_dataset(file_link_RR)
     data_RR = data_RR.assign_coords(lon=(((data_RR.lon + 180) % 360) - 180)).sortby('lon')
     return data_t2m, data_RR
@@ -134,8 +134,12 @@ def plot_roc(df,variable,TYPE,mask_it):
         sns.heatmap(df_temp,  fmt=".2f", cmap="Blues", 
                     ax=axe[i],annot=True,annot_kws={"size": 20},
                     vmin=np.nanmin(df[f"mean_{variable}_{TYPE}"].values),
-                    vmax=np.nanmax(df[f"mean_{variable}_{TYPE}"].values))
-        axe[i].set_xlabel("SEASON",fontsize=15)
+                    vmax=np.nanmax(df[f"mean_{variable}_{TYPE}"].values),
+                    cbar_kws={"shrink": 1})
+        
+        cbar = axe[i].collections[0].colorbar
+        cbar.ax.tick_params(labelsize=20)
+        axe[i].set_xlabel("",fontsize=15)
         axe[i].set_ylabel(f"{TYPE}",fontsize=20)
         axe[i].set_title(f'Center: {center}',fontsize=20)
     if mask_it==True:

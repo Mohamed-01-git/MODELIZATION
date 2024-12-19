@@ -35,11 +35,11 @@ def load_data(file_name, aggr, metric,period):
 # Get the corresponding month
     mois = period_to_month.get(period)
     # file_link = f'{SCOREDIR}/{file_name}_1993-2016_monthly_mean_{mois}_234_45_-30_-2.5_60_{period}.{aggr}.RR.{metric}.nc'
-    file_link_t2m = f'{SCOREDIR}/{file_name}_1993-2016_monthly_mean_{mois}_234_45_-30_-2_5_60_{period}_{aggr}_{metric}.nc'
+    file_link_t2m = f'{SCOREDIR}/{file_name}_1993-2016_monthly_mean_{mois}_234_45_-30_-2.5_60_{period}.{aggr}.{metric}.nc'
     data_t2m= xr.open_dataset(file_link_t2m)
     data_t2m = data_t2m.assign_coords(lon=(((data_t2m.lon + 180) % 360) - 180)).sortby('lon')
 
-    file_link_RR = f'{SCOREDIR}/{file_name}_1993-2016_monthly_mean_{mois}_234_45_-30_-2_5_60_{period}_{aggr}_RR_{metric}.nc'
+    file_link_RR = f'{SCOREDIR}/{file_name}_1993-2016_monthly_mean_{mois}_234_45_-30_-2.5_60_{period}.{aggr}.RR.{metric}.nc'
     data_RR= xr.open_dataset(file_link_RR)
     data_RR = data_RR.assign_coords(lon=(((data_RR.lon + 180) % 360) - 180)).sortby('lon')
     return data_t2m, data_RR
@@ -55,8 +55,10 @@ def get_mask(df_t2m,df_rr):
     mask=mask.transpose("lat","lon")
     NA_country_names = ['Algeria','Egypt','Libya','Mauritania','Morocco','Tunisia']
     na_indices =[countries.map_keys(name) for name in NA_country_names]
-    broadcasted_mask = np.broadcast_to(mask.data, (df_t2m.sizes['forecastMonth'], *mask.shape)).transpose(0,2,1)
+    broadcasted_mask = np.broadcast_to(mask.data, (df_t2m.sizes['forecastMonth'], *mask.shape))
     DATA_t2m=df_t2m.where(np.isin(broadcasted_mask, na_indices))
+    mask=countries.mask(df_rr)
+    mask=mask.transpose("lat","lon")
     broadcasted_mask_2 = np.broadcast_to(mask.data, (df_rr.sizes['forecastMonth'], *mask.shape))
     DATA_rr=df_rr.where(np.isin(broadcasted_mask_2, na_indices))
     return DATA_t2m , DATA_rr
@@ -109,9 +111,11 @@ def create_combined_dataframe(aggr, metric,mask_it):
 
 rmse_df= create_combined_dataframe("1m", "rmse",False)
 corr_df= create_combined_dataframe("1m", "corr",False)  
+acc_df= create_combined_dataframe("1m", "acc",False)
 rsquared_df = create_combined_dataframe("1m", "rsquared",False)  
 rmse_df_masked= create_combined_dataframe("1m", "rmse",True)
-corr_df_masked= create_combined_dataframe("1m", "corr",True)  
+corr_df_masked= create_combined_dataframe("1m", "corr",True) 
+acc_df_masked= create_combined_dataframe("1m", "acc",True) 
 rsquared_df_masked = create_combined_dataframe("1m", "rsquared",True)
 # rps_df=create_combined_dataframe("1m", "rps")
 
@@ -126,12 +130,17 @@ def plot_determinist(df,variable,mask_it):
         df_temp=df_center.pivot(index="lead_time", columns="period", values=f"mean_score_{variable}")
         # df_temp.columns= [calendar.month_abbr[m] for m in df_temp.columns]
         sns.heatmap(df_temp,  fmt=".2f", cmap="Blues", 
-                    ax=axe[i],annot=True,annot_kws={"size": 20},
+                    ax=axe[i],annot=True,annot_kws={"size": 22},
                     vmin=np.nanmin(df[f"mean_score_{variable}"].values),
-                    vmax=np.nanmax(df[f"mean_score_{variable}"].values))
-        axe[i].set_xlabel("SEASON",fontsize=15)
+                    vmax=np.nanmax(df[f"mean_score_{variable}"].values),
+                    cbar_kws={"shrink": 1})
+
+        cbar = axe[i].collections[0].colorbar
+        cbar.ax.tick_params(labelsize=20)
+        axe[i].set_xlabel("",fontsize=15)
         axe[i].set_ylabel("LEAD TIME",fontsize=20)
         axe[i].set_title(f'{center}',fontsize=20)
+
     if mask_it==True:
         subtitle=f"{df.metric[0]}  for {variable}  per  LEAD TIME (North Africa)"
     else:
@@ -150,7 +159,7 @@ def plot_determinist(df,variable,mask_it):
     plt.tight_layout()
     plt.show()       
 
-file_list=[corr_df,rsquared_df,rmse_df,corr_df_masked,rsquared_df_masked,rmse_df_masked]
+file_list=[acc_df,corr_df,rsquared_df,rmse_df,acc_df_masked,corr_df_masked,rsquared_df_masked,rmse_df_masked]
 for mask , df in zip([False]*3+[True]*3,file_list):
     plot_determinist(df,"RR",mask)
     
