@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.17)  20 DEC 2024 10:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.17)  20 DEC 2024 14:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1694,10 +1694,11 @@ has been already used, duplicate ignored
 l.43 F
       or SON , the Meteo-France model performs well, except in Egypt, showin...
  <./plots/det/corr/CORR_jja_t2m.png>]
-<plots/det/corr/corr_T2M.png, id=489, 1806.75pt x 1300.86pt>
-File: plots/det/corr/corr_T2M.png Graphic file (type png)
-<use plots/det/corr/corr_T2M.png>
-Package pdftex.def Info: plots/det/corr/corr_T2M.png  used on input line 46.
+<plots/det/corr/corr_T2M_mena.png, id=489, 1806.75pt x 1300.86pt>
+File: plots/det/corr/corr_T2M_mena.png Graphic file (type png)
+<use plots/det/corr/corr_T2M_mena.png>
+Package pdftex.def Info: plots/det/corr/corr_T2M_mena.png  used on input line 4
+6.
 (pdftex.def)             Requested size: 469.75502pt x 338.21562pt.
 
 
@@ -1738,11 +1739,13 @@ has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.59 \subsubsection
-                   {Root Mean Square Error} <./plots/det/corr/corr_T2M.png>]
-<plots/det/rmse/rmse_T2M.png, id=503, 1806.75pt x 1300.86pt>
-File: plots/det/rmse/rmse_T2M.png Graphic file (type png)
-<use plots/det/rmse/rmse_T2M.png>
-Package pdftex.def Info: plots/det/rmse/rmse_T2M.png  used on input line 65.
+                   {Root Mean Square Error} <./plots/det/corr/corr_T2M_mena.png
+>]
+<plots/det/rmse/rmse_T2M_mena.png, id=503, 1806.75pt x 1300.86pt>
+File: plots/det/rmse/rmse_T2M_mena.png Graphic file (type png)
+<use plots/det/rmse/rmse_T2M_mena.png>
+Package pdftex.def Info: plots/det/rmse/rmse_T2M_mena.png  used on input line 6
+5.
 (pdftex.def)             Requested size: 469.75502pt x 338.21562pt.
 
 
@@ -1777,7 +1780,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.77 O
       verall, these findings emphasize the importance of selecting climate m...
- <./plots/det/rmse/rmse_T2M.png>]
+ <./plots/det/rmse/rmse_T2M_mena.png>]
 <plots/det/rmse/rmse_jja_t2m.png, id=517, 1445.4pt x 1300.86pt>
 File: plots/det/rmse/rmse_jja_t2m.png Graphic file (type png)
 <use plots/det/rmse/rmse_jja_t2m.png>
@@ -1823,11 +1826,11 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.105 
        <./plots/det/rmse/rmse_T2M_NorthAfrica.png>]
-<plots/det/rsquared/rsquared_T2M.png, id=532, 1806.75pt x 1300.86pt>
-File: plots/det/rsquared/rsquared_T2M.png Graphic file (type png)
-<use plots/det/rsquared/rsquared_T2M.png>
-Package pdftex.def Info: plots/det/rsquared/rsquared_T2M.png  used on input lin
-e 108.
+<plots/det/rsquared/rsquared_T2M_mena.png, id=532, 1806.75pt x 1300.86pt>
+File: plots/det/rsquared/rsquared_T2M_mena.png Graphic file (type png)
+<use plots/det/rsquared/rsquared_T2M_mena.png>
+Package pdftex.def Info: plots/det/rsquared/rsquared_T2M_mena.png  used on inpu
+t line 108.
 (pdftex.def)             Requested size: 469.75502pt x 338.21562pt.
 
 
@@ -1845,7 +1848,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.10})
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.117 
-       <./plots/det/rsquared/rsquared_T2M.png>]
+       <./plots/det/rsquared/rsquared_T2M_mena.png>]
 <plots/det/rsquared/rsquared_T2M_NorthAfrica.png, id=540, 1806.75pt x 1300.86pt
 >
 File: plots/det/rsquared/rsquared_T2M_NorthAfrica.png Graphic file (type png)
@@ -1912,12 +1915,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.12})
 l.157 o
         further evaluate the performance of these models and assess whether ...
  <./plots/prob/bs/bs_T2M_category.png>]
-<plots/prob/bs/bs_T2M_category_North_Africa.png, id=560, 2168.1pt x 1084.05pt>
-File: plots/prob/bs/bs_T2M_category_North_Africa.png Graphic file (type png)
-<use plots/prob/bs/bs_T2M_category_North_Africa.png>
-Package pdftex.def Info: plots/prob/bs/bs_T2M_category_North_Africa.png  used o
-n input line 161.
-(pdftex.def)             Requested size: 469.75502pt x 234.8692pt.
+<plots/prob/bs/bs_T2M_category_NorthAfrica.png, id=560, 1806.75pt x 1300.86pt>
+File: plots/prob/bs/bs_T2M_category_NorthAfrica.png Graphic file (type png)
+<use plots/prob/bs/bs_T2M_category_NorthAfrica.png>
+Package pdftex.def Info: plots/prob/bs/bs_T2M_category_NorthAfrica.png  used on
+ input line 161.
+(pdftex.def)             Requested size: 469.75502pt x 338.21562pt.
 
 
 
@@ -1936,13 +1939,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.13})
 l.164 A
         closer analysis focused on the North African region revealed that th...
  <./plots/prob/bs/bs_T2M_lead_time.png>]
-<plots/prob/bs/bs_T2M_lead_time_North_Africa.png, id=568, 2168.1pt x 1084.05pt>
+<plots/prob/bs/bs_T2M_lead_time_NorthAfrica.png, id=568, 1806.75pt x 1300.86pt>
 
-File: plots/prob/bs/bs_T2M_lead_time_North_Africa.png Graphic file (type png)
-<use plots/prob/bs/bs_T2M_lead_time_North_Africa.png>
-Package pdftex.def Info: plots/prob/bs/bs_T2M_lead_time_North_Africa.png  used 
-on input line 169.
-(pdftex.def)             Requested size: 469.75502pt x 234.8692pt.
+File: plots/prob/bs/bs_T2M_lead_time_NorthAfrica.png Graphic file (type png)
+<use plots/prob/bs/bs_T2M_lead_time_NorthAfrica.png>
+Package pdftex.def Info: plots/prob/bs/bs_T2M_lead_time_NorthAfrica.png  used o
+n input line 169.
+(pdftex.def)             Requested size: 469.75502pt x 338.21562pt.
 
 
 
@@ -1960,7 +1963,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.14})
                                                   \__shipout_drop_firstpage_...
 l.172 T
        he results by lead time reveal similar conclusions, showing a consist...
- <./plots/prob/bs/bs_T2M_category_North_Africa.png>]
+ <./plots/prob/bs/bs_T2M_category_NorthAfrica.png>]
 <plots/prob/rela/rela_diagram_t2m_djf.png, id=575, 1445.4pt x 1300.86pt>
 File: plots/prob/rela/rela_diagram_t2m_djf.png Graphic file (type png)
 <use plots/prob/rela/rela_diagram_t2m_djf.png>
@@ -1983,7 +1986,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.15})
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.182 
-       <./plots/prob/bs/bs_T2M_lead_time_North_Africa.png>]
+       <./plots/prob/bs/bs_T2M_lead_time_NorthAfrica.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2000,10 +2003,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.16})
                                                   \__shipout_drop_firstpage_...
 l.185 
        <./plots/prob/rela/rela_diagram_t2m_djf.png>]
-<plots/prob/rela/rela_T2M.png, id=589, 1806.75pt x 1300.86pt>
-File: plots/prob/rela/rela_T2M.png Graphic file (type png)
-<use plots/prob/rela/rela_T2M.png>
-Package pdftex.def Info: plots/prob/rela/rela_T2M.png  used on input line 188.
+<plots/prob/rela/rela_T2M_mena.png, id=589, 1806.75pt x 1300.86pt>
+File: plots/prob/rela/rela_T2M_mena.png Graphic file (type png)
+<use plots/prob/rela/rela_T2M_mena.png>
+Package pdftex.def Info: plots/prob/rela/rela_T2M_mena.png  used on input line 
+188.
 (pdftex.def)             Requested size: 469.75502pt x 338.21562pt.
 <plots/prob/rela/rela_T2M_NorthAfrica.png, id=590, 1806.75pt x 1300.86pt>
 File: plots/prob/rela/rela_T2M_NorthAfrica.png Graphic file (type png)
@@ -2027,11 +2031,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.17})
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.197 
-       <./plots/prob/rela/rela_T2M.png>]
-<plots/prob/rps/rps_T2M.png, id=597, 1806.75pt x 1300.86pt>
-File: plots/prob/rps/rps_T2M.png Graphic file (type png)
-<use plots/prob/rps/rps_T2M.png>
-Package pdftex.def Info: plots/prob/rps/rps_T2M.png  used on input line 208.
+       <./plots/prob/rela/rela_T2M_mena.png>]
+<plots/prob/rps/rps_T2M_mena.png, id=597, 1806.75pt x 1300.86pt>
+File: plots/prob/rps/rps_T2M_mena.png Graphic file (type png)
+<use plots/prob/rps/rps_T2M_mena.png>
+Package pdftex.def Info: plots/prob/rps/rps_T2M_mena.png  used on input line 20
+8.
 (pdftex.def)             Requested size: 469.75502pt x 338.21562pt.
 
 
@@ -2074,7 +2079,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.19})
                                                   \__shipout_drop_firstpage_...
 l.225 \subsubsection
                     {Receiver Operating Characteristic} <./plots/prob/rps/rps_T
-2M.png>]
+2M_mena.png>]
 <plots/prob/roc/roc_T2M_category.png, id=613, 1806.75pt x 1300.86pt>
 File: plots/prob/roc/roc_T2M_category.png Graphic file (type png)
 <use plots/prob/roc/roc_T2M_category.png>
@@ -2168,10 +2173,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.23})
                                                   \__shipout_drop_firstpage_...
 l.258 
        <./plots/prob/rocss/rocss_T2M_category.png>]
-<plots/det/corr/corr_RR.png, id=642, 1806.75pt x 1300.86pt>
-File: plots/det/corr/corr_RR.png Graphic file (type png)
-<use plots/det/corr/corr_RR.png>
-Package pdftex.def Info: plots/det/corr/corr_RR.png  used on input line 272.
+<plots/det/corr/corr_RR_mena.png, id=642, 1806.75pt x 1300.86pt>
+File: plots/det/corr/corr_RR_mena.png Graphic file (type png)
+<use plots/det/corr/corr_RR_mena.png>
+Package pdftex.def Info: plots/det/corr/corr_RR_mena.png  used on input line 27
+2.
 (pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
 
 
@@ -2214,7 +2220,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.25})
                                                   \__shipout_drop_firstpage_...
 l.285 F
        or temperature, the models demonstrate the best performance in the tr...
- <./plots/det/corr/corr_RR.png>]
+ <./plots/det/corr/corr_RR_mena.png>]
 <plots/det/corr/CORR_djf_RR.png, id=657, 1445.4pt x 1300.86pt>
 File: plots/det/corr/CORR_djf_RR.png Graphic file (type png)
 <use plots/det/corr/CORR_djf_RR.png>
@@ -2307,10 +2313,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.29})
                                                   \__shipout_drop_firstpage_...
 l.324 
        <./plots/det/rmse/rmse_djf_RR.png>]
-<plots/det/rmse/rmse_RR.png, id=686, 1806.75pt x 1300.86pt>
-File: plots/det/rmse/rmse_RR.png Graphic file (type png)
-<use plots/det/rmse/rmse_RR.png>
-Package pdftex.def Info: plots/det/rmse/rmse_RR.png  used on input line 329.
+<plots/det/rmse/rmse_RR_mena.png, id=686, 1806.75pt x 1300.86pt>
+File: plots/det/rmse/rmse_RR_mena.png Graphic file (type png)
+<use plots/det/rmse/rmse_RR_mena.png>
+Package pdftex.def Info: plots/det/rmse/rmse_RR_mena.png  used on input line 32
+9.
 (pdftex.def)             Requested size: 542.02919pt x 390.26102pt.
 
 Overfull \hbox (72.27417pt too wide) in paragraph at lines 329--330
@@ -2334,9 +2341,10 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.30})
                                                   \__shipout_drop_firstpage_...
 l.332 
        <./plots/det/rmse/rmse_jja_RR.png>]
-File: plots/det/rmse/rmse_RR.png Graphic file (type png)
-<use plots/det/rmse/rmse_RR.png>
-Package pdftex.def Info: plots/det/rmse/rmse_RR.png  used on input line 338.
+File: plots/det/rmse/rmse_RR_mena.png Graphic file (type png)
+<use plots/det/rmse/rmse_RR_mena.png>
+Package pdftex.def Info: plots/det/rmse/rmse_RR_mena.png  used on input line 33
+8.
 (pdftex.def)             Requested size: 542.02919pt x 390.26102pt.
 
 Overfull \hbox (72.27417pt too wide) in paragraph at lines 338--339
@@ -2359,12 +2367,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.31})
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.341 
-       <./plots/det/rmse/rmse_RR.png>]
-<plots/det/rsquared/rsquared_RR.png, id=700, 1806.75pt x 1300.86pt>
-File: plots/det/rsquared/rsquared_RR.png Graphic file (type png)
-<use plots/det/rsquared/rsquared_RR.png>
-Package pdftex.def Info: plots/det/rsquared/rsquared_RR.png  used on input line
- 349.
+       <./plots/det/rmse/rmse_RR_mena.png>]
+<plots/det/rsquared/rsquared_RR_mena.png, id=700, 1806.75pt x 1300.86pt>
+File: plots/det/rsquared/rsquared_RR_mena.png Graphic file (type png)
+<use plots/det/rsquared/rsquared_RR_mena.png>
+Package pdftex.def Info: plots/det/rsquared/rsquared_RR_mena.png  used on input
+ line 349.
 (pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
 
 
@@ -2405,7 +2413,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.33})
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.358 
-       <./plots/det/rsquared/rsquared_RR.png>]
+       <./plots/det/rsquared/rsquared_RR_mena.png>]
 <plots/prob/bs/bs_RR_category.png, id=714, 1806.75pt x 1300.86pt>
 File: plots/prob/bs/bs_RR_category.png Graphic file (type png)
 <use plots/prob/bs/bs_RR_category.png>
@@ -2475,10 +2483,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.36})
                                                   \__shipout_drop_firstpage_...
 l.393 
        <./plots/prob/bs/bs_RR_lead_time.png>]
-<plots/prob/rela/rela_RR.png, id=736, 1806.75pt x 1300.86pt>
-File: plots/prob/rela/rela_RR.png Graphic file (type png)
-<use plots/prob/rela/rela_RR.png>
-Package pdftex.def Info: plots/prob/rela/rela_RR.png  used on input line 407.
+<plots/prob/rela/rela_RR_mena.png, id=736, 1806.75pt x 1300.86pt>
+File: plots/prob/rela/rela_RR_mena.png Graphic file (type png)
+<use plots/prob/rela/rela_RR_mena.png>
+Package pdftex.def Info: plots/prob/rela/rela_RR_mena.png  used on input line 4
+07.
 (pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
 
 
@@ -2519,11 +2528,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.38})
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.418 
-       <./plots/prob/rela/rela_RR.png>]
-<plots/prob/rps/rps_RR.png, id=752, 1806.75pt x 1300.86pt>
-File: plots/prob/rps/rps_RR.png Graphic file (type png)
-<use plots/prob/rps/rps_RR.png>
-Package pdftex.def Info: plots/prob/rps/rps_RR.png  used on input line 432.
+       <./plots/prob/rela/rela_RR_mena.png>]
+<plots/prob/rps/rps_RR_mena.png, id=752, 1806.75pt x 1300.86pt>
+File: plots/prob/rps/rps_RR_mena.png Graphic file (type png)
+<use plots/prob/rps/rps_RR_mena.png>
+Package pdftex.def Info: plots/prob/rps/rps_RR_mena.png  used on input line 432
+.
 (pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
 
 
@@ -2564,7 +2574,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.40})
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.444 
-       <./plots/prob/rps/rps_RR.png>]
+       <./plots/prob/rps/rps_RR_mena.png>]
 <plots/prob/roc/roc_RR_category.png, id=767, 1806.75pt x 1300.86pt>
 File: plots/prob/roc/roc_RR_category.png Graphic file (type png)
 <use plots/prob/roc/roc_RR_category.png>
@@ -2869,7 +2879,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  30777 strings out of 475560
- 590409 string characters out of 5769136
+ 590745 string characters out of 5769136
  1501776 words of memory out of 5000000
  52949 multiletter control sequences out of 15000+600000
  569981 words of font info for 76 fonts, out of 8000000 for 9000
@@ -3069,7 +3079,7 @@ m/cmsy10.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/
 cm/cmsy8.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/
 cm/cmti10.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts
 /cm/cmti9.pfb>
-Output written on main.pdf (77 pages, 27347790 bytes).
+Output written on main.pdf (77 pages, 20879772 bytes).
 PDF statistics:
  1058 PDF objects out of 1200 (max. 8388607)
  231 named destinations out of 1000 (max. 500000)

@@ -43,7 +43,7 @@ For JJA, the ECMWF and ECCC-2 models exhibit the best correlations overall, exce
 For SON , the Meteo-France model performs well, except in Egypt, showing better correlations in Morocco compared to other models and seasons. Similarly, the ECMWF model also performs well but shows weaker correlations in Libya and Egypt.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\linewidth]{plots/det/corr/corr_T2M.png}
+    \includegraphics[width=1\linewidth]{plots/det/corr/corr_T2M_mena.png}
     \caption{Temperature correlation heatmap for mena region}
    
 \end{figure}
@@ -62,7 +62,7 @@ The heatmaps provide an average overview of the models' performance across the M
 The maps in this section show the RMSE (Root Mean Square Error) between observed and modeled surface temperatures across the MENA region for the four seasons: JJA, DJF, MAM, and SON. The RMSE, expressed in the same units as temperature, evaluates the accuracy of climate models, with lower values indicating better performance.  These maps help identify the strengths and limitations of the models across seasons, contributing to the improvement of climate forecasts for the region.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\linewidth]{plots/det/rmse/rmse_T2M.png}
+    \includegraphics[width=1\linewidth]{plots/det/rmse/rmse_T2M_mena.png}
     \caption{Temperature rmse heatmaps for all the sasons}
 \end{figure}
 
@@ -105,7 +105,7 @@ The maps in this section show the R-SQUARED between observed and modeled surface
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\linewidth]{plots/det/rsquared/rsquared_T2M.png}
+    \includegraphics[width=1\linewidth]{plots/det/rsquared/rsquared_T2M_mena.png}
     \caption{Temperature rsquared heatmaps for all the seasons}
 \end{figure}
 
@@ -185,7 +185,7 @@ For the other three seasons (JJA, MAM, and SON), the reliability diagrams reveal
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\linewidth]{plots/prob/rela/rela_T2M.png}
+    \includegraphics[width=1\linewidth]{plots/prob/rela/rela_T2M_mena.png}
     \caption{temperature reliabilty heatmap}
 \end{figure}
 The heatmap further confirms the analyses derived from the reliability diagrams. It highlights similar trends observed across the models and seasons.Conversely, UKMO continues to stand out with its consistent overestimation of probabilities, aligning with the overconfidence seen in the reliability diagrams. This agreement between the heatmap and the reliability curves strengthens confidence in the identified patterns .
@@ -205,7 +205,7 @@ A more focused analysis on North Africa has not significantly altered the overal
 The Ranked Probability Score (RPS) provides a valuable measure of forecast performance by evaluating the accuracy of probabilistic predictions across different categories. It combines both the skill in predicting the occurrence of events and the sharpness of the forecast distribution. By comparing the forecasted probability distribution against the observed outcomes, the RPS quantifies the deviation between the predicted and actual probabilities. A lower RPS value indicates better forecast accuracy, reflecting both how well the forecast aligns with observed frequencies and how well it discriminates between different probability categories. This metric helps to identify which models offer the most reliable probabilistic predictions, particularly in terms of capturing the likelihood of various temperature outcomes within a given forecast period.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\linewidth]{plots/prob/rps/rps_T2M.png}
+    \includegraphics[width=1\linewidth]{plots/prob/rps/rps_T2M_mena.png}
     \caption{Temperature RPS  heatmaps for all the seasons per categories}
 \end{figure}
 The figure displaying the Ranked Probability Score (RPS) for different climate models and seasonal periods provides a detailed view of model performance across various start months (DJF, JJA, MAM, SON). Each cell in the matrix represents the RPS value for a specific model and season combination, with the color intensity indicating how well the forecast probabilities match the observed data.
@@ -269,7 +269,7 @@ IN general, the forecast of precipitations is more complicated than temperature,
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.25]{plots/det/corr/corr_RR.png}
+	\includegraphics[scale=0.25]{plots/det/corr/corr_RR_mena.png}
 	\caption{The Heatmap of correlation for the mena region for every period \textbf{\textit{(1 for perfect Correlation)} }}
 \end{figure}
 The correlation is weak for all centers; however, the best models are \textbf{\textit{ECMWF, UKMO, and CMCC-35}}. There is no clear variability in performance along lead-time. For SON, the performance is excellent at lead-time 2 for all centers. As for the other seasons, the performance is generally strong at the 1st lead-time but decreases with increasing lead-time.
@@ -326,7 +326,7 @@ also for the spacial dimension, the RMSE stay stable and exhibit moderate perfor
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.3]{plots/det/rmse/rmse_RR.png}
+\includegraphics[scale=0.3]{plots/det/rmse/rmse_RR_mena.png}
 \caption{heatmap of RMSE For RR in mm}
 \end{figure}
 
@@ -335,7 +335,7 @@ also for the spacial dimension, the RMSE stay stable and exhibit moderate perfor
 \textbf{focus on North Africa} : 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.3]{plots/det/rmse/rmse_RR.png}
+\includegraphics[scale=0.3]{plots/det/rmse/rmse_RR_mena.png}
 \caption{heatmap of RMSE For RR in mm (North Africa)}
 \end{figure}
 
@@ -346,7 +346,7 @@ the RMSE is much better for North africa, the score is good over all lead-times 
 for precipitation, the R-SQUARED is very low, the maximum value is less than 0.1. However, the ecmwf is the best in term of R-SQUARED. for DJF,JJA and MAM the highest performance is in the first Lead-time, and it decrease along time, But for SON the best score is in the second Lead-time for all centers.
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.25]{plots/det/rsquared/rsquared_RR.png}
+	\includegraphics[scale=0.25]{plots/det/rsquared/rsquared_RR_mena.png}
 	\caption{The Heatmap of rsquared for Precipitations in the mena region for every period \textbf{\textit{(1 for perfect RSQUARED)} }}
 \end{figure}
 
@@ -404,7 +404,7 @@ there is no big difference in North Africa.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.25]{plots/prob/rela/rela_RR.png}
+    \includegraphics[scale=0.25]{plots/prob/rela/rela_RR_mena.png}
     \caption{The Reliability Score  . \textbf{\textit{(0 means perfect Reliability)}}}
 \end{figure}
 
@@ -429,7 +429,7 @@ there is no big difference in North Africa.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.25]{plots/prob/rps/rps_RR.png}
+    \includegraphics[scale=0.25]{plots/prob/rps/rps_RR_mena.png}
     \caption{The Heatmap of  RPS Score on MENA region for Precipitations    . \textbf{\textit{(0 means perfect RPS)}}}
 \end{figure}
 
