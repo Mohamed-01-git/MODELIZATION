@@ -34,26 +34,15 @@
 \contentsline {subsection}{\numberline {3.3.8}Relative operating characteristics Skill Score}{20}{subsection.3.3.8}%
 \contentsline {subsection}{\numberline {3.3.9}summary}{20}{subsection.3.3.9}%
 \contentsline {chapter}{\numberline {4}Results}{22}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Temperature}{22}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Deterministic evaluation results}{22}{subsection.4.1.1}%
-\contentsline {subsubsection}{Correlation}{22}{section*.1}%
-\contentsline {subsubsection}{Root Mean Square Error}{28}{section*.2}%
+\contentsline {section}{\numberline {4.1}PRECIPITATIONS}{22}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Deterministic Evaluation Metrics}{23}{subsection.4.1.1}%
+\contentsline {subsubsection}{ACC}{23}{section*.1}%
+\contentsline {subsubsection}{RMSE}{27}{section*.2}%
 \contentsline {subsubsection}{Coefficient of Determination (\( R^2 \))}{32}{section*.3}%
-\contentsline {subsection}{\numberline {4.1.2}Probabilistic evaluation results}{34}{subsection.4.1.2}%
-\contentsline {subsubsection}{Brier score}{34}{section*.4}%
-\contentsline {subsubsection}{Reliability}{38}{section*.5}%
-\contentsline {subsubsection}{The ranked probability score }{41}{section*.6}%
-\contentsline {subsubsection}{Receiver Operating Characteristic}{43}{section*.7}%
-\contentsline {subsubsection}{Relative operating characteristics Skill Score}{45}{section*.8}%
-\contentsline {section}{\numberline {4.2}PRECIPITATIONS}{47}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Deterministic Evaluation Metrics}{48}{subsection.4.2.1}%
-\contentsline {subsubsection}{Spearman rank correlation}{48}{section*.9}%
-\contentsline {subsubsection}{RMSE}{51}{section*.10}%
-\contentsline {subsubsection}{Coefficient of Determination (\( R^2 \))}{55}{section*.11}%
-\contentsline {subsection}{\numberline {4.2.2}Probabilistic Evaluation Metrics}{58}{subsection.4.2.2}%
-\contentsline {subsubsection}{The Brier Score (BS)}{58}{section*.12}%
-\contentsline {subsubsection}{Reliability}{61}{section*.13}%
-\contentsline {subsubsection}{The ranked probability score (RPS)}{63}{section*.14}%
-\contentsline {subsubsection}{Relative operating characteristics}{65}{section*.15}%
-\contentsline {subsubsection}{Relative operating characteristics Skill Score}{67}{section*.16}%
-\contentsline {subsubsection}{summary}{72}{section*.17}%
+\contentsline {subsection}{\numberline {4.1.2}Probabilistic Evaluation Metrics}{36}{subsection.4.1.2}%
+\contentsline {subsubsection}{The Brier Score (BS)}{36}{section*.4}%
+\contentsline {subsubsection}{Reliability}{39}{section*.5}%
+\contentsline {subsubsection}{The ranked probability score (RPS)}{42}{section*.6}%
+\contentsline {subsubsection}{Relative operating characteristics}{44}{section*.7}%
+\contentsline {subsubsection}{Relative operating characteristics Skill Score}{48}{section*.8}%
+\contentsline {subsubsection}{summary}{55}{section*.9}%

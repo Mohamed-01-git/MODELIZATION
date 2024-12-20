@@ -4,52 +4,36 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Projected change in annual mean temperature (left) and annual mean precipitation (right) between 1995–2014 and 2081–2100 under the SSP5–RCP8.5 scenario based on CMIP6 models (Gutiérrez et al., 2021). Note that precipitation change is given as a percentage: the large increases projected over Sahara and Arabian deserts equate to only a few millimetres of additional rainfall.}}{12}{figure.2.1}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Temperature correlation maps for DJF (December-January-February)}}{23}{figure.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces temperature correlation maps for mam}}{24}{figure.4.2}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces temperature correlation maps for jja}}{25}{figure.4.3}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces temperature correlation maps for son}}{26}{figure.4.4}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Temperature correlation heatmap for mena region}}{27}{figure.4.5}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Temperature correlation heatmap for north africa}}{28}{figure.4.6}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Temperature rmse heatmaps for all the sasons}}{29}{figure.4.7}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces temperature rmse maps for jja}}{30}{figure.4.8}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Temperature rmse heatmap for north africa}}{31}{figure.4.9}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Temperature rsquared heatmaps for all the seasons}}{32}{figure.4.10}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Temperature rsquared heatmaps for all the seasons North Africa}}{33}{figure.4.11}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Temperature Brier score heatmaps for all the seasons per categories}}{35}{figure.4.12}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Temperature brier score heatmaps for all the seasons per lead time}}{36}{figure.4.13}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Temperature Brier score heatmaps for all the seasons per categories for north africa}}{37}{figure.4.14}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Temperature brier score heatmaps for all the seasons per lead time North Africa}}{38}{figure.4.15}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces temperature reliabilty maps for djf}}{39}{figure.4.16}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces temperature reliabilty heatmap}}{40}{figure.4.17}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces temperature reliabilty heatmap for north africa}}{41}{figure.4.18}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Temperature RPS heatmaps for all the seasons per categories}}{42}{figure.4.19}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Temperature RPS heatmaps for north africa}}{43}{figure.4.20}%
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Temperature AUC heatmaps }}{44}{figure.4.21}%
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Temperature AUC heatmaps for north africa }}{45}{figure.4.22}%
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Temperature ROCSS heatmaps for MENA region }}{46}{figure.4.23}%
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Temperature ROCSS heatmaps for north africa }}{47}{figure.4.24}%
-\contentsline {figure}{\numberline {4.25}{\ignorespaces The Heatmap of correlation for the mena region for every period \textbf {\textit {(1 for perfect Correlation)} }}}{48}{figure.4.25}%
-\contentsline {figure}{\numberline {4.26}{\ignorespaces 3-months Rolling mean of Spearman Correlation in MENA Region for all centers SON}}{49}{figure.4.26}%
-\contentsline {figure}{\numberline {4.27}{\ignorespaces 3-months Rolling mean of Spearman Correlation in MENA Region for all centers DJF}}{50}{figure.4.27}%
-\contentsline {figure}{\numberline {4.28}{\ignorespaces The Heatmap of correlation for the mena region for every period \textbf {\textit {(1 for perfect Correlation)} }}}{51}{figure.4.28}%
-\contentsline {figure}{\numberline {4.29}{\ignorespaces 3-months Rolling mean of RMSE in MENA Region for all centers DJF in mm}}{52}{figure.4.29}%
-\contentsline {figure}{\numberline {4.30}{\ignorespaces 3-months Rolling mean of RMSE in MENA Region for all centers JJA in mm}}{53}{figure.4.30}%
-\contentsline {figure}{\numberline {4.31}{\ignorespaces heatmap of RMSE For RR in mm}}{54}{figure.4.31}%
-\contentsline {figure}{\numberline {4.32}{\ignorespaces heatmap of RMSE For RR in mm (North Africa)}}{55}{figure.4.32}%
-\contentsline {figure}{\numberline {4.33}{\ignorespaces The Heatmap of rsquared for Precipitations in the mena region for every period \textbf {\textit {(1 for perfect RSQUARED)} }}}{56}{figure.4.33}%
-\contentsline {figure}{\numberline {4.34}{\ignorespaces 3-months Rolling mean of RSQUARED in MENA Region for all centers SON}}{57}{figure.4.34}%
-\contentsline {figure}{\numberline {4.35}{\ignorespaces The Heatmap of Brier Score for each category . \textbf {\textit {(0 represents perfect BS)}}}}{58}{figure.4.35}%
-\contentsline {figure}{\numberline {4.36}{\ignorespaces The Heatmap of Brier Score for lead-time. \textbf {\textit {(0 represents perfect BS)}}}}{59}{figure.4.36}%
-\contentsline {figure}{\numberline {4.37}{\ignorespaces 3-months Rolling mean of Brier Score in MENA Region for all centers middle tercile MAM}}{60}{figure.4.37}%
-\contentsline {figure}{\numberline {4.38}{\ignorespaces The Reliability Score . \textbf {\textit {(0 means perfect Reliability)}}}}{61}{figure.4.38}%
-\contentsline {figure}{\numberline {4.39}{\ignorespaces The 3-month rolling mean for Reliability DJF . \textbf {\textit {Reliability is better in cases where the graphs are closer to the 45-degree line}}}}{62}{figure.4.39}%
-\contentsline {figure}{\numberline {4.40}{\ignorespaces The Heatmap of RPS Score on MENA region for Precipitations . \textbf {\textit {(0 means perfect RPS)}}}}{63}{figure.4.40}%
-\contentsline {figure}{\numberline {4.41}{\ignorespaces The RPS Score on MENA region for Precipitations DJF . \textbf {\textit {(0 means perfect RPS)}}}}{64}{figure.4.41}%
-\contentsline {figure}{\numberline {4.42}{\ignorespaces The Heatmap of ROC Score for each category . \textbf {\textit {(1 means perfect ROC)}}}}{65}{figure.4.42}%
-\contentsline {figure}{\numberline {4.43}{\ignorespaces The Heatmap of ROC Score for lead-times. \textbf {\textit {(1 means perfect ROC)}}}}{66}{figure.4.43}%
-\contentsline {figure}{\numberline {4.44}{\ignorespaces The ROC Score Upper tercile SON . \textbf {\textit {(1 means perfect ROC)}}}}{67}{figure.4.44}%
-\contentsline {figure}{\numberline {4.45}{\ignorespaces The ROCSS Score for each category . \textbf {\textit {(1 means perfect ROCSS)}}}}{68}{figure.4.45}%
-\contentsline {figure}{\numberline {4.46}{\ignorespaces The average of ROCSS Score on all categories . \textbf {\textit {(1 means perfect ROCSS)}}}}{69}{figure.4.46}%
-\contentsline {figure}{\numberline {4.47}{\ignorespaces The ROC Skill Score Upper tercile MAM . \textbf {\textit {(1 means perfect ROCSS)}}}}{70}{figure.4.47}%
-\contentsline {figure}{\numberline {4.48}{\ignorespaces The ROCSS Score for each category North Africa . \textbf {\textit {(1 means perfect ROCSS)}}}}{71}{figure.4.48}%
-\contentsline {figure}{\numberline {4.49}{\ignorespaces The average of ROCSS Score on all categories . \textbf {\textit {(1 means perfect ROCSS)}}}}{72}{figure.4.49}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces The Heatmap of acc for the mena region for every period \textbf {\textit {(1 for perfect Correlation)} }}}{23}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces 3-months Rolling mean of Anomaly Correlation in MENA Region for all centers SON}}{24}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces 3-months Rolling mean of Anomaly Correlation in MENA Region for all centers DJF}}{25}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces The Heatmap of ACC for the North Africa region for every period \textbf {\textit {(1 for perfect Correlation)} }}}{26}{figure.4.4}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces The Heatmap of acc for the mena region for every period \textbf {\textit {(1 for perfect Correlation)} }}}{27}{figure.4.5}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces 3-months Rolling mean of RMSE in MENA Region for all centers DJF in mm}}{28}{figure.4.6}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces 3-months Rolling mean of RMSE in MENA Region for all centers JJA in mm}}{29}{figure.4.7}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces heatmap of RMSE For RR in mm}}{30}{figure.4.8}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces heatmap of RMSE For RR in mm (North Africa)}}{31}{figure.4.9}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces heatmap of RMSE For RR in mm (North Africa)}}{32}{figure.4.10}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces The Heatmap of rsquared for Precipitations in the mena region for every period \textbf {\textit {(1 for perfect RSQUARED)} }}}{33}{figure.4.11}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces 3-months Rolling mean of RSQUARED in MENA Region for all centers SON}}{34}{figure.4.12}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Heatmap of RR RSQUARED in MENA Region for all centers Arabian Peninsula}}{35}{figure.4.13}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces The Heatmap of Brier Score for each category . \textbf {\textit {(0 represents perfect BS)}}}}{36}{figure.4.14}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces The Heatmap of Brier Score for lead-time. \textbf {\textit {(0 represents perfect BS)}}}}{37}{figure.4.15}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces 3-months Rolling mean of Brier Score in MENA Region for all centers middle tercile MAM}}{38}{figure.4.16}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces The Reliability Score . \textbf {\textit {(0 means perfect Reliability)}}}}{39}{figure.4.17}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces The 3-month rolling mean for Reliability DJF . \textbf {\textit {Reliability is better in cases where the graphs are closer to the 45-degree line}}}}{40}{figure.4.18}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces The Reliability Score ArabianPeninsula . \textbf {\textit {(0 means perfect Reliability )}}}}{41}{figure.4.19}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces The Heatmap of RPS Score on MENA region for Precipitations . \textbf {\textit {(0 means perfect RPS)}}}}{42}{figure.4.20}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces The RPS Score on MENA region for Precipitations DJF . \textbf {\textit {(0 means perfect RPS)}}}}{43}{figure.4.21}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces The Heatmap of ROC Score for each category . \textbf {\textit {(1 means perfect ROC)}}}}{44}{figure.4.22}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces The Heatmap of ROC Score for lead-times. \textbf {\textit {(1 means perfect ROC)}}}}{45}{figure.4.23}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces The ROC Score Upper tercile SON . \textbf {\textit {(1 means perfect ROC)}}}}{46}{figure.4.24}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces The ROC Score for each category Arabian Peninsula . \textbf {\textit {(1 means perfect ROC)}}}}{47}{figure.4.25}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces The average of ROC Score on all categories for Arabian Peninsula . \textbf {\textit {(1 means perfect ROC)}}}}{48}{figure.4.26}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces The ROCSS Score for each category . \textbf {\textit {(1 means perfect ROCSS)}}}}{49}{figure.4.27}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces The average of ROCSS Score on all categories . \textbf {\textit {(1 means perfect ROCSS)}}}}{50}{figure.4.28}%
+\contentsline {figure}{\numberline {4.29}{\ignorespaces The ROC Skill Score Upper tercile MAM . \textbf {\textit {(1 means perfect ROCSS)}}}}{51}{figure.4.29}%
+\contentsline {figure}{\numberline {4.30}{\ignorespaces The ROCSS Score for each category North Africa . \textbf {\textit {(1 means perfect ROCSS)}}}}{52}{figure.4.30}%
+\contentsline {figure}{\numberline {4.31}{\ignorespaces The average of ROCSS Score on all categories . \textbf {\textit {(1 means perfect ROCSS)}}}}{53}{figure.4.31}%
+\contentsline {figure}{\numberline {4.32}{\ignorespaces The ROCSS Score for each category Arabian Peninsula . \textbf {\textit {(1 means perfect ROCSS)}}}}{54}{figure.4.32}%
+\contentsline {figure}{\numberline {4.33}{\ignorespaces The average of ROCSS Score on all categories for Arabian Peninsula . \textbf {\textit {(1 means perfect ROCSS)}}}}{55}{figure.4.33}%
