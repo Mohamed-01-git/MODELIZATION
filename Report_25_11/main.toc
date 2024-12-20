@@ -48,12 +48,12 @@
 \contentsline {section}{\numberline {4.2}PRECIPITATIONS}{47}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Deterministic Evaluation Metrics}{48}{subsection.4.2.1}%
 \contentsline {subsubsection}{Spearman rank correlation}{48}{section*.9}%
-\contentsline {subsubsection}{RMSE}{50}{section*.10}%
-\contentsline {subsubsection}{Coefficient of Determination (\( R^2 \))}{52}{section*.11}%
-\contentsline {subsection}{\numberline {4.2.2}Probabilistic Evaluation Metrics}{55}{subsection.4.2.2}%
-\contentsline {subsubsection}{The Brier Score (BS)}{55}{section*.12}%
-\contentsline {subsubsection}{Reliability}{58}{section*.13}%
-\contentsline {subsubsection}{The ranked probability score (RPS)}{60}{section*.14}%
-\contentsline {subsubsection}{Relative operating characteristics}{62}{section*.15}%
-\contentsline {subsubsection}{Relative operating characteristics Skill Score}{64}{section*.16}%
-\contentsline {subsubsection}{summary}{67}{section*.17}%
+\contentsline {subsubsection}{RMSE}{51}{section*.10}%
+\contentsline {subsubsection}{Coefficient of Determination (\( R^2 \))}{55}{section*.11}%
+\contentsline {subsection}{\numberline {4.2.2}Probabilistic Evaluation Metrics}{58}{subsection.4.2.2}%
+\contentsline {subsubsection}{The Brier Score (BS)}{58}{section*.12}%
+\contentsline {subsubsection}{Reliability}{61}{section*.13}%
+\contentsline {subsubsection}{The ranked probability score (RPS)}{63}{section*.14}%
+\contentsline {subsubsection}{Relative operating characteristics}{65}{section*.15}%
+\contentsline {subsubsection}{Relative operating characteristics Skill Score}{67}{section*.16}%
+\contentsline {subsubsection}{summary}{72}{section*.17}%

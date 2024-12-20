@@ -132,7 +132,7 @@ def plot_roc(df,variable,TYPE,mask_it):
         df_temp=df_center.pivot(index= TYPE, columns="period", values=f"mean_{variable}_{TYPE}")
         # df_temp.columns= [calendar.month_abbr[m] for m in df_temp.columns]
         sns.heatmap(df_temp,  fmt=".2f", cmap="Blues", 
-                    ax=axe[i],annot=True,annot_kws={"size": 20},
+                    ax=axe[i],annot=True,annot_kws={"size": 22},
                     vmin=np.nanmin(df[f"mean_{variable}_{TYPE}"].values),
                     vmax=np.nanmax(df[f"mean_{variable}_{TYPE}"].values),
                     cbar_kws={"shrink": 1})
@@ -141,7 +141,7 @@ def plot_roc(df,variable,TYPE,mask_it):
         cbar.ax.tick_params(labelsize=20)
         axe[i].set_xlabel("",fontsize=15)
         axe[i].set_ylabel(f"{TYPE}",fontsize=20)
-        axe[i].set_title(f'Center: {center}',fontsize=20)
+        axe[i].set_title(f'{center}',fontsize=20)
     if mask_it==True:
         subtitle=f"{df.metric[0]}  for {variable}  per  {TYPE} (North Africa)"
     else:
@@ -154,7 +154,7 @@ def plot_roc(df,variable,TYPE,mask_it):
         file_out=f"{df.metric[0]}_{variable}_{TYPE}_NorthAfrica.png"
     else : 
         file_out=f"{df.metric[0]}_{variable}_{TYPE}.png"
-    plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/{df.metric[0]}/{file_out}',dpi=350)
+    plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/{df.metric[0]}/{file_out}')
     # plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/REPORT/Report_25_11/plots/prob/{df.metric[0]}/{df.metric[0]}_{variable}_{TYPE}_North_Africa.png')
     # plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/REPORT/Report_25_11/plots/prob/{df.metric[0]}/{df.metric[0]}_{variable}_{TYPE}.png')
         

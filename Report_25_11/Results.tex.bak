@@ -293,9 +293,10 @@ The 3-month rolling mean for SON correlation shows that the best models are \tex
  
 For DJF, the situation is generally better than for SON. The best model for North Africa is \textbf{\textit{Meteo-France}}, as it shows good and significant correlation. In general, \textbf{\textit{ECMWF and Meteo-France}} are the best. In general we notice that there is differences between centers, especially in the Middle East and Center Africa.
 
+\vspace{1.5cm}
 
 \textbf{focus on north africa:}
-according to the heatmap below, there is no big difference in term of correlation in North africa.
+according to the heatmap below, the correlation shows no big difference for the first lead-time, but for the second and third lead-times, it became lower. Thus, the \textbf{\textit{ecmwf,ukmo and meteo-france}} maintain relatively good correlation.
 
 
 \begin{figure}[H]
@@ -307,21 +308,38 @@ according to the heatmap below, there is no big difference in term of correlatio
 
 \subsubsection{RMSE}
  
-for the Root Mean Squared Error, the best models shown in the heatmap below are \textbf{\textit{DWD, ECMWF and UKMO}}. The RMSE score demonstrate an excellent performance for all models especially \textbf{\textit{DWD, ECMWF and UKMO}}. The performance is stable over lead-times and it is much better for djf in all centers.
+for the Root Mean Squared Error, the best models shown in the heatmap below are \textbf{\textit{DWD, ECMWF and UKMO}}. The RMSE score demonstrate a moderate performance for all models especially \textbf{\textit{DWD, ECMWF and UKMO}}. The performance is stable over lead-times and it is much better for djf in all centers.
 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.3]{plots/det/rmse/rmse_djf_RR.png}
-\caption{3-months Rolling mean of RMSE in MENA Region for all centers DJF}
+\caption{3-months Rolling mean of RMSE in MENA Region for all centers DJF in mm}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.3]{plots/det/rmse/rmse_djf_RR.png}
-\caption{3-months Rolling mean of RMSE in MENA Region for all centers JJA}
+\includegraphics[scale=0.3]{plots/det/rmse/rmse_jja_RR.png}
+\caption{3-months Rolling mean of RMSE in MENA Region for all centers JJA in mm}
 \end{figure}
 
-also for the spacial dimension, the RMSE stay stable and exhibit very good performance for all centers. Thus, all models have high skill and they are consistent with each other.
+also for the spacial dimension, the RMSE stay stable and exhibit moderate performance for all centers. Thus, all models have almost the same skill and they are consistent with each other.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.3]{plots/det/rmse/rmse_RR.png}
+\caption{heatmap of RMSE For RR in mm}
+\end{figure}
+
+\vspace{1.5cm}
+
+\textbf{focus on North Africa} : 
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.3]{plots/det/rmse/rmse_RR.png}
+\caption{heatmap of RMSE For RR in mm (North Africa)}
+\end{figure}
+
+the RMSE is much better for North africa, the score is good over all lead-times and seasons. For centers, \textbf{\textit{ecmwf, ukmo and dwd}} show very good performance.
 
 
 \subsubsection{Coefficient of Determination (\( R^2 \))}
@@ -333,13 +351,17 @@ for precipitation, the R-SQUARED is very low, the maximum value is less than 0.1
 \end{figure}
 
 
-
 \begin{figure}[H]
 \includegraphics[scale=0.3]{plots/det/rsquared/rsquared_son_RR.png}
 \caption{3-months Rolling mean of RSQUARED in MENA Region for all centers SON}
 \end{figure}
 
 there is some isolated zones where the r-squared is good especially in Syria, Irak, Jordan ,Palestine  and East Africa, this high performance is observed in all centers. For the rest of the MENA region the performance is very bad with score near to 0. Hence, there is no constant pattern for the R-SQUARED, the spacial variation is very high for all centers.
+
+\vspace{1.5cm}
+\textbf{focus on North Africa}
+
+there is no big difference in North Africa.
 
 
 \subsection{Probabilistic Evaluation Metrics}
@@ -372,6 +394,11 @@ In general, the performance stays stable over category, lead-time and space.
 the spacial distribution of the BS is homogeneous, the same performance across the MENA region, almost all centers perform well for all lead-times, for  tercile there is a little lower performance for the middle tercile.
 Hint, for the other seasons the results are almost the same. 
 
+\vspace{1.5cm}
+\textbf{focus on North Africa}:
+
+there is no big difference in North Africa.
+
 
 \subsubsection{Reliability}
 
@@ -390,6 +417,11 @@ In the figure above, all centers demonstrate similar moderate performance in ter
 \end{figure}
 
 for the reliability diagram, all centers show moderate results, except for the ukmo that shows lower reliability.Thus, for the lower and upper terciles, models in general show good reliability, but for the middle tercile, this models aren't reliable. above all, \textbf{\textit{ecmwf}}  shows the highest performance for reliability.
+
+\vspace{1.5cm}
+\textbf{focus on North Africa}:
+
+there is no big difference in North Africa.
 
 
 \subsubsection{The ranked probability score (RPS)}
@@ -412,6 +444,10 @@ In the figure above, all centers demonstrate moderate performance, except for UK
 
 the spacial distribution of the RPS, is homogeneous, in all the region the score is good for all centers.Thus, the ukmo shows lower performance for this score.
 
+\vspace{1.5cm}
+\textbf{focus on North Africa}:
+
+there is no big difference in North Africa.
 
 \subsubsection{Relative operating characteristics}
 
@@ -438,6 +474,11 @@ for the ROC score, all centers show similar good performance, in general the bes
 
 the spacial distribution of the roc score confirms an important result. For precipitation all centers shows better performance for the East of Africa, Irak,Syria,Jordan and Palestine. The performance in this zone is very high (score near to 1). For the rest of MENA region the performance is similar, with moderate to good score.
 
+\vspace{1.5cm}
+\textbf{focus on North Africa}:
+
+there is no big difference in North Africa.
+
 
 \subsubsection{Relative operating characteristics Skill Score}
 
@@ -461,16 +502,29 @@ In the figure above, the ECMWF exhibit the best performance for all terciles and
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.3]{plots/prob/rocss/rocss_mam_RR_upper.png}
-    \caption{The ROC Skill Score Upper tercile MAM    . \textbf{\textit{(1 means perfect ROC)}}}
+    \caption{The ROC Skill Score Upper tercile MAM    . \textbf{\textit{(1 means perfect ROCSS)}}}
 \end{figure}
 
 the spacial distribution of the ROCSS, shows that all centers are consistent for this score. The spacial distribution isn't clear, there is a high spacial variability.
 
+\vspace{1.5cm}
+\textbf{focus on North Africa}:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{plots/prob/rocss/rocss_RR_category_NorthAfrica.png}
+    \caption{The ROCSS Score for each category North Africa . \textbf{\textit{(1 means perfect ROCSS)}}}
+\end{figure}
 
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{plots/prob/rocss/rocss_RR_lead_time_NorthAfrica.png}
+    \caption{The average of  ROCSS Score on all categories    . \textbf{\textit{(1 means perfect ROCSS)}}}
+\end{figure}
 
 
-
+the rocss for North Africa is in general lower, thus the performance is less accurate in North Africa
 
 
 \subsubsection{summary}

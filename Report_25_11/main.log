@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.17)  18 DEC 2024 18:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.17)  20 DEC 2024 10:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1247,7 +1247,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.37 ...berline {4.1}Temperature}{22}{section.4.1}
+l.37 ...berline {4.1}Temperature}{21}{section.4.1}
                                                   % [1])
 \tf@toc=\write6
 \openout6 = `main.toc'.
@@ -2194,7 +2194,7 @@ l.275 T
 <plots/det/corr/CORR_son_RR.png, id=648, 1445.4pt x 1300.86pt>
 File: plots/det/corr/CORR_son_RR.png Graphic file (type png)
 <use plots/det/corr/CORR_son_RR.png>
-Package pdftex.def Info: plots/det/corr/CORR_son_RR.png  used on input line 281
+Package pdftex.def Info: plots/det/corr/CORR_son_RR.png  used on input line 282
 .
 (pdftex.def)             Requested size: 433.62335pt x 390.26102pt.
 
@@ -2212,13 +2212,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.25})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.284 F
+l.285 F
        or temperature, the models demonstrate the best performance in the tr...
  <./plots/det/corr/corr_RR.png>]
 <plots/det/corr/CORR_djf_RR.png, id=657, 1445.4pt x 1300.86pt>
 File: plots/det/corr/CORR_djf_RR.png Graphic file (type png)
 <use plots/det/corr/CORR_djf_RR.png>
-Package pdftex.def Info: plots/det/corr/CORR_djf_RR.png  used on input line 287
+Package pdftex.def Info: plots/det/corr/CORR_djf_RR.png  used on input line 288
 .
 (pdftex.def)             Requested size: 433.62335pt x 390.26102pt.
 
@@ -2236,14 +2236,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.26})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.290 
+l.291 
        <./plots/det/corr/CORR_son_RR.png>]
-<plots/det/rmse/rmse_djf_RR.png, id=664, 1445.4pt x 1300.86pt>
-File: plots/det/rmse/rmse_djf_RR.png Graphic file (type png)
-<use plots/det/rmse/rmse_djf_RR.png>
-Package pdftex.def Info: plots/det/rmse/rmse_djf_RR.png  used on input line 304
-.
-(pdftex.def)             Requested size: 433.62335pt x 390.26102pt.
+<plots/det/corr/corr_RR_NorthAfrica.png, id=664, 1806.75pt x 1300.86pt>
+File: plots/det/corr/corr_RR_NorthAfrica.png Graphic file (type png)
+<use plots/det/corr/corr_RR_NorthAfrica.png>
+Package pdftex.def Info: plots/det/corr/corr_RR_NorthAfrica.png  used on input 
+line 304.
+(pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
 
 
 
@@ -2261,9 +2261,10 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.27})
                                                   \__shipout_drop_firstpage_...
 l.307 
        <./plots/det/corr/CORR_djf_RR.png>]
+<plots/det/rmse/rmse_djf_RR.png, id=671, 1445.4pt x 1300.86pt>
 File: plots/det/rmse/rmse_djf_RR.png Graphic file (type png)
 <use plots/det/rmse/rmse_djf_RR.png>
-Package pdftex.def Info: plots/det/rmse/rmse_djf_RR.png  used on input line 310
+Package pdftex.def Info: plots/det/rmse/rmse_djf_RR.png  used on input line 315
 .
 (pdftex.def)             Requested size: 433.62335pt x 390.26102pt.
 
@@ -2281,14 +2282,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.28})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.313 
-       <./plots/det/rmse/rmse_djf_RR.png>]
-<plots/det/rsquared/rsquared_RR.png, id=678, 1806.75pt x 1300.86pt>
-File: plots/det/rsquared/rsquared_RR.png Graphic file (type png)
-<use plots/det/rsquared/rsquared_RR.png>
-Package pdftex.def Info: plots/det/rsquared/rsquared_RR.png  used on input line
- 321.
-(pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
+l.318 
+       <./plots/det/corr/corr_RR_NorthAfrica.png>]
+<plots/det/rmse/rmse_jja_RR.png, id=679, 1445.4pt x 1300.86pt>
+File: plots/det/rmse/rmse_jja_RR.png Graphic file (type png)
+<use plots/det/rmse/rmse_jja_RR.png>
+Package pdftex.def Info: plots/det/rmse/rmse_jja_RR.png  used on input line 321
+.
+(pdftex.def)             Requested size: 433.62335pt x 390.26102pt.
 
 
 
@@ -2305,13 +2306,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.29})
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.324 
-      ]
-<plots/det/rsquared/rsquared_son_RR.png, id=685, 1445.4pt x 1300.86pt>
-File: plots/det/rsquared/rsquared_son_RR.png Graphic file (type png)
-<use plots/det/rsquared/rsquared_son_RR.png>
-Package pdftex.def Info: plots/det/rsquared/rsquared_son_RR.png  used on input 
-line 328.
-(pdftex.def)             Requested size: 433.62335pt x 390.26102pt.
+       <./plots/det/rmse/rmse_djf_RR.png>]
+<plots/det/rmse/rmse_RR.png, id=686, 1806.75pt x 1300.86pt>
+File: plots/det/rmse/rmse_RR.png Graphic file (type png)
+<use plots/det/rmse/rmse_RR.png>
+Package pdftex.def Info: plots/det/rmse/rmse_RR.png  used on input line 329.
+(pdftex.def)             Requested size: 542.02919pt x 390.26102pt.
+
+Overfull \hbox (72.27417pt too wide) in paragraph at lines 329--330
+ [][] 
+ []
+
 
 
 
@@ -2327,14 +2332,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.30})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.331 
-       <./plots/det/rsquared/rsquared_RR.png>]
-<plots/prob/bs/bs_RR_category.png, id=692, 1806.75pt x 1300.86pt>
-File: plots/prob/bs/bs_RR_category.png Graphic file (type png)
-<use plots/prob/bs/bs_RR_category.png>
-Package pdftex.def Info: plots/prob/bs/bs_RR_category.png  used on input line 3
-41.
-(pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
+l.332 
+       <./plots/det/rmse/rmse_jja_RR.png>]
+File: plots/det/rmse/rmse_RR.png Graphic file (type png)
+<use plots/det/rmse/rmse_RR.png>
+Package pdftex.def Info: plots/det/rmse/rmse_RR.png  used on input line 338.
+(pdftex.def)             Requested size: 542.02919pt x 390.26102pt.
+
+Overfull \hbox (72.27417pt too wide) in paragraph at lines 338--339
+ [][] 
+ []
+
 
 
 
@@ -2350,13 +2358,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.31})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.344 
-       <./plots/det/rsquared/rsquared_son_RR.png>]
-<plots/prob/bs/bs_RR_lead_time.png, id=700, 1806.75pt x 1300.86pt>
-File: plots/prob/bs/bs_RR_lead_time.png Graphic file (type png)
-<use plots/prob/bs/bs_RR_lead_time.png>
-Package pdftex.def Info: plots/prob/bs/bs_RR_lead_time.png  used on input line 
-352.
+l.341 
+       <./plots/det/rmse/rmse_RR.png>]
+<plots/det/rsquared/rsquared_RR.png, id=700, 1806.75pt x 1300.86pt>
+File: plots/det/rsquared/rsquared_RR.png Graphic file (type png)
+<use plots/det/rsquared/rsquared_RR.png>
+Package pdftex.def Info: plots/det/rsquared/rsquared_RR.png  used on input line
+ 349.
 (pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
 
 
@@ -2373,13 +2381,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.32})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.355 
-       <./plots/prob/bs/bs_RR_category.png>]
-<plots/prob/bs/bs_mam_RR_middle.png, id=708, 1445.4pt x 1300.86pt>
-File: plots/prob/bs/bs_mam_RR_middle.png Graphic file (type png)
-<use plots/prob/bs/bs_mam_RR_middle.png>
-Package pdftex.def Info: plots/prob/bs/bs_mam_RR_middle.png  used on input line
- 358.
+l.352 
+      ]
+<plots/det/rsquared/rsquared_son_RR.png, id=707, 1445.4pt x 1300.86pt>
+File: plots/det/rsquared/rsquared_son_RR.png Graphic file (type png)
+<use plots/det/rsquared/rsquared_son_RR.png>
+Package pdftex.def Info: plots/det/rsquared/rsquared_son_RR.png  used on input 
+line 355.
 (pdftex.def)             Requested size: 433.62335pt x 390.26102pt.
 
 
@@ -2396,12 +2404,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.33})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.361 
-       <./plots/prob/bs/bs_RR_lead_time.png>]
-<plots/prob/rela/rela_RR.png, id=715, 1806.75pt x 1300.86pt>
-File: plots/prob/rela/rela_RR.png Graphic file (type png)
-<use plots/prob/rela/rela_RR.png>
-Package pdftex.def Info: plots/prob/rela/rela_RR.png  used on input line 370.
+l.358 
+       <./plots/det/rsquared/rsquared_RR.png>]
+<plots/prob/bs/bs_RR_category.png, id=714, 1806.75pt x 1300.86pt>
+File: plots/prob/bs/bs_RR_category.png Graphic file (type png)
+<use plots/prob/bs/bs_RR_category.png>
+Package pdftex.def Info: plots/prob/bs/bs_RR_category.png  used on input line 3
+73.
 (pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
 
 
@@ -2418,14 +2427,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.34})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.373 
-       <./plots/prob/bs/bs_mam_RR_middle.png>]
-<plots/prob/rela/rela_diagram_RR_djf.png, id=722, 1445.4pt x 1300.86pt>
-File: plots/prob/rela/rela_diagram_RR_djf.png Graphic file (type png)
-<use plots/prob/rela/rela_diagram_RR_djf.png>
-Package pdftex.def Info: plots/prob/rela/rela_diagram_RR_djf.png  used on input
- line 378.
-(pdftex.def)             Requested size: 433.62335pt x 390.26102pt.
+l.376 
+       <./plots/det/rsquared/rsquared_son_RR.png>]
+<plots/prob/bs/bs_RR_lead_time.png, id=721, 1806.75pt x 1300.86pt>
+File: plots/prob/bs/bs_RR_lead_time.png Graphic file (type png)
+<use plots/prob/bs/bs_RR_lead_time.png>
+Package pdftex.def Info: plots/prob/bs/bs_RR_lead_time.png  used on input line 
+384.
+(pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
 
 
 
@@ -2441,13 +2450,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.35})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.381 
-       <./plots/prob/rela/rela_RR.png>]
-<plots/prob/rps/rps_RR.png, id=730, 1806.75pt x 1300.86pt>
-File: plots/prob/rps/rps_RR.png Graphic file (type png)
-<use plots/prob/rps/rps_RR.png>
-Package pdftex.def Info: plots/prob/rps/rps_RR.png  used on input line 390.
-(pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
+l.387 
+       <./plots/prob/bs/bs_RR_category.png>]
+<plots/prob/bs/bs_mam_RR_middle.png, id=729, 1445.4pt x 1300.86pt>
+File: plots/prob/bs/bs_mam_RR_middle.png Graphic file (type png)
+<use plots/prob/bs/bs_mam_RR_middle.png>
+Package pdftex.def Info: plots/prob/bs/bs_mam_RR_middle.png  used on input line
+ 390.
+(pdftex.def)             Requested size: 433.62335pt x 390.26102pt.
 
 
 
@@ -2464,13 +2474,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.36})
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.393 
-       <./plots/prob/rela/rela_diagram_RR_djf.png>]
-<plots/prob/rps/rps_djf_RR.png, id=737, 1445.4pt x 1300.86pt>
-File: plots/prob/rps/rps_djf_RR.png Graphic file (type png)
-<use plots/prob/rps/rps_djf_RR.png>
-Package pdftex.def Info: plots/prob/rps/rps_djf_RR.png  used on input line 399.
-
-(pdftex.def)             Requested size: 361.34912pt x 325.2142pt.
+       <./plots/prob/bs/bs_RR_lead_time.png>]
+<plots/prob/rela/rela_RR.png, id=736, 1806.75pt x 1300.86pt>
+File: plots/prob/rela/rela_RR.png Graphic file (type png)
+<use plots/prob/rela/rela_RR.png>
+Package pdftex.def Info: plots/prob/rela/rela_RR.png  used on input line 407.
+(pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
 
 
 
@@ -2486,14 +2495,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.37})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.402 
-       <./plots/prob/rps/rps_RR.png>]
-<plots/prob/roc/roc_RR_category.png, id=746, 1806.75pt x 1300.86pt>
-File: plots/prob/roc/roc_RR_category.png Graphic file (type png)
-<use plots/prob/roc/roc_RR_category.png>
-Package pdftex.def Info: plots/prob/roc/roc_RR_category.png  used on input line
- 410.
-(pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
+l.410 
+       <./plots/prob/bs/bs_mam_RR_middle.png>]
+<plots/prob/rela/rela_diagram_RR_djf.png, id=744, 1445.4pt x 1300.86pt>
+File: plots/prob/rela/rela_diagram_RR_djf.png Graphic file (type png)
+<use plots/prob/rela/rela_diagram_RR_djf.png>
+Package pdftex.def Info: plots/prob/rela/rela_diagram_RR_djf.png  used on input
+ line 415.
+(pdftex.def)             Requested size: 433.62335pt x 390.26102pt.
 
 
 
@@ -2509,13 +2518,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.38})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.413 
-       <./plots/prob/rps/rps_djf_RR.png>]
-<plots/prob/roc/roc_RR_lead_time.png, id=753, 1806.75pt x 1300.86pt>
-File: plots/prob/roc/roc_RR_lead_time.png Graphic file (type png)
-<use plots/prob/roc/roc_RR_lead_time.png>
-Package pdftex.def Info: plots/prob/roc/roc_RR_lead_time.png  used on input lin
-e 417.
+l.418 
+       <./plots/prob/rela/rela_RR.png>]
+<plots/prob/rps/rps_RR.png, id=752, 1806.75pt x 1300.86pt>
+File: plots/prob/rps/rps_RR.png Graphic file (type png)
+<use plots/prob/rps/rps_RR.png>
+Package pdftex.def Info: plots/prob/rps/rps_RR.png  used on input line 432.
 (pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
 
 
@@ -2532,14 +2540,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.39})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.420 
-       <./plots/prob/roc/roc_RR_category.png>]
-<plots/prob/roc/roc_son_RR_upper.png, id=761, 1445.4pt x 1300.86pt>
-File: plots/prob/roc/roc_son_RR_upper.png Graphic file (type png)
-<use plots/prob/roc/roc_son_RR_upper.png>
-Package pdftex.def Info: plots/prob/roc/roc_son_RR_upper.png  used on input lin
-e 425.
-(pdftex.def)             Requested size: 433.62335pt x 390.26102pt.
+l.435 
+       <./plots/prob/rela/rela_diagram_RR_djf.png>]
+<plots/prob/rps/rps_djf_RR.png, id=759, 1445.4pt x 1300.86pt>
+File: plots/prob/rps/rps_djf_RR.png Graphic file (type png)
+<use plots/prob/rps/rps_djf_RR.png>
+Package pdftex.def Info: plots/prob/rps/rps_djf_RR.png  used on input line 441.
+
+(pdftex.def)             Requested size: 361.34912pt x 325.2142pt.
 
 
 
@@ -2555,13 +2563,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.40})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.428 
-       <./plots/prob/roc/roc_RR_lead_time.png>]
-<plots/prob/rocss/rocss_RR_category.png, id=768, 1806.75pt x 1300.86pt>
-File: plots/prob/rocss/rocss_RR_category.png Graphic file (type png)
-<use plots/prob/rocss/rocss_RR_category.png>
-Package pdftex.def Info: plots/prob/rocss/rocss_RR_category.png  used on input 
-line 438.
+l.444 
+       <./plots/prob/rps/rps_RR.png>]
+<plots/prob/roc/roc_RR_category.png, id=767, 1806.75pt x 1300.86pt>
+File: plots/prob/roc/roc_RR_category.png Graphic file (type png)
+<use plots/prob/roc/roc_RR_category.png>
+Package pdftex.def Info: plots/prob/roc/roc_RR_category.png  used on input line
+ 456.
 (pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
 
 
@@ -2578,13 +2586,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.41})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.441 
-       <./plots/prob/roc/roc_son_RR_upper.png>]
-<plots/prob/rocss/rocss_RR_lead_time.png, id=776, 1806.75pt x 1300.86pt>
-File: plots/prob/rocss/rocss_RR_lead_time.png Graphic file (type png)
-<use plots/prob/rocss/rocss_RR_lead_time.png>
-Package pdftex.def Info: plots/prob/rocss/rocss_RR_lead_time.png  used on input
- line 445.
+l.459 
+       <./plots/prob/rps/rps_djf_RR.png>]
+<plots/prob/roc/roc_RR_lead_time.png, id=774, 1806.75pt x 1300.86pt>
+File: plots/prob/roc/roc_RR_lead_time.png Graphic file (type png)
+<use plots/prob/roc/roc_RR_lead_time.png>
+Package pdftex.def Info: plots/prob/roc/roc_RR_lead_time.png  used on input lin
+e 463.
 (pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
 
 
@@ -2601,13 +2609,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.42})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.448 
-       <./plots/prob/rocss/rocss_RR_category.png>]
-<plots/prob/rocss/rocss_mam_RR_upper.png, id=783, 1445.4pt x 1300.86pt>
-File: plots/prob/rocss/rocss_mam_RR_upper.png Graphic file (type png)
-<use plots/prob/rocss/rocss_mam_RR_upper.png>
-Package pdftex.def Info: plots/prob/rocss/rocss_mam_RR_upper.png  used on input
- line 453.
+l.466 
+       <./plots/prob/roc/roc_RR_category.png>]
+<plots/prob/roc/roc_son_RR_upper.png, id=782, 1445.4pt x 1300.86pt>
+File: plots/prob/roc/roc_son_RR_upper.png Graphic file (type png)
+<use plots/prob/roc/roc_son_RR_upper.png>
+Package pdftex.def Info: plots/prob/roc/roc_son_RR_upper.png  used on input lin
+e 471.
 (pdftex.def)             Requested size: 433.62335pt x 390.26102pt.
 
 
@@ -2624,60 +2632,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.43})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.456 
-       <./plots/prob/rocss/rocss_RR_lead_time.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 476--476
-[]|\OT1/cmr/bx/n/10.95 Dependent
- []
-
-
-Overfull \hbox (21.55861pt too wide) in paragraph at lines 476--476
-[]|\OT1/cmr/bx/n/10.95 Visualization/Tools| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 476--476
-[]|\OT1/cmr/m/n/10.95 Reliability di-a-
- []
-
-
-Overfull \hbox (10.0664pt too wide) in paragraph at lines 476--476
-[]|\OT1/cmr/bx/n/10.95 Discrimination| 
- []
-
-
-Underfull \hbox (badness 3364) in paragraph at lines 476--476
-[]|\OT1/cmr/m/n/10.95 Ability to dis-tin-guish
- []
-
-
-Underfull \hbox (badness 1748) in paragraph at lines 476--476
-[]|\OT1/cmr/m/n/10.95 Boldness of prob-a-bil-i-
- []
-
-
-Underfull \hbox (badness 1248) in paragraph at lines 476--476
-\OT1/cmr/m/n/10.95 ties (away from av-er-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 476--476
-[]|\OT1/cmr/m/n/10.95 Informativeness and
- []
-
-
-Underfull \hbox (badness 5203) in paragraph at lines 476--476
-[]|\OT1/cmr/m/n/10.95 Brier Score de-
- []
-
-
-Overfull \hbox (33.48904pt too wide) in alignment at lines 476--476
-[][][][][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+l.474 
+       <./plots/prob/roc/roc_RR_lead_time.png>]
+<plots/prob/rocss/rocss_RR_category.png, id=790, 1806.75pt x 1300.86pt>
+File: plots/prob/rocss/rocss_RR_category.png Graphic file (type png)
+<use plots/prob/rocss/rocss_RR_category.png>
+Package pdftex.def Info: plots/prob/rocss/rocss_RR_category.png  used on input 
+line 489.
+(pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
 
 
 
@@ -2693,18 +2655,180 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.44})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.481 \newpage
-               <./plots/prob/rocss/rocss_mam_RR_upper.png>])
+l.491 \end{figure}
+                   <./plots/prob/roc/roc_son_RR_upper.png>]
+<plots/prob/rocss/rocss_RR_lead_time.png, id=798, 1806.75pt x 1300.86pt>
+File: plots/prob/rocss/rocss_RR_lead_time.png Graphic file (type png)
+<use plots/prob/rocss/rocss_RR_lead_time.png>
+Package pdftex.def Info: plots/prob/rocss/rocss_RR_lead_time.png  used on input
+ line 496.
+(pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [68
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.45})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.499 
+       <./plots/prob/rocss/rocss_RR_category.png>]
+<plots/prob/rocss/rocss_mam_RR_upper.png, id=805, 1445.4pt x 1300.86pt>
+File: plots/prob/rocss/rocss_mam_RR_upper.png Graphic file (type png)
+<use plots/prob/rocss/rocss_mam_RR_upper.png>
+Package pdftex.def Info: plots/prob/rocss/rocss_mam_RR_upper.png  used on input
+ line 504.
+(pdftex.def)             Requested size: 433.62335pt x 390.26102pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[69
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.46})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.507 
+       <./plots/prob/rocss/rocss_RR_lead_time.png>]
+<plots/prob/rocss/rocss_RR_category_NorthAfrica.png, id=812, 1806.75pt x 1300.8
+6pt>
+File: plots/prob/rocss/rocss_RR_category_NorthAfrica.png Graphic file (type png
+)
+<use plots/prob/rocss/rocss_RR_category_NorthAfrica.png>
+Package pdftex.def Info: plots/prob/rocss/rocss_RR_category_NorthAfrica.png  us
+ed on input line 515.
+(pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[70
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.47})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.518 
+       <./plots/prob/rocss/rocss_mam_RR_upper.png>]
+<plots/prob/rocss/rocss_RR_lead_time_NorthAfrica.png, id=819, 1806.75pt x 1300.
+86pt>
+File: plots/prob/rocss/rocss_RR_lead_time_NorthAfrica.png Graphic file (type pn
+g)
+<use plots/prob/rocss/rocss_RR_lead_time_NorthAfrica.png>
+Package pdftex.def Info: plots/prob/rocss/rocss_RR_lead_time_NorthAfrica.png  u
+sed on input line 522.
+(pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[71
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.48})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.525 
+       <./plots/prob/rocss/rocss_RR_category_NorthAfrica.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 540--540
+[]|\OT1/cmr/bx/n/10.95 Dependent
+ []
+
+
+Overfull \hbox (21.55861pt too wide) in paragraph at lines 540--540
+[]|\OT1/cmr/bx/n/10.95 Visualization/Tools| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 540--540
+[]|\OT1/cmr/m/n/10.95 Reliability di-a-
+ []
+
+
+Overfull \hbox (10.0664pt too wide) in paragraph at lines 540--540
+[]|\OT1/cmr/bx/n/10.95 Discrimination| 
+ []
+
+
+Underfull \hbox (badness 3364) in paragraph at lines 540--540
+[]|\OT1/cmr/m/n/10.95 Ability to dis-tin-guish
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 540--540
+[]|\OT1/cmr/m/n/10.95 Boldness of prob-a-bil-i-
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 540--540
+\OT1/cmr/m/n/10.95 ties (away from av-er-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 540--540
+[]|\OT1/cmr/m/n/10.95 Informativeness and
+ []
+
+
+Underfull \hbox (badness 5203) in paragraph at lines 540--540
+[]|\OT1/cmr/m/n/10.95 Brier Score de-
+ []
+
+
+Overfull \hbox (33.48904pt too wide) in alignment at lines 540--540
+[][][][][] 
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[72
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.49})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.545 \newpage
+              
 pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.51 \clearpage
-               ] (main.lof
+l.545 \newpage
+               <./plots/prob/rocss/rocss_RR_lead_time_NorthAfrica.png>])
 
-[69
+[73] (main.lof
+
+[74
 
 ])
 \tf@lof=\write7
@@ -2720,13 +2844,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[70] (main.lot)
+[75] (main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
 
 
-[71
+[76
 
 ] (main.aux)
  ***********
@@ -2744,10 +2868,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30732 strings out of 475560
- 588714 string characters out of 5769136
- 1501779 words of memory out of 5000000
- 52914 multiletter control sequences out of 15000+600000
+ 30777 strings out of 475560
+ 590409 string characters out of 5769136
+ 1501776 words of memory out of 5000000
+ 52949 multiletter control sequences out of 15000+600000
  569981 words of font info for 76 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  84i,12n,93p,3143b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2945,9 +3069,9 @@ m/cmsy10.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/
 cm/cmsy8.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/
 cm/cmti10.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts
 /cm/cmti9.pfb>
-Output written on main.pdf (72 pages, 26519536 bytes).
+Output written on main.pdf (77 pages, 27347790 bytes).
 PDF statistics:
- 1013 PDF objects out of 1200 (max. 8388607)
- 221 named destinations out of 1000 (max. 500000)
- 566 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1058 PDF objects out of 1200 (max. 8388607)
+ 231 named destinations out of 1000 (max. 500000)
+ 591 words of extra memory for PDF output out of 10000 (max. 10000000)
 
