@@ -45,11 +45,18 @@ def load_data(file_name, aggr, metric,period):
 
 
 
-def get_mask(df_t2m,df_rr):
+def get_mask(zone,df_t2m,df_rr):
     countries = regionmask.defined_regions.natural_earth_v5_0_0.countries_110
     mask=countries.mask(df_t2m)
     mask=mask.transpose("lat","lon")
-    NA_country_names = ['Algeria','Egypt','Libya','Mauritania','Morocco','Tunisia']
+    if zone == "NorthAfrica":
+        NA_country_names = ['Algeria','Egypt','Libya','Mauritania','Morocco','Tunisia']
+    elif zone == "ArabianPeninsula":
+        NA_country_names = ['Saudi Arabia','Yemen','Oman',
+                            'United Arab Emirates','Kuwait',
+                            'Qatar','Syria','Iraq',
+                            'Jordan']
+    
     na_indices =[countries.map_keys(name) for name in NA_country_names]
     broadcasted_mask = np.broadcast_to(mask.data, (df_t2m.sizes['forecastMonth'], *mask.shape))
     DATA_t2m=df_t2m.where(np.isin(broadcasted_mask, na_indices))
@@ -60,7 +67,7 @@ def get_mask(df_t2m,df_rr):
     return DATA_t2m , DATA_rr
     
     
-def create_combined_dataframe(aggr, metric,mask_it):
+def create_combined_dataframe(aggr, metric,mask_it,zone):
     all_dataframes = []
 
     for file_name in available_files:
@@ -73,7 +80,7 @@ def create_combined_dataframe(aggr, metric,mask_it):
             # Load data for the current period
             data_t2m,data_RR = load_data(file_name, aggr, metric, period)
             if mask_it == True:
-                data_t2m,data_RR = get_mask(data_t2m,data_RR)
+                data_t2m,data_RR = get_mask(zone,data_t2m,data_RR)
 
 
             # Compute the mean across all dimensions
@@ -103,11 +110,12 @@ def create_combined_dataframe(aggr, metric,mask_it):
     return combined_df
 
  
-rps_df=create_combined_dataframe("1m", "rps",False)
-rps_df_masked=create_combined_dataframe("1m", "rps",True)
+rps_df=create_combined_dataframe("1m", "rps",False,"mena")
+rps_df_NorthAfrica=create_combined_dataframe("1m", "rps",True,"NorthAfrica")
+rps_df_ArabianPeninsula=create_combined_dataframe("1m", "rps",True,"ArabianPeninsula")
 
 
-def plot_determinist(df,variable,mask_it):
+def plot_determinist(df,variable,mask_it,zone):
     fig,axe=plt.subplots(nrows=3,ncols=3,figsize=(25, 18))
     axe=axe.flatten()
     
@@ -127,28 +135,27 @@ def plot_determinist(df,variable,mask_it):
         axe[i].set_xlabel("",fontsize=15)
         axe[i].set_ylabel("LEAD TIME",fontsize=20)
         axe[i].set_title(f'Center: {center}',fontsize=20)
-    if mask_it==True:
-        subtitle=f"{df.metric[0]}  for {variable}  per  LEAD TIME (North Africa)"
-    else:
-        subtitle=f"{df.metric[0]}  for {variable}  per  LEAD TIME"
-        
+
+    subtitle=f"{df.metric[0]}  for {variable}  per  LEAD TIME {zone}"  
     fig.suptitle(subtitle, fontsize=16, fontweight='bold', y=0.981) 
     
     for j in range(i + 1, len(axe)):
         fig.delaxes(axe[j])
         
-    if mask_it==True:
-        file_out=f"{df.metric[0]}_{variable}_NorthAfrica.png"
-    else : 
-        file_out=f"{df.metric[0]}_{variable}.png"
+    file_out=f"{df.metric[0]}_{variable}_{zone}.png"
     plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/{df.metric[0]}/{file_out}')    
     plt.tight_layout()
     plt.show()       
 
-for mask_it,df in zip([True,False],[rps_df_masked,rps_df]):
-                      for variable in ["RR","T2M"]:
-                          plot_determinist(df,variable,mask_it)
-                          
+# for mask_it,df in zip([True,False],[rps_df_masked,rps_df]):
+#                       for variable in ["RR","T2M"]:
+#                           plot_determinist(df,variable,mask_it)
+    
+
+for variable in ["RR","T2M"]:
+    plot_determinist(rps_df,variable,False,"mena")
+    plot_determinist(rps_df_ArabianPeninsula,variable,True,"NorthAfrica")
+    plot_determinist(rps_df_ArabianPeninsula,variable,True,"ArabianPeninsula")
     
     
 # for df in [rps_df]:

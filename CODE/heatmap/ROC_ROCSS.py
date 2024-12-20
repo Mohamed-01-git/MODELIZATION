@@ -48,22 +48,29 @@ def load_data(file_name, aggr, metric,period):
 #     print(df1.dims)
 
 
-def get_mask(df_t2m,df_rr):
+def get_mask(zone,df_t2m,df_rr):
     countries = regionmask.defined_regions.natural_earth_v5_0_0.countries_110
     mask=countries.mask(df_t2m)
     mask=mask.transpose("lat","lon")
-    NA_country_names = ['Algeria','Egypt','Libya','Mauritania','Morocco','Tunisia']
+    if zone == "NorthAfrica":
+        NA_country_names = ['Algeria','Egypt','Libya','Mauritania','Morocco','Tunisia']
+    elif zone == "ArabianPeninsula":
+        NA_country_names = ['Saudi Arabia','Yemen','Oman',
+                            'United Arab Emirates','Kuwait',
+                            'Qatar','Syria','Iraq',
+                            'Jordan']
+    
     na_indices =[countries.map_keys(name) for name in NA_country_names]
-    broadcasted_mask = np.broadcast_to(mask.data, (df_t2m.sizes['forecastMonth'], df_t2m.sizes['category'], *mask.shape))
+    broadcasted_mask = np.broadcast_to(mask.data, (df_t2m.sizes['forecastMonth'], *mask.shape))
     DATA_t2m=df_t2m.where(np.isin(broadcasted_mask, na_indices))
     mask=countries.mask(df_rr)
     mask=mask.transpose("lat","lon")
-    broadcasted_mask_2 = np.broadcast_to(mask.data, (df_rr.sizes['forecastMonth'], df_rr.sizes['category'],*mask.shape))
+    broadcasted_mask_2 = np.broadcast_to(mask.data, (df_rr.sizes['forecastMonth'], *mask.shape))
     DATA_rr=df_rr.where(np.isin(broadcasted_mask_2, na_indices))
     return DATA_t2m , DATA_rr
 
 
-def create_combined_dataframe(aggr, metric,mask_it):
+def create_combined_dataframe(aggr, metric,mask_it,zone):
     all_dataframes = []
 
     for file_name in available_files:
@@ -74,7 +81,7 @@ def create_combined_dataframe(aggr, metric,mask_it):
             # Load data for the current period
             data_t2m,data_RR = load_data(file_name, aggr, metric, period)
             if mask_it==True:
-                data_t2m,data_RR = get_mask(data_t2m,data_RR)
+                data_t2m,data_RR = get_mask(zone,data_t2m,data_RR)
             
             # Compute the mean across all dimensions
             mean_score_RR_lead_time= data_RR.mean(dim=["lon", "lat",  "category"], skipna=True).to_array().values
@@ -111,18 +118,21 @@ def create_combined_dataframe(aggr, metric,mask_it):
     return combined_df
 
 
-roc_df = create_combined_dataframe("1m", "roc",False)
-rocss_df = create_combined_dataframe("1m", "rocss",False)  
-bs_df = create_combined_dataframe("1m", "bs",False) 
+roc_df = create_combined_dataframe("1m", "roc",False,"mena")
+rocss_df = create_combined_dataframe("1m", "rocss",False,"mena")  
+bs_df = create_combined_dataframe("1m", "bs",False,"mena") 
 
-roc_df_masked = create_combined_dataframe("1m", "roc",True)
-rocss_df_masked = create_combined_dataframe("1m", "rocss",True)  
-bs_df_masked = create_combined_dataframe("1m", "bs",True)
+roc_df_NorthAfrica = create_combined_dataframe("1m", "roc",True,"NorthAfrica")
+rocss_df_NorthAfrica = create_combined_dataframe("1m", "rocss",True,"NorthAfrica")  
+bs_df_NorthAfrica = create_combined_dataframe("1m", "bs",True,"NorthAfrica")
 
+roc_df_ArabianPeninsula = create_combined_dataframe("1m", "roc",True,"ArabianPeninsula")
+rocss_df_ArabianPeninsula = create_combined_dataframe("1m", "rocss",True,"ArabianPeninsula")  
+bs_df_ArabianPeninsula = create_combined_dataframe("1m", "bs",True,"ArabianPeninsula")
 
 TYPE=[ "lead_time", "category"]
 variable=["T2M","RR"]
-def plot_roc(df,variable,TYPE,mask_it):
+def plot_roc(df,variable,TYPE,mask_it,zone):
     fig,axe=plt.subplots(nrows=3,ncols=3,figsize=(25, 18))
     axe=axe.flatten()
     
@@ -142,18 +152,16 @@ def plot_roc(df,variable,TYPE,mask_it):
         axe[i].set_xlabel("",fontsize=15)
         axe[i].set_ylabel(f"{TYPE}",fontsize=20)
         axe[i].set_title(f'{center}',fontsize=20)
-    if mask_it==True:
-        subtitle=f"{df.metric[0]}  for {variable}  per  {TYPE} (North Africa)"
-    else:
-        subtitle=f"{df.metric[0]}  for {variable}  per  {TYPE}"
+
+    subtitle=f"{df.metric[0]}  for {variable}  per  {TYPE}  {zone}"
+
     fig.suptitle(subtitle, fontsize=16, fontweight='bold', y=0.981)  
     # fig.suptitle(f"{df.metric[0]} {variable} / {TYPE} North Africa", fontsize=16, fontweight='bold', y=0.981)
     for j in range(i + 1, len(axe)):
         fig.delaxes(axe[j])
-    if mask_it==True:
-        file_out=f"{df.metric[0]}_{variable}_{TYPE}_NorthAfrica.png"
-    else : 
-        file_out=f"{df.metric[0]}_{variable}_{TYPE}.png"
+
+    file_out=f"{df.metric[0]}_{variable}_{TYPE}_{zone}.png"
+
     plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/{df.metric[0]}/{file_out}')
     # plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/REPORT/Report_25_11/plots/prob/{df.metric[0]}/{df.metric[0]}_{variable}_{TYPE}_North_Africa.png')
     # plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/REPORT/Report_25_11/plots/prob/{df.metric[0]}/{df.metric[0]}_{variable}_{TYPE}.png')
@@ -161,7 +169,27 @@ def plot_roc(df,variable,TYPE,mask_it):
     plt.tight_layout()
     plt.show()       
 
-for mask_it,df in zip([False]*3+[True]*3,[roc_df,rocss_df,bs_df,roc_df_masked,rocss_df_masked,bs_df_masked] ):
+# for mask_it,df in zip([False]*3+[True]*3,[roc_df,rocss_df,bs_df,roc_df_masked,rocss_df_masked,bs_df_masked] ):
+#     for i in [0,1]:
+#         plot_roc(df,"RR",TYPE[i],mask_it)
+#         plot_roc(df,"T2M",TYPE[i],mask_it)
+
+mena_files=[roc_df,rocss_df,bs_df]
+northafrica_files=[roc_df_NorthAfrica,rocss_df_NorthAfrica,bs_df_NorthAfrica]
+arabian_peninsula_files=[roc_df_ArabianPeninsula,rocss_df_ArabianPeninsula,bs_df_ArabianPeninsula]
+
+
+for df in mena_files : 
     for i in [0,1]:
-        plot_roc(df,"RR",TYPE[i],mask_it)
-        plot_roc(df,"T2M",TYPE[i],mask_it)
+        plot_roc(df,"RR",TYPE[i],False,"mena")
+        plot_roc(df,"T2M",TYPE[i],False,"mena")
+
+for df in northafrica_files : 
+    for i in [0,1]:
+        plot_roc(df,"RR",TYPE[i],False,"NorthAfrica")
+        plot_roc(df,"T2M",TYPE[i],False,"NorthAfrica")
+        
+for df in arabian_peninsula_files : 
+    for i in [0,1]:
+        plot_roc(df,"RR",TYPE[i],False,"ArabianPeninsula")
+        plot_roc(df,"T2M",TYPE[i],False,"ArabianPeninsula")

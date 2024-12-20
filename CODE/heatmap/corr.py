@@ -49,11 +49,18 @@ def load_data(file_name, aggr, metric,period):
 #     print(df1.dims)
 
 
-def get_mask(df_t2m,df_rr):
+def get_mask(zone,df_t2m,df_rr):
     countries = regionmask.defined_regions.natural_earth_v5_0_0.countries_110
     mask=countries.mask(df_t2m)
     mask=mask.transpose("lat","lon")
-    NA_country_names = ['Algeria','Egypt','Libya','Mauritania','Morocco','Tunisia']
+    if zone == "NorthAfrica":
+        NA_country_names = ['Algeria','Egypt','Libya','Mauritania','Morocco','Tunisia']
+    elif zone == "ArabianPeninsula":
+        NA_country_names = ['Saudi Arabia','Yemen','Oman',
+                            'United Arab Emirates','Kuwait',
+                            'Qatar','Syria','Iraq',
+                            'Jordan']
+    
     na_indices =[countries.map_keys(name) for name in NA_country_names]
     broadcasted_mask = np.broadcast_to(mask.data, (df_t2m.sizes['forecastMonth'], *mask.shape))
     DATA_t2m=df_t2m.where(np.isin(broadcasted_mask, na_indices))
@@ -64,7 +71,7 @@ def get_mask(df_t2m,df_rr):
     return DATA_t2m , DATA_rr
     
     
-def create_combined_dataframe(aggr, metric,mask_it):
+def create_combined_dataframe(aggr, metric,mask_it,zone):
     all_dataframes = []
 
     for file_name in available_files:
@@ -78,7 +85,7 @@ def create_combined_dataframe(aggr, metric,mask_it):
             # Load data for the current period
             data_t2m,data_RR = load_data(file_name, aggr, metric, period)
             if mask_it==True:
-                data_t2m,data_RR = get_mask(data_t2m,data_RR)
+                data_t2m,data_RR = get_mask(zone,data_t2m,data_RR)
             
             # data_t2m_masked,data_RR_masked=data_t2m,data_RR
 
@@ -98,7 +105,7 @@ def create_combined_dataframe(aggr, metric,mask_it):
                 "lead_time":[1,2,3],
                 "period": [period]*3,
                 "mean_score_RR": mean_score_RR,
-                "mean_score_T2M": mean_score_T2M,
+                "mean_scoArabianPeninsulare_T2M": mean_score_T2M,
             })
 
             all_dataframes.append(center_df)
@@ -108,19 +115,25 @@ def create_combined_dataframe(aggr, metric,mask_it):
 
     return combined_df
 
-
-rmse_df= create_combined_dataframe("1m", "rmse",False)
-corr_df= create_combined_dataframe("1m", "corr",False)  
-acc_df= create_combined_dataframe("1m", "acc",False)
-rsquared_df = create_combined_dataframe("1m", "rsquared",False)  
-rmse_df_masked= create_combined_dataframe("1m", "rmse",True)
-corr_df_masked= create_combined_dataframe("1m", "corr",True) 
-acc_df_masked= create_combined_dataframe("1m", "acc",True) 
-rsquared_df_masked = create_combined_dataframe("1m", "rsquared",True)
+#MENA
+rmse_df= create_combined_dataframe("1m", "rmse",False,"mena")
+corr_df= create_combined_dataframe("1m", "corr",False,"mena")  
+acc_df= create_combined_dataframe("1m", "acc",False,"mena")
+rsquared_df = create_combined_dataframe("1m", "rsquared",False,"mena")  
+# NORTH AFRICA
+rmse_df_NorthAfrica= create_combined_dataframe("1m", "rmse",True,"NorthAfrica")
+corr_df_NorthAfrica= create_combined_dataframe("1m", "corr",True,"NorthAfrica") 
+acc_df_NorthAfrica= create_combined_dataframe("1m", "acc",True,"NorthAfrica") 
+rsquared_df_NorthAfrica= create_combined_dataframe("1m", "rsquared",True,"NorthAfrica")
+# ARABIAN PENINSULA
+rmse_df_ArabianPeninsula= create_combined_dataframe("1m", "rmse",True,"")
+corr_df_ArabianPeninsula= create_combined_dataframe("1m", "corr",True,"ArabianPeninsula") 
+acc_df_ArabianPeninsula= create_combined_dataframe("1m", "acc",True,"ArabianPeninsula") 
+rsquared_df_ArabianPeninsula = create_combined_dataframe("1m", "rsquared",True,"ArabianPeninsula")
 # rps_df=create_combined_dataframe("1m", "rps")
 
 
-def plot_determinist(df,variable,mask_it):
+def plot_determinist(df,variable,mask_it,zone):
     fig,axe=plt.subplots(nrows=3,ncols=3,figsize=(25, 18))
     axe=axe.flatten()
     
@@ -141,27 +154,35 @@ def plot_determinist(df,variable,mask_it):
         axe[i].set_ylabel("LEAD TIME",fontsize=20)
         axe[i].set_title(f'{center}',fontsize=20)
 
-    if mask_it==True:
-        subtitle=f"{df.metric[0]}  for {variable}  per  LEAD TIME (North Africa)"
-    else:
-        subtitle=f"{df.metric[0]}  for {variable}  per  LEAD TIME"
+    subtitle=f"{df.metric[0]}  for {variable}  per  LEAD TIME {zone}"
     fig.suptitle(subtitle, fontsize=16, fontweight='bold', y=0.981)  
     # fig.suptitle(f"{df.metric[0]}  for {variable}  per  PERIOD ", fontsize=16, fontweight='bold', y=0.981)
     for j in range(i + 1, len(axe)):
         fig.delaxes(axe[j])
-    if mask_it==True:
-        file_out=f"{df.metric[0]}_{variable}_NorthAfrica.png"
-    else : 
-        file_out=f"{df.metric[0]}_{variable}.png"
-    plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/{df.metric[0]}/{file_out}',dpi=350)
+    file_out=f"{df.metric[0]}_{variable}_{zone}.png"
+    plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/{df.metric[0]}/{file_out}')
     # plt.savefig(f'/home/mohamed/EHTPIII/MODELISATION/REPORT/Report_25_11/plots/det/{df.metric[0]}/{df.metric[0]}_{variable}.png',dpi=350)
         
     plt.tight_layout()
     plt.show()       
 
-file_list=[acc_df,corr_df,rsquared_df,rmse_df,acc_df_masked,corr_df_masked,rsquared_df_masked,rmse_df_masked]
-for mask , df in zip([False]*3+[True]*3,file_list):
-    plot_determinist(df,"RR",mask)
+file_mena=[acc_df,corr_df,rsquared_df,rmse_df]
+file_northafrica=[acc_df_NorthAfrica,corr_df_NorthAfrica,rsquared_df_NorthAfrica,rmse_df_NorthAfrica]
+file_arabianpeninsula=[acc_df_ArabianPeninsula,corr_df_ArabianPeninsula,rsquared_df_ArabianPeninsula,rmse_df_ArabianPeninsula]
+# for mask , df in zip([False]*3+[True]*3,file_list):
+#     plot_determinist(df,"RR",mask)
     
-for mask , df in zip([False]*3+[True]*3,file_list):
-    plot_determinist(df,"T2M",mask)
+# for mask , df in zip([False]*3+[True]*3,file_list):
+#     plot_determinist(df,"T2M",mask)
+    
+for df in file_mena:
+    for var in ["T2M","RR"]:
+        plot_determinist(df,var,False,"mena")
+        
+for df in file_northafrica:
+    for var in ["T2M","RR"]:
+        plot_determinist(df,var,True,"NorthAfrica")
+        
+for df in file_arabianpeninsula:
+    for var in ["T2M","RR"]:
+        plot_determinist(df,var,True,"ArabianPeninsula")

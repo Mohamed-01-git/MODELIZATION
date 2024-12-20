@@ -44,7 +44,7 @@ For SON , the Meteo-France model performs well, except in Egypt, showing better 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{plots/det/corr/corr_T2M.png}
-    \caption{Temperature heatmap for mena region}
+    \caption{Temperature correlation heatmap for mena region}
    
 \end{figure}
 
@@ -53,7 +53,7 @@ The heatmaps provide an average overview of the models' performance across the M
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{plots/det/corr/corr_T2M_NorthAfrica.png}
-    \caption{Temperature heatmap for north africa}
+    \caption{Temperature correlation heatmap for north africa}
    
 \end{figure}
 \subsubsection{Root Mean Square Error}
@@ -87,7 +87,7 @@ The North African climate, heavily influenced by the Sahara Desert and Mediterra
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{plots/det/rmse/rmse_T2M_NorthAfrica.png}
-    \caption{Temperature heatmap for north africa}
+    \caption{Temperature rmse heatmap for north africa}
    
 \end{figure}
 This specific analysis revealed that, although the ECMWF model performs well across the MENA region, its performance in North Africa is comparatively lower, except during JJA. As highlighted earlier, JJA remains the most accurate season for ECMWF in this sub-region, with RMSE values ranging between 1.34°C and 1.58°C. This indicates that the model effectively captures temperature dynamics in the summer, likely due to its ability to simulate key seasonal factors such as strong solar heating and atmospheric circulation patterns specific to North Africa during this period.
@@ -118,7 +118,7 @@ Such precision underscores the ECMWF model's reliability for short-term seasonal
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{plots/det/rsquared/rsquared_T2M_NorthAfrica.png}
-    \caption{Temperature rsquared heatmaps for all the seasons}
+    \caption{Temperature rsquared heatmaps for all the seasons North Africa}
 \end{figure}
 A closer look at North Africa reveals that the ECMWF model performs best during JJA, with R-SQUARED values increasing as the lead time increases-contrary to the trend observed for the MENA region as a whole, where performance typically decreases with longer lead times. This suggests that the ECMWF model is particularly adept at capturing the persistent summer temperature patterns in North Africa, which may benefit from stronger model predictability over time due to the relatively stable atmospheric and climatic conditions during JJA.
 
@@ -158,7 +158,7 @@ o further evaluate the performance of these models and assess whether the same i
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\linewidth]{plots/prob/bs/bs_T2M_category_North_Africa.png}
+    \includegraphics[width=1\linewidth]{plots/prob/bs/bs_T2M_category_NorthAfrica.png}
     \caption{Temperature Brier score heatmaps for all the seasons per categories for north africa}
 \end{figure}
 A closer analysis focused on the North African region revealed that the performance of the top-performing models—ECMWF, CMCC, and Meteo France—remains consistent. The zoomed evaluation shows that these models continue to exhibit low Brier Scores, indicating reliable probabilistic predictions across lead times. This finding suggests that the unique climatic conditions of North Africa do not significantly alter the predictive skill of these models, reaffirming their robustness and adaptability to sub-regional variations within the broader MENA context.
@@ -166,8 +166,8 @@ A closer analysis focused on the North African region revealed that the performa
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\linewidth]{plots/prob/bs/bs_T2M_lead_time_North_Africa.png}
-    \caption{Temperature brier score heatmaps for all the seasons per lead time}
+    \includegraphics[width=1\linewidth]{plots/prob/bs/bs_T2M_lead_time_NorthAfrica.png}
+    \caption{Temperature brier score heatmaps for all the seasons per lead time North Africa}
 \end{figure}
 The results by lead time reveal similar conclusions, showing a consistent stability in Brier Scores across different lead times. This indicates that the predictive skill of the top-performing models, such as ECMWF, CMCC, and Meteo France, remains robust even as the forecast horizon increases. The minimal variation in scores across lead times underscores the reliability of these models for producing accurate probabilistic forecasts, regardless of the temporal range considered.
 \subsubsection{Reliability}
@@ -524,7 +524,7 @@ the spacial distribution of the ROCSS, shows that all centers are consistent for
 \end{figure}
 
 
-the rocss for North Africa is in general lower, thus the performance is less accurate in North Africa
+the rocss for North Africa is in general lower, thus the performance is less accurate.
 
 
 \subsubsection{summary}
