@@ -24,29 +24,31 @@
 \DeclareUnicodeCharacter{200B}{}
 
 
-% Load other necessary packages (avoid redundancy)
-%\usepackage{amsmath}  % Already included above
-%\usepackage{hyperref}  % Already included above
 
+\usepackage[backend=biber,style=apa]{biblatex} % Utilisez le style APA ou un autre style selon les besoins
+\addbibresource{references.bib} % Lien vers le fichier de bibliographie
 
-
-%\geometry{margin=1in}  % Set margins to 1 inch
-%\setlength{\columnsep}{1pt}  % Adjust space between columns if using multicol
-%\title{Probabilistic Evaluation of Climate Models For Seasonal Forecasting in the MENA Region}
-%\author{Nohaila BERRAHMOUCH, Mohamed EL-BADRI}
-%\date{\textbf{2024}}
+%\lhead{\leftmark} % en-tête gauche-chapitre
+\lhead{\rightmark} % en-tête gauche-section
+\chead{} % en-tête centre
+\rhead{\thepage} % en-tête droite-no de page
+\lfoot{2024-2025} % pied gauche perso
+\cfoot{3rd Year Meteorology} % pied centre perso
+\rfoot{modeling project} % pied droit perso
+\renewcommand{\headrulewidth}{2. pt}
+\renewcommand{\footrulewidth}{2. pt}
 
 
 \begin{document}
 
 
 
-\input{titlepage2.tex}
+\input{part1.tex}
 
 \input{introduction.tex} 
-\input{Previous_Studies_MENA.tex} 
-\input{methodology.tex} 
-\input{Results.tex}
+\input{results.tex} 
+\input{north_peninsula.tex} 
+%\input{Results.tex}
 %\input{focus_on_North_Africa.tex}
 \clearpage
 \listoffigures

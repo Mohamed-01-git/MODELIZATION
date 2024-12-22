@@ -1,0 +1,635 @@
+%\documentclass[12pt,a4paper]{report}
+%\usepackage[Glenn]{fncychap}
+%\usepackage[french]{babel}
+%\usepackage{fancyhdr}
+%\pagestyle{fancy}
+%\usepackage{colortbl}
+%\usepackage[utf8]{inputenc}
+%\usepackage{graphicx}
+%\usepackage{amsmath}
+%\usepackage{hyperref}
+%\usepackage{geometry}
+%\usepackage{tikz}
+%\usepackage{setspace}
+%\usepackage{booktabs}
+%\geometry{margin=1in}
+%\usepackage{graphicx}
+%\usepackage{booktabs}
+%\usepackage{tabularx}
+%\usepackage{amsmath}
+%\usepackage{unicode-math}
+%\usepackage{pifont}
+%\usepackage{float}
+%
+%
+%
+%\usepackage[backend=biber,style=apa]{biblatex} % Utilisez le style APA ou un autre style selon les besoins
+%\addbibresource{references.bib} % Lien vers le fichier de bibliographie
+%
+%%\lhead{\leftmark} % en-tête gauche-chapitre
+%\lhead{\rightmark} % en-tête gauche-section
+%\chead{} % en-tête centre
+%\rhead{\thepage} % en-tête droite-no de page
+%\lfoot{2024-2025} % pied gauche perso
+%\cfoot{3rd Year Meteorology} % pied centre perso
+%\rfoot{modeling project} % pied droit perso
+%\renewcommand{\headrulewidth}{2. pt}
+%\renewcommand{\footrulewidth}{2. pt}
+%
+%\begin{document}
+\thispagestyle{empty} % Supprime les en-têtes et pieds de page pour cette page
+
+\clearpage
+\begin{titlepage}
+  \begin{center}
+    % Logos at the top
+    \includegraphics[width=0.15\textwidth]{DGM.jpg} \hfill
+    \includegraphics[width=0.25\textwidth]{ehtp.jpg} \\[2cm]
+
+    
+    % Colored lines above and below the main title
+    \noindent\rule{\textwidth}{1mm}\\[0.5cm]
+    {\LARGE \textbf{\textcolor{blue}{Evaluation of Climate Models For Seasonal Forecasting in the MENA Region\\ \vspace{0.1cm} 
+   }}}
+    \noindent\rule{\textwidth}{1mm}\\[3cm]
+    \vfill
+    % Author and supervisor
+ \begin{center}
+    \textbf{\large Prepared by:} \\[0.2cm]
+    \textbf{Berrahmouch Nohayla and Mohamed El-Badri} \\[0.2cm]
+    Hassania School of Public Works, Casablanca, Morocco \\[1.5cm]
+    
+    \textbf{\large Supervised by:}
+\end{center}
+
+\begin{tabbing}
+    \hspace{6cm} \= \hspace{6cm} \= \kill 
+    \textbf{Internal Supervisor:} \> \> \textbf{External Supervisors:} \\[0.5cm]
+    \textbf{Mr. Driss Bari} \> \> \textbf{Mrs. Wafae Badi} \\[0.2cm]
+    Hassania School of Public Works \\ 
+    and Direction Générale de la Météorologie, Morocco \> \> DGM, Morocco \\[0.5cm]
+    
+    \> \> \textbf{Mr. Nicholas Savage} \\[0.2cm]
+    \> \> Met Office, Exeter, UK \\
+\end{tabbing}
+
+
+    \vfill
+
+    % Date
+    {\large 2024 - 2025} \\[1cm]
+  \end{center}
+\end{titlepage}
+\tableofcontents
+\chapter*{Acknowledgments}
+\addcontentsline{toc}{chapter}{Acknowledgments}
+\vskip-3.3em  
+
+We would like to express our deepest gratitude to \textbf{Mrs. Wafae Badi} for her unwavering support and invaluable guidance throughout this project. Her insightful counsel and constant encouragement enabled us to overcome various challenges and maintain our focus. Her dedication to fostering progress, coupled with her constructive feedback and open-minded approach, were instrumental in shaping the direction of this work. Her mentorship has truly been a cornerstone of our journey, and we are profoundly grateful for her invaluable contributions.  
+\\
+
+Special thanks go to \textbf{Mr. Nicholas Savage} and his exceptional team at the UK Met Office. Their generosity in sharing their expertise and resources provided us with unparalleled opportunities to broaden our understanding of climate modeling. The engaging discussions and valuable insights shared by Mr. Savage and his team not only enriched this project but also fueled our motivation to explore innovative avenues. Their commitment to advancing climate science inspired us to aim higher and achieve more.
+\\
+
+We are also immensely grateful to \textbf{Mr. Bari}, whose dedicated supervision, thoughtful suggestions, and constructive critiques significantly enhanced the quality of this work. His ability to balance critical feedback with motivating encouragement made a remarkable difference, guiding us through challenging moments and ensuring steady progress. 
+\\
+
+In addition, we would like to acknowledge the support received through the \textbf{WISER MENA project}. \textbf{Nicholas Savage’s time was funded via the WISER MENA project.} The Weather and Climate Information Services (WISER) Programme is funded with UK International Development from the UK government and led by the Met Office in the UK. This work has been partially supported by UK International Development from the UK government; however, the views expressed do not necessarily reflect the UK government’s official policies.  
+\\
+
+Lastly, we extend our heartfelt appreciation to all those who, directly or indirectly, contributed to this project. Your cooperation, guidance, and belief in our work have made this journey a fulfilling and enlightening experience. While this project is a testament to hard work and collaboration, it is also a reflection of the collective effort and support of everyone who believed in its success. To you, we owe our sincere thanks.
+
+\chapter*{Preface}
+\addcontentsline{toc}{chapter}{Preface}
+\vskip-3.3em    
+The MENA seasonal forecasting models have undergone both probabilistic and deterministic evaluations. This research study is regarded as the pioneering work and the first of its kind in this area which helps in situational context improvement in seasonal forecasting models. Given the alarming rate of increase in the impacts caused by extreme climatic events including severe droughts, and extreme heat and other climate sensitive issues in the MENA region, this work is a key contribution towards alleviating these issues=
+\\
+
+Due to climatic extremes in the MENA region, agriculture, human livelihood, and natural resources are heavily affected. Consequently, it has become almost necessary to have forecasts of seasons that are credible so as to characterize the impacts, or to enhance preparedness. Although seasonal forecasting models have been widely researched and practiced in many parts of the world, their use in MENA countries’ local level remains scarce. This gap is resolved in this study, providing new knowledge and tools for climate scientists working in the region.\\
+
+In this work, we intend to broaden the knowledge fabric of climate change science by focusing on the climate change and variability vulnerability of the MENA region. The results obtained not only improve the comprehension of the dynamics of the local climate, but also lays a framework for specific approach to be employed for adaptation strategies.\\
+
+We are immensely grateful to every individual or organization who has helped support this project and guided us through uncharted territory in the spectrum of MENA climate predictions.\\
+\chapter{Overview and Rationale of the Study}
+The last couple of decades have witnessed a surge in demand for seasonal climate forecasting. Global advancements in space science and technology have lead to the better anticipation of climate seasons up to a through range of 3-12 months. This is crucial for effective planning in major industries like agriculture or energy management, among others. These advancements breed an increased dependence on seasonal forecasting and in turn create a higher demand for accurate forecasting mechanisms. Therefore two central methodologies have witnessed prominence – deterministic and probabilistic methods. A hindsight understanding of these mechanisms is imperative, as they are useful for evaluating and understanding the shortcomings and effectiveness of different models employed in forecasting seasonal amps.\\
+
+Probabilistic forecasts take one step forward, do not try to predict an ideal scenario and present different potential outcomes, each with a defined probability. Efforts, though different, instruct towards the same ends; meeting a specific operational/strategic need. Lorenz’s butterfly effect presents the case for one such endeavor- it shows how a non-linear system’s response can drastically alter depending on the initial conditions. Such chaos is especially present in weather and climate systems where even the slightest details can have large ramifications over longer periods.\\
+
+In this context, the current study focuses on developing relationships that integrate conceptual advancements in seasonal forecasting efforts with practical and applicable methods. The geographical focus of this study is the **MENA region (Middle East and North Africa)**, a zone characterized by its diverse climatic conditions and critical socio-economic dependence on accurate seasonal forecasts. The MENA region is particularly vulnerable to climate variability due to its arid and semi-arid environments, limited water resources, and reliance on agriculture and energy. By analyzing seasonal forecasting within this region, the study seeks to address key challenges and contribute to sustainable climate-resilient solutions.\\
+
+
+
+
+\chapter{Introduction}
+\section{Context}
+\subsection{Overview of Climate Modeling and Seasonal Forecasting}
+
+Climate modeling is the process of using mathematical representations of the Earth’s atmosphere, oceans, land surface, and ice systems to simulate and predict climate dynamics. These models are based on fundamental physical principles, such as the conservation of mass, energy, and momentum, and are implemented through numerical methods that solve complex equations governing the interactions between these systems.\footnote{McGuffie, K. and Henderson-Sellers, A., 2014. A Climate Modelling Primer. \url{https://doi.org/10.1002/9781118687853}} Climate models range from global circulation models (GCMs), which simulate large-scale atmospheric and oceanic processes, to regional climate models (RCMs), which provide localized projections by incorporating finer-scale topographic and land-use details.\footnote{Flato et al., 2013. Evaluation of Climate Models. IPCC AR5 Chapter 9. \url{https://www.ipcc.ch/report/ar5/wg1/chapter-9-evaluation-of-climate-models/}} Seasonal forecasting, a subset of climate modeling, refers to the prediction of climate conditions, such as temperature and precipitation, over a period of one to six months. These forecasts rely on initial conditions (e.g., sea surface temperatures, soil moisture) and slowly varying components of the climate system, such as oceanic or atmospheric anomalies like the El Niño-Southern Oscillation (ENSO).\footnote{Doblas-Reyes, F. J., García-Serrano, J., Lienert, F., Biescas, A. P., \& Rodrigues, L. R., 2013. Seasonal climate predictability and forecasting: Status and prospects. \url{https://doi.org/10.1038/ngeo1714}} The basic principle behind seasonal forecasting is to leverage these slowly varying components, which have a predictable influence on regional weather patterns, using ensemble simulations to quantify uncertainties and provide probabilistic predictions.\footnote{Palmer, T. N., \& Anderson, D. L., 1994. The prospects for seasonal forecasting—a review paper. \url{https://doi.org/10.1256/smsqj.50402}}  
+
+Seasonal forecasts play a crucial role in decision-making and planning across various sectors, including agriculture, water management, and climate risk mitigation. These forecasts provide early warnings of high-impact climate scenarios, enabling proactive decisions that result in financial savings, risk reduction, and optimized resource use. For instance, in agriculture, they assist farmers in selecting appropriate crops and determining optimal planting times based on anticipated water availability, thereby mitigating risks associated with droughts or excessive rainfall.\footnote{Werner, M. and Linés, C., 2024. Seasonal forecasts to support cropping decisions. \url{https://doi.org/10.5194/egusphere-egu24-13436}} Seasonal forecasts also support pre-harvest strategies, such as hedging decisions, which help shield farmers from price volatility, although their adoption is often hindered by perceptions of inaccuracy and complexity.\footnote{Hunt et al., 2020. Seasonal Forecast Based Preharvest Hedging. \url{https://doi.org/10.22004/AG.ECON.309761}} In water management, seasonal forecasts are vital for mitigating drought impacts, particularly in semi-arid regions, by enabling improved reservoir operations and efficient water allocation to reduce losses.\footnote{Portele et al., 2021. Seasonal forecasts offer economic benefits for hydrological decision-making. \url{https://doi.org/10.1038/s41598-021-89564-y}} Additionally, these forecasts, when linked to hydrological models, improve predictions of water balance and inform critical decisions regarding water storage and distribution, despite occasional discrepancies between predicted and desired variables.\footnote{MacLeod et al., 2023. Translating seasonal climate forecasts into water balance forecasts. \url{https://doi.org/10.1371/journal.pclm.0000138}} Seasonal forecasts are increasingly applied in climate risk management, where they help predict extreme weather events, providing decision-makers with tools to minimize societal and economic damages.\footnote{Castino et al., 2023. Towards seasonal prediction of extreme temperature indices. \url{https://doi.org/10.5194/ems2023-590}} For example, accurate predictions of heatwaves or floods allow authorities to implement adaptive measures, reducing infrastructure damage and safeguarding public health. In economic sectors such as energy and water management, tailored seasonal forecasts enhance decision-making efficiency by aligning forecasts with user needs, thereby optimizing outcomes.\footnote{Goodess et al., 2022. The Value-Add of Tailored Seasonal Forecast Information. \url{https://doi.org/10.3390/cli10100152}} Despite their significant potential, the effectiveness of seasonal forecasts depends on their accuracy, relevance to user needs, and ease of use. Improved communication, stakeholder training, and efforts to bridge the gap between forecast complexity and user understanding are essential to maximize their utility.
+
+
+
+\subsection{Importance of Seasonal Climate Forecasts in MENA}
+Seasonal climate forecasts are critically important across the MENA region, where high temperatures, low water availability, and vulnerability to climate variability create substantial challenges for sustainable development. Forecasts provide early warnings of droughts, heatwaves, and other extreme weather events, enabling decision-makers to implement proactive measures to mitigate impacts on water resources, agriculture, and infrastructure.\footnote{Dunn et al., 2020. The changing climate of MENA. \url{https://pubs.giss.nasa.gov/abs/gu00200u.html}} In agriculture, these forecasts help farmers optimize crop selection and planting schedules, reducing the risks of crop failure in this water-scarce region.\footnote{Werner, M., and Linés, C., 2024. Seasonal forecasts to support cropping decisions. \url{https://doi.org/10.5194/egusphere-egu24-13436}} In the water sector, seasonal forecasts guide reservoir management by predicting rainfall variability, improving water storage strategies, and ensuring more equitable water distribution.\footnote{Portele et al., 2021. Seasonal forecasts for hydrological decision-making. \url{https://doi.org/10.1038/s41598-021-89564-y}} With increasing climate risks, these forecasts also support disaster risk management by allowing governments to prepare for extreme events, such as heatwaves and floods, which are becoming more frequent in the region due to climate change.\footnote{Castino et al., 2023. Towards seasonal prediction of extreme temperature indices. \url{https://doi.org/10.5194/ems2023-590}} Moreover, the economic benefits of using seasonal forecasts are significant. By enabling energy companies to anticipate peak demand periods driven by heatwaves, and by helping municipalities optimize water usage during droughts, these forecasts provide cost savings and efficiency gains.\footnote{Goodess et al., 2022. Value-Add of tailored seasonal forecast information. \url{https://doi.org/10.3390/cli10100152}} However, challenges persist in ensuring the accuracy and usability of these forecasts. The arid and semi-arid nature of much of the MENA region, coupled with complex interactions between regional climate drivers, makes it difficult to provide highly localized forecasts.\footnote{Latif et al., 2011. ENSO predictability and regional climate impacts. \url{https://doi.org/10.1175/2010JCLI3405.1}} Addressing these challenges through improved modeling techniques and stakeholder engagement will be critical to maximizing the value of seasonal forecasts in the MENA region, ensuring better preparedness and resilience against a changing climate.
+
+
+\section{Objectives of the Work and Description of Report Content}
+The primary objective of this work is to evaluate the effectiveness of climate models, focusing specifically on their performance in predicting key climate variables such as temperature, precipitation. This evaluation incorporates both deterministic and probabilistic approaches to identify the most skillful models and their suitability for practical applications.
+
+\subsection{Specific aims  of evaluating deterministic and probabilistic models.
+}
+The evaluation of deterministic and probabilistic models is essential for understanding their unique strengths, limitations, and potential applications in diverse fields. Deterministic models, which generate a single, precise outcome based on initial conditions, are widely used when exactness and reproducibility are critical, such as in engineering and physical simulations.\footnote{McGuffie, K., and Henderson-Sellers, A., 2014. *A Climate Modelling Primer*. Wiley. \url{https://doi.org/10.1002/9781118687870}} Their evaluation focuses on assessing accuracy and reliability under specific conditions, providing clarity in cause-and-effect relationships. In contrast, probabilistic models incorporate uncertainty by assigning probabilities to various potential outcomes, enabling the representation of real-world complexities and variability.\footnote{Palmer, T., and Hagedorn, R., 2006. *Predictability of Weather and Climate*. Cambridge University Press. \url{https://doi.org/10.1017/CBO9780511617652}} These models are particularly beneficial for strategic planning and risk management, where understanding a range of possible scenarios is crucial. The evaluation of both types of models includes conducting sensitivity analyses to determine how changes in input variables affect outcomes, which helps in identifying key drivers of uncertainty and improving model performance.\footnote{Seneviratne, S.I., et al., 2021. *Metrics for climate model evaluation: A review*. Nature Communications. \url{https://doi.org/10.1038/s43247-021-00094-x}} Additionally, risk assessment is a vital component, with deterministic approaches offering straightforward estimations for defined scenarios, while probabilistic approaches address uncertainties by simulating a spectrum of possible outcomes.\footnote{PreventionWeb, 2021. *Deterministic and Probabilistic Risk*. \url{https://www.preventionweb.net/understanding-disaster-risk/key-concepts/deterministic-probabilistic-risk}} These evaluations also aim to support decision-making processes by identifying which type of model is more appropriate for specific contexts—deterministic models for precise predictions and probabilistic models for flexible planning under uncertainty.\footnote{Goodess, C.M., et al., 2022. *The Value-Add of Tailored Seasonal Forecast Information for Industry Decision Making*. Climate. \url{https://doi.org/10.3390/cli10100152}} Finally, probabilistic models are often recognized for their adaptability in dynamic environments, as they can incorporate new data and adjust probability distributions to reflect evolving conditions, making them indispensable for complex systems where deterministic models may fall short.\footnote{Latif, M., and Keenlyside, N., 2011. *El Niño/Southern Oscillation Predictability*. Journal of Climate. \url{https://doi.org/10.1175/2010JCLI3405.1}} Together, the evaluation of deterministic and probabilistic models provides invaluable insights into their suitability for addressing specific challenges, supporting informed decision-making, and advancing model development.
+
+\subsection{Description of Content}
+
+This report is designed to provide a comprehensive analysis of climate model evaluation, focusing on both deterministic and probabilistic approaches. The structure of the report follows a logical progression, starting with an introduction to the fundamental concepts behind climate models. The first section lays the groundwork for understanding the key differences between deterministic and probabilistic models, describing how each approach is used to simulate climate systems and predict future outcomes. The methodology chapter follows, detailing the specific techniques employed to assess the models. This includes the use of both deterministic and probabilistic metrics such as Root Mean Square Error (RMSE), Anomaly Correlation Coefficient (ACC), and Brier Score, which are critical for evaluating the models' accuracy and performance in predicting climate variables like temperature and precipitation.
+
+Next, the report moves on to the results and analysis, where the performance of the selected models is presented and compared. This section highlights the models' strengths and weaknesses, providing insight into how well they predict climate patterns across various geographical regions and time periods. Special attention is given to the models' skill in forecasting extreme weather events, which are particularly relevant to sectors like agriculture, water resource management, and disaster risk reduction.
+
+The final section of the report provides conclusions and recommendations based on the analysis. This chapter synthesizes the findings, offering practical suggestions for improving the accuracy, usability, and application of climate forecasts. Recommendations also address how future developments in climate modeling can better meet the needs of decision-makers and stakeholders. The report as a whole seeks to contribute valuable insights into the ongoing development of climate prediction systems, aiming to enhance their effectiveness in real-world applications.
+
+
+\chapter{Literature Review}
+\section{Overview of Climate Models}
+\subsection{Deterministic Models}
+Deterministic models rely on mathematical equations that describe the physical processes of the atmosphere. These models use fixed initial conditions to provide precise predictions, making them suitable for short-term forecasting. However, due to the chaotic nature of atmospheric systems, as demonstrated by Lorenz's theorem, deterministic models are limited in their ability to predict long-term outcomes. Small errors in initial conditions can lead to significant differences in results, reducing their reliability for seasonal or long-term forecasting.\footnote{Lorenz, E. N. (1963). Deterministic Nonperiodic 
+Flow. \textit{Journal of the Atmospheric Sciences, 20}(2), 130–141.}
+
+Deterministic climate models operate based on fixed initial conditions and mathematical equations that simulate physical processes in the atmosphere. These models are particularly useful for short-term predictions as they provide precise and singular forecasts. However, deterministic models are significantly limited when forecasting over extended periods. This limitation arises due to the inherent sensitivity of atmospheric systems to initial conditions—a concept known as the \textit{butterfly effect}, introduced by Edward Lorenz in 1963. His research demonstrated that even minute changes in the initial conditions of a system could lead to vastly different outcomes over time, emphasizing the chaotic nature of weather systems.
+
+For seasonal forecasting, deterministic models often fail because minor errors in the initial conditions can amplify, resulting in inaccurate predictions for longer timescales. Despite these challenges, deterministic models are vital for understanding specific phenomena over shorter durations with high spatial and temporal resolution.
+
+
+
+
+\subsection{Probabilistic Models}
+Probabilistic models address the limitations of deterministic approaches by incorporating uncertainty into forecasts. Instead of producing a single outcome, these models generate a range of possible scenarios, each with an associated probability, using ensemble simulations or statistical techniques. This makes probabilistic models particularly useful for medium- to long-term forecasts and risk assessment in climate-sensitive sectors such as agriculture, water management, and disaster mitigation.\footnote{World Meteorological Organization (2024). \textit{Guidance on Verification of Operational Seasonal Climate Forecasts}. \url{https://library.wmo.int/records/item/56227-guidance-on-verification-of-operational-seasonal-climate-forecasts}}
+
+The evaluation of probabilistic models relies on metrics that assess their ability to represent uncertainty and provide actionable insights:
+\begin{itemize}
+    \item \textbf{Reliability:} Measures how well predicted probabilities align with observed frequencies.
+    \item \textbf{Resolution:} Assesses the model’s ability to distinguish between different outcomes.
+    \item \textbf{Discrimination:} Evaluates the model’s ability to separate events from non-events.\footnote{Rapport de projet 2024–2025, \textit{3rd Year Meteorology Modeling Project}.}
+\end{itemize}
+
+Probabilistic models are especially valuable for decision-making under uncertainty, as they provide stakeholders with a clearer understanding of risks and potential scenarios, enabling proactive measures to mitigate impacts.
+
+\subsubsection{Comparison of Deterministic and Probabilistic Models}
+Deterministic and probabilistic models serve complementary roles in climate modeling and forecasting. Their distinct features and applications are summarized in Table~\ref{tab:comparison_models}.
+
+\begin{table}[h!]
+    \centering
+    \caption{Comparison of Deterministic and Probabilistic Models}
+    \begin{tabular}{@{}p{5cm}p{5cm}p{5cm}@{}}
+    \toprule
+    \textbf{Feature} \& \textbf{Deterministic Models} \& \textbf{Probabilistic Models} \\
+    \midrule
+    Predictability \& Produces a single fixed outcome based on initial conditions \& Generates a range of outcomes with associated probabilities \\
+    \addlinespace
+    Sensitivity to Initial Conditions \& Highly sensitive, leading to reduced accuracy over long timeframes \& Less sensitive due to ensemble techniques reducing error amplification \\
+    \addlinespace
+    Application Domain \& Suitable for short-term, high-resolution tasks, e.g., extreme event analysis \& Ideal for medium- and long-term decision-making under uncertainty \\
+    \addlinespace
+    Use of Historical Data \& Limited emphasis on historical variability \& Extensively relies on historical data for statistical projections \\
+    \addlinespace
+    Examples \& Global Circulation Models (GCMs), Regional Climate Models (RCMs) \& Ensemble forecasting, statistical downscaling \\
+    \bottomrule
+    \end{tabular}
+\end{table}
+
+\noindent While deterministic models are preferred for precise and short-term predictions, probabilistic models provide critical insights into the likelihood of various scenarios, making them indispensable for managing climate-related risks.
+\subsection{ STUDIES IN "MENA" REGION }
+\subsubsection{The current and changing climate in MENA}
+Much \footnote{\href{https://www.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/business/international/wiser/wiser-mena-scoping-study-external-v2.pdf}{Met Office WISER Report}} of the MENA region is characterised by high temperature and low water availability, a
+combination of variables that have the potential to lead towards the environmental
+limits/threshold for safe human habitation. This makes the region
+particularly vulnerable to climate change and climate variability, as small variations in climate
+can easily produce high temperatures or extensive droughts that are harmful to human lives
+and livelihoods.\\
+
+Changes in temperature and rainfall patterns have already been observed in the region and
+are expected to change further in the near future, especially if global warming exceeds 1.5 to
+2 °C above the pre-industrial level. Annual mean temperatures across the MENA region
+have increased between 0.3–0.5°C per decade1 over the period 1980–2015 \footnote{\href{https://pubs.giss.nasa.gov/abs/gu00200u.html}{(Gutiérrez et al.,
+2021)}}. Since the 1950s, hot and cold extremes have become warmer, the number of cold
+days has decreased, and the number of warm days has increased (Dunn et al., 2020). There
+has been an increase in heat waves intensity, frequency and duration    \footnote{\href{https://www.nature.com/articles/s41467-020-16970-7}{(Perkins-Kirkpatrick
+and Lewis, 2020)}}. Annual mean precipitation shows a high level of spatial variability over the
+MENA region. During the period 1980–2015 there have been downward trends in mean
+annual precipitation \footnote{\href{https://pubs.giss.nasa.gov/abs/gu00200u.html}{(Gutiérrez et al., 2021)}} . Dry conditions, drought intensity and frequency
+has increased in the past over the region \footnote{\href{https://www.nature.com/articles/s43247-021-00094-x}{(Seneviratne et al., 2021).}} 
+
+
+
+\subsubsection{Impact-Based Evaluation}
+Impact-based forecasting refers to a type of weather or climate forecasting that goes beyond predicting the meteorological parameters (e.g., temperature, rainfall, wind speed) and instead focuses on predicting the potential impacts of those conditions on society, infrastructure, and ecosystems. The goal is to provide actionable insights that help communities and decision-makers prepare for and mitigate the effects of extreme weather and climate events.
+
+\textbf{Evaluation of Seasonal Forecast Models}\\
+An impact-based evaluation\footnote{\url{https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2024EF004936 }} \footnote{Zahir Nikraftar, Rendani Mbuvha, Mojtaba Sadegh, Willem A. Landman} was conducted as global study on five seasonal forecast models to identify the most effective for extreme precipitation forecasting (focuses on regions which were vulnerable to wildfire and flooding). The models assessed included:
+\begin{itemize}
+    \item Centro Euro‐Mediterraneo sui Cambiamenti Climatici (CMCC: version 35),
+    \item Deutscher Wetterdienst (DWD: version 21),
+    \item Environment and Climate Change Canada (ECCC: version 3),
+    \item Météo‐France (version 8),
+    \item UK Met Office (UK‐Met: version 601).
+\end{itemize}
+
+The findings highlighted the \textbf{\textit{UK‐Met} }  and \textbf{\textit{Météo‐France} } models as consistently superior across all four seasons. Meanwhile, the ECCC and CMCC models exhibited strong performance on specific indices and in particular regions, ranking just below the top two models.
+
+\textbf{ROC Scores and Regional Performance}\\
+The ROC scores indicate that forecast models perform exceptionally well in tropical and subtropical regions. This result is consistent with our study and can be attributed to the general predictability of oceanic conditions and the influence of climate drivers such as the El Niño-Southern Oscillation (ENSO). The Météo‐France and UK‐Met models exhibited superior performance during the SON and MAM seasons.
+
+However, the prevalence of grids with no discrimination ROC categories is more common in extratropical regions. This can be attributed to:
+\begin{itemize}
+    \item Lower predictability of extratropical variations,
+    \item Model limitations in capturing interactions between tropical and extratropical regions,
+    \item Challenges in representing land surface processes (De Andrade et al., 2019).
+\end{itemize}
+The CMCC, DWD, and ECCC models often fail to detect extreme events in many extratropical areas, underscoring the stronger performance of the UK‐Met and Météo‐France models in these scenarios.
+
+\textbf{Percent Bias Analysis}\\
+The analysis of Percent Bias across four seasons demonstrates a consistent underestimation by forecast models for most extreme wet precipitation indices. Key observations include:
+\begin{itemize}
+    \item Forecast models underestimate extreme wet precipitation indices while overestimating light precipitation.
+    \item Models perform better in capturing the intensity and magnitude of extreme events (e.g., highest daily and multi-day rainfall) compared to the frequency of wet or dry days.
+\end{itemize}
+
+In tropical and subtropical regions, models like \textbf{\textit{UK‐Met}}  and \textbf{\textit{Météo‐France} } exhibit strong performance due to their ability to capture large-scale climate patterns. In contrast, extratropical regions show higher biases, reflecting challenges in modeling complex interactions and seasonal variations.
+
+\textbf{Global Model Comparison}\\
+The \textbf{\textit{UK‐Met}} model consistently demonstrates lower biases and stronger performance globally compared to the \textbf{\textit{Météo‐France} }  model, highlighting its effectiveness in representing climate patterns. However, all models show limitations in accurately modeling persistent extreme wet and dry periods, particularly in extratropical areas.
+
+
+\subsubsection{SYSTEM 7 FRANCE}
+
+seasonal forecasting evaluation has been the subject of numerous studies, with a focus on improving the accuracy and reliability of predictions related to precipitation and other weather parameters. One such study\footnote{https://www.mdpi.com/2674-0494/1/3/16} conducted a probabilistic evaluation of seasonal precipitation re-forecasting from May to November over a period of 23 years (1993–2015). The study utilized the Brier Score (BS) and its decomposition to assess forecast performance, with the aim of providing more reliable and actionable predictions for extreme weather events.
+
+The evaluation was conducted on the operational seasonal forecasting system of Meteo-France, which used 25 ensemble members, perturbed model dynamics, and initial conditions. The system aimed to provide a more detailed probabilistic forecast, in addition to existing deterministic metrics, for both seasonal and intra-seasonal forecasts. The BS was estimated using tercile probabilities and a non-parametric counting estimator, with the GPCP\footnote{Global Precipitation Climatology Project (GPCP)} observation data serving as the reference.
+
+Multiple analyses were performed to evaluate the robustness of the BS score, revealing that spatial distributions of the BS can vary significantly based on the sampling methods, reference data, and ensemble types used. The analysis showed that large errors, especially in the tropical ocean, could be reduced by using hindcast ensemble climatological samples. In particular, errors over the Nino region in the Pacific Ocean could be mitigated using these methods. This highlights the importance of employing various ensemble data sources and reference climatology to enhance the reliability of seasonal forecasts.
+
+A notable finding was the reduction in BS when using ensemble observations, especially in the tropical ocean, suggesting that increasing ensemble size can improve forecast accuracy up to a point. However, this was not the case in all regions, as some areas, such as the tropical Indian Ocean, exhibited high BS even with different analysis methods. The study also found that intra-seasonal analyses showed similar patterns to seasonal hindcasts, but with higher BS due to reduced sample sizes, highlighting the need for higher-resolution models and improved initial conditions.
+
+The study concluded that, despite improvements, probabilistic forecasting still faces challenges, particularly in the tropical regions, where errors fluctuate with lead time. The study emphasized the need for continued development of forecasting methods, particularly in reducing uncertainties in evaluation scores. Future evaluations should expand beyond the BS to include other metrics, such as the forecast skill score and the relative operating characteristic (ROC), to better assess forecast performance and identify system deficiencies.
+
+This study's findings underline the importance of ensemble forecasting and the use of diverse data sources to improve the accuracy of seasonal precipitation forecasts, particularly in tropical regions where predictability remains challenging.
+
+
+\subsection{Evaluation Approaches}
+
+
+In the WMO\footnotemark{} \footnotetext{https://library.wmo.int/records/item/56227-guidance-on-verification-of-operational-seasonal-climate-forecasts}. Guide, several criteria are provided for evaluating a good forecast. Each criterion offers insight into specific aspects of the model but cannot, on its own, fully determine the forecast's quality. By combining all the criteria, we can comprehensively assess the performance of the model.	 
+		\subsubsection{Resolution}
+	Resolution measures whether the outcome differs given different forecasts, while discrimination measures whether the forecasts differ given different outcomes.
+
+Discrimination looks at how well your forecast separates cases when the event (outcome) happens (pass) from when it doesn’t happen (fail). It’s about telling apart the events.
+Resolution looks at how well your forecast adapts to different situations, giving distinct probabilities for different cases. It’s about adjusting to the situation.
+
+Resolution measures how well a forecast distinguishes between different outcomes. A forecast has high resolution if the predicted probabilities vary significantly depending on the actual outcome. In other words, resolution tells us whether the forecast changes (e.g., gives different probabilities) when the actual outcome changes.
+High resolution: The forecast gives distinct and varying probabilities when different events (outcomes) occur. For example, if in one case the forecast predicts a high probability of rain and it rains, and in another case predicts a low probability and it doesn’t rain, the forecast shows good resolution.
+Low resolution: If the forecast probabilities don’t change much regardless of whether it rains or not (e.g., always predicting a 50\% chance of rain), the forecast has poor resolution because it fails to capture the differences in actual outcomes.
+Resolution can be determined by measuring how strongly the outcome is conditioned upon the forecast.
+If the outcome is independent of the forecast, the forecast has no resolution and is useless
+Forecasts with no resolution are neither “good” nor “bad”, but are useless. 
+Metrics of resolution distinguish between potentially useful and useless forecasts, but not all these metrics distinguish between “good” and “bad” forecasts.
+
+The following equation represents the "resolution" component of the Brier Score (BS) decomposition, which quantifies how well a set of probability forecasts differentiates between events and non-events:
+
+\begin{equation}
+\textbf {Resolution} = \frac{1}{n} \sum_{k=1}^{d} n_k \left( \bar{y}_k - \bar{y} \right)^2
+\end{equation}
+
+where:
+
+\begin{equation}
+\bar{y}_k = \frac{1}{n_k} \sum_{i=1}^{n_k} y_{k,i}
+\end{equation}
+
+\begin{itemize}
+    \item $n$ is the total number of forecasts,
+    \item $d$ is the number of discrete probability bins,
+    \item $n_k$ is the number of forecasts in the $k$-th bin,
+    \item $\bar{y}_k$ is the observed relative frequency for the $k$-th probability bin,
+    \item $\bar{y}$ is the overall observed relative frequency.
+\end{itemize}
+
+The term $\left( \bar{y}_k - \bar{y} \right)^2$ captures the variance between individual forecast categories and the overall event frequency. Higher resolution indicates that forecasts better differentiate between events and non-events.\\
+so the resolution tells us how the model change with different situations.\\
+the scores used to evaluate resolution are Brier Score and Reliability.
+
+
+
+		\subsubsection{Discrimination}
+
+Discrimination measures how well the forecast separates cases where the event occurs from cases where it does not. In other words, it examines whether the forecast probabilities differ for events that happen versus those that don't.
+High discrimination: A forecast has high discrimination if, for example, when rain occurs, the forecast consistently predicts a high probability of rain, and when rain doesn’t occur, it predicts a low probability. It means the forecast is good at distinguishing between rain and no-rain days.
+Low discrimination: If the forecast provides similar probabilities regardless of whether it rains or not (e.g., predicting a 60\% chance of rain every day), it has poor discrimination because it doesn’t effectively differentiate between days with and without rain. The score used to evaluate descrimination is ROC\footnote{Relative operating characteristics}.
+		\subsubsection{Reliability}
+
+A forecast is reliable if the predicted probabilities match the actual frequencies. For instance:
+If you forecast a 40\% probability for below-normal rainfall, below-normal rainfall should occur in 40\% of the cases where you make that prediction.
+Similarly, if you forecast a 25\% chance of above-normal rainfall, above-normal rainfall should happen 25\% of the time when you give that probability.
+If this relationship holds consistently over many forecasts, the forecasts are well-calibrated (or reliable).
+A Reliable but Uninformative Forecast
+A forecast that always gives the climatological probability (e.g., always predicting a 33\% chance for each category: below, normal, above normal) would be reliable because the climatological average matches the observed frequencies. However, this forecast wouldn’t provide any information about changing conditions from case to case—it doesn’t adapt to the current situation, making it uninformative.
+
+\begin{equation}
+\textbf{Reliability} = \frac{1}{n} \sum_{k=1}^{d} n_k \left( \bar{p}_k - \bar{y}_k \right)^2
+\end{equation}
+
+
+\begin{itemize}
+    \item $n$ is the total number of forecasts,
+    \item $d$ is the number of discrete probability bins,
+    \item $n_k$ is the number of forecasts in the $k$-th bin,
+    \item $\bar{y}_k$ is the observed relative frequency for the $k$-th probability bin,
+    \item $\bar{p}_k$ is relative frequency for the $k$-th probability.
+\end{itemize}
+
+
+		\subsubsection{Sharpness}
+Sharp forecasts provide a strong signal about the expected outcome. For example, a sharp forecast might assign a 70\% chance to a certain outcome, like above-normal rainfall. This high probability communicates more confidence in that specific outcome.
+On the other hand, when the forecast probabilities are close to the climatological values (like assigning a 40\% chance to above-normal, 35\% to normal, and 25\% to below-normal), the forecast is not very sharp, meaning the forecaster isn't very confident in predicting any one outcome.
+The climatological probabilities are reliable, but aren’t sharp.
+\section{Methodology}
+
+\subsection{DATA}
+
+The hindcast data used in this study was obtained using the OSOP package\footnote{https://github.com/OSFTools/osop/tree/main/scripts}, a tool developed by the UK Met Office to facilitate the retrieval of climate and meteorological data. The dataset comprises monthly mean seasonal forecasts for temperature over the MENA (Middle East and North Africa) region.
+
+
+The hindcast data spans the common period 1993–2016 and was downloaded from the Copernicus Climate Change Service (C3S) platform. 
+
+
+The data was retrieved for the following configurations:
+\begin{itemize}
+	\item Variable: 2-meter air temperature (t2m).
+	\item Forecast Range: Lead times of interest (1–3 months), it includes DJF\footnote{December,January,February}, JJA\footnote{June,July,August}, MAM\footnote{March,April,May}, SON\footnote{September,October,November}
+	\item Geographical Area: MENA region.
+	\item Temporal Coverage: 1993–2016
+	\item the used centers are $UKMO,ECMWF,ECCC_2,ECCC_3,CMCC,Meteo-France_8,DWD$
+\end{itemize}
+
+
+In addition to the hindcast data, this study utilized ERA5 reanalysis data, a state-of-the-art atmospheric reanalysis product produced by the European Centre for Medium-Range Weather Forecasts (ECMWF). 
+
+    
+
+\subsection{Deterministic Evaluation Metrics}
+To evaluate the performance of seasonal climate prediction models, a range of deterministic measures is employed. These metrics offer valuable insights into the accuracy and reliability of forecasts by assessing the alignment between predicted and observed values. In this section, we present the main deterministic measures, which will also be applied in our study.
+\subsubsection{Deterministic Measures}
+
+Deterministic measures are statistical metrics used to assess the accuracy and reliability of climate forecasting models. These measures quantify the degree of correspondence between the predicted (Hindcast) and observed (Observation) values. Below, we present some widely used deterministic measures.
+
+\subsubsection{Spearman Rank Correlation}
+
+Spearman's correlation is a non-parametric measure of rank correlation, assessing the statistical dependence between the rankings of two variables. It evaluates how well the relationship between two variables can be described using a monotonic function, irrespective of whether it is linear or not. 
+
+\[
+r_s = \frac{\text{cov}(R[H], R[O])}{\sigma_{R[H]} \cdot \sigma_{R[O]}}
+\]
+
+where:  
+\begin{itemize}
+    \item \( r_s \): Spearman rank correlation.  
+    \item \( H \): The Hindcast.  
+    \item \( O \): The Observation.  
+    \item \( R[x] \): The rank of the variable \( x \).  
+    \item \( \sigma_x \): Standard deviation of the variable \( x \).  
+\end{itemize}
+
+
+Spearman correlation is particularly useful as it focuses on the rankings rather than the actual values, making it effective for evaluating monotonic relationships in seasonal forecasting models. Its interpretation provides valuable insights into the nature and strength of the relationship between hindcasts and observations:  
+
+\begin{itemize}
+    \item A positive Spearman correlation (\( r_s > 0 \)) indicates that the ranks of the hindcast and observation move in the same direction, showing a consistent relationship.  
+    \item A negative Spearman correlation (\( r_s < 0 \)) suggests that as the rank of one variable increases, the rank of the other decreases, indicating an inverse relationship.  
+    \item A Spearman correlation close to 0 (\( r_s \approx 0 \)) implies little to no monotonic relationship between the hindcast and observation.  
+    \item A Spearman correlation close to +1 or -1 (\( r_s \approx \pm1 \)) demonstrates a strong monotonic relationship, regardless of whether it is linear or not.  
+\end{itemize}
+\subsubsection{Root Mean Square Error (RMSE)}
+
+The RMSE measures the average magnitude of error between the hindcast and observed values. It is a robust metric to assess the overall predictive accuracy of a model. 
+
+\[
+RMSE = \sqrt{\frac{1}{n} \sum_{i=1}^{n}(H_i - O_i)^2}
+\]
+
+where:  
+\begin{itemize}
+    \item \( H \): The Hindcast.  
+    \item \( O \): The Observation.  
+    \item \( i \): The valid time (index of the data point).  
+\end{itemize}
+
+
+The interpretation of RMSE provides insights into the model's accuracy:  
+\begin{itemize}
+    \item A lower RMSE indicates higher accuracy, meaning the hindcast values are closer to the observed values.  
+    \item A higher RMSE suggests larger discrepancies between predictions and observations, indicating lower model accuracy.  
+    \item RMSE is useful for comparing the performance of different models or forecasting methods.  
+\end{itemize}
+
+
+\subsubsection{Coefficient of Determination (\( R^2 \))}
+The coefficient of determination, \( R^2 \), evaluates the goodness of fit of a model. It measures the proportion of variance in the observed data that is explained by the model's predictions. An \( R^2 \) value closer to 1 indicates better predictive performance, while values near 0 suggest a weak relationship. 
+
+\[
+R^2 = 1 - \frac{\sum_{i=1}^n (O_i - H_i)^2}{\sum_{i=1}^n (O_i - \bar{O})^2}
+\]
+
+where:  
+\begin{itemize}
+    \item \( R^2 \): Coefficient of determination.  
+    \item \( H_i \): Predicted value (Hindcast).  
+    \item \( O_i \): Observed value (Observation).  
+    \item \( \bar{O} \): Mean of the observed values.  
+    \item \( \sum_{i=1}^n (O_i - H_i)^2 \): Residual sum of squares (unexplained variance).  
+    \item \( \sum_{i=1}^n (O_i - \bar{O})^2 \): Total sum of squares (total variance).  
+\end{itemize}
+
+The interpretation of \( R^2 \) provides insights into the model's performance:  
+\begin{itemize}
+    \item A higher \( R^2 \) (closer to 1) indicates that a large proportion of the variance in the observations is explained by the model, signifying better predictive accuracy.  
+    \item A lower \( R^2 \) (closer to 0) suggests that the model fails to explain much of the variance, indicating poor model performance.  
+    \item \( R^2 \) is a useful metric for comparing different models and understanding how well each model captures the variability in the observed data.  
+\end{itemize}
+
+\subsubsection{Anomaly Correlation Coefficient (ACC)}
+
+The Anomaly Correlation Coefficient (ACC) evaluates the skill of seasonal forecasts by comparing anomalies (deviations from climatology) between hindcasts and observations. It considers both the direction and magnitude of the anomalies, making it a robust metric for assessing forecast accuracy in climate studies.
+
+\[
+ACC = \frac{\sum_{i=1}^{n} (H_i - \bar{H})(O_i - \bar{O})}{\sqrt{\sum_{i=1}^{n} (H_i - \bar{H})^2 \cdot \sum_{i=1}^{n} (O_i - \bar{O})^2}}
+\]
+
+where:  
+\begin{itemize}
+    \item \( ACC \): Anomaly Correlation Coefficient.  
+    \item \( H_i \): Forecast anomaly (Hindcast).  
+    \item \( O_i \): Observed anomaly (Observation).  
+    \item \( \bar{H} \): Mean of the forecast anomalies.  
+    \item \( \bar{O} \): Mean of the observed anomalies.  
+    \item \( n \): Number of valid time points.  
+\end{itemize}
+
+The interpretation of ACC provides insights into forecast accuracy:  
+\begin{itemize}
+    \item A higher ACC (closer to 1) indicates that the model successfully captures the direction and magnitude of anomalies, showing a high level of forecast skill.  
+    \item An ACC near 0 suggests that the model does not capture the anomalies accurately, indicating poor forecast skill.  
+    \item A negative ACC indicates an inverse relationship between the forecast and observed anomalies, suggesting that the model consistently misrepresents the direction of deviations.  
+\end{itemize}
+
+
+\subsubsection{Conclusion on Deterministic Measures}
+
+Deterministic measures such as RMSE, Spearman correlation, \( R^2 \), and ACC provide essential tools for evaluating the accuracy and reliability of seasonal forecasting models. Together, they address different aspects of model performance, offering a comprehensive framework for improving forecasting methodologies.
+
+
+
+\subsection{Probabilistic Evaluation Metrics}
+In addition to deterministic measures, probabilistic metrics play a crucial role in evaluating forecast performance by assessing the ability of models to predict the likelihood of various outcomes. These metrics provide a deeper understanding of how well forecast probabilities align with observed outcomes.
+
+\subsubsection{The Brier Score (BS)}
+The Brier Score (BS)\footnote{wmo guidance verification} is the mean squared difference between pairs of forecast probabilities \( p \) and the binary observations \( y \). \( N \) is the total number of forecasts. It measures the total probability error, considering that the observation is 1 if the event occurs, and 0 if the event does not occur (dichotomous events).
+
+\[
+BS_j = \frac{1}{N} \sum_{i=1}^{N} (y_{j,i} - p_{j,i})^2
+\]
+
+where:  
+\begin{itemize}
+    \item \( N \): The number of forecasts.  
+    \item \( y_{j,i} \): 1 if the \( i^{th} \) observation was in category \( j \), and 0 otherwise.  
+    \item \( p_{j,i} \): The \( i^{th} \) forecast probability for category \( j \).  
+\end{itemize}
+
+The interpretation of the Brier Score (BS) provides insights into forecast accuracy:  
+\begin{itemize}
+    \item A BS closer to 0 indicates better forecast accuracy, meaning the predicted probabilities are closer to the actual binary outcomes (observations).  
+    \item A BS closer to 1 indicates poorer forecast accuracy, meaning the forecast probabilities significantly deviate from the actual outcomes.  
+    \item A perfect forecast (where the predicted probability matches the observed outcome perfectly) receives a BS of 0.  
+    \item Higher BS values indicate less accurate forecasts, with errors increasing as the score moves toward 1.  
+\end{itemize}
+
+
+\subsubsection{Reliability}
+The reliability\footnote{wmo guidance verification} measures the degree of correspondence between the forecast probability and the observed frequency for an event or outcome that is being predicted. It summarizes the conditional bias of the forecasts for a given event and is equal to the weighted average of squared differences between the forecast and conditional observed probabilities. If the reliability is 0, the forecast is perfectly reliable. To observe the frequency distribution, the forecast probability, from 0 to 1, is divided into 5 bins (0.1, 0.3, 0.5, 0.7, 0.9) to compare to the observed frequency in each of the same bins in this study.
+
+\[
+Reliability = \frac{1}{n} \sum_{k=1}^{d} n_k (\bar{p_k} - \bar{y_k})^2
+\]
+
+where:  
+\begin{itemize}
+    \item \( n_k \): The number of forecasts for the \( k^{th} \) probability value (\( \bar{p_k} \)).  
+    \item \( \bar{y_k} \): The observed relative frequency for that value.  
+\end{itemize}
+
+The interpretation of reliability provides insights into the forecast's performance:  
+\begin{itemize}
+    \item A reliability score closer to 0 indicates that the forecast probability matches the observed frequency well, meaning the forecast is highly reliable.  
+    \item A higher reliability score suggests a discrepancy between forecast probabilities and observed outcomes, indicating a less reliable forecast.  
+    \item Perfect reliability (where forecast probability exactly matches observed frequency) results in a score of 0.  
+    \item Reliability is useful for evaluating whether forecast probabilities are over- or under-estimating the actual occurrence of events.  
+\end{itemize}
+
+
+
+\subsubsection{The ranked probability score (RPS)}
+The Ranked Probability Score (RPS) is a performance metric used in probabilistic forecasting to assess how well the predicted probability distribution matches the observed outcome distribution. It is particularly useful when there are multiple categories (e.g., terciles such as lower, middle, and upper) and is commonly applied in fields such as meteorology, climatology, and economics.
+
+\[
+RPS = \frac{1}{n(m-1)} \sum_{i=1}^{n} \sum_{k=1}^{m-1} \left( \sum_{j=1}^{k} (y_{j,i} - p_{j,i}) \right)^2
+\]
+
+where:  
+\begin{itemize}
+    \item \( n \): The number of forecasts.  
+    \item \( m \): The number of categories.  
+    \item \( y_{j,i} \): 1 if the \( i^{th} \) observation was in category \( j \), and 0 otherwise.  
+    \item \( p_{j,i} \): The \( i^{th} \) forecast probability for category \( j \).  
+\end{itemize}
+
+The interpretation of the Ranked Probability Score (RPS) is as follows:  
+\begin{itemize}
+    \item A lower RPS indicates better forecast performance, where the predicted probabilities closely match the observed categories.  
+    \item A perfect forecast, where the probability distribution exactly matches the observed outcome, results in an RPS of 0.  
+    \item A higher RPS indicates a poor forecast, where the predicted probabilities significantly deviate from the actual observations.  
+    \item The score ranges from 0\% (perfect forecast) to 100\% (completely incorrect forecast), with the latter occurring when all observations are in the outermost categories and the forecasts are maximally incorrect.  
+\end{itemize}
+
+\subsubsection{Relative Operating Characteristics}
+
+The ROC\footnote{wmo guidance verification} can be used in forecast verification to measure \textbf{\textit{the ability of the forecasts to distinguish an event from a non-event}}. For seasonal forecasts with three or more categories, the first problem is to define the “event”. One of the categories must be selected as the current category of interest, and an occurrence of this category is known as an event. An observation in any of the other categories is defined as a non-event and no distinction is made as to which of these two categories does occur. So, for example, if below normal is selected as the event, normal and above normal are treated equally as non-events.
+
+The score indicates the probability of successfully discriminating below-normal observations from normal and above-normal observations. It indicates how often the forecast probability for below normal is higher when below normal actually does occur compared to when either normal or above normal occurs.
+
+The interpretation of the ROC is as follows:  
+\begin{itemize}
+    \item A higher ROC score indicates better discrimination ability, meaning the forecast is more successful in distinguishing between an event (e.g., below normal) and a non-event (e.g., normal or above normal).  
+    \item A perfect forecast that can always correctly distinguish between events and non-events would have an ROC of 1, indicating perfect discrimination.  
+    \item A ROC score of 0.5 indicates a random forecast, where the forecast does not provide any more useful information than random guessing.  
+    \item Lower ROC values indicate that the forecast performs poorly at distinguishing between events and non-events.  
+\end{itemize}
+
+
+\subsubsection{Relative Operating Characteristics Skill Score}
+
+The Relative Operating Characteristic Skill Score (ROCSS) is a measure used in forecast verification to assess the ability of probabilistic forecasts to discriminate between events and non-events. It builds on the Relative Operating Characteristic (ROC) curve, which plots the hit rate (true positive rate) against the false alarm rate (false positive rate) at various forecast probability thresholds.
+
+\begin{itemize}
+	\item The ROC curve evaluates the discrimination capability of a forecast, i.e., how well the forecast can separate occurrences of an event (e.g., below-normal temperature) from non-events (e.g., normal or above-normal temperature).
+	\item The ROC Skill Score quantifies the area under the ROC curve (AUC) and compares it to a no-skill forecast.
+\end{itemize}
+
+\[
+ROCSS = \frac{AUC - AUC_{\text{no-skill}}}{1 - AUC_{\text{no-skill}}}
+\]
+
+where:  
+\begin{itemize}
+	\item \( AUC \): Area Under the ROC Curve for the forecast being evaluated.  
+	\item \( AUC_{\text{no-skill}} \): Area Under the Curve for a no-skill forecast, typically 0.5.  
+\end{itemize}
+
+Interpretation of ROCSS:  
+\begin{itemize}
+	\item \( 1 \): Perfect discrimination ability, where the forecast can perfectly distinguish between events and non-events.  
+	\item \( 0 \): No skill, meaning the forecast performs no better than random guessing.  
+	\item Negative values: The forecast performs worse than random guessing, indicating a forecast that is worse than a no-skill forecast.  
+\end{itemize}
+\subsubsection{Summary of Probabilistic Forecast Metrics}
+
+Probabilistic metrics are essential in evaluating seasonal forecasts, as they provide insights into various aspects of model performance. The main properties typically assessed are \textit{Reliability}, \textit{Discrimination}, \textit{Sharpness}, and \textit{Resolution}. These aspects help to understand the quality of probabilistic forecasts and guide improvements in forecasting models.
+
+\begin{itemize}
+    \item \textbf{Reliability}: This metric evaluates how closely the predicted probabilities match the observed frequencies. For example, if a model predicts a 70\% probability of an event, reliability measures whether that event occurs approximately 70\% of the time. A perfectly reliable model would show a diagonal line on the reliability diagram, meaning predicted probabilities correspond exactly to the observed frequencies.
+    
+    \item \textbf{Discrimination}: Discrimination examines the model's ability to distinguish between different outcomes, such as events (e.g., below-normal temperatures) and non-events (e.g., normal or above-normal temperatures). It assesses whether the model can correctly classify the conditions. The Area Under the Curve (AUC) of the ROC curve is typically used to evaluate discrimination.
+    
+    \item \textbf{Sharpness}: Sharpness concerns the model’s confidence in its predictions, particularly how close the forecast probabilities are to the extremes (0 or 1). A forecast with high sharpness indicates a model that makes bold predictions, while low sharpness suggests that the model gives more uncertain forecasts, close to the middle (e.g., 0.5).
+    
+    \item \textbf{Resolution}: This measures how well the model can distinguish between different forecast categories. A model with high resolution provides more specific information about the forecast and captures subtle variations. Brier score decomposition is a common method for assessing resolution.
+\end{itemize}
+
+
+\begin{table}[h!]
+\centering
+\begin{tabularx}{\textwidth}{@{}p{2.5cm}X X p{2.5cm}X@{}}
+\toprule
+\textbf{Metric}        \& \textbf{Focus}                                    \& \textbf{What it Measures}                         \& \textbf{Dependent on Observed Outcomes?} \& \textbf{Visualization/Tools}             \\ \midrule
+\textbf{Reliability}   \& Probabilities match observed frequencies          \& Calibration of probabilities                      \& Yes                                      \& Reliability diagram                      \\
+\textbf{Discrimination} \& Differentiating between outcomes                 \& Ability to distinguish events from non-events    \& Yes                                      \& ROC curve, AUC                           \\
+\textbf{Sharpness}     \& Boldness of probabilities (away from average)     \& Confidence of the forecast                        \& No                                       \& Histogram of forecast probabilities      \\
+\textbf{Resolution}    \& Informativeness and variability of forecast       \& Ability to provide specific, useful info         \& Yes                                      \& Brier score decomposition                \\ \bottomrule
+\end{tabularx}
+\caption{Key differences between reliability, discrimination, sharpness, and resolution in seasonal forecasting.}
+\end{table}
+
+
+%
+%\end{document}
+
+
