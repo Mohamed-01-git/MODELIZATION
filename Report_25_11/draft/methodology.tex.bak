@@ -1,0 +1,265 @@
+\chapter{Methodology}
+
+\section{DATA}
+
+The hindcast data used in this study was obtained using the OSOP package\footnote{https://github.com/OSFTools/osop/tree/main/scripts}, a tool developed by the UK Met Office to facilitate the retrieval of climate and meteorological data. The dataset comprises monthly mean seasonal forecasts for temperature over the MENA (Middle East and North Africa) region.
+
+
+The hindcast data spans the common period 1993–2016 and was downloaded from the Copernicus Climate Change Service (C3S) platform. 
+
+
+The data was retrieved for the following configurations:
+\begin{itemize}
+	\item Variables: 2-meter air temperature (t2m) and total precipitation (tp).
+	\item Forecast Range: Lead times of interest (1–3 months), it includes DJF\footnote{December,January,February}, JJA\footnote{June,July,August}, MAM\footnote{March,April,May}, SON\footnote{September,October,November}
+	\item Geographical Area: MENA region.
+	\item Temporal Coverage: 1993–2016
+	\item the used centers are $UKMO_602,ECMWF_51,ECCC_2,ECCC_3,CMCC_35,Meteo-France_8,DWD_21$
+\end{itemize}
+
+
+In addition to the hindcast data, this study utilized ERA5 reanalysis data, a state-of-the-art atmospheric reanalysis product produced by the European Centre for Medium-Range Weather Forecasts (ECMWF). 
+
+    
+
+\section{Deterministic Metrics}
+
+\subsection{Spearman rank correlation}
+
+Spearman's correlation is a non-parametric measure of rank correlation 
+(statistical dependence between the rankings of two variables). 
+It assesses how well the relationship between two variables can be described using a monotonic function (whether linear or not).  
+
+$$r_s=\frac{cov(R[H],R[O])}{\sigma_{R[H]} \cdot \sigma_{R[O]}}$$
+where : \\
+
+\begin{itemize}
+	\item $r_s : $ spearman rand correlation 
+	\item H : the Hindcast.
+	\item O : the Observation.
+	\item R[x] : the rank of the variable x. 
+	\item $\sigma_x : $ standard deviation of the variable x.
+\end{itemize}
+
+
+
+
+
+
+\subsection{RMSE}
+ 
+ $RMSE$ measures the average difference between a the hindcast and the observation.
+ 
+$$RMSE=\sqrt{\frac{1}{n} \sum\limits_{i=1}^{n}(H_i -O_i)^2}$$
+where :
+\begin{itemize}
+	\item H : the Hindcast.
+	\item O : the observation.
+	\item i : the valid time.
+\end{itemize}
+
+\subsection{Coefficient of Determination (\( R^2 \))}
+
+The coefficient of determination, \( R^2 \), is a statistical measure used to evaluate the goodness of fit of a model. It indicates the proportion of the variance in the dependent variable that is predictable from the independent variable(s). A value of \( R^2 \) close to 1 suggests that the model explains a large portion of the variance, while a value close to 0 indicates a weak relationship.
+
+\[
+R^2 = 1 - \frac{\sum_{i=1}^n (O_i - H_i)^2}{\sum_{i=1}^n (O_i - \bar{O})^2}
+\]
+
+where:
+
+\begin{itemize}
+	\item \( R^2 \): Coefficient of determination.
+	\item \( H_i \): Predicted value (Hindcast).
+	\item \( O_i \): Observed value (Observation).
+	\item \( \bar{O} \): Mean of the observed values.
+	\item \( \sum_{i=1}^n (O_i - H_i)^2 \): Residual sum of squares (unexplained variance).
+	\item \( \sum_{i=1}^n (O_i - \bar{O})^2 \): Total sum of squares (total variance).
+\end{itemize}
+
+
+
+
+
+\section{Probabilistic Metrics}
+
+
+In the WMO\footnotemark{} \footnotetext{https://library.wmo.int/records/item/56227-guidance-on-verification-of-operational-seasonal-climate-forecasts}. Guide, several criteria are provided for evaluating a good forecast. Each criterion offers insight into specific aspects of the model but cannot, on its own, fully determine the forecast's quality. By combining all the criteria, we can comprehensively assess the performance of the model.	 
+		\subsection{Resolution}
+	Resolution measures whether the outcome differs given different forecasts, while discrimination measures whether the forecasts differ given different outcomes.
+
+Discrimination looks at how well your forecast separates cases when the event (outcome) happens (pass) from when it doesn’t happen (fail). It’s about telling apart the events.
+Resolution looks at how well your forecast adapts to different situations, giving distinct probabilities for different cases. It’s about adjusting to the situation.
+
+Resolution measures how well a forecast distinguishes between different outcomes. A forecast has high resolution if the predicted probabilities vary significantly depending on the actual outcome. In other words, resolution tells us whether the forecast changes (e.g., gives different probabilities) when the actual outcome changes.
+High resolution: The forecast gives distinct and varying probabilities when different events (outcomes) occur. For example, if in one case the forecast predicts a high probability of rain and it rains, and in another case predicts a low probability and it doesn’t rain, the forecast shows good resolution.
+Low resolution: If the forecast probabilities don’t change much regardless of whether it rains or not (e.g., always predicting a 50\% chance of rain), the forecast has poor resolution because it fails to capture the differences in actual outcomes.
+Resolution can be determined by measuring how strongly the outcome is conditioned upon the forecast.
+If the outcome is independent of the forecast, the forecast has no resolution and is useless
+Forecasts with no resolution are neither “good” nor “bad”, but are useless. 
+Metrics of resolution distinguish between potentially useful and useless forecasts, but not all these metrics distinguish between “good” and “bad” forecasts.
+
+The following equation represents the "resolution" component of the Brier Score (BS) decomposition, which quantifies how well a set of probability forecasts differentiates between events and non-events:
+
+\begin{equation}
+\textbf {Resolution} = \frac{1}{n} \sum_{k=1}^{d} n_k \left( \bar{y}_k - \bar{y} \right)^2
+\end{equation}
+
+where:
+
+\begin{equation}
+\bar{y}_k = \frac{1}{n_k} \sum_{i=1}^{n_k} y_{k,i}
+\end{equation}
+
+\begin{itemize}
+    \item $n$ is the total number of forecasts,
+    \item $d$ is the number of discrete probability bins,
+    \item $n_k$ is the number of forecasts in the $k$-th bin,
+    \item $\bar{y}_k$ is the observed relative frequency for the $k$-th probability bin,
+    \item $\bar{y}$ is the overall observed relative frequency.
+\end{itemize}
+
+The term $\left( \bar{y}_k - \bar{y} \right)^2$ captures the variance between individual forecast categories and the overall event frequency. Higher resolution indicates that forecasts better differentiate between events and non-events.\\
+so the resolution tells us how the model change with different situations.\\
+the scores used to evaluate resolution are Brier Score and Reliability.
+
+
+
+		\subsection{Discrimination}
+
+Discrimination measures how well the forecast separates cases where the event occurs from cases where it does not. In other words, it examines whether the forecast probabilities differ for events that happen versus those that don't.
+High discrimination: A forecast has high discrimination if, for example, when rain occurs, the forecast consistently predicts a high probability of rain, and when rain doesn’t occur, it predicts a low probability. It means the forecast is good at distinguishing between rain and no-rain days.
+Low discrimination: If the forecast provides similar probabilities regardless of whether it rains or not (e.g., predicting a 60\% chance of rain every day), it has poor discrimination because it doesn’t effectively differentiate between days with and without rain. The score used to evaluate descrimination is ROC\footnote{Relative operating characteristics}.
+		\subsection{Reliability}
+
+A forecast is reliable if the predicted probabilities match the actual frequencies. For instance:
+If you forecast a 40\% probability for below-normal rainfall, below-normal rainfall should occur in 40\% of the cases where you make that prediction.
+Similarly, if you forecast a 25\% chance of above-normal rainfall, above-normal rainfall should happen 25\% of the time when you give that probability.
+If this relationship holds consistently over many forecasts, the forecasts are well-calibrated (or reliable).
+A Reliable but Uninformative Forecast
+A forecast that always gives the climatological probability (e.g., always predicting a 33\% chance for each category: below, normal, above normal) would be reliable because the climatological average matches the observed frequencies. However, this forecast wouldn’t provide any information about changing conditions from case to case—it doesn’t adapt to the current situation, making it uninformative.
+
+\begin{equation}
+\textbf{Reliability} = \frac{1}{n} \sum_{k=1}^{d} n_k \left( \bar{p}_k - \bar{y}_k \right)^2
+\end{equation}
+
+
+\begin{itemize}
+    \item $n$ is the total number of forecasts,
+    \item $d$ is the number of discrete probability bins,
+    \item $n_k$ is the number of forecasts in the $k$-th bin,
+    \item $\bar{y}_k$ is the observed relative frequency for the $k$-th probability bin,
+    \item $\bar{p}_k$ is relative frequency for the $k$-th probability.
+\end{itemize}
+
+
+		\subsection{Sharpness}
+Sharp forecasts provide a strong signal about the expected outcome. For example, a sharp forecast might assign a 70\% chance to a certain outcome, like above-normal rainfall. This high probability communicates more confidence in that specific outcome.
+On the other hand, when the forecast probabilities are close to the climatological values (like assigning a 40\% chance to above-normal, 35\% to normal, and 25\% to below-normal), the forecast is not very sharp, meaning the forecaster isn't very confident in predicting any one outcome.
+The climatological probabilities are reliable, but aren’t sharp.
+
+
+
+
+\subsection{The Brier Score (BS)}
+The Brier Score (BS)\footnote{wmo guidance verification} is the mean squared differences between pairs of forecast probabilities p and the binary observations y. N is the total forecast number. It measures the total probability error, considering that the observation is 1 if the event occurs, and 0 if the event does not occur (dichotomous events).
+
+$$BS_j=\frac{1}{N} \sum\limits_{i}^{N} (y_{j,i} - p_{j,i})^2$$
+
+where:
+\begin{itemize}
+	\item n is the number of forecasts
+	\item $y_{j,i} $ is 1 if the $i^th$ observation was in category $j$, and is 0 otherwise.
+	\item $p_{j,i}$  is the $i^th$ forecast probability for category $j$.
+\end{itemize}
+The BS takes values in the range of 0 to 1. \textbf{\textit{Perfect forecasts receive 0}} and less accurate forecasts receive higher scores. Under the condition that x is 0.5 when the observation data is uncertain, the mean squared differences between the forecast probabilities and observation at 0.5 is calculated.
+
+
+
+
+
+
+
+
+\subsection{The ranked probability score (RPS)}
+
+The Ranked Probability Score (RPS) is a performance metric used in probabilistic forecasting to assess how well the predicted probability distribution matches the observed outcome distribution. It is particularly useful when there are multiple categories (e.g., terciles such as lower, middle, and upper) and is commonly applied in fields such as meteorology, climatology, and economics.
+
+$$RPS=\frac{1}{n(m-1)}\sum\limits_{i=1}^{n} \sum\limits_{k=1}^{m-1} \left(\sum\limits_{j=1}^{k}(y_{j,i} - p_{j,i})\right)^2  $$
+
+where : 
+
+\begin{itemize}
+	\item n is the number of forecasts.
+	\item m is the number of categories.
+	\item $y_{j,i}$ is 1 if the $i^th$ observation was in category j, and is 0 otherwise.
+	\item $p_{j,i}$ is the $i^th$ forecast probability for category j
+\end{itemize}
+
+The score is the average squared “error” in the cumulative
+probabilistic forecasts, and it ranges between 0\% for perfect forecasts (a probability of 100\%
+was assigned to the observed category on each forecast) to a maximum of 100\% that can only
+be achieved if all the observations are in the outermost categories, and if the forecasts are
+perfectly bad (a probability of 100\% was assigned to the opposite outermost category to that
+observed).
+
+
+
+\subsection{Relative operating characteristics}
+The ROC\footnote{wmo guidance verification} can be used in forecast verification to measure \textbf{\textit{the ability of the forecasts to distinguish an event from a non-event}}. For seasonal forecasts with three or more categories, the first
+problem is to define the “event”. One of the categories must be selected as the current category
+of interest, and an occurrence of this category is known as an event. An observation in any of
+the other categories is defined as a non-event and no distinction is made as to which of these
+two categories does occur. So, for example, if below normal is selected as the event, normal
+and above normal are treated equally as non-events.
+
+the score indicates the probability of successfully
+discriminating below-normal observations from normal and above-normal observations. It
+indicates how often the forecast probability for below normal is higher when below normal
+actually does occur compared to when either normal or above normal occurs.
+
+
+
+\subsection{Relative operating characteristics Skill Score}
+The Relative Operating Characteristic Skill Score (ROCSS) is a measure used in forecast verification to assess the ability of probabilistic forecasts to discriminate between events and non-events. It builds on the Relative Operating Characteristic (ROC) curve, which plots the hit rate (true positive rate) against the false alarm rate (false positive rate) at various forecast probability thresholds.
+
+\begin{itemize}
+	\item The ROC curve evaluates the discrimination capability of a forecast, i.e., how well the forecast can separate occurrences of an event (e.g., below-normal temperature) from non-events (e.g., normal or above-normal temperature).
+	\item The ROC Skill Score quantifies the area under the ROC curve (AUC) and compares it to a no-skill forecast.
+\end{itemize}
+
+	$$ROCSS=\frac{AUC-AUC_{no-skill}}{1-AUC_{no-skill}}$$
+where:
+\begin{itemize}
+	\item $AUC$ : Area Under the ROC Curve for the forecast being evaluated.
+	\item $AUC_{no-skill}$ : Area Under the Curve for a no-skill forecast 0.5 for our case.
+\end{itemize}
+
+Interpretation of ROCSS:
+\begin{itemize}
+	\item 1: Perfect discrimination ability.
+	\item 0: No skill (forecast performs no better than random guessing).
+	\item Negative values: Forecast performs worse than random guessing.
+\end{itemize}
+	
+
+
+
+\subsection{summary}
+\begin{table}[h!]
+\centering
+\begin{tabularx}{\textwidth}{@{}p{2.5cm}p{4cm}p{4cm}p{2.5cm}p{3cm}@{}}
+\toprule
+\textbf{Metric}       & \textbf{Focus}                                    & \textbf{What it Measures}                         & \textbf{Dependent on Observed Outcomes?} & \textbf{Visualization/Tools}             \\ \midrule
+\textbf{Reliability}   & Probabilities match observed frequencies          & Calibration of probabilities                      & Yes                                      & Reliability diagram                      \\
+\textbf{Discrimination} & Differentiating between outcomes                 & Ability to distinguish events from non-events    & Yes                                      & ROC curve, AUC                           \\
+\textbf{Sharpness}     & Boldness of probabilities (away from average)     & Confidence of the forecast                        & No                                       & Histogram of forecast probabilities      \\
+\textbf{Resolution}    & Informativeness and variability of forecast       & Ability to provide specific, useful info         & Yes                                      & Brier Score decomposition                \\ \bottomrule
+\end{tabularx}
+\caption{Key differences between reliability, discrimination, sharpness, and resolution in seasonal forecasting.}
+\label{tab:forecast_metrics}
+\end{table}
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
