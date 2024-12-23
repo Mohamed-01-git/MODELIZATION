@@ -90,10 +90,13 @@
 We would like to express our deepest gratitude to \textbf{Mrs. Wafae Badi} for her unwavering support and invaluable guidance throughout this project. Her insightful counsel and constant encouragement enabled us to overcome various challenges and maintain our focus. Her dedication to fostering progress, coupled with her constructive feedback and open-minded approach, were instrumental in shaping the direction of this work. Her mentorship has truly been a cornerstone of our journey, and we are profoundly grateful for her invaluable contributions.  
 \\
 
-Special thanks go to \textbf{Mr. Nicholas Savage} and his exceptional team at the UK Met Office. Their generosity in sharing their expertise and resources provided us with unparalleled opportunities to broaden our understanding of climate modeling. The engaging discussions and valuable insights shared by Mr. Savage and his team not only enriched this project but also fueled our motivation to explore innovative avenues. Their commitment to advancing climate science inspired us to aim higher and achieve more.
+Special thanks go to \textbf{Mr. Nicholas Savage} and his exceptional team at the UK Met Office. Their generosity in sharing their expertise and resources provided us with unparalleled opportunities to broaden our understanding of climate modeling. The engaging discussions and valuable insights shared by Mr. Savage and his team not only enriched this project but also fueled our motivation to explore innovative avenues. Their commitment to advancing climate science inspired us to aim higher and achieve more.  
 \\
 
-We are also immensely grateful to \textbf{Mr. Bari}, whose dedicated supervision, thoughtful suggestions, and constructive critiques significantly enhanced the quality of this work. His ability to balance critical feedback with motivating encouragement made a remarkable difference, guiding us through challenging moments and ensuring steady progress. 
+We extend our sincere thanks to \textbf{Mrs. Emma Dyer} for her thoughtful feedback and diligent follow-up throughout this project. Her valuable remarks and attention to detail were essential in refining our work and enhancing its quality. Her commitment to excellence and her dedication to supporting our efforts were greatly appreciated.  
+\\
+
+We are also immensely grateful to \textbf{Mr. Bari}, whose dedicated supervision, thoughtful suggestions, and constructive critiques significantly enhanced the quality of this work. His ability to balance critical feedback with motivating encouragement made a remarkable difference, guiding us through challenging moments and ensuring steady progress.  
 \\
 
 In addition, we would like to acknowledge the support received through the \textbf{WISER MENA project}. \textbf{Nicholas Savage’s time was funded via the WISER MENA project.} The Weather and Climate Information Services (WISER) Programme is funded with UK International Development from the UK government and led by the Met Office in the UK. This work has been partially supported by UK International Development from the UK government; however, the views expressed do not necessarily reflect the UK government’s official policies.  
@@ -185,17 +188,17 @@ Deterministic and probabilistic models serve complementary roles in climate mode
     \caption{Comparison of Deterministic and Probabilistic Models}
     \begin{tabular}{@{}p{5cm}p{5cm}p{5cm}@{}}
     \toprule
-    \textbf{Feature} \& \textbf{Deterministic Models} \& \textbf{Probabilistic Models} \\
+    \textbf{Feature} & \textbf{Deterministic Models} & \textbf{Probabilistic Models} \\
     \midrule
-    Predictability \& Produces a single fixed outcome based on initial conditions \& Generates a range of outcomes with associated probabilities \\
+    Predictability & Produces a single fixed outcome based on initial conditions & Generates a range of outcomes with associated probabilities \\
     \addlinespace
-    Sensitivity to Initial Conditions \& Highly sensitive, leading to reduced accuracy over long timeframes \& Less sensitive due to ensemble techniques reducing error amplification \\
+    Sensitivity to Initial Conditions & Highly sensitive, leading to reduced accuracy over long timeframes & Less sensitive due to ensemble techniques reducing error amplification \\
     \addlinespace
-    Application Domain \& Suitable for short-term, high-resolution tasks, e.g., extreme event analysis \& Ideal for medium- and long-term decision-making under uncertainty \\
+    Application Domain & Suitable for short-term, high-resolution tasks, e.g., extreme event analysis & Ideal for medium- and long-term decision-making under uncertainty \\
     \addlinespace
-    Use of Historical Data \& Limited emphasis on historical variability \& Extensively relies on historical data for statistical projections \\
+    Use of Historical Data & Limited emphasis on historical variability & Extensively relies on historical data for statistical projections \\
     \addlinespace
-    Examples \& Global Circulation Models (GCMs), Regional Climate Models (RCMs) \& Ensemble forecasting, statistical downscaling \\
+    Examples & Global Circulation Models (GCMs), Regional Climate Models (RCMs) & Ensemble forecasting, statistical downscaling \\
     \bottomrule
     \end{tabular}
 \end{table}
@@ -616,19 +619,6 @@ Probabilistic metrics are essential in evaluating seasonal forecasts, as they pr
     \item \textbf{Resolution}: This measures how well the model can distinguish between different forecast categories. A model with high resolution provides more specific information about the forecast and captures subtle variations. Brier score decomposition is a common method for assessing resolution.
 \end{itemize}
 
-
-\begin{table}[h!]
-\centering
-\begin{tabularx}{\textwidth}{@{}p{2.5cm}X X p{2.5cm}X@{}}
-\toprule
-\textbf{Metric}        \& \textbf{Focus}                                    \& \textbf{What it Measures}                         \& \textbf{Dependent on Observed Outcomes?} \& \textbf{Visualization/Tools}             \\ \midrule
-\textbf{Reliability}   \& Probabilities match observed frequencies          \& Calibration of probabilities                      \& Yes                                      \& Reliability diagram                      \\
-\textbf{Discrimination} \& Differentiating between outcomes                 \& Ability to distinguish events from non-events    \& Yes                                      \& ROC curve, AUC                           \\
-\textbf{Sharpness}     \& Boldness of probabilities (away from average)     \& Confidence of the forecast                        \& No                                       \& Histogram of forecast probabilities      \\
-\textbf{Resolution}    \& Informativeness and variability of forecast       \& Ability to provide specific, useful info         \& Yes                                      \& Brier score decomposition                \\ \bottomrule
-\end{tabularx}
-\caption{Key differences between reliability, discrimination, sharpness, and resolution in seasonal forecasting.}
-\end{table}
 
 
 %

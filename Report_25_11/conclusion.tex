@@ -1,13 +1,48 @@
 \chapter{CONCLUSION}
+This study has thoroughly evaluated the performance of leading climate models in predicting temperature and precipitation across the MENA region, North Africa, and the Arabian Peninsula. By assessing key metrics such as Accuracy (ACC), Root Mean Square Error (RMSE), Coefficient of Determination (R²), Brier Score (BS), and others, we have identified the strengths and weaknesses of each model, while highlighting regional variations in their predictive capabilities.
+
+For \textbf{precipitation}, ECMWF consistently demonstrated the highest performance across all metrics and regions, showcasing its robustness in handling diverse climatic conditions. METEO-FRANCE, CMCC, and DWD also performed strongly, particularly in probabilistic measures such as the Brier Score and Reliability. However, UKMO showed comparatively weaker performance in several areas, particularly in the Arabian Peninsula, where challenges related to the region's hyper-arid climate and limited observational data are evident. This underlines the need for UKMO to refine its precipitation algorithms and improve its probabilistic forecasting techniques to align more closely with the leading centers.
+
+In the case of \textbf{temperature}, ECMWF again emerged as the most reliable model, achieving top performance in both deterministic and probabilistic metrics across all regions. METEO-FRANCE and ECCC-3 also demonstrated strong capabilities, particularly in the MENA and North African regions. While UKMO's performance was adequate in deterministic metrics such as ACC and RMSE, its relative underperformance in probabilistic metrics like Reliability and RPS indicates areas for potential improvement, particularly in capturing temperature variability in arid regions such as the Arabian Peninsula.
+
+Regionally, the MENA region exhibited the most consistent results across all metrics, likely due to its relatively homogeneous climate and better observational network. North Africa displayed stronger model performance overall, but with occasional inconsistencies in probabilistic measures, reflecting the complex interactions of its semi-arid and Mediterranean climates. The Arabian Peninsula posed the greatest challenge, with all models, including UKMO, facing difficulties in capturing the nuances of this region's extreme climate. This highlights the critical need for enhanced regional modeling and observational coverage.
+
+In conclusion, ECMWF continues to stand out as a benchmark for climate modeling, while METEO-FRANCE, CMCC, and DWD provide valuable complementary strengths. UKMO, though contributing significantly, has room for improvement, particularly in probabilistic metrics for both temperature and precipitation. These findings emphasize the importance of multi-model ensembles to leverage the strengths of each model and improve forecast reliability.
+
+Looking ahead, future research should focus on enhancing regional customization of global models, improving data assimilation techniques, and expanding observational networks, particularly in underrepresented regions like the Arabian Peninsula. Moreover, studying the impacts of extreme weather events and seasonal variability will provide critical insights to inform decision-making and climate adaptation strategies.
+
+This comprehensive evaluation underscores the importance of collaboration among climate centers to address the challenges posed by diverse and complex climatic conditions across the MENA region and beyond.
+
 
 \begin{table}[h!]
 \centering
 \begin{tabular}{|>{\raggedright\arraybackslash}m{2cm}|>{\raggedright\arraybackslash}m{4cm}|>{\raggedright\arraybackslash}m{4cm}|>{\raggedright\arraybackslash}m{4cm}|}
 \hline
 \textbf{Metric} & \textbf{MENA} & \textbf{North Africa} & \textbf{Arabian Peninsula} \\ \hline
-ACC & ECMWF, CMCC-35, UKMO & ecmwf, ukmo and meteo-france & ECMWF, CMCC-35, UKMO \\ \hline
-RMSE & DWD, ECMWF and UKMO & ecmwf, ukmo and dwd & ecmwf, ukmo and dwd \\ \hline
-R2 & ecmwf & ecmwf & Cmcc-35, eccc2 \\ \hline
+ACC            & ECMWF, METEO-FRANCE, ECCC-3 & ECMWF, UKMO, ECCC-3 & ECMWF, UKMO, DWD \\ \hline
+RMSE           & UKMO, ECMWF & METEO-FRANCE & METEO-FRANCE \\ \hline
+R²             & ECMWF       & ECMWF         & ECMWF \\ \hline
+BS             & METEO-FRANCE, ECMWF, CMCC-35 & ECMWF, METEO-FRANCE, CMCC-35 & ECMWF, METEO-FRANCE, CMCC-35 \\ \hline
+RELA           & ALL except UKMO & ALL except UKMO & ALL except UKMO \\ \hline
+RPS            & ECMWF       & ECMWF         & ECMWF \\ \hline
+ROC            & ALL centers & ALL centers   & ALL centers \\ \hline
+ROCSS          & ALL centers & ALL centers   & ALL centers \\ \hline
+\end{tabular}
+\caption{Comparison of Metrics across MENA, North Africa, and Arabian Peninsula for TEMPERATURE.}
+\label{tab:temperature_metrics}
+\end{table}
+
+
+
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|>{\raggedright\arraybackslash}m{2cm}|>{\raggedright\arraybackslash}m{4cm}|>{\raggedright\arraybackslash}m{4cm}|>{\raggedright\arraybackslash}m{4cm}|}
+\hline
+\textbf{Metric} & \textbf{MENA} & \textbf{North Africa} & \textbf{Arabian Peninsula} \\ \hline
+ACC & ECMWF, CMCC-35, UKMO & ECMWF, UKMO and METEO-FRANCE & ECMWF, CMCC-35, UKMO \\ \hline
+RMSE & DWD, ECMWF and UKMO & ECMWF, UKMO and DWD & ECMWF, UKMO and DWD \\ \hline
+R² & ECMWF & ECMWF & CMCC-35, ECCC2 \\ \hline
 BS & ECMWF, METEO-FRANCE and CMCC-35 & ECMWF, METEO-FRANCE and CMCC-35 & ECMWF, METEO-FRANCE and CMCC-35 \\ \hline
 RPS & ALL except UKMO & ALL except UKMO & ALL except UKMO \\ \hline
 ROC & ALL & ALL & ALL \\ \hline
