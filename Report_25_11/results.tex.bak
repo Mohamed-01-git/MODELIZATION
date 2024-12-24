@@ -3,7 +3,7 @@
 This chapter presents the results of our study, divided into two main sections: temperatures and precipitation. In each section, we provide a comprehensive analysis of the deterministic and probabilistic evaluation of forecast performance across the MENA region. By examining both temperature and precipitation metrics, we aim to highlight the strengths and limitations of the forecasting models, offering valuable insights into their reliability and applicability in this climatically diverse area.
 \section{Temperature}
 
-In the temperature session, the use of heatmaps and temperature metrics maps will allow for a visual interpretation of model performance across various metrics. By analyzing these heatmaps, we can identify the most effective models based on metrics such as Spearman rank correlation, RMSE (Root Mean Square Error), and the Coefficient of Determination (R-squared). These visualizations will help in understanding the relationships between predicted and observed temperatures, aiding in the selection of models with the highest predictive accuracy. Additionally, the use of probabilistic evaluation metrics such as the Brier Score, Reliability, Ranked Probability Score (RPS), and Relative Operating Characteristics (ROC) will provide insights into the model's performance in terms of forecast quality, focusing on calibration, discrimination, and sharpness. These methods will be used to refine and improve predictive models for temperature forecasting in the MENA region.
+In the temperature session, the use of heatmaps and temperature metrics maps will allow for a visual interpretation of model performance across various metrics. By analyzing these heatmaps, we can identify the most effective models based on metrics such as Anomaly Correlation (ACC), RMSE (Root Mean Square Error), and the Coefficient of Determination (R-squared). These visualizations will help in understanding the relationships between predicted and observed temperatures, aiding in the selection of models with the highest predictive accuracy. Additionally, the use of probabilistic evaluation metrics such as the Brier Score, Reliability, Ranked Probability Score (RPS), and Relative Operating Characteristics (ROC) will provide insights into the model's performance in terms of forecast quality, focusing on calibration, discrimination, and sharpness. These methods will be used to refine and improve predictive models for temperature forecasting in the MENA region.
 \subsection{Deterministic evaluation results}
 
 \subsubsection{ACC}
@@ -11,7 +11,7 @@ In the temperature session, the use of heatmaps and temperature metrics maps wil
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.25]{plots/det/acc/acc_T2M_mena.png}
-	\caption{The Heatmap of acc for the mena region for every period \textbf{\textit{(1 for perfect Correlation)} }}
+	\caption{The Heatmap of acc for the mena region for every period \textbf{\textit{(1 for perfect ACC)} }}
 \end{figure}
 The acc is moderate for all centers; however, the best models are \textbf{\textit{ECMWF, meteo-france and eccc-3}}. There is no clear variability in performance over time. For SON and JJA, performance is good at time 1 for all centers but decreases with increasing lead-time..
 
@@ -182,7 +182,7 @@ IN general, the forecast of precipitations is more complicated than temperature,
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.25]{plots/det/acc/acc_RR_mena.png}
-	\caption{The Heatmap of acc for the mena region for every period \textbf{\textit{(1 for perfect Correlation)} }}
+	\caption{The Heatmap of acc for the mena region for every period \textbf{\textit{(1 for perfect ACC)} }}
 \end{figure}
 The acc is moderate for all centers; however, the best models are \textbf{\textit{ECMWF, UKMO, and CMCC-35}}. There is no clear variability in performance along lead-time. For SON, the performance is good at lead-time 2 for all centers. As for the other seasons, the performance is generally strong at the 1st lead-time but decreases with increasing lead-time.
 Hence, Meteo-France also shows good performance, but it decreases significantly over time.
@@ -205,7 +205,7 @@ The 3-month rolling mean for DJF acc shows that the best models are \textbf{\tex
 
 
  
-For SON, the situation is generally better than for DJF in the Arabian peninsula. In general, \textbf{\textit{ECMWF and Meteo-France}} are the best. Nevertheless, the correlation isn't significant in the east of africa and the north of the Arabian peninsula despite of the high acc.
+For SON, the situation is generally better than for DJF in the Arabian peninsula. In general, \textbf{\textit{ECMWF and Meteo-France}} are the best. Nevertheless, the ACC isn't significant in the east of africa and the north of the Arabian peninsula despite of the high acc.
 
 
 \subsubsection{RMSE}

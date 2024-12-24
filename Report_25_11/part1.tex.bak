@@ -357,9 +357,9 @@ A forecast that always gives the climatological probability (e.g., always predic
 Sharp forecasts provide a strong signal about the expected outcome. For example, a sharp forecast might assign a 70\% chance to a certain outcome, like above-normal rainfall. This high probability communicates more confidence in that specific outcome.
 On the other hand, when the forecast probabilities are close to the climatological values (like assigning a 40\% chance to above-normal, 35\% to normal, and 25\% to below-normal), the forecast is not very sharp, meaning the forecaster isn't very confident in predicting any one outcome.
 The climatological probabilities are reliable, but aren’t sharp.
-\section{Methodology}
+\chapter{Methodology}
 
-\subsection{DATA}
+\section{DATA}
 
 The hindcast data used in this study was obtained using the OSOP package\footnote{https://github.com/OSFTools/osop/tree/main/scripts}, a tool developed by the UK Met Office to facilitate the retrieval of climate and meteorological data. The dataset comprises monthly mean seasonal forecasts for temperature over the MENA (Middle East and North Africa) region.
 
@@ -381,87 +381,13 @@ In addition to the hindcast data, this study utilized ERA5 reanalysis data, a st
 
     
 
-\subsection{Deterministic Evaluation Metrics}
+\section{Deterministic Evaluation Metrics}
 To evaluate the performance of seasonal climate prediction models, a range of deterministic measures is employed. These metrics offer valuable insights into the accuracy and reliability of forecasts by assessing the alignment between predicted and observed values. In this section, we present the main deterministic measures, which will also be applied in our study.
-\subsubsection{Deterministic Measures}
+\subsection{Deterministic Measures}
 
 Deterministic measures are statistical metrics used to assess the accuracy and reliability of climate forecasting models. These measures quantify the degree of correspondence between the predicted (Hindcast) and observed (Observation) values. Below, we present some widely used deterministic measures.
 
-\subsubsection{Spearman Rank Correlation}
-
-Spearman's correlation is a non-parametric measure of rank correlation, assessing the statistical dependence between the rankings of two variables. It evaluates how well the relationship between two variables can be described using a monotonic function, irrespective of whether it is linear or not. 
-
-\[
-r_s = \frac{\text{cov}(R[H], R[O])}{\sigma_{R[H]} \cdot \sigma_{R[O]}}
-\]
-
-where:  
-\begin{itemize}
-    \item \( r_s \): Spearman rank correlation.  
-    \item \( H \): The Hindcast.  
-    \item \( O \): The Observation.  
-    \item \( R[x] \): The rank of the variable \( x \).  
-    \item \( \sigma_x \): Standard deviation of the variable \( x \).  
-\end{itemize}
-
-
-Spearman correlation is particularly useful as it focuses on the rankings rather than the actual values, making it effective for evaluating monotonic relationships in seasonal forecasting models. Its interpretation provides valuable insights into the nature and strength of the relationship between hindcasts and observations:  
-
-\begin{itemize}
-    \item A positive Spearman correlation (\( r_s > 0 \)) indicates that the ranks of the hindcast and observation move in the same direction, showing a consistent relationship.  
-    \item A negative Spearman correlation (\( r_s < 0 \)) suggests that as the rank of one variable increases, the rank of the other decreases, indicating an inverse relationship.  
-    \item A Spearman correlation close to 0 (\( r_s \approx 0 \)) implies little to no monotonic relationship between the hindcast and observation.  
-    \item A Spearman correlation close to +1 or -1 (\( r_s \approx \pm1 \)) demonstrates a strong monotonic relationship, regardless of whether it is linear or not.  
-\end{itemize}
-\subsubsection{Root Mean Square Error (RMSE)}
-
-The RMSE measures the average magnitude of error between the hindcast and observed values. It is a robust metric to assess the overall predictive accuracy of a model. 
-
-\[
-RMSE = \sqrt{\frac{1}{n} \sum_{i=1}^{n}(H_i - O_i)^2}
-\]
-
-where:  
-\begin{itemize}
-    \item \( H \): The Hindcast.  
-    \item \( O \): The Observation.  
-    \item \( i \): The valid time (index of the data point).  
-\end{itemize}
-
-
-The interpretation of RMSE provides insights into the model's accuracy:  
-\begin{itemize}
-    \item A lower RMSE indicates higher accuracy, meaning the hindcast values are closer to the observed values.  
-    \item A higher RMSE suggests larger discrepancies between predictions and observations, indicating lower model accuracy.  
-    \item RMSE is useful for comparing the performance of different models or forecasting methods.  
-\end{itemize}
-
-
-\subsubsection{Coefficient of Determination (\( R^2 \))}
-The coefficient of determination, \( R^2 \), evaluates the goodness of fit of a model. It measures the proportion of variance in the observed data that is explained by the model's predictions. An \( R^2 \) value closer to 1 indicates better predictive performance, while values near 0 suggest a weak relationship. 
-
-\[
-R^2 = 1 - \frac{\sum_{i=1}^n (O_i - H_i)^2}{\sum_{i=1}^n (O_i - \bar{O})^2}
-\]
-
-where:  
-\begin{itemize}
-    \item \( R^2 \): Coefficient of determination.  
-    \item \( H_i \): Predicted value (Hindcast).  
-    \item \( O_i \): Observed value (Observation).  
-    \item \( \bar{O} \): Mean of the observed values.  
-    \item \( \sum_{i=1}^n (O_i - H_i)^2 \): Residual sum of squares (unexplained variance).  
-    \item \( \sum_{i=1}^n (O_i - \bar{O})^2 \): Total sum of squares (total variance).  
-\end{itemize}
-
-The interpretation of \( R^2 \) provides insights into the model's performance:  
-\begin{itemize}
-    \item A higher \( R^2 \) (closer to 1) indicates that a large proportion of the variance in the observations is explained by the model, signifying better predictive accuracy.  
-    \item A lower \( R^2 \) (closer to 0) suggests that the model fails to explain much of the variance, indicating poor model performance.  
-    \item \( R^2 \) is a useful metric for comparing different models and understanding how well each model captures the variability in the observed data.  
-\end{itemize}
-
-\subsubsection{Anomaly Correlation Coefficient (ACC)}
+\subsection{Anomaly Correlation Coefficient (ACC)}
 
 The Anomaly Correlation Coefficient (ACC) evaluates the skill of seasonal forecasts by comparing anomalies (deviations from climatology) between hindcasts and observations. It considers both the direction and magnitude of the anomalies, making it a robust metric for assessing forecast accuracy in climate studies.
 
@@ -487,16 +413,67 @@ The interpretation of ACC provides insights into forecast accuracy:
 \end{itemize}
 
 
-\subsubsection{Conclusion on Deterministic Measures}
+\subsection{Root Mean Square Error (RMSE)}
+
+The RMSE measures the average magnitude of error between the hindcast and observed values. It is a robust metric to assess the overall predictive accuracy of a model. 
+
+\[
+RMSE = \sqrt{\frac{1}{n} \sum_{i=1}^{n}(H_i - O_i)^2}
+\]
+
+where:  
+\begin{itemize}
+    \item \( H \): The Hindcast.  
+    \item \( O \): The Observation.  
+    \item \( i \): The valid time (index of the data point).  
+\end{itemize}
+
+
+The interpretation of RMSE provides insights into the model's accuracy:  
+\begin{itemize}
+    \item A lower RMSE indicates higher accuracy, meaning the hindcast values are closer to the observed values.  
+    \item A higher RMSE suggests larger discrepancies between predictions and observations, indicating lower model accuracy.  
+    \item RMSE is useful for comparing the performance of different models or forecasting methods.  
+\end{itemize}
+
+
+\subsection{Coefficient of Determination (\( R^2 \))}
+The coefficient of determination, \( R^2 \), evaluates the goodness of fit of a model. It measures the proportion of variance in the observed data that is explained by the model's predictions. An \( R^2 \) value closer to 1 indicates better predictive performance, while values near 0 suggest a weak relationship. 
+
+\[
+R^2 = 1 - \frac{\sum_{i=1}^n (O_i - H_i)^2}{\sum_{i=1}^n (O_i - \bar{O})^2}
+\]
+
+where:  
+\begin{itemize}
+    \item \( R^2 \): Coefficient of determination.  
+    \item \( H_i \): Predicted value (Hindcast).  
+    \item \( O_i \): Observed value (Observation).  
+    \item \( \bar{O} \): Mean of the observed values.  
+    \item \( \sum_{i=1}^n (O_i - H_i)^2 \): Residual sum of squares (unexplained variance).  
+    \item \( \sum_{i=1}^n (O_i - \bar{O})^2 \): Total sum of squares (total variance).  
+\end{itemize}
+
+The interpretation of \( R^2 \) provides insights into the model's performance:  
+\begin{itemize}
+    \item A higher \( R^2 \) (closer to 1) indicates that a large proportion of the variance in the observations is explained by the model, signifying better predictive accuracy.  
+    \item A lower \( R^2 \) (closer to 0) suggests that the model fails to explain much of the variance, indicating poor model performance.  
+    \item \( R^2 \) is a useful metric for comparing different models and understanding how well each model captures the variability in the observed data.  
+\end{itemize}
+
+
+
+
+\subsection{Conclusion on Deterministic Measures}
 
 Deterministic measures such as RMSE, Spearman correlation, \( R^2 \), and ACC provide essential tools for evaluating the accuracy and reliability of seasonal forecasting models. Together, they address different aspects of model performance, offering a comprehensive framework for improving forecasting methodologies.
 
 
 
-\subsection{Probabilistic Evaluation Metrics}
+\section{Probabilistic Evaluation Metrics}
 In addition to deterministic measures, probabilistic metrics play a crucial role in evaluating forecast performance by assessing the ability of models to predict the likelihood of various outcomes. These metrics provide a deeper understanding of how well forecast probabilities align with observed outcomes.
 
-\subsubsection{The Brier Score (BS)}
+\subsection{The Brier Score (BS)}
 The Brier Score (BS)\footnote{wmo guidance verification} is the mean squared difference between pairs of forecast probabilities \( p \) and the binary observations \( y \). \( N \) is the total number of forecasts. It measures the total probability error, considering that the observation is 1 if the event occurs, and 0 if the event does not occur (dichotomous events).
 
 \[
@@ -519,7 +496,7 @@ The interpretation of the Brier Score (BS) provides insights into forecast accur
 \end{itemize}
 
 
-\subsubsection{Reliability}
+\subsection{Reliability}
 The reliability\footnote{wmo guidance verification} measures the degree of correspondence between the forecast probability and the observed frequency for an event or outcome that is being predicted. It summarizes the conditional bias of the forecasts for a given event and is equal to the weighted average of squared differences between the forecast and conditional observed probabilities. If the reliability is 0, the forecast is perfectly reliable. To observe the frequency distribution, the forecast probability, from 0 to 1, is divided into 5 bins (0.1, 0.3, 0.5, 0.7, 0.9) to compare to the observed frequency in each of the same bins in this study.
 
 \[
@@ -542,7 +519,7 @@ The interpretation of reliability provides insights into the forecast's performa
 
 
 
-\subsubsection{The ranked probability score (RPS)}
+\subsection{The ranked probability score (RPS)}
 The Ranked Probability Score (RPS) is a performance metric used in probabilistic forecasting to assess how well the predicted probability distribution matches the observed outcome distribution. It is particularly useful when there are multiple categories (e.g., terciles such as lower, middle, and upper) and is commonly applied in fields such as meteorology, climatology, and economics.
 
 \[
@@ -565,7 +542,7 @@ The interpretation of the Ranked Probability Score (RPS) is as follows:
     \item The score ranges from 0\% (perfect forecast) to 100\% (completely incorrect forecast), with the latter occurring when all observations are in the outermost categories and the forecasts are maximally incorrect.  
 \end{itemize}
 
-\subsubsection{Relative Operating Characteristics}
+\subsection{Relative Operating Characteristics}
 
 The ROC\footnote{wmo guidance verification} can be used in forecast verification to measure \textbf{\textit{the ability of the forecasts to distinguish an event from a non-event}}. For seasonal forecasts with three or more categories, the first problem is to define the “event”. One of the categories must be selected as the current category of interest, and an occurrence of this category is known as an event. An observation in any of the other categories is defined as a non-event and no distinction is made as to which of these two categories does occur. So, for example, if below normal is selected as the event, normal and above normal are treated equally as non-events.
 
@@ -580,7 +557,7 @@ The interpretation of the ROC is as follows:
 \end{itemize}
 
 
-\subsubsection{Relative Operating Characteristics Skill Score}
+\subsection{Relative Operating Characteristics Skill Score}
 
 The Relative Operating Characteristic Skill Score (ROCSS) is a measure used in forecast verification to assess the ability of probabilistic forecasts to discriminate between events and non-events. It builds on the Relative Operating Characteristic (ROC) curve, which plots the hit rate (true positive rate) against the false alarm rate (false positive rate) at various forecast probability thresholds.
 
@@ -605,7 +582,7 @@ Interpretation of ROCSS:
 	\item \( 0 \): No skill, meaning the forecast performs no better than random guessing.  
 	\item Negative values: The forecast performs worse than random guessing, indicating a forecast that is worse than a no-skill forecast.  
 \end{itemize}
-\subsubsection{Summary of Probabilistic Forecast Metrics}
+\subsection{Summary of Probabilistic Forecast Metrics}
 
 Probabilistic metrics are essential in evaluating seasonal forecasts, as they provide insights into various aspects of model performance. The main properties typically assessed are \textit{Reliability}, \textit{Discrimination}, \textit{Sharpness}, and \textit{Resolution}. These aspects help to understand the quality of probabilistic forecasts and guide improvements in forecasting models.
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.17)  23 DEC 2024 21:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.17)  24 DEC 2024 12:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1245,12 +1245,12 @@ No file main.bbl.
 Package biblatex Info: Reference section=0 on input line 42.
 Package biblatex Info: Reference segment=0 on input line 42.
 (part1.tex
-<DGM.jpg, id=173, 210.7875pt x 248.93pt>
+<DGM.jpg, id=189, 210.7875pt x 248.93pt>
 File: DGM.jpg Graphic file (type jpg)
 <use DGM.jpg>
 Package pdftex.def Info: DGM.jpg  used on input line 46.
 (pdftex.def)             Requested size: 70.46037pt x 83.21068pt.
-<ehtp.jpg, id=174, 301.125pt x 301.125pt>
+<ehtp.jpg, id=190, 301.125pt x 301.125pt>
 File: ehtp.jpg Graphic file (type jpg)
 <use ehtp.jpg>
 Package pdftex.def Info: ehtp.jpg  used on input line 47.
@@ -1268,7 +1268,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.73 ...rica and Arabian Peninsula}{64}{chapter.6}
+l.47 ... evaluation results}{29}{subsection.5.1.2}
                                                   % [1])
 \tf@toc=\write6
 \openout6 = `main.toc'.
@@ -1513,16 +1513,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [16]
+Chapter 4.
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+[17
 
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[17]
+]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1533,6 +1529,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [18]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 440.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 440.
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1572,7 +1577,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[22]) (introduction.tex
+[22]) (results.tex
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1583,56 +1588,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [23]
-Chapter 4.
-
-
-[24
-
-]
-Underfull \hbox (badness 2189) in paragraph at lines 12--12
-[][]\OT1/cmr/m/n/9 Portele et al., 2021. Sea-sonal fore-casts for hy-dro-log-i-
-cal decision-making. []$https : / / doi . org / 10 . 1038 /
- []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[25]
-Underfull \hbox (badness 6641) in paragraph at lines 19--19
-[][]\OT1/cmr/m/n/9 PreventionWeb, 2021. *De-ter-min-is-tic and Prob-a-bilis-tic
- Risk*. []$https : / / www . preventionweb . net /
- []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[26]) (results.tex
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[27]
 Chapter 5.
-<plots/det/acc/acc_T2M_mena.png, id=586, 1806.75pt x 1300.86pt>
+<plots/det/acc/acc_T2M_mena.png, id=498, 1806.75pt x 1300.86pt>
 File: plots/det/acc/acc_T2M_mena.png Graphic file (type png)
 <use plots/det/acc/acc_T2M_mena.png>
 Package pdftex.def Info: plots/det/acc/acc_T2M_mena.png  used on input line 13.
@@ -1640,10 +1597,10 @@ Package pdftex.def Info: plots/det/acc/acc_T2M_mena.png  used on input line 13.
 (pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
 
 
-[28
+[24
 
 ]
-<plots/det/rmse/rmse_T2M.png, id=592, 1806.75pt x 1300.86pt>
+<plots/det/rmse/rmse_T2M.png, id=505, 1806.75pt x 1300.86pt>
 File: plots/det/rmse/rmse_T2M.png Graphic file (type png)
 <use plots/det/rmse/rmse_T2M.png>
 Package pdftex.def Info: plots/det/rmse/rmse_T2M.png  used on input line 26.
@@ -1658,7 +1615,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[29
+[25
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1674,7 +1631,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[30
+[26
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1682,7 +1639,7 @@ has been already used, duplicate ignored
 l.39 O
       verall, these findings emphasize the importance of selecting climate m...
  <./plots/det/rmse/rmse_T2M.png>]
-<plots/det/rsquared/rsquared_T2M_mena.png, id=608, 1806.75pt x 1300.86pt>
+<plots/det/rsquared/rsquared_T2M_mena.png, id=520, 1806.75pt x 1300.86pt>
 File: plots/det/rsquared/rsquared_T2M_mena.png Graphic file (type png)
 <use plots/det/rsquared/rsquared_T2M_mena.png>
 Package pdftex.def Info: plots/det/rsquared/rsquared_T2M_mena.png  used on inpu
@@ -1698,14 +1655,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[31
+[27
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.3}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.61 
       <./plots/det/rsquared/rsquared_T2M_mena.png>]
-<plots/det/rsquared/rsquared_T2M_NorthAfrica.png, id=616, 1806.75pt x 1300.86pt
+<plots/det/rsquared/rsquared_T2M_NorthAfrica.png, id=528, 1806.75pt x 1300.86pt
 >
 File: plots/det/rsquared/rsquared_T2M_NorthAfrica.png Graphic file (type png)
 <use plots/det/rsquared/rsquared_T2M_NorthAfrica.png>
@@ -1722,14 +1679,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[32
+[28
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.4}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.75 
       <./plots/det/rsquared/rsquared_T2M_NorthAfrica.png>]
-<plots/prob/bs/bs_T2M_category_mena.png, id=623, 1806.75pt x 1300.86pt>
+<plots/prob/bs/bs_T2M_category_mena.png, id=535, 1806.75pt x 1300.86pt>
 File: plots/prob/bs/bs_T2M_category_mena.png Graphic file (type png)
 <use plots/prob/bs/bs_T2M_category_mena.png>
 Package pdftex.def Info: plots/prob/bs/bs_T2M_category_mena.png  used on input 
@@ -1745,8 +1702,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[33]
-<plots/prob/bs/bs_T2M_lead_time_mena.png, id=629, 1806.75pt x 1300.86pt>
+[29]
+<plots/prob/bs/bs_T2M_lead_time_mena.png, id=541, 1806.75pt x 1300.86pt>
 File: plots/prob/bs/bs_T2M_lead_time_mena.png Graphic file (type png)
 <use plots/prob/bs/bs_T2M_lead_time_mena.png>
 Package pdftex.def Info: plots/prob/bs/bs_T2M_lead_time_mena.png  used on input
@@ -1762,14 +1719,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[34
+[30
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.5}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.105 
        <./plots/prob/bs/bs_T2M_category_mena.png>]
-<plots/prob/rela/rela_diagram_t2m_djf.png, id=636, 1445.4pt x 1300.86pt>
+<plots/prob/rela/rela_diagram_t2m_djf.png, id=549, 1445.4pt x 1300.86pt>
 File: plots/prob/rela/rela_diagram_t2m_djf.png Graphic file (type png)
 <use plots/prob/rela/rela_diagram_t2m_djf.png>
 Package pdftex.def Info: plots/prob/rela/rela_diagram_t2m_djf.png  used on inpu
@@ -1785,7 +1742,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[35
+[31
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.6}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1801,20 +1758,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[36
+[32
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.7}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.119 
        <./plots/prob/rela/rela_diagram_t2m_djf.png>]
-<plots/prob/rela/rela_T2M_mena.png, id=651, 1806.75pt x 1300.86pt>
+<plots/prob/rela/rela_T2M_mena.png, id=563, 1806.75pt x 1300.86pt>
 File: plots/prob/rela/rela_T2M_mena.png Graphic file (type png)
 <use plots/prob/rela/rela_T2M_mena.png>
 Package pdftex.def Info: plots/prob/rela/rela_T2M_mena.png  used on input line 
 122.
 (pdftex.def)             Requested size: 469.75502pt x 338.21562pt.
-<plots/prob/rps/rps_T2M_mena.png, id=652, 1806.75pt x 1300.86pt>
+<plots/prob/rps/rps_T2M_mena.png, id=564, 1806.75pt x 1300.86pt>
 File: plots/prob/rps/rps_T2M_mena.png Graphic file (type png)
 <use plots/prob/rps/rps_T2M_mena.png>
 Package pdftex.def Info: plots/prob/rps/rps_T2M_mena.png  used on input line 13
@@ -1830,7 +1787,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[37
+[33
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.8}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1846,14 +1803,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[38
+[34
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.9}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.146 
        <./plots/prob/rps/rps_T2M_mena.png>]
-<plots/prob/roc/roc_T2M_category_mena.png, id=666, 1806.75pt x 1300.86pt>
+<plots/prob/roc/roc_T2M_category_mena.png, id=578, 1806.75pt x 1300.86pt>
 File: plots/prob/roc/roc_T2M_category_mena.png Graphic file (type png)
 <use plots/prob/roc/roc_T2M_category_mena.png>
 Package pdftex.def Info: plots/prob/roc/roc_T2M_category_mena.png  used on inpu
@@ -1869,20 +1826,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[39
+[35
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.10})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.160 
        <./plots/prob/roc/roc_T2M_category_mena.png>]
-<plots/prob/rocss/rocss_T2M_category_mena.png, id=674, 1806.75pt x 1300.86pt>
+<plots/prob/rocss/rocss_T2M_category_mena.png, id=586, 1806.75pt x 1300.86pt>
 File: plots/prob/rocss/rocss_T2M_category_mena.png Graphic file (type png)
 <use plots/prob/rocss/rocss_T2M_category_mena.png>
 Package pdftex.def Info: plots/prob/rocss/rocss_T2M_category_mena.png  used on 
 input line 163.
 (pdftex.def)             Requested size: 469.75502pt x 338.21562pt.
-<plots/det/acc/acc_RR_mena.png, id=675, 1806.75pt x 1300.86pt>
+<plots/det/acc/acc_RR_mena.png, id=587, 1806.75pt x 1300.86pt>
 File: plots/det/acc/acc_RR_mena.png Graphic file (type png)
 <use plots/det/acc/acc_RR_mena.png>
 Package pdftex.def Info: plots/det/acc/acc_RR_mena.png  used on input line 184.
@@ -1898,7 +1855,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[40
+[36
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.11})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1906,7 +1863,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.11})
 l.187 T
        he acc is moderate for all centers; however, the best models are \tex...
  <./plots/prob/rocss/rocss_T2M_category_mena.png>]
-<plots/det/acc/ANOMALY_CORRELATION_son_RR.png, id=683, 1445.4pt x 1300.86pt>
+<plots/det/acc/ANOMALY_CORRELATION_son_RR.png, id=596, 1445.4pt x 1300.86pt>
 File: plots/det/acc/ANOMALY_CORRELATION_son_RR.png Graphic file (type png)
 <use plots/det/acc/ANOMALY_CORRELATION_son_RR.png>
 Package pdftex.def Info: plots/det/acc/ANOMALY_CORRELATION_son_RR.png  used on 
@@ -1922,7 +1879,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[41
+[37
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.12})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1930,7 +1887,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.12})
 l.197 F
        or temperature, the models demonstrate the best performance in the tr...
  <./plots/det/acc/acc_RR_mena.png>]
-<plots/det/acc/ANOMALY_CORRELATION_djf_RR.png, id=691, 1445.4pt x 1300.86pt>
+<plots/det/acc/ANOMALY_CORRELATION_djf_RR.png, id=604, 1445.4pt x 1300.86pt>
 File: plots/det/acc/ANOMALY_CORRELATION_djf_RR.png Graphic file (type png)
 <use plots/det/acc/ANOMALY_CORRELATION_djf_RR.png>
 Package pdftex.def Info: plots/det/acc/ANOMALY_CORRELATION_djf_RR.png  used on 
@@ -1946,14 +1903,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[42
+[38
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.13})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.203 
        <./plots/det/acc/ANOMALY_CORRELATION_son_RR.png>]
-<plots/det/rmse/rmse_djf_RR.png, id=699, 1445.4pt x 1300.86pt>
+<plots/det/rmse/rmse_djf_RR.png, id=611, 1445.4pt x 1300.86pt>
 File: plots/det/rmse/rmse_djf_RR.png Graphic file (type png)
 <use plots/det/rmse/rmse_djf_RR.png>
 Package pdftex.def Info: plots/det/rmse/rmse_djf_RR.png  used on input line 217
@@ -1969,14 +1926,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[43
+[39
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.14})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.220 
        <./plots/det/acc/ANOMALY_CORRELATION_djf_RR.png>]
-<plots/det/rmse/rmse_jja_RR.png, id=707, 1445.4pt x 1300.86pt>
+<plots/det/rmse/rmse_jja_RR.png, id=619, 1445.4pt x 1300.86pt>
 File: plots/det/rmse/rmse_jja_RR.png Graphic file (type png)
 <use plots/det/rmse/rmse_jja_RR.png>
 Package pdftex.def Info: plots/det/rmse/rmse_jja_RR.png  used on input line 223
@@ -1992,14 +1949,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[44
+[40
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.15})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.226 
        <./plots/det/rmse/rmse_djf_RR.png>]
-<plots/det/rmse/rmse_RR_mena.png, id=714, 1806.75pt x 1300.86pt>
+<plots/det/rmse/rmse_RR_mena.png, id=626, 1806.75pt x 1300.86pt>
 File: plots/det/rmse/rmse_RR_mena.png Graphic file (type png)
 <use plots/det/rmse/rmse_RR_mena.png>
 Package pdftex.def Info: plots/det/rmse/rmse_RR_mena.png  used on input line 23
@@ -2020,14 +1977,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[45
+[41
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.16})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.234 
        <./plots/det/rmse/rmse_jja_RR.png>]
-<plots/det/rsquared/rsquared_RR_mena.png, id=721, 1806.75pt x 1300.86pt>
+<plots/det/rsquared/rsquared_RR_mena.png, id=633, 1806.75pt x 1300.86pt>
 File: plots/det/rsquared/rsquared_RR_mena.png Graphic file (type png)
 <use plots/det/rsquared/rsquared_RR_mena.png>
 Package pdftex.def Info: plots/det/rsquared/rsquared_RR_mena.png  used on input
@@ -2043,14 +2000,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[46
+[42
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.17})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.243 
        <./plots/det/rmse/rmse_RR_mena.png>]
-<plots/det/rsquared/rsquared_son_RR.png, id=729, 1445.4pt x 1300.86pt>
+<plots/det/rsquared/rsquared_son_RR.png, id=642, 1445.4pt x 1300.86pt>
 File: plots/det/rsquared/rsquared_son_RR.png Graphic file (type png)
 <use plots/det/rsquared/rsquared_son_RR.png>
 Package pdftex.def Info: plots/det/rsquared/rsquared_son_RR.png  used on input 
@@ -2066,14 +2023,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[47
+[43
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.18})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.249 
        <./plots/det/rsquared/rsquared_RR_mena.png>]
-<plots/prob/bs/bs_RR_category.png, id=736, 1806.75pt x 1300.86pt>
+<plots/prob/bs/bs_RR_category.png, id=649, 1806.75pt x 1300.86pt>
 File: plots/prob/bs/bs_RR_category.png Graphic file (type png)
 <use plots/prob/bs/bs_RR_category.png>
 Package pdftex.def Info: plots/prob/bs/bs_RR_category.png  used on input line 2
@@ -2089,14 +2046,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[48
+[44
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.19})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.262 
        <./plots/det/rsquared/rsquared_son_RR.png>]
-<plots/prob/bs/bs_RR_lead_time.png, id=744, 1806.75pt x 1300.86pt>
+<plots/prob/bs/bs_RR_lead_time.png, id=656, 1806.75pt x 1300.86pt>
 File: plots/prob/bs/bs_RR_lead_time.png Graphic file (type png)
 <use plots/prob/bs/bs_RR_lead_time.png>
 Package pdftex.def Info: plots/prob/bs/bs_RR_lead_time.png  used on input line 
@@ -2112,14 +2069,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[49
+[45
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.20})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.273 
        <./plots/prob/bs/bs_RR_category.png>]
-<plots/prob/bs/bs_mam_RR_middle.png, id=752, 1445.4pt x 1300.86pt>
+<plots/prob/bs/bs_mam_RR_middle.png, id=664, 1445.4pt x 1300.86pt>
 File: plots/prob/bs/bs_mam_RR_middle.png Graphic file (type png)
 <use plots/prob/bs/bs_mam_RR_middle.png>
 Package pdftex.def Info: plots/prob/bs/bs_mam_RR_middle.png  used on input line
@@ -2135,14 +2092,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[50
+[46
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.21})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.279 
        <./plots/prob/bs/bs_RR_lead_time.png>]
-<plots/prob/rela/rela_RR_mena.png, id=759, 1806.75pt x 1300.86pt>
+<plots/prob/rela/rela_RR_mena.png, id=671, 1806.75pt x 1300.86pt>
 File: plots/prob/rela/rela_RR_mena.png Graphic file (type png)
 <use plots/prob/rela/rela_RR_mena.png>
 Package pdftex.def Info: plots/prob/rela/rela_RR_mena.png  used on input line 2
@@ -2158,14 +2115,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[51
+[47
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.22})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.291 
        <./plots/prob/bs/bs_mam_RR_middle.png>]
-<plots/prob/rela/rela_diagram_RR_djf.png, id=766, 1445.4pt x 1300.86pt>
+<plots/prob/rela/rela_diagram_RR_djf.png, id=678, 1445.4pt x 1300.86pt>
 File: plots/prob/rela/rela_diagram_RR_djf.png Graphic file (type png)
 <use plots/prob/rela/rela_diagram_RR_djf.png>
 Package pdftex.def Info: plots/prob/rela/rela_diagram_RR_djf.png  used on input
@@ -2181,14 +2138,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[52
+[48
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.23})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.299 
        <./plots/prob/rela/rela_RR_mena.png>]
-<plots/prob/rps/rps_RR_mena.png, id=774, 1806.75pt x 1300.86pt>
+<plots/prob/rps/rps_RR_mena.png, id=687, 1806.75pt x 1300.86pt>
 File: plots/prob/rps/rps_RR_mena.png Graphic file (type png)
 <use plots/prob/rps/rps_RR_mena.png>
 Package pdftex.def Info: plots/prob/rps/rps_RR_mena.png  used on input line 308
@@ -2204,14 +2161,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[53
+[49
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.24})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.311 
        <./plots/prob/rela/rela_diagram_RR_djf.png>]
-<plots/prob/rps/rps_djf_RR.png, id=781, 1445.4pt x 1300.86pt>
+<plots/prob/rps/rps_djf_RR.png, id=694, 1445.4pt x 1300.86pt>
 File: plots/prob/rps/rps_djf_RR.png Graphic file (type png)
 <use plots/prob/rps/rps_djf_RR.png>
 Package pdftex.def Info: plots/prob/rps/rps_djf_RR.png  used on input line 317.
@@ -2227,14 +2184,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[54
+[50
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.25})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.320 
        <./plots/prob/rps/rps_RR_mena.png>]
-<plots/prob/roc/roc_RR_category.png, id=790, 1806.75pt x 1300.86pt>
+<plots/prob/roc/roc_RR_category.png, id=702, 1806.75pt x 1300.86pt>
 File: plots/prob/roc/roc_RR_category.png Graphic file (type png)
 <use plots/prob/roc/roc_RR_category.png>
 Package pdftex.def Info: plots/prob/roc/roc_RR_category.png  used on input line
@@ -2250,14 +2207,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[55
+[51
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.26})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.333 
        <./plots/prob/rps/rps_djf_RR.png>]
-<plots/prob/roc/roc_RR_lead_time.png, id=797, 1806.75pt x 1300.86pt>
+<plots/prob/roc/roc_RR_lead_time.png, id=709, 1806.75pt x 1300.86pt>
 File: plots/prob/roc/roc_RR_lead_time.png Graphic file (type png)
 <use plots/prob/roc/roc_RR_lead_time.png>
 Package pdftex.def Info: plots/prob/roc/roc_RR_lead_time.png  used on input lin
@@ -2273,14 +2230,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[56
+[52
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.27})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.340 
        <./plots/prob/roc/roc_RR_category.png>]
-<plots/prob/roc/roc_son_RR_upper.png, id=805, 1445.4pt x 1300.86pt>
+<plots/prob/roc/roc_son_RR_upper.png, id=717, 1445.4pt x 1300.86pt>
 File: plots/prob/roc/roc_son_RR_upper.png Graphic file (type png)
 <use plots/prob/roc/roc_son_RR_upper.png>
 Package pdftex.def Info: plots/prob/roc/roc_son_RR_upper.png  used on input lin
@@ -2296,14 +2253,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[57
+[53
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.28})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.348 
        <./plots/prob/roc/roc_RR_lead_time.png>]
-<plots/prob/rocss/rocss_RR_category.png, id=812, 1806.75pt x 1300.86pt>
+<plots/prob/rocss/rocss_RR_category.png, id=724, 1806.75pt x 1300.86pt>
 File: plots/prob/rocss/rocss_RR_category.png Graphic file (type png)
 <use plots/prob/rocss/rocss_RR_category.png>
 Package pdftex.def Info: plots/prob/rocss/rocss_RR_category.png  used on input 
@@ -2319,14 +2276,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[58
+[54
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.29})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.361 
        <./plots/prob/roc/roc_son_RR_upper.png>]
-<plots/prob/rocss/rocss_RR_lead_time.png, id=820, 1806.75pt x 1300.86pt>
+<plots/prob/rocss/rocss_RR_lead_time.png, id=733, 1806.75pt x 1300.86pt>
 File: plots/prob/rocss/rocss_RR_lead_time.png Graphic file (type png)
 <use plots/prob/rocss/rocss_RR_lead_time.png>
 Package pdftex.def Info: plots/prob/rocss/rocss_RR_lead_time.png  used on input
@@ -2342,14 +2299,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[59
+[55
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.30})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.368 
        <./plots/prob/rocss/rocss_RR_category.png>]
-<plots/prob/rocss/rocss_mam_RR_upper.png, id=827, 1445.4pt x 1300.86pt>
+<plots/prob/rocss/rocss_mam_RR_upper.png, id=740, 1445.4pt x 1300.86pt>
 File: plots/prob/rocss/rocss_mam_RR_upper.png Graphic file (type png)
 <use plots/prob/rocss/rocss_mam_RR_upper.png>
 Package pdftex.def Info: plots/prob/rocss/rocss_mam_RR_upper.png  used on input
@@ -2365,7 +2322,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[60
+[56
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.31})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -2434,7 +2391,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[61
+[57
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.32})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -2443,7 +2400,7 @@ l.396 \newpage
                <./plots/prob/rocss/rocss_mam_RR_upper.png>])
 (north_peninsula.tex
 
-[62
+[58
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -2452,7 +2409,7 @@ l.3 \chapter
             {Regional Performance Evaluation: North Africa and Arabian Penin...
 ]
 Chapter 6.
-<plots/det/acc/acc_T2M_NorthAfrica.png, id=847, 1806.75pt x 1300.86pt>
+<plots/det/acc/acc_T2M_NorthAfrica.png, id=759, 1806.75pt x 1300.86pt>
 File: plots/det/acc/acc_T2M_NorthAfrica.png Graphic file (type png)
 <use plots/det/acc/acc_T2M_NorthAfrica.png>
 Package pdftex.def Info: plots/det/acc/acc_T2M_NorthAfrica.png  used on input l
@@ -2460,10 +2417,10 @@ ine 14.
 (pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
 
 
-[63
+[59
 
 ]
-<plots/det/acc/acc_T2M_ArabianPeninsula.png, id=854, 1806.75pt x 1300.86pt>
+<plots/det/acc/acc_T2M_ArabianPeninsula.png, id=766, 1806.75pt x 1300.86pt>
 File: plots/det/acc/acc_T2M_ArabianPeninsula.png Graphic file (type png)
 <use plots/det/acc/acc_T2M_ArabianPeninsula.png>
 Package pdftex.def Info: plots/det/acc/acc_T2M_ArabianPeninsula.png  used on in
@@ -2479,14 +2436,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[64
+[60
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.26 
       <./plots/det/acc/acc_T2M_NorthAfrica.png>]
-<plots/det/rmse/rmse_T2M_NorthAfrica.png, id=862, 1806.75pt x 1300.86pt>
+<plots/det/rmse/rmse_T2M_NorthAfrica.png, id=775, 1806.75pt x 1300.86pt>
 File: plots/det/rmse/rmse_T2M_NorthAfrica.png Graphic file (type png)
 <use plots/det/rmse/rmse_T2M_NorthAfrica.png>
 Package pdftex.def Info: plots/det/rmse/rmse_T2M_NorthAfrica.png  used on input
@@ -2507,14 +2464,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[65
+[61
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.38 
       <./plots/det/acc/acc_T2M_ArabianPeninsula.png>]
-<plots/det/rmse/rmse_T2M_ArabianPeninsula.png, id=871, 1806.75pt x 1300.86pt>
+<plots/det/rmse/rmse_T2M_ArabianPeninsula.png, id=784, 1806.75pt x 1300.86pt>
 File: plots/det/rmse/rmse_T2M_ArabianPeninsula.png Graphic file (type png)
 <use plots/det/rmse/rmse_T2M_ArabianPeninsula.png>
 Package pdftex.def Info: plots/det/rmse/rmse_T2M_ArabianPeninsula.png  used on 
@@ -2535,7 +2492,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[66
+[62
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6.3}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -2562,14 +2519,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[67
+[63
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6.4}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.58 
       <./plots/det/rmse/rmse_T2M_ArabianPeninsula.png>]
-<plots/det/rsquared/rsquared_T2M_ArabianPeninsula.png, id=888, 1806.75pt x 1300
+<plots/det/rsquared/rsquared_T2M_ArabianPeninsula.png, id=800, 1806.75pt x 1300
 .86pt>
 File: plots/det/rsquared/rsquared_T2M_ArabianPeninsula.png Graphic file (type p
 ng)
@@ -2592,14 +2549,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[68
+[64
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6.5}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.68 
      ]
-<plots/prob/bs/bs_T2M_category_NorthAfrica.png, id=895, 1806.75pt x 1300.86pt>
+<plots/prob/bs/bs_T2M_category_NorthAfrica.png, id=807, 1806.75pt x 1300.86pt>
 File: plots/prob/bs/bs_T2M_category_NorthAfrica.png Graphic file (type png)
 <use plots/prob/bs/bs_T2M_category_NorthAfrica.png>
 Package pdftex.def Info: plots/prob/bs/bs_T2M_category_NorthAfrica.png  used on
@@ -2620,14 +2577,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[69
+[65
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6.6}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.84 
       <./plots/det/rsquared/rsquared_T2M_ArabianPeninsula.png>]
-<plots/prob/rela/rela_T2M_NorthAfrica.png, id=904, 1806.75pt x 1300.86pt>
+<plots/prob/rela/rela_T2M_NorthAfrica.png, id=816, 1806.75pt x 1300.86pt>
 File: plots/prob/rela/rela_T2M_NorthAfrica.png Graphic file (type png)
 <use plots/prob/rela/rela_T2M_NorthAfrica.png>
 Package pdftex.def Info: plots/prob/rela/rela_T2M_NorthAfrica.png  used on inpu
@@ -2648,14 +2605,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[70
+[66
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6.7}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.99 
       <./plots/prob/bs/bs_T2M_category_NorthAfrica.png>]
-<plots/prob/rps/rps_T2M_NorthAfrica.png, id=914, 1806.75pt x 1300.86pt>
+<plots/prob/rps/rps_T2M_NorthAfrica.png, id=827, 1806.75pt x 1300.86pt>
 File: plots/prob/rps/rps_T2M_NorthAfrica.png Graphic file (type png)
 <use plots/prob/rps/rps_T2M_NorthAfrica.png>
 Package pdftex.def Info: plots/prob/rps/rps_T2M_NorthAfrica.png  used on input 
@@ -2676,14 +2633,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[71
+[67
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6.8}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.117 
        <./plots/prob/rela/rela_T2M_NorthAfrica.png>]
-<plots/prob/roc/roc_T2M_category_NorthAfrica.png, id=924, 1806.75pt x 1300.86pt
+<plots/prob/roc/roc_T2M_category_NorthAfrica.png, id=837, 1806.75pt x 1300.86pt
 >
 File: plots/prob/roc/roc_T2M_category_NorthAfrica.png Graphic file (type png)
 <use plots/prob/roc/roc_T2M_category_NorthAfrica.png>
@@ -2705,14 +2662,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[72
+[68
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6.9}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.128 
        <./plots/prob/rps/rps_T2M_NorthAfrica.png>]
-<plots/prob/rocss/rocss_T2M_category_NorthAfrica.png, id=933, 1806.75pt x 1300.
+<plots/prob/rocss/rocss_T2M_category_NorthAfrica.png, id=845, 1806.75pt x 1300.
 86pt>
 File: plots/prob/rocss/rocss_T2M_category_NorthAfrica.png Graphic file (type pn
 g)
@@ -2735,13 +2692,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[73
+[69
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6.10})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.139 \end{figure}
                    <./plots/prob/roc/roc_T2M_category_NorthAfrica.png>]
+<plots/det/acc/acc_RR_NorthAfrica.png, id=855, 1806.75pt x 1300.86pt>
+File: plots/det/acc/acc_RR_NorthAfrica.png Graphic file (type png)
+<use plots/det/acc/acc_RR_NorthAfrica.png>
+Package pdftex.def Info: plots/det/acc/acc_RR_NorthAfrica.png  used on input li
+ne 157.
+(pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2751,24 +2715,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[74
+[70
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6.11})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.155 
+l.160 
        <./plots/prob/rocss/rocss_T2M_category_NorthAfrica.png>]
-<plots/det/acc/acc_RR_NorthAfrica.png, id=953, 1806.75pt x 1300.86pt>
-File: plots/det/acc/acc_RR_NorthAfrica.png Graphic file (type png)
-<use plots/det/acc/acc_RR_NorthAfrica.png>
-Package pdftex.def Info: plots/det/acc/acc_RR_NorthAfrica.png  used on input li
-ne 159.
-(pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
-<plots/det/acc/acc_RR_ArabianPeninsula.png, id=954, 1806.75pt x 1300.86pt>
+<plots/det/acc/acc_RR_ArabianPeninsula.png, id=867, 1806.75pt x 1300.86pt>
 File: plots/det/acc/acc_RR_ArabianPeninsula.png Graphic file (type png)
 <use plots/det/acc/acc_RR_ArabianPeninsula.png>
 Package pdftex.def Info: plots/det/acc/acc_RR_ArabianPeninsula.png  used on inp
-ut line 168.
+ut line 166.
 (pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
 
 
@@ -2780,21 +2738,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[75
+[71
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6.12})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.171 
+l.169 
        <./plots/det/acc/acc_RR_NorthAfrica.png>]
-<plots/det/rmse/rmse_RR_NorthAfrica.png, id=963, 1806.75pt x 1300.86pt>
+<plots/det/rmse/rmse_RR_NorthAfrica.png, id=875, 1806.75pt x 1300.86pt>
 File: plots/det/rmse/rmse_RR_NorthAfrica.png Graphic file (type png)
 <use plots/det/rmse/rmse_RR_NorthAfrica.png>
 Package pdftex.def Info: plots/det/rmse/rmse_RR_NorthAfrica.png  used on input 
-line 180.
+line 178.
 (pdftex.def)             Requested size: 542.02919pt x 390.26102pt.
 
-Overfull \hbox (72.27417pt too wide) in paragraph at lines 180--181
+Overfull \hbox (72.27417pt too wide) in paragraph at lines 178--179
  [][] 
  []
 
@@ -2808,21 +2766,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[76
+[72
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6.13})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.183 
+l.181 
        <./plots/det/acc/acc_RR_ArabianPeninsula.png>]
-<plots/det/rmse/rmse_RR_ArabianPeninsula.png, id=972, 1806.75pt x 1300.86pt>
+<plots/det/rmse/rmse_RR_ArabianPeninsula.png, id=885, 1806.75pt x 1300.86pt>
 File: plots/det/rmse/rmse_RR_ArabianPeninsula.png Graphic file (type png)
 <use plots/det/rmse/rmse_RR_ArabianPeninsula.png>
 Package pdftex.def Info: plots/det/rmse/rmse_RR_ArabianPeninsula.png  used on i
-nput line 191.
+nput line 189.
 (pdftex.def)             Requested size: 542.02919pt x 390.26102pt.
 
-Overfull \hbox (72.27417pt too wide) in paragraph at lines 191--192
+Overfull \hbox (72.27417pt too wide) in paragraph at lines 189--190
  [][] 
  []
 
@@ -2836,23 +2794,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[77
+[73
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6.14})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.194 
+l.192 
        <./plots/det/rmse/rmse_RR_NorthAfrica.png>]
-<plots/det/rsquared/rsquared_RR_ArabianPeninsula.png, id=980, 1806.75pt x 1300.
+<plots/det/rsquared/rsquared_RR_ArabianPeninsula.png, id=893, 1806.75pt x 1300.
 86pt>
 File: plots/det/rsquared/rsquared_RR_ArabianPeninsula.png Graphic file (type pn
 g)
 <use plots/det/rsquared/rsquared_RR_ArabianPeninsula.png>
 Package pdftex.def Info: plots/det/rsquared/rsquared_RR_ArabianPeninsula.png  u
-sed on input line 209.
+sed on input line 207.
 (pdftex.def)             Requested size: 542.02919pt x 390.26102pt.
 
-Overfull \hbox (72.27417pt too wide) in paragraph at lines 209--210
+Overfull \hbox (72.27417pt too wide) in paragraph at lines 207--208
 [][]
  []
 
@@ -2866,12 +2824,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[78
+[74
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6.15})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.212 
+l.210 
        <./plots/det/rmse/rmse_RR_ArabianPeninsula.png>]
 
 
@@ -2882,27 +2840,127 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[79
+[75
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6.16})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.229 t
+l.227 t
        here is no big difference in North Africa. <./plots/det/rsquared/rsquare
 d_RR_ArabianPeninsula.png>]
-<plots/prob/rela/rela_RR_ArabianPeninsula.png, id=1000, 1806.75pt x 1300.86pt>
+<plots/prob/rela/rela_RR_ArabianPeninsula.png, id=912, 1806.75pt x 1300.86pt>
 File: plots/prob/rela/rela_RR_ArabianPeninsula.png Graphic file (type png)
 <use plots/prob/rela/rela_RR_ArabianPeninsula.png>
 Package pdftex.def Info: plots/prob/rela/rela_RR_ArabianPeninsula.png  used on 
-input line 238.
+input line 236.
 (pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
-<plots/prob/roc/roc_RR_category_ArabianPeninsula.png, id=1001, 1806.75pt x 1300
-.86pt>
+<plots/prob/roc/roc_RR_category_ArabianPeninsula.png, id=913, 1806.75pt x 1300.
+86pt>
 File: plots/prob/roc/roc_RR_category_ArabianPeninsula.png Graphic file (type pn
 g)
 <use plots/prob/roc/roc_RR_category_ArabianPeninsula.png>
 Package pdftex.def Info: plots/prob/roc/roc_RR_category_ArabianPeninsula.png  u
-sed on input line 263.
+sed on input line 261.
+(pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[76
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.17})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.264 
+       <./plots/prob/rela/rela_RR_ArabianPeninsula.png>]
+<plots/prob/roc/roc_RR_lead_time_ArabianPeninsula.png, id=928, 1806.75pt x 1300
+.86pt>
+File: plots/prob/roc/roc_RR_lead_time_ArabianPeninsula.png Graphic file (type p
+ng)
+<use plots/prob/roc/roc_RR_lead_time_ArabianPeninsula.png>
+Package pdftex.def Info: plots/prob/roc/roc_RR_lead_time_ArabianPeninsula.png  
+used on input line 268.
+(pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[77
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.18})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.271 
+       <./plots/prob/roc/roc_RR_category_ArabianPeninsula.png>]
+<plots/prob/rocss/rocss_RR_category_NorthAfrica.png, id=936, 1806.75pt x 1300.8
+6pt>
+File: plots/prob/rocss/rocss_RR_category_NorthAfrica.png Graphic file (type png
+)
+<use plots/prob/rocss/rocss_RR_category_NorthAfrica.png>
+Package pdftex.def Info: plots/prob/rocss/rocss_RR_category_NorthAfrica.png  us
+ed on input line 277.
+(pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[78
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.19})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.280 
+       <./plots/prob/roc/roc_RR_lead_time_ArabianPeninsula.png>]
+<plots/prob/rocss/rocss_RR_lead_time_NorthAfrica.png, id=944, 1806.75pt x 1300.
+86pt>
+File: plots/prob/rocss/rocss_RR_lead_time_NorthAfrica.png Graphic file (type pn
+g)
+<use plots/prob/rocss/rocss_RR_lead_time_NorthAfrica.png>
+Package pdftex.def Info: plots/prob/rocss/rocss_RR_lead_time_NorthAfrica.png  u
+sed on input line 284.
+(pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[79
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.20})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.287 
+       <./plots/prob/rocss/rocss_RR_category_NorthAfrica.png>]
+<plots/prob/rocss/rocss_RR_lead_time_ArabianPeninsula.png, id=952, 1806.75pt x 
+1300.86pt>
+File: plots/prob/rocss/rocss_RR_lead_time_ArabianPeninsula.png Graphic file (ty
+pe png)
+<use plots/prob/rocss/rocss_RR_lead_time_ArabianPeninsula.png>
+Package pdftex.def Info: plots/prob/rocss/rocss_RR_lead_time_ArabianPeninsula.p
+ng  used on input line 294.
 (pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
 
 
@@ -2915,111 +2973,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [80
-pdfTeX warning (ext4): destination with the same identifier (name{figure.6.17})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.266 
-       <./plots/prob/rela/rela_RR_ArabianPeninsula.png>]
-<plots/prob/roc/roc_RR_lead_time_ArabianPeninsula.png, id=1016, 1806.75pt x 130
-0.86pt>
-File: plots/prob/roc/roc_RR_lead_time_ArabianPeninsula.png Graphic file (type p
-ng)
-<use plots/prob/roc/roc_RR_lead_time_ArabianPeninsula.png>
-Package pdftex.def Info: plots/prob/roc/roc_RR_lead_time_ArabianPeninsula.png  
-used on input line 270.
-(pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[81
-pdfTeX warning (ext4): destination with the same identifier (name{figure.6.18})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.273 
-       <./plots/prob/roc/roc_RR_category_ArabianPeninsula.png>]
-<plots/prob/rocss/rocss_RR_category_NorthAfrica.png, id=1024, 1806.75pt x 1300.
-86pt>
-File: plots/prob/rocss/rocss_RR_category_NorthAfrica.png Graphic file (type png
-)
-<use plots/prob/rocss/rocss_RR_category_NorthAfrica.png>
-Package pdftex.def Info: plots/prob/rocss/rocss_RR_category_NorthAfrica.png  us
-ed on input line 279.
-(pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[82
-pdfTeX warning (ext4): destination with the same identifier (name{figure.6.19})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.282 
-       <./plots/prob/roc/roc_RR_lead_time_ArabianPeninsula.png>]
-<plots/prob/rocss/rocss_RR_lead_time_NorthAfrica.png, id=1031, 1806.75pt x 1300
-.86pt>
-File: plots/prob/rocss/rocss_RR_lead_time_NorthAfrica.png Graphic file (type pn
-g)
-<use plots/prob/rocss/rocss_RR_lead_time_NorthAfrica.png>
-Package pdftex.def Info: plots/prob/rocss/rocss_RR_lead_time_NorthAfrica.png  u
-sed on input line 286.
-(pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[83
-pdfTeX warning (ext4): destination with the same identifier (name{figure.6.20})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.289 
-       <./plots/prob/rocss/rocss_RR_category_NorthAfrica.png>]
-<plots/prob/rocss/rocss_RR_lead_time_ArabianPeninsula.png, id=1039, 1806.75pt x
- 1300.86pt>
-File: plots/prob/rocss/rocss_RR_lead_time_ArabianPeninsula.png Graphic file (ty
-pe png)
-<use plots/prob/rocss/rocss_RR_lead_time_ArabianPeninsula.png>
-Package pdftex.def Info: plots/prob/rocss/rocss_RR_lead_time_ArabianPeninsula.p
-ng  used on input line 296.
-(pdftex.def)             Requested size: 451.6864pt x 325.2142pt.
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[84
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6.21})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.299 
+l.297 
        <./plots/prob/rocss/rocss_RR_lead_time_NorthAfrica.png>])
 (conclusion.tex
 
@@ -3031,7 +2989,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[85
+[81
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6.22})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -3042,7 +3000,7 @@ a.png>]
 Chapter 7.
 
 
-[86
+[82
 
 ])
 
@@ -3054,7 +3012,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[87
+[83
 pdfTeX warning (ext4): destination with the same identifier (name{table.7.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -3068,7 +3026,7 @@ as been already used, duplicate ignored
 l.54 \clearpage
                ] (main.lof
 
-[88
+[84
 
 ])
 \tf@lof=\write7
@@ -3084,13 +3042,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[89] (main.lot)
+[85] (main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
 
 
-[90
+[86
 
 ] (main.aux)
  ***********
@@ -3105,111 +3063,19 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 83B70A53731DD64625DA4650EE721BAC;8417.
+(rerunfilecheck)             Checksum: DE0300705A9059FAFAB82DCE95D6D1BD;9292.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30932 strings out of 475560
- 594956 string characters out of 5769136
- 1510437 words of memory out of 5000000
- 52993 multiletter control sequences out of 15000+600000
- 568789 words of font info for 72 fonts, out of 8000000 for 9000
+ 30899 strings out of 475560
+ 594545 string characters out of 5769136
+ 1508434 words of memory out of 5000000
+ 52997 multiletter control sequences out of 15000+600000
+ 569628 words of font info for 75 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 84i,12n,93p,3143b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{table.3.2} has been referenced but does not exist, 
-replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.66} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.65} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.64} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.63} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.62} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.61} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.60} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.59} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.58} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.57} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.56} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.55} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.54} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.53} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.52} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.51} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.50} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.49} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.48} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.47} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.46} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.45} has been referenced but does not exis
-t, replaced by a fixed one
-
+ 84i,12n,93p,3136b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Hfootnote.44} has been referenced but does not exis
 t, replaced by a fixed one
@@ -3393,22 +3259,23 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 ti10.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/c
 mex10.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/
 cmmi10.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm
-/cmmi6.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm
-/cmmi8.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm
-/cmr10.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm
-/cmr12.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm
-/cmr6.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/
-cmr8.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/c
-mr9.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cm
-ss12.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/c
-mss17.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm
-/cmsy8.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm
-/cmti10.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/c
-m/cmti9.pfb>
-Output written on main.pdf (91 pages, 20442351 bytes).
+/cmmi12.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/c
+m/cmmi6.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/c
+m/cmmi8.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/c
+m/cmr10.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/c
+m/cmr12.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/c
+m/cmr6.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm
+/cmr8.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/
+cmr9.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/c
+mss12.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/
+cmss17.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/c
+m/cmsy8.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/c
+m/cmti10.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/
+cm/cmti9.pfb>
+Output written on main.pdf (87 pages, 20419405 bytes).
 PDF statistics:
- 1310 PDF objects out of 1440 (max. 8388607)
- 344 named destinations out of 1000 (max. 500000)
- 624 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1214 PDF objects out of 1440 (max. 8388607)
+ 309 named destinations out of 1000 (max. 500000)
+ 656 words of extra memory for PDF output out of 10000 (max. 10000000)
 
