@@ -14,41 +14,41 @@ Looking ahead, future research should focus on enhancing regional customization 
 This comprehensive evaluation underscores the importance of collaboration among climate centers to address the challenges posed by diverse and complex climatic conditions across the MENA region and beyond.
 
 
-\begin{table}[h!]
-\centering
-\begin{tabular}{|>{\raggedright\arraybackslash}m{2cm}|>{\raggedright\arraybackslash}m{4cm}|>{\raggedright\arraybackslash}m{4cm}|>{\raggedright\arraybackslash}m{4cm}|}
-\hline
-\textbf{Metric} & \textbf{MENA} & \textbf{North Africa} & \textbf{Arabian Peninsula} \\ \hline
-ACC            & ECMWF, METEO-FRANCE, ECCC-3 & ECMWF, UKMO, ECCC-3 & ECMWF, UKMO, DWD \\ \hline
-RMSE           & UKMO, ECMWF & METEO-FRANCE & METEO-FRANCE \\ \hline
-R²             & ECMWF       & ECMWF         & ECMWF \\ \hline
-BS             & METEO-FRANCE, ECMWF, CMCC-35 & ECMWF, METEO-FRANCE, CMCC-35 & ECMWF, METEO-FRANCE, CMCC-35 \\ \hline
-RELA           & ALL except UKMO & ALL except UKMO & ALL except UKMO \\ \hline
-RPS            & ECMWF       & ECMWF         & ECMWF \\ \hline
-ROC            & ALL centers & ALL centers   & ALL centers \\ \hline
-ROCSS          & ALL centers & ALL centers   & ALL centers \\ \hline
-\end{tabular}
-\caption{Comparison of Metrics across MENA, North Africa, and Arabian Peninsula for TEMPERATURE.}
-\label{tab:temperature_metrics}
-\end{table}
-
-
-
-
-\begin{table}[h!]
-\centering
-\begin{tabular}{|>{\raggedright\arraybackslash}m{2cm}|>{\raggedright\arraybackslash}m{4cm}|>{\raggedright\arraybackslash}m{4cm}|>{\raggedright\arraybackslash}m{4cm}|}
-\hline
-\textbf{Metric} & \textbf{MENA} & \textbf{North Africa} & \textbf{Arabian Peninsula} \\ \hline
-ACC & ECMWF, CMCC-35, UKMO & ECMWF, UKMO and METEO-FRANCE & ECMWF, CMCC-35, UKMO \\ \hline
-RMSE & DWD, ECMWF and UKMO & ECMWF, UKMO and DWD & ECMWF, UKMO and DWD \\ \hline
-R² & ECMWF & ECMWF & CMCC-35, ECCC2 \\ \hline
-BS & ECMWF, METEO-FRANCE and CMCC-35 & ECMWF, METEO-FRANCE and CMCC-35 & ECMWF, METEO-FRANCE and CMCC-35 \\ \hline
-RPS & ALL except UKMO & ALL except UKMO & ALL except UKMO \\ \hline
-ROC & ALL & ALL & ALL \\ \hline
-ROCSS & ecmwf & ecmwf & ukmo, cmcc-35 \\ \hline
-RELA & ECMWF, CMCC and METEO-FRANCE & ECMWF, CMCC and METEO-FRANCE & METEO-FRANCE, DWD \\ \hline
-\end{tabular}
-\caption{Comparison of Metrics across MENA, North Africa, and Arabian Peninsula for PRECIPITATION}
-\label{tab:comparison}
-\end{table}
+%\begin{table}[h!]
+%\centering
+%\begin{tabular}{|>{\raggedright\arraybackslash}m{2cm}|>{\raggedright\arraybackslash}m{4cm}|>{\raggedright\arraybackslash}m{4cm}|>{\raggedright\arraybackslash}m{4cm}|}
+%\hline
+%\textbf{Metric} & \textbf{MENA} & \textbf{North Africa} & \textbf{Arabian Peninsula} \\ \hline
+%ACC            & ECMWF, METEO-FRANCE, ECCC-3 & ECMWF, UKMO, ECCC-3 & ECMWF, UKMO, DWD \\ \hline
+%RMSE           & UKMO, ECMWF & METEO-FRANCE & METEO-FRANCE \\ \hline
+%R²             & ECMWF       & ECMWF         & ECMWF \\ \hline
+%BS             & METEO-FRANCE, ECMWF, CMCC-35 & ECMWF, METEO-FRANCE, CMCC-35 & ECMWF, METEO-FRANCE, CMCC-35 \\ \hline
+%RELA           & ALL except UKMO & ALL except UKMO & ALL except UKMO \\ \hline
+%RPS            & ECMWF       & ECMWF         & ECMWF \\ \hline
+%ROC            & ALL centers & ALL centers   & ALL centers \\ \hline
+%ROCSS          & ALL centers & ALL centers   & ALL centers \\ \hline
+%\end{tabular}
+%\caption{Comparison of Metrics across MENA, North Africa, and Arabian Peninsula for TEMPERATURE.}
+%\label{tab:temperature_metrics}
+%\end{table}
+%
+%
+%
+%
+%\begin{table}[h!]
+%\centering
+%\begin{tabular}{|>{\raggedright\arraybackslash}m{2cm}|>{\raggedright\arraybackslash}m{4cm}|>{\raggedright\arraybackslash}m{4cm}|>{\raggedright\arraybackslash}m{4cm}|}
+%\hline
+%\textbf{Metric} & \textbf{MENA} & \textbf{North Africa} & \textbf{Arabian Peninsula} \\ \hline
+%ACC & ECMWF, CMCC-35, UKMO & ECMWF, UKMO and METEO-FRANCE & ECMWF, CMCC-35, UKMO \\ \hline
+%RMSE & DWD, ECMWF and UKMO & ECMWF, UKMO and DWD & ECMWF, UKMO and DWD \\ \hline
+%R² & ECMWF & ECMWF & CMCC-35, ECCC2 \\ \hline
+%BS & ECMWF, METEO-FRANCE and CMCC-35 & ECMWF, METEO-FRANCE and CMCC-35 & ECMWF, METEO-FRANCE and CMCC-35 \\ \hline
+%RPS & ALL except UKMO & ALL except UKMO & ALL except UKMO \\ \hline
+%ROC & ALL & ALL & ALL \\ \hline
+%ROCSS & ecmwf & ecmwf & ukmo, cmcc-35 \\ \hline
+%RELA & ECMWF, CMCC and METEO-FRANCE & ECMWF, CMCC and METEO-FRANCE & METEO-FRANCE, DWD \\ \hline
+%\end{tabular}
+%\caption{Comparison of Metrics across MENA, North Africa, and Arabian Peninsula for PRECIPITATION}
+%\label{tab:comparison}
+%\end{table}

@@ -41,80 +41,57 @@
 \contentsline {chapter}{\numberline {5}Results}{24}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Temperature}{24}{section.5.1}%
 \contentsline {subsection}{\numberline {5.1.1}Deterministic evaluation results}{25}{subsection.5.1.1}%
-\contentsline {subsubsection}{ACC}{25}{section*.9}%
-\contentsline {subsubsection}{Root Mean Square Error}{26}{section*.10}%
-\contentsline {subsubsection}{coefficient of determination}{29}{section*.11}%
-\contentsline {subsection}{\numberline {5.1.2}Probabilistic evaluation results}{31}{subsection.5.1.2}%
-\contentsline {subsubsection}{Brier score}{31}{section*.12}%
-\contentsline {subsubsection}{Reliability}{35}{section*.13}%
-\contentsline {subsubsection}{The ranked probability score}{37}{section*.14}%
-\contentsline {subsubsection}{Receiver Operating Characteristic}{40}{section*.15}%
-\contentsline {subsubsection}{Relative operating characteristics Skill Score}{44}{section*.16}%
-\contentsline {section}{\numberline {5.2}PRECIPITATIONS}{47}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Deterministic Evaluation Metrics}{48}{subsection.5.2.1}%
-\contentsline {subsubsection}{ACC}{48}{section*.17}%
-\contentsline {subsubsection}{RMSE}{51}{section*.18}%
-\contentsline {subsubsection}{Coefficient of Determination (\( R^2 \))}{53}{section*.19}%
-\contentsline {subsection}{\numberline {5.2.2}Probabilistic Evaluation Metrics}{56}{subsection.5.2.2}%
-\contentsline {subsubsection}{The Brier Score (BS)}{56}{section*.20}%
-\contentsline {subsubsection}{Reliability}{59}{section*.21}%
-\contentsline {subsubsection}{The ranked probability score (RPS)}{60}{section*.22}%
-\contentsline {subsubsection}{Relative operating characteristics}{62}{section*.23}%
-\contentsline {subsubsection}{Relative operating characteristics Skill Score}{66}{section*.24}%
-\contentsline {subsubsection}{summary}{69}{section*.25}%
-\contentsline {chapter}{\numberline {6}Regional Performance Evaluation: North Africa and Arabian Peninsula}{71}{chapter.6}%
-\contentsline {section}{\numberline {6.1}temperature}{71}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Deterministic Evaluation Metrics}{71}{subsection.6.1.1}%
-\contentsline {subsubsection}{Analysis of ACC Results}{71}{section*.26}%
-\contentsline {paragraph}{Focus on North Africa}{71}{section*.27}%
-\contentsline {paragraph}{Focus on the Arabian Peninsula}{72}{section*.28}%
-\contentsline {subsubsection}{Analysis of RMSE Results}{73}{section*.29}%
-\contentsline {paragraph}{focus on North Africa}{73}{section*.30}%
-\contentsline {paragraph}{focus on Arabian Peninsula}{74}{section*.31}%
-\contentsline {subsubsection}{Analysis of Coefficient of Determination results}{75}{section*.32}%
-\contentsline {paragraph}{focus on North Africa}{75}{section*.33}%
-\contentsline {paragraph}{focus on Arabian Peninsula}{76}{section*.34}%
-\contentsline {subsection}{\numberline {6.1.2}Probabilistic Evaluation Metrics}{77}{subsection.6.1.2}%
-\contentsline {subsubsection}{Analysis of The Brier Score results}{77}{section*.35}%
-\contentsline {paragraph}{focus on North Africa}{77}{section*.36}%
-\contentsline {paragraph}{focus on Arabian Peninsula}{78}{section*.37}%
-\contentsline {subsubsection}{Analysis of Reliability results}{78}{section*.38}%
-\contentsline {paragraph}{focus on North Africa}{78}{section*.39}%
-\contentsline {paragraph}{focus on Arabian Peninsula}{79}{section*.40}%
-\contentsline {subsubsection}{Analysis of The ranked probability score results}{79}{section*.41}%
-\contentsline {paragraph}{focus on north africa:}{79}{section*.42}%
-\contentsline {paragraph}{focus on Arabian Peninsula}{80}{section*.43}%
-\contentsline {subsubsection}{Analysis of Receiver Operating Characteristic results}{81}{section*.44}%
-\contentsline {paragraph}{focus on north africa:}{81}{figure.6.10}%
-\contentsline {paragraph}{focus on Arabian Peninsula}{81}{section*.46}%
-\contentsline {subsubsection}{Analysis of Relative operating characteristics Skill Score results }{82}{section*.47}%
-\contentsline {paragraph}{focus on north africa:}{82}{section*.48}%
-\contentsline {paragraph}{focus on Arabian Peninsula}{82}{section*.49}%
-\contentsline {section}{\numberline {6.2}precipitation}{82}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Deterministic Evaluation Metrics}{82}{subsection.6.2.1}%
-\contentsline {subsubsection}{Analysis of ACC results}{82}{section*.50}%
-\contentsline {paragraph}{focus on north africa:}{82}{section*.51}%
-\contentsline {paragraph}{focus on Arabian Peninsula}{83}{section*.52}%
-\contentsline {subsubsection}{Analysis of RMSE Results}{84}{section*.53}%
-\contentsline {paragraph}{focus on North Africa}{84}{section*.54}%
-\contentsline {paragraph}{focus on Arabian Peninsula}{85}{section*.55}%
-\contentsline {subsubsection}{Analysis of Coefficient of Determination results}{86}{section*.56}%
-\contentsline {paragraph}{focus on North Africa}{86}{section*.57}%
-\contentsline {paragraph}{focus on Arabian Peninsula}{86}{section*.58}%
-\contentsline {subsection}{\numberline {6.2.2}Probabilistic Evaluation Metrics}{87}{subsection.6.2.2}%
-\contentsline {subsubsection}{Analysis of The Brier Score results}{87}{section*.59}%
-\contentsline {paragraph}{focus on North Africa}{87}{section*.60}%
-\contentsline {paragraph}{focus on Arabian Peninsula}{87}{section*.61}%
-\contentsline {subsubsection}{ Analysis of Reliability results}{88}{section*.62}%
-\contentsline {paragraph}{focus on North Africa}{88}{section*.63}%
-\contentsline {paragraph}{focus on Arabian Peninsula}{88}{section*.64}%
-\contentsline {subsubsection}{Analysis of The ranked probability score results}{88}{section*.65}%
-\contentsline {paragraph}{focus on north africa:}{88}{section*.66}%
-\contentsline {paragraph}{focus on Arabian Peninsula}{88}{section*.67}%
-\contentsline {subsubsection}{Analysis of Receiver Operating Characteristic results}{88}{section*.68}%
-\contentsline {paragraph}{focus on north africa:}{88}{section*.69}%
-\contentsline {paragraph}{focus on Arabian Peninsula}{89}{section*.70}%
-\contentsline {subsubsection}{Analysis of Relative operating characteristics Skill Score results }{91}{section*.71}%
-\contentsline {paragraph}{focus on north africa:}{92}{figure.6.21}%
-\contentsline {paragraph}{focus on Arabian Peninsula}{92}{section*.73}%
-\contentsline {chapter}{\numberline {7}CONCLUSION}{94}{chapter.7}%
+\contentsline {subsubsection}{Anomaly Correlation Coefficient}{25}{section*.9}%
+\contentsline {paragraph}{Focus on North Africa}{26}{section*.10}%
+\contentsline {paragraph}{Focus on the Arabian Peninsula}{27}{section*.11}%
+\contentsline {subsubsection}{Root Mean Square Error}{28}{section*.12}%
+\contentsline {paragraph}{focus on North Africa}{31}{section*.13}%
+\contentsline {paragraph}{focus on Arabian Peninsula}{32}{section*.14}%
+\contentsline {subsubsection}{coefficient of determination}{32}{section*.15}%
+\contentsline {paragraph}{focus on North Africa}{35}{section*.16}%
+\contentsline {paragraph}{focus on Arabian Peninsula}{35}{section*.17}%
+\contentsline {subsection}{\numberline {5.1.2}Probabilistic evaluation results}{36}{subsection.5.1.2}%
+\contentsline {subsubsection}{Brier score}{37}{section*.18}%
+\contentsline {paragraph}{focus on North Africa}{41}{section*.19}%
+\contentsline {paragraph}{focus on Arabian Peninsula}{41}{section*.20}%
+\contentsline {subsubsection}{Reliability}{42}{section*.21}%
+\contentsline {paragraph}{focus on North Africa}{42}{section*.22}%
+\contentsline {paragraph}{focus on Arabian Peninsula}{43}{section*.23}%
+\contentsline {subsubsection}{The ranked probability score}{43}{section*.24}%
+\contentsline {paragraph}{focus on north africa:}{46}{section*.25}%
+\contentsline {paragraph}{focus on Arabian Peninsula}{46}{section*.26}%
+\contentsline {subsubsection}{Receiver Operating Characteristic}{47}{section*.27}%
+\contentsline {paragraph}{focus on north africa:}{51}{figure.5.26}%
+\contentsline {paragraph}{focus on Arabian Peninsula}{51}{section*.29}%
+\contentsline {subsubsection}{Relative operating characteristics Skill Score}{52}{section*.30}%
+\contentsline {paragraph}{focus on north africa:}{55}{section*.31}%
+\contentsline {paragraph}{focus on Arabian Peninsula}{56}{section*.32}%
+\contentsline {section}{\numberline {5.2}PRECIPITATIONS}{56}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Deterministic Evaluation Metrics}{57}{subsection.5.2.1}%
+\contentsline {subsubsection}{Anomaly Correlation Coefficient}{57}{section*.33}%
+\contentsline {paragraph}{focus on north africa:}{59}{section*.34}%
+\contentsline {paragraph}{focus on Arabian Peninsula}{60}{section*.35}%
+\contentsline {subsubsection}{Root Mean Square Error}{62}{section*.36}%
+\contentsline {paragraph}{focus on North Africa}{64}{section*.37}%
+\contentsline {paragraph}{focus on Arabian Peninsula}{65}{section*.38}%
+\contentsline {subsubsection}{Coefficient of Determination (\( R^2 \))}{66}{section*.39}%
+\contentsline {paragraph}{focus on North Africa}{68}{section*.40}%
+\contentsline {paragraph}{focus on Arabian Peninsula}{68}{section*.41}%
+\contentsline {subsection}{\numberline {5.2.2}Probabilistic Evaluation Metrics}{70}{subsection.5.2.2}%
+\contentsline {subsubsection}{The Brier Score (BS)}{70}{section*.42}%
+\contentsline {paragraph}{focus on North Africa}{72}{section*.43}%
+\contentsline {paragraph}{focus on Arabian Peninsula}{72}{section*.44}%
+\contentsline {subsubsection}{Reliability}{73}{section*.45}%
+\contentsline {paragraph}{focus on North Africa}{73}{section*.46}%
+\contentsline {paragraph}{focus on Arabian Peninsula}{73}{section*.47}%
+\contentsline {subsubsection}{The ranked probability score (RPS)}{75}{section*.48}%
+\contentsline {paragraph}{focus on north africa:}{76}{section*.49}%
+\contentsline {paragraph}{focus on Arabian Peninsula}{76}{section*.50}%
+\contentsline {subsubsection}{Relative operating characteristics}{77}{section*.51}%
+\contentsline {paragraph}{focus on north africa:}{80}{section*.52}%
+\contentsline {paragraph}{focus on Arabian Peninsula}{80}{section*.53}%
+\contentsline {subsubsection}{Relative operating characteristics Skill Score}{82}{section*.54}%
+\contentsline {paragraph}{focus on north africa:}{88}{figure.5.63}%
+\contentsline {paragraph}{focus on Arabian Peninsula}{88}{section*.56}%
+\contentsline {subsubsection}{summary}{89}{section*.57}%
+\contentsline {chapter}{\numberline {6}CONCLUSION}{91}{chapter.6}%
