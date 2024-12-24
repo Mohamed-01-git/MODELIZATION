@@ -13,10 +13,15 @@ In the temperature session, the use of heatmaps and temperature metrics maps wil
 	\includegraphics[scale=0.25]{plots/det/acc/acc_T2M_mena.png}
 	\caption{The Heatmap of acc for the mena region for every period \textbf{\textit{(1 for perfect ACC)} }}
 \end{figure}
-The acc is moderate for all centers; however, the best models are \textbf{\textit{ECMWF, meteo-france and eccc-3}}. There is no clear variability in performance over time. For SON and JJA, performance is good at time 1 for all centers but decreases with increasing lead-time..
+The acc is moderate for all centers; however, the best models are \textbf{\textit{ECMWF, meteo-france and eccc-3}}. There is no clear variability in performance over time. For SON and JJA, performance is good at time 1 for all centers but decreases with increasing lead-time. Then, for DJF, \textbf{\textit{UKMO,ECCC-3 and ECMWF}} are the best with values between 0.39 and 0.43 for the first led-time and a little decrease along lead-time, the \textbf{\textit{CMCC-35}} show good acc with a value of 0.41 for the 3d lead-time. Moreover, for MAM and SON, we have good acc for the 1st lead-time, especially \textbf{\textit{ECMWF, METEO-FRANCE, DWD and CMCC-35}}, with values between 0.42 and 0.48, but this performance decrease greatly along lead-time to reach values around 0.2. The JJA show good and stable ACC for all centers and lead-times with values between 0.43 and 0.31. 
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.25]{plots/det/acc/ANOMALY_CORRELATION_jja_t2m.png}
+	\caption{The 3 month rolling mean of JJA for  ACC for the mena region \textbf{\textit{(1 for perfect ACC)} }}
+\end{figure}
 
-
+the ACC demonstrates strong performance across nearly the entire region, indicating that the model captures the spatial patterns of anomalies effectively. This suggests a high level of agreement between observed and predicted anomalies, reflecting the model's reliability in representing anomaly patterns. However, despite this strong performance in terms of anomaly correlation, the significance of these correlations is not consistent across all regions. Specifically, in the center of Africa and the Arabian Peninsula, the correlations are not statistically significant. This implies that while the model captures the general patterns of anomalies in these areas, the strength of the linear relationship between observed and predicted anomalies is weak or uncertain.
 \subsubsection{Root Mean Square Error}
 
 
@@ -24,8 +29,7 @@ The maps in this section show the RMSE (Root Mean Square Error) between observed
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{plots/det/rmse/rmse_T2M.png}
-    \caption{Temperature rmse heatmaps for all the sasons}
-    \label{fig:CORR_djf_t2m}
+    \caption{Temperature rmse heatmaps for all the sasons \textbf{\textit{(0 for perfect RMSE)} }}
 \end{figure}
 
 The heatmap for the seven models highlights distinct variations in their seasonal performance. The UKMO model shows moderate to good performance, particularly in JJA and MAM, as reflected by relatively low RMSE values ranging between 1.35°C and 1.51°C across the three lead times. This indicates that the UKMO model is reasonably effective in capturing surface temperature variations during these seasons, likely benefiting from its ability to simulate key atmospheric processes during these periods.
@@ -40,9 +44,13 @@ Overall, these findings emphasize the importance of selecting climate models bas
 
 
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{plots/det/rmse/rmse_djf_t2m.png}
+    \caption{The 3 month rolling mean of Temperature rmse for DJF for all centers \textbf{\textit{(0 for perfect RMSE)} }}
+\end{figure}
 
-
-
+The analysis of the RMSE highlights several key patterns. Overall, most regions exhibit low RMSE values, indicating a good agreement between the hindcast and observations and suggesting strong model performance across a large portion of the domain. Central and western Africa consistently show low RMSE across all models, reflecting robust forecasting accuracy in these regions. However, variations are evident in northern Africa, particularly in the Sahara, where some areas experience moderate discrepancies depending on the model. The Arabian Peninsula also stands out with localized regions of higher RMSE, especially in its northern parts, suggesting challenges in these areas. Among the models, the UKMO, Météo-France, and ECMWF generally perform well, with ECMWF demonstrating consistent low RMSE across the entire domain. In contrast, the ECCC-3 and ECCC-2 models exhibit higher RMSE in specific areas, such as northern Africa and the Arabian Peninsula, while the DWD model performs comparably to the best models in most regions. 
 
 \subsubsection{coefficient of determination}
 
@@ -52,8 +60,7 @@ The maps in this section show the Rsquared between observed and modeled surface 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{plots/det/rsquared/rsquared_T2M_mena.png}
-    \caption{Temperature rsquared heatmaps for all the seasons}
-    \label{fig:CORR_djf_t2m}
+    \caption{Temperature rsquared heatmaps for all the seasons \textbf{\textit{(1 for perfect R-SQUARED)} }}
 \end{figure}
 Based on this deterministic metric (R-squared), the ECMWF model demonstrates superior performance for lead time 1 across all four seasons, particularly during MAM. In general, the portion of variance explained by the model decreases as the lead time increases. This indicates that while the model is highly effective at capturing seasonal variability of surface temperatures in the short term, its predictive skill diminishes over longer time horizons.
 
@@ -61,19 +68,16 @@ The strong performance during MAM highlights the ECMWF model’s ability to capt
 
 Such precision underscores the ECMWF model’s reliability for short-term seasonal forecasting, particularly during periods of heightened climatic variability like MAM. However, the decreasing performance with increasing lead times suggests the need for careful interpretation of forecasts beyond lead time 1, as uncertainty increases with longer projections.
 
+
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\linewidth]{plots/det/rsquared/rsquared_T2M_NorthAfrica.png}
-    \caption{Temperature rsquared heatmaps for all the seasons}
-    \label{fig:CORR_djf_t2m}
+    \includegraphics[width=1\linewidth]{plots/det/rsquared/rsquared_son_t2m.png}
+    \caption{3-months rolling mean of 2-meter temperature of SON R-SQUARED  for all centers \textbf{\textit{(1 for perfect R-SQUARED)} }}
 \end{figure}
-A closer look at North Africa reveals that the ECMWF model performs best during JJA, with R-squared values increasing as the lead time increases—contrary to the trend observed for the MENA region as a whole, where performance typically decreases with longer lead times. This suggests that the ECMWF model is particularly adept at capturing the persistent summer temperature patterns in North Africa, which may benefit from stronger model predictability over time due to the relatively stable atmospheric and climatic conditions during JJA.
 
-Similarly, Météo-France also shows good performance in North Africa, maintaining consistent R-squared values across different lead times and seasons. This consistency highlights the model’s ability to handle the diverse climatic features of the region, such as the extreme temperatures influenced by the Sahara Desert and the moderating effects of the Mediterranean coastline.
+From the figure above, the R-SQUARED is excellent at the equator, reaching a maximum value of 0.78. All the centers exhibit good R-SQUARED performance in this region; nevertheless, the ECMWF model demonstrates slightly better performance overall. Across the northern parts of Africa, the R-SQUARED values decrease, indicating a reduced agreement between the hindcast and observations. However, some models, such as Météo-France and ECCC-3, maintain moderate performance in certain localized areas. The Arabian Peninsula exhibits generally low R-SQUARED values across all models, signifying challenges in capturing seasonal variability in this region. The southern part of the domain, particularly over regions near Angola and Zambia, shows moderate R-SQUARED values in some models, such as UKMO and CMCC.
 
-These findings emphasize the importance of regional analysis, as the performance of climate models can vary significantly within sub-regions of MENA. While ECMWF excels in predicting North Africa’s summer temperatures, the observed increase in R-squared with lead time underscores the need to investigate the underlying factors driving this unusual trend, which contrasts with the broader MENA region’s dynamics.
-
-
+Thus, while the equatorial region consistently shows excellent performance across all models, northern Africa and the Arabian Peninsula represent areas with lower R-SQUARED values, highlighting potential limitations in the seasonal forecasting system. Among the models, ECMWF appears to have a slight advantage in terms of consistency and accuracy.
 
 \subsection{Probabilistic evaluation results}
 
@@ -83,25 +87,39 @@ The figures illustrate two main approaches to probabilistic assessment metrics, 
 The second approach averages all grid points in the MENA region while retaining all lead times and seasons. This aggregated view provides an overall assessment of the measure for each season, considering all lead times and forecast categories. This approach focuses on how models perform across different forecast scenarios and how well they produce accurate and reliable temperature forecasts, regardless of forecast probability. By retaining lead times and seasons in the analysis, this method provides a comprehensive picture of model performance over time and under different climate conditions. It reveals how well models generalize across different forecast scenarios, helping to identify which models are most effective at producing consistent and reliable forecasts.
 \subsubsection{Brier score}
 
-The figure at the bottom illustrates that most models demonstrate relatively high performance, as indicated by a small Brier Score (BS), meaning that the predicted probabilities are close to the observed ones. This reflects accurate forecast probabilities forT2M The UKMO model, however, shows moderate performance with a larger BS, suggesting that its predicted probabilities are less closely aligned with observed outcomes compared to other models. Notably, the middle category presents lower performance relative to the other two categories (lower and upper). This indicates that while some models capture temperature variability well in extreme conditions (upper category), their skill diminishes when forecasting moderate changes (middle category). This discrepancy highlights the challenges models face in translating predicted probabilities into reliable forecasts, particularly for temperature variations that are neither extreme nor outlier events. 
+The figure at the bottom illustrates that most models demonstrate relatively high performance, as indicated by a small Brier Score (BS) around 0.2, meaning that the predicted probabilities are close to the observed ones. This reflects accurate forecast probabilities for T2M. The UKMO model, however, shows moderate performance with a quite larder BS, around 0.28 suggesting that its predicted probabilities are less closely aligned with observed outcomes compared to other models. Notably, the middle category presents lower performance relative to the other two categories (lower and upper). This indicates that while some models capture temperature variability well in extreme conditions (upper category), their skill may diminishes when forecasting moderate changes (middle category). This discrepancy highlights the challenges models face in translating predicted probabilities into reliable forecasts, particularly for temperature variations that are neither extreme nor outlier events. 
 
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{plots/prob/bs/bs_T2M_category_mena.png}
-    \caption{Temperature Brier score heatmaps for all the seasons per categories}
-    \label{fig:CORR_djf_t2m}
+    \caption{Temperature Brier score heatmaps for all the seasons per categories \textbf{\textit{(0 represents perfect BS)} }}
 \end{figure}
-An analysis by lead time revealed that the models Meteo France, ECMWF, and CMCC exhibit superior performance, as indicated by lower Brier Scores (BS). This suggests that these models provide more accurate probabilistic forecasts for T2M compared to others. Moreover, the differences in BS values between successive lead times are minimal, indicating that the predictive skill of these models remains relatively consistent as the forecast horizon increases.
+
+An analysis by lead time revealed that the models \textbf{\textit{ Meteo France, ECMWF, and CMCC-35 }} exhibit superior performance, as indicated by lower Brier Scores (BS) between 0
+21 and 0.23. This suggests that these models provide more accurate probabilistic forecasts for T2M compared to others. Moreover, the differences in BS values between successive lead times are minimal, indicating that the predictive skill of these models remains relatively consistent as the forecast horizon increases.
 
 This stability in performance across lead times is particularly noteworthy, as it reflects the robustness of these models in maintaining their ability to produce reliable forecasts over time. The lower BS values also suggest that these models effectively capture the relationship between predicted probabilities and observed outcomes, ensuring high confidence in their probabilistic predictions. Such consistent performance across lead times is crucial for operational forecasting, as it highlights these models' reliability for both short- and medium-term forecasts in the MENA region.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{plots/prob/bs/bs_T2M_lead_time_mena.png}
-    \caption{Temperature brier score heatmaps for all the seasons per lead time}
-    \label{fig:CORR_djf_t2m}
+    \caption{Temperature brier score heatmaps for all the seasons per lead time \textbf{\textit{(0 represents perfect BS)} }}
 \end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{plots/prob/bs/bs_jja_t2m_middle.png}
+    \caption{3 months rolling mean for 2-meter-temperature of brier score in the middle tercile. \textbf{\textit{(0 represents perfect BS)} }}
+\end{figure}
+
+For the \textbf{\textit{ECMWF}}, the Brier Score reaches an impressive value of 0.02 at the equator, signifying an exceptionally high level of forecast reliability and accuracy in this region. This score underscores the center's strong capability to generate precise probabilistic forecasts, particularly in equatorial zones where weather patterns can be highly dynamic.
+
+Conversely, while the \textbf{\textit{UKMO}} exhibits a slight decrease in performance compared to the \textbf{\textit{ECMWF}}, its results still fall within the range of noteworthy accuracy. The relatively modest decline does not overshadow the overall competency demonstrated by the center, as its scores remain indicative of robust forecasting.
+
+This comprehensive evaluation of Brier Scores across different centers reflects an impressive level of \textbf{Resolution}, which refers to the ability of a forecast to distinguish between different outcomes effectively. 
+
 
 \subsubsection{Reliability}
 The reliability diagrams presented for the season assess the probabilistic performance of the seven climate models across three forecast categories: lower tercile , middle tercile , and upper tercile . These diagrams compare the predicted forecast probabilities to the observed frequencies, providing a clear indication of the models' ability to produce reliable temperature forecasts. A perfectly reliable model would align closely with the diagonal, where predicted probabilities match observed outcomes. By analyzing these diagrams, we can identify which models perform best for specific categories and uncover any systematic biases, such as over- or under-forecasting certain probabilities. This evaluation is crucial for understanding the strengths and weaknesses of the models, particularly in their ability to capture temperature extremes and moderate conditions .
@@ -110,8 +128,7 @@ The reliability diagrams presented for the season assess the probabilistic perfo
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{plots/prob/rela/rela_diagram_t2m_djf.png}
-    \caption{temperature reliabilty maps for djf}
-    \label{CORR_mam_t2m.png}
+    \caption{temperature reliability diagram for djf \textbf{\textit{(0 means perfect Reliability)}}}
 \end{figure}
 
 For the DJF season, the reliability diagrams show that most models exhibit similar performance, with the exception of UKMO, which significantly overestimates probabilities across all categories. For ECMWF, there is a noticeable overestimation in the upper tercile (warm extremes) starting at a forecast probability of approximately 0.6, indicating that the model tends to assign higher probabilities to warm events compared to their observed frequencies. Conversely, ECMWF shows a systematic underestimation for both the lower and middle terciles across most probabilities. For the remaining models, except UKMO, there is a general trend of underestimation across all three categories, beginning at forecast probabilities around 0.5. This pattern suggests that while the models capture some aspects of the observed temperature distribution, they struggle to provide accurate probabilities for more extreme or moderate conditions, especially at higher forecast probabilities. These results highlight the challenges faced by the models in reliably predicting temperature outcomes during the winter season (DJF), particularly for extreme categories.
@@ -120,58 +137,117 @@ For the other three seasons (JJA, MAM, and SON), the reliability diagrams reveal
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{plots/prob/rela/rela_T2M_mena.png}
-    \caption{temperature reliabilty heatmap}
-    \label{CORR_mam_t2m.png}
+    \caption{temperature reliabilty heatmap \textbf{\textit{(0 means perfect Reliability)}}}
 \end{figure}
-The heatmap further confirms the analyses derived from the reliability diagrams. It highlights similar trends observed across the models and seasons.Conversely, UKMO continues to stand out with its consistent overestimation of probabilities, aligning with the overconfidence seen in the reliability diagrams. This agreement between the heatmap and the reliability curves strengthens confidence in the identified patterns .
+
+
+The heatmap further confirms the analyses derived from the reliability diagrams. It highlights similar trends observed across the models and seasons.Conversely, \textbf{\textit{UKMO}} continues to stand out with its consistent overestimation of probabilities, with high values reaching 0.42, aligning with the overconfidence seen in the reliability diagrams. This agreement between the heatmap and the reliability curves strengthens confidence in the identified patterns. Moreover, There is no big difference between the other centers, the score is moderate and the variability along lead-time is very week.
 
 
 
 
-\subsubsection{The ranked probability score }
+\subsubsection{The ranked probability score}
 
 The Ranked Probability Score (RPS) provides a valuable measure of forecast performance by evaluating the accuracy of probabilistic predictions across different categories. It combines both the skill in predicting the occurrence of events and the sharpness of the forecast distribution. By comparing the forecasted probability distribution against the observed outcomes, the RPS quantifies the deviation between the predicted and actual probabilities. A lower RPS value indicates better forecast accuracy, reflecting both how well the forecast aligns with observed frequencies and how well it discriminates between different probability categories. This metric helps to identify which models offer the most reliable probabilistic predictions, particularly in terms of capturing the likelihood of various temperature outcomes within a given forecast period.
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{plots/prob/rps/rps_T2M_mena.png}
-    \caption{Temperature RPS  heatmaps for all the seasons per categories}
-    \label{fig:CORR_djf_t2m}
+    \caption{Temperature RPS  heatmaps for all the seasons per categories \textbf{\textit{(0 means perfect RPS)}}}
 \end{figure}
 The figure displaying the Ranked Probability Score (RPS) for different climate models and seasonal periods provides a detailed view of model performance across various start months (DJF, JJA, MAM, SON). Each cell in the matrix represents the RPS value for a specific model and season combination, with the color intensity indicating how well the forecast probabilities match the observed data.
 
 From this figure, it is evident that ECMWF consistently shows lower RPS values, indicating better predictive accuracy across different seasons. This suggests that ECMWF's forecasts are more closely aligned with observed temperature variability. The relatively higher RPS values for  UKMO model underscore their challenges in accurately capturing temperature variations. 
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{plots/prob/rps/rps_mam_t2m.png}
+    \caption{Temperature RPS  heatmaps for all the seasons per categories \textbf{\textit{(0 means perfect RPS)}}}
+\end{figure}
+
+The figure above illustrates an excellent Ranked Probability Score (RPS), with values approaching 0, which signifies a high degree of accuracy and reliability in the probabilistic forecasts. This indicates that the forecasts effectively capture the uncertainty of outcomes and closely align with observed events.
+
+Moreover, the spatial distribution of the RPS highlights consistent performance across the entire MENA region. The near-uniformity in low RPS values across this extensive and diverse area underscores the robustness of the forecasting system in managing the variability of climatic and weather conditions characteristic of the region.
+
+However, it is noteworthy that the \textbf{\textit{UKMO}} displays comparatively less accuracy, with RPS values reaching up to 1.9 in certain areas. While this score still represents useful predictive capability, it marks a deviation from the excellent performance observed in other forecasting systems. This suggests potential areas for improvement in the \textbf{\textit{UKMO}}'s model, particularly in regions where higher RPS values are observed.
+
+Overall, the analysis confirms strong forecasting performance in the MENA region, with some variability in accuracy between forecasting centers. The results reinforce the importance of ongoing evaluation and optimization of forecasting systems to ensure consistent and high-quality predictions across all regions.
+
 \subsubsection{Receiver Operating Characteristic}
+
 The ROC (Receiver Operating Characteristic) curve is an important tool for evaluating the performance of predictive models, particularly in the context of probabilistic forecasts. It provides a graphical representation of the trade-off between the true positive rate  and the false positive rate  across various threshold levels.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{plots/prob/roc/roc_T2M_category_mena.png}
-    \caption{Temperature AUC  heatmaps }
-    \label{fig:CORR_djf_t2m}
+    \caption{Temperature AUC  heatmaps \textbf{\textit{(1 means perfect ROC)}}}
 \end{figure}
 
 
 Models generally exhibit similar performance, as indicated by the high Area Under the ROC Curve (AUC) values, which reflect their ability to effectively discriminate between predicted probabilities and observed outcomes. Unlike the reliability metric, where UKMO showed weaker performance, it performs relatively well in terms of the AUC, demonstrating good skill in distinguishing between forecasted events and non-events. Similar to the findings with the Brier Score (BS), the "middle" probability category tends to show weaker performance compared to the "lower" and "upper" categories. This highlights the models' greater sensitivity in accurately predicting events with extreme probabilities (high or low), but reduced skill for moderate probability scenarios. This consistency across metrics underscores the need to address forecast performance specifically in the middle category to further improve model predictions.
 
 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{plots/prob/roc/roc_T2M_lead_time.png}
+    \caption{Temperature AUC  heatmap per lead-time. \textbf{\textit{(1 means perfect ROC)}}}
+\end{figure}
+The figure above, shows the roc score along lead-time, a noteworthy good performance for SON is observed for the second lead-time, for all centers with values reaching 0.55. As for the other seasons, the performance stay in general stable along lead-time for all centers with scores around 0.5.
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{plots/prob/roc/roc_jja_t2m_upper.png}
+    \caption{2-meter Temperature ROC JJA Upper tercile \textbf{\textit{(1 means perfect ROC)}}}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{plots/prob/roc/roc_jja_t2m_middle.png}
+    \caption{2-meter Temperature ROC JJA Middle tercile \textbf{\textit{(1 means perfect ROC)}}}
+\end{figure}
+
+For the Upper tercile, the analysis of the spacial variation of ROC score (AUC), shows excellent scores for all scores especially \textbf{\textit{ECMWF}}. The spacial distribution shows a quite variation in North Africa. Thus, the \textbf{\textit{DWD}} exhibit the best performance for Arabian peninsula. Hence, the discrimination (Ability to distinguish
+events from non-events) is good for the upper tercile as well as for the lower tercile.
+
+As for the Middle tercile, the performance is much lower. The spacial variability is very high and there is no clear pattern of the score, reflecting a week discrimination for the middle tercile. Thus, the discrimination of extreme events (lower and above normal) is much better than the normal situations.
+
+
+
 \subsubsection{Relative operating characteristics Skill Score}
-ROCSS provides an assessment of a model's ability to discriminate between observed and forecasted events relative to a reference model, often a climatological or random forecast. A higher ROCSS indicates that the model has skill in distinguishing between occurrences and non-occurrences of an event, while a score close to zero suggests no significant improvement over the reference
+ROCSS provides an assessment of a model's ability to discriminate between observed and forecasted events relative to a reference model, often a climatological or random forecast. A higher ROCSS indicates that the model has skill in distinguishing between occurrences and non-occurrences of an event, while a score close to zero suggests no significant improvement over the reference.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{plots/prob/rocss/rocss_T2M_category_mena.png}
-    \caption{Temperature ROCSS  heatmaps for MENA region }
-    \label{fig:CORR_djf_t2m}
-\end{figure}. 
+    \caption{Temperature ROCSS  heatmaps for MENA region \textbf{\textit{(1 means perfect ROCSS)}} }
+\end{figure}
 The models generally demonstrate consistent and positive skill, highlighting their ability to discriminate between observed and forecasted events. UKMO, which showed weaker performance in reliability metrics, continues to perform well in terms of ROCSS, confirming its relative robustness in event discrimination. Additionally, as observed with the ROC scores, the "middle" category exhibits lower performance compared to the "lower" and "upper" categories. This indicates that while the models excel at predicting extreme events with high or low probabilities, their ability to capture moderate probability events remains limited.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{plots/prob/rocss/rocss_T2M_lead_time.png}
+    \caption{Temperature ROCSS  heatmaps for MENA region \textbf{\textit{(1 means perfect ROCSS)}} }
+\end{figure}
 
+The SON maintain its good performance for the second lead-time with 0.10 for the \textbf{\textit{ECMWF}} and 0.9 for the \textbf{\textit{UKMO and CMCC-35}} , in general the performance is low for all centers. The DJF and JJA exhibit the lowest performance for all centers, although, the \textbf{\textit{ECMWF}} shows relatively good performance for the 1st lead-time of JJA  (0.08).
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{plots/prob/rocss/rocss_djf_t2m_upper.png}
+    \caption{2-meter Temperature ROCSS DJF Upper tercile \textbf{\textit{(1 means perfect ROCSS)}}}
+\end{figure}
 
+For the upper tercile of DJF, the performance is good in the equator and the Arabian Peninsula with rocss around 0.9. Nevertheless, the North Africa shows negative values which means that the forecast performs worse than random guessing, indicating a forecast that is worse than a no-skill forecast.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{plots/prob/rocss/rocss_djf_t2m_middle.png}
+    \caption{2-meter Temperature ROCSS DJF Middle tercile \textbf{\textit{(1 means perfect ROCSS)}}}
+\end{figure}
 
-
+The Middle Tercile exhibits weak and inconsistent performance, with no clear spatial variability across the region. The scores are generally low and even negative in many areas, with values dropping as low as -0.79, particularly in North Africa. Despite this overall weak performance, there are a few isolated regions where the scores are notably higher, reaching up to 0.9 in certain areas of the Arabian Peninsula and along the equator. These localized high scores contrast with the broader pattern of poor performance, suggesting some regional variability in the model's predictive ability.
 
 \section{PRECIPITATIONS}
 IN general, the forecast of precipitations is more complicated than temperature, thus the scores are a little less good for this part especially the deterministic ones. 
@@ -210,7 +286,7 @@ For SON, the situation is generally better than for DJF in the Arabian peninsula
 
 \subsubsection{RMSE}
  
-for the Root Mean Squared Error, the best models shown in the heatmap below are \textbf{\textit{DWD, ECMWF and UKMO}}. The RMSE score demonstrate a moderate performance for all models especially \textbf{\textit{DWD, ECMWF and UKMO}}. The performance is stable over lead-times and it is much better for djf in all centers.
+
 
 \begin{figure}[H]
 \centering
@@ -224,7 +300,7 @@ for the Root Mean Squared Error, the best models shown in the heatmap below are 
 \caption{3-months Rolling mean of RMSE in MENA Region for all centers JJA in mm}
 \end{figure}
 
-also for the spacial dimension, the RMSE stay stable and exhibit moderate performance for all centers. Thus, all models have almost the same skill and they are consistent with each other.
+also for the spacial dimension, the RMSE stay stable and exhibit moderate performance for all centers. Thus, all models have almost the same skill and they are consistent with each other. We can see some isolated areas in the equator where the RMSE is very high reaching 731 mm for all centers especially \textbf{\textit{ECMWF and METEO-FRANCE}} for both DJF and JJA especially in JJA.
 
 \begin{figure}[H]
 \centering
@@ -232,6 +308,7 @@ also for the spacial dimension, the RMSE stay stable and exhibit moderate perfor
 \caption{heatmap of RMSE For RR in mm}
 \end{figure}
 
+for the Root Mean Squared Error, the best models shown in the heatmap above are \textbf{\textit{DWD, ECMWF and UKMO}} .The RMSE score demonstrate a moderate performance for all models especially \textbf{\textit{DWD, ECMWF and UKMO}}. The performance is stable over lead-times and it is much better for djf in all centers with values between 26 and 35 for \textbf{\textit{DWD}} . The SON exhibit the biggest RMSE for all centers, with values around 70 in \textbf{\textit{METEO-FRANCE}}.
 
 \subsubsection{Coefficient of Determination (\( R^2 \))}
 for precipitation, the R-SQUARED is very low, the maximum value is less than 0.1. However, the ecmwf is the best in term of R-SQUARED. for DJF,JJA and MAM the highest performance is in the first Lead-time, and it decrease along time, But for SON the best score is in the second Lead-time for all centers.
@@ -291,13 +368,7 @@ Hint, for the other seasons the results are almost the same.
 
 In the figure above, all centers demonstrate similar moderate performance in term of reliability. But deep analysis within the figure below, shows that UKMO has very bad performance, also we can distinguish three models that have the best reliability according to the reliability diagram, the centers are \textbf{\textit{ECMWF,CMCC and METEO-FRANCE}}. Hence,all centers give similar description of the reliability, also the stability along lead-time is a good indicator despite of the moderate results (0.3), we can rely on the models cited above because of the acceptable results and the stability along time.
 
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.3]{plots/prob/rela/rela_diagram_RR_djf.png}
-\caption{The 3-month rolling mean for Reliability DJF   . \textbf{\textit{Reliability is better in cases where the graphs are closer to the 45-degree line}}}
-\end{figure}
 
-for the reliability diagram, all centers show moderate results, except for the ukmo that shows lower reliability.Thus, for the lower and upper terciles, models in general show good reliability, but for the middle tercile, this models aren't reliable. above all, \textbf{\textit{ecmwf}}  shows the highest performance for reliability.
 
 
 \subsubsection{The ranked probability score (RPS)}
@@ -331,14 +402,14 @@ the spacial distribution of the RPS, is homogeneous, in all the region the score
     \caption{The Heatmap of ROC Score for each category  . \textbf{\textit{(1 means perfect ROC)}}}
 \end{figure}
 
-In the figure above, it is evident that all centers exhibit similar performance levels. However, the middle tercile consistently achieves the lowest score.
+In the figure above, it is clear that all forecasting centers show similar performance levels overall. However, the Middle Tercile consistently yields the lowest scores across all models. This finding is significant as it underscores the ability of all models to effectively predict extreme events, both above and below normal. In contrast, the models struggle more with predicting normal situations, which are inherently more difficult to forecast. The lower performance in the Middle Tercile highlights the challenge of accurately predicting conditions that are neither extreme nor easily distinguishable from typical climate variability. This suggests that while the models are proficient in forecasting extreme events, they face greater challenges when predicting more moderate, "normal" conditions.
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.25]{plots/prob/roc/roc_RR_lead_time.png}
     \caption{The Heatmap of ROC Score for lead-times. \textbf{\textit{(1 means perfect ROC)}}}
 \end{figure}
 
-for the ROC score, all centers show similar good performance, in general the best score is observed for tha first lead-time, except for the SON season where the best performance is for the second lead-time.
+For the analysis per lead-time , all forecasting centers demonstrate similar and generally good performance. In most cases, the highest scores are observed for the first lead-time. However, an exception occurs during the SON (September-October-November) season, where the best performance is seen at the second lead-time. This variation suggests that while the models are consistently strong in the first lead-time, certain seasonal conditions, like those in SON, may benefit from a slightly longer forecast horizon to capture the full dynamics of the climate
 
 \begin{figure}[H]
     \centering
@@ -346,7 +417,16 @@ for the ROC score, all centers show similar good performance, in general the bes
     \caption{The ROC Score Upper tercile SON    . \textbf{\textit{(1 means perfect ROC)}}}
 \end{figure}
 
-the spacial distribution of the roc score confirms an important result. For precipitation all centers shows better performance for the East of Africa, Irak,Syria,Jordan and Palestine. The performance in this zone is very high (score near to 1). For the rest of MENA region the performance is similar, with moderate to good score.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.3]{plots/prob/roc/roc_son_RR_middle.png}
+    \caption{The ROC Score Middle tercile SON    . \textbf{\textit{(1 means perfect ROC)}}}
+\end{figure}
+
+The spatial distribution of the ROC score highlights an important finding. For precipitation, all centers demonstrate better performance in predicting the upper tercile, with similar results observed for the lower tercile. However, the performance in the middle tercile is considerably weaker, with high variability and lower scores, particularly in regions such as Egypt and Libya, where values are notably low. In this tercile, no significant differences are observed between the models, indicating a consistent struggle across all forecasting systems in dealing with moderate or normal precipitation events.
+
+In contrast, the upper tercile displays some variability in the spatial distribution of scores, with the best performance seen in the Arabian Peninsula and parts of East Africa, particularly for the \textbf{\textit{ECMWF}} model. This result underlines the models' relative strength in forecasting extreme precipitation events while emphasizing the challenges they face in predicting more moderate conditions.
 
 																
 \subsubsection{Relative operating characteristics Skill Score}
@@ -370,11 +450,18 @@ In the figure above, the ECMWF exhibit the best performance for all terciles and
 
 \begin{figure}[H]
     \centering
+    \includegraphics[scale=0.3]{plots/prob/rocss/rocss_mam_RR_middle.png}
+    \caption{The ROC Skill Score Middle tercile MAM . \textbf{\textit{(1 means perfect ROCSS)}}}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
     \includegraphics[scale=0.3]{plots/prob/rocss/rocss_mam_RR_upper.png}
     \caption{The ROC Skill Score Upper tercile MAM    . \textbf{\textit{(1 means perfect ROCSS)}}}
 \end{figure}
 
-the spacial distribution of the ROCSS, shows that all centers are consistent for this score. The spacial distribution isn't clear, there is a high spacial variability.
+
+The spatial distribution of the ROCSS indicates consistent performance across all forecasting centers for this score. However, the spatial patterns are not well-defined for both the upper and middle terciles. Notably, the middle tercile exhibits high spatial variability, with generally lower values compared to the other terciles. These findings align with the previously observed results for the ROC score, further confirming that forecasting performance is weaker and more inconsistent for the middle tercile. This underscores the ongoing challenge of accurately predicting moderate conditions, while extreme events are handled with greater reliability.
 
 
 
@@ -390,7 +477,6 @@ the spacial distribution of the ROCSS, shows that all centers are consistent for
 \textbf{Resolution}    & Informativeness and variability of forecast       & Ability to provide specific, useful info         & Yes                                      & Brier Score decomposition                \\ \bottomrule
 \end{tabularx}
 \caption{Key differences between reliability, discrimination, sharpness, and resolution in seasonal forecasting.}
-\label{tab:forecast_metrics}
 \end{table}
 
 \newpage
