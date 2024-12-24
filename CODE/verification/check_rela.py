@@ -388,7 +388,7 @@ for aggr in ['1m', '3m']:
 
             thisobs_binary = thisobs[var].astype(bool)
             forecast_probs = thishcst_aligned[var]
-            this_rela[var] = xs.reliability(observations=thisobs_binary, forecasts=forecast_probs, probability_bin_edges =np.linspace(0,1,10),dim="valid_time")
+        this_rela[var] = xs.reliability(observations=thisobs_binary, forecasts=forecast_probs, probability_bin_edges = np.linspace(0,1,11),dim="valid_time")
 
 
         
@@ -404,4 +404,4 @@ for aggr in ['1m', '3m']:
 
     print('writing to netcdf rela')
 
-    # rela.to_netcdf(f'{SCOREDIR}/{hcst_bname}.{aggr}.RR.rela.nc')
+    rela.to_netcdf(f'{SCOREDIR}/{hcst_bname}.{aggr}.RR.rela.nc')
