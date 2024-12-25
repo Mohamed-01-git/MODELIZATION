@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.17)  24 DEC 2024 22:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.17)  25 DEC 2024 11:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3199,23 +3199,13 @@ as been already used, duplicate ignored
 l.1 \chapter
             {CONCLUSION}]
 Chapter 6.
-
+)
 
 [91
 
-])
+] (main.lof
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[92] (main.lof
-
-[93
+[92
 
 ])
 \tf@lof=\write7
@@ -3231,13 +3221,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[94] (main.lot)
+[93] (main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
 
 
-[95
+[94
 
 ] (main.aux)
  ***********
@@ -3255,8 +3245,8 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30952 strings out of 475560
- 597424 string characters out of 5769136
+ 30951 strings out of 475560
+ 597417 string characters out of 5769136
  1506904 words of memory out of 5000000
  53059 multiletter control sequences out of 15000+600000
  569628 words of font info for 75 fonts, out of 8000000 for 9000
@@ -3459,9 +3449,9 @@ cmss17.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm
 m/cmsy8.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/c
 m/cmti10.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/
 cm/cmti9.pfb>
-Output written on main.pdf (96 pages, 26126020 bytes).
+Output written on main.pdf (95 pages, 26124493 bytes).
 PDF statistics:
- 1243 PDF objects out of 1440 (max. 8388607)
- 303 named destinations out of 1000 (max. 500000)
+ 1239 PDF objects out of 1440 (max. 8388607)
+ 302 named destinations out of 1000 (max. 500000)
  655 words of extra memory for PDF output out of 10000 (max. 10000000)
 

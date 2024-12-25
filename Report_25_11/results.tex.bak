@@ -526,7 +526,8 @@ Hint, for the other seasons the results are almost the same.
 there is no big difference in North Africa.
 \vspace{1.5cm}
 \paragraph{focus on Arabian Peninsula}:
-there is no big difference in North Africa.
+
+there is no big difference in Arabian Peninsula.
 \subsubsection{Reliability}
 
 \begin{figure}[H]
@@ -535,7 +536,7 @@ there is no big difference in North Africa.
     \caption{The Reliability Score  . \textbf{\textit{(0 means perfect Reliability)}}}
 \end{figure}
 
-In the figure above, all centers demonstrate similar moderate performance in term of reliability. But deep analysis within the figure below, shows that UKMO has very bad performance, also we can distinguish three models that have the best reliability according to the reliability diagram, the centers are \textbf{\textit{ECMWF,CMCC and METEO-FRANCE}}. Hence,all centers give similar description of the reliability, also the stability along lead-time is a good indicator despite of the moderate results (0.3), we can rely on the models cited above because of the acceptable results and the stability along time.
+In the figure above, all centers demonstrate similar moderate performance in term of reliability. But deep analysis within the figure below, shows that UKMO has very bad performance, also we can distinguish three models that have the best reliability, the centers are \textbf{\textit{ECMWF,CMCC and METEO-FRANCE}}. Hence,all centers give similar description of the reliability, also the stability along lead-time is a good indicator despite of the moderate results (0.3), we can rely on the models cited above because of the acceptable results and the stability along time.
 \paragraph{focus on North Africa}:
 
 there is no big difference in North Africa.
@@ -570,7 +571,7 @@ In the figure above, all centers demonstrate moderate performance, except for UK
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.25]{plots/prob/rps/rps_djf_RR.png}
-    \caption{The   RPS Score on MENA region for Precipitations DJF   . \textbf{\textit{(0 means perfect RPS)}}}
+    \caption{The   RPS Score on MENA region for Precipitations DJF . \textbf{\textit{(0 means perfect RPS)}}}
 \end{figure}
 
 the spacial distribution of the RPS, is homogeneous, in all the region the score is good for all centers.Thus, the ukmo shows lower performance for this score.
