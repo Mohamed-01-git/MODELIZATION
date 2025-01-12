@@ -1,51 +1,52 @@
 \chapter{CONCLUSION}
 This study has thoroughly evaluated the performance of leading climate models in predicting temperature and precipitation across the MENA region, North Africa, and the Arabian Peninsula. By assessing key metrics such as Accuracy (ACC), Root Mean Square Error (RMSE), Coefficient of Determination (R²), Brier Score (BS), ROC score, and others we have identified the strengths and weaknesses of each model, while highlighting regional variations in their predictive capabilities.
 
-For temperature, all climate models demonstrated generally similar performance in the MENA region, with ECMWF consistently emerging as the most reliable model, achieving top performance in both deterministic and probabilistic metrics across all regions. However, in probabilistic metrics, UKMO showed comparatively lower performance than other models.
+For temperature, all climate models demonstrated generally similar performance in the MENA region, with ECMWF and UKMO consistently emerging as the most reliable models, achieving top performance in both deterministic and probabilistic metrics across all regions. 
 
-For precipitation, all models performed less effectively compared to their temperature predictions, particularly in the MENA region. ECMWF once again demonstrated the highest performance across all metrics and regions, showcasing its robustness in handling diverse climatic conditions. METEOFRANCE, CMCC, DWD, and UKMetOffice exhibited similar performance in deterministic measures such as ACC and RMSE. However, in probabilistic metrics, most models showed approximately similar performance, with UKMetOffice demonstrating comparatively lower performance, particularly in the Arabian Peninsula, where challenges related to the region’s hyper-arid climate and limited observational data are evident. 
+For precipitation, all models performed less effectively compared to their temperature predictions, particularly in the MENA region. ECMWF and UKMO once again demonstrated the highest performance across all metrics and regions, showcasing its robustness in handling diverse climatic conditions. METEO-FRANCE, CMCC and DWD exhibited similar performance in deterministic measures such as ACC and RMSE. However, in probabilistic metrics, most models showed approximately similar performance, particularly in the Arabian Peninsula, where challenges related to the region’s hyper-arid climate and limited observational data are evident. 
 
 It is worth noting that the models perform better for temperature predictions than for precipitation in the MENA region. This contrasts with tropical regions, where models tend to excel in both precipitation and temperature forecasting due to the more predictable influence of large-scale climate drivers such as ENSO. The limited observational data and complex climate dynamics in arid and semi-arid regions of MENA further challenge precipitation predictions, reducing model accuracy compared to temperature forecasts.
 
- In conclusion, climate models generally exhibit similar performance across the four classical seasons, with ECMWF consistently demonstrating higher performance compared to the other models. Each model provides valuable complementary strengths depending on the season and region. These findings highlight the importance of using multi-model ensembles to leverage the strengths of each model, improve seasonal forecast accuracy, and correct the influence of prominent modes of climate variability, such as ENSO and NAO, in the climate models using state-of-the-art statistical techniques.
+ In conclusion, climate models generally exhibit similar performance across the four classical seasons, with ECMWF and UKMO consistently demonstrating higher performance compared to the other models. Each model provides valuable complementary strengths depending on the season and region. These findings highlight the importance of using multi-model ensembles to leverage the strengths of each model, improve seasonal forecast accuracy, and correct the influence of prominent modes of climate variability, such as ENSO and NAO, in the climate models using state-of-the-art statistical techniques.
 
 
 
-%\begin{table}[h!]
-%\centering
-%\begin{tabular}{|>{\raggedright\arraybackslash}m{2cm}|>{\raggedright\arraybackslash}m{4cm}|>{\raggedright\arraybackslash}m{4cm}|>{\raggedright\arraybackslash}m{4cm}|}
-%\hline
-%\textbf{Metric} & \textbf{MENA} & \textbf{North Africa} & \textbf{Arabian Peninsula} \\ \hline
-%ACC            & ECMWF, METEO-FRANCE, ECCC-3 & ECMWF, UKMO, ECCC-3 & ECMWF, UKMO, DWD \\ \hline
-%RMSE           & UKMO, ECMWF & METEO-FRANCE & METEO-FRANCE \\ \hline
-%R²             & ECMWF       & ECMWF         & ECMWF \\ \hline
-%BS             & METEO-FRANCE, ECMWF, CMCC-35 & ECMWF, METEO-FRANCE, CMCC-35 & ECMWF, METEO-FRANCE, CMCC-35 \\ \hline
-%RELA           & ALL except UKMO & ALL except UKMO & ALL except UKMO \\ \hline
-%RPS            & ECMWF       & ECMWF         & ECMWF \\ \hline
-%ROC            & ALL centers & ALL centers   & ALL centers \\ \hline
-%ROCSS          & ALL centers & ALL centers   & ALL centers \\ \hline
-%\end{tabular}
-%\caption{Comparison of Metrics across MENA, North Africa, and Arabian Peninsula for TEMPERATURE.}
-%\label{tab:temperature_metrics}
-%\end{table}
-%
-%
-%
-%
-%\begin{table}[h!]
-%\centering
-%\begin{tabular}{|>{\raggedright\arraybackslash}m{2cm}|>{\raggedright\arraybackslash}m{4cm}|>{\raggedright\arraybackslash}m{4cm}|>{\raggedright\arraybackslash}m{4cm}|}
-%\hline
-%\textbf{Metric} & \textbf{MENA} & \textbf{North Africa} & \textbf{Arabian Peninsula} \\ \hline
-%ACC & ECMWF, CMCC-35, UKMO & ECMWF, UKMO and METEO-FRANCE & ECMWF, CMCC-35, UKMO \\ \hline
-%RMSE & DWD, ECMWF and UKMO & ECMWF, UKMO and DWD & ECMWF, UKMO and DWD \\ \hline
-%R² & ECMWF & ECMWF & CMCC-35, ECCC2 \\ \hline
-%BS & ECMWF, METEO-FRANCE and CMCC-35 & ECMWF, METEO-FRANCE and CMCC-35 & ECMWF, METEO-FRANCE and CMCC-35 \\ \hline
-%RPS & ALL except UKMO & ALL except UKMO & ALL except UKMO \\ \hline
-%ROC & ALL & ALL & ALL \\ \hline
-%ROCSS & ecmwf & ecmwf & ukmo, cmcc-35 \\ \hline
-%RELA & ECMWF, CMCC and METEO-FRANCE & ECMWF, CMCC and METEO-FRANCE & METEO-FRANCE, DWD \\ \hline
-%\end{tabular}
-%\caption{Comparison of Metrics across MENA, North Africa, and Arabian Peninsula for PRECIPITATION}
-%\label{tab:comparison}
-%\end{table}
+\begin{table}[h!]
+\centering
+\begin{tabular}{|>{\raggedright\arraybackslash}m{2cm}|>{\raggedright\arraybackslash}m{4cm}|>{\raggedright\arraybackslash}m{4cm}|>{\raggedright\arraybackslash}m{4cm}|}
+\hline
+\textbf{Metric} & \textbf{MENA} & \textbf{North Africa} & \textbf{Arabian Peninsula} \\ \hline
+ACC            & ECMWF, METEO-FRANCE, ECCC-3 & ECMWF, UKMO, ECCC-3 & ECMWF, UKMO, DWD \\ \hline
+RMSE           & UKMO, ECMWF & METEO-FRANCE & METEO-FRANCE \\ \hline
+R²             & ECMWF       & ECMWF         & ECMWF \\ \hline
+BS             & METEO-FRANCE, ECMWF, CMCC-35, UKMO & ECMWF, UKMO, CMCC-35 & ECMWF, UKMO, CMCC-35 \\ \hline
+RELA           & ALL & ALL & ALL \\ \hline
+RPS            & ECMWF       & ECMWF         & ECMWF \\ \hline
+ROC            & ALL  & ALL    & ALL  \\ \hline
+ROCSS          & ALL  & ALL    & ALL  \\ \hline
+\end{tabular}
+\caption{Comparison of Metrics across MENA, North Africa, and Arabian Peninsula for TEMPERATURE.}
+\label{tab:temperature_metrics}
+\end{table}
+
+
+
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|>{\raggedright\arraybackslash}m{2cm}|>{\raggedright\arraybackslash}m{4cm}|>{\raggedright\arraybackslash}m{4cm}|>{\raggedright\arraybackslash}m{4cm}|}
+\hline
+\textbf{Metric} & \textbf{MENA} & \textbf{North Africa} & \textbf{Arabian Peninsula} \\ \hline
+ACC & ECMWF, CMCC-35, UKMO & ECMWF, UKMO and METEO-FRANCE & ECMWF, CMCC-35, UKMO \\ \hline
+RMSE & DWD, ECMWF and UKMO & ECMWF, UKMO and DWD & ECMWF, UKMO and DWD \\ \hline
+R² & ECMWF & ECMWF & CMCC-35, ECCC2 \\ \hline
+BS & ECMWF, METEO-FRANCE and CMCC-35 & ECMWF, METEO-FRANCE and CMCC-35 & ECMWF, METEO-FRANCE and CMCC-35 \\ \hline
+RELA & ECMWF, CMCC and UKMO & ECMWF, CMCC-35 and UKMO & METEO-FRANCE, DWD \\ \hline
+RPS & ALL  & ALL  & ALL  \\ \hline
+ROC & ALL & ALL & ALL \\ \hline
+ROCSS & ECMWF & ECMWF & UKMO, CMCC-35 \\ \hline
+
+\end{tabular}
+\caption{Comparison of Metrics across MENA, North Africa, and Arabian Peninsula for PRECIPITATION}
+\label{tab:comparison}
+\end{table}

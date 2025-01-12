@@ -92,11 +92,12 @@ def create_combined_dataframe(aggr, metric,mask_it,zone):
             # Compute the mean across all dimensions
             mean_score_RR= data_RR.mean(dim=["lon", "lat"], skipna=True).to_array().values
             mean_score_T2M= data_t2m.mean(dim=["lon", "lat"], skipna=True).to_array().values
-
+            print(mean_score_T2M)
 
             # mean_score = corr.mean(dim=["lon", "lat"], skipna=True).to_array().values
             mean_score_RR = mean_score_RR.flatten()
             mean_score_T2M = mean_score_T2M.flatten()
+            
 
             # Append period-specific data to the list
             center_df=pd.DataFrame({
@@ -105,7 +106,7 @@ def create_combined_dataframe(aggr, metric,mask_it,zone):
                 "lead_time":[1,2,3],
                 "period": [period]*3,
                 "mean_score_RR": mean_score_RR,
-                "mean_scoArabianPeninsulare_T2M": mean_score_T2M,
+                "mean_score_T2M": mean_score_T2M,
             })
 
             all_dataframes.append(center_df)
@@ -126,7 +127,7 @@ corr_df_NorthAfrica= create_combined_dataframe("1m", "corr",True,"NorthAfrica")
 acc_df_NorthAfrica= create_combined_dataframe("1m", "acc",True,"NorthAfrica") 
 rsquared_df_NorthAfrica= create_combined_dataframe("1m", "rsquared",True,"NorthAfrica")
 # ARABIAN PENINSULA
-rmse_df_ArabianPeninsula= create_combined_dataframe("1m", "rmse",True,"")
+rmse_df_ArabianPeninsula= create_combined_dataframe("1m", "rmse",True,"ArabianPeninsula")
 corr_df_ArabianPeninsula= create_combined_dataframe("1m", "corr",True,"ArabianPeninsula") 
 acc_df_ArabianPeninsula= create_combined_dataframe("1m", "acc",True,"ArabianPeninsula") 
 rsquared_df_ArabianPeninsula = create_combined_dataframe("1m", "rsquared",True,"ArabianPeninsula")
