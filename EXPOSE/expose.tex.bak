@@ -1,0 +1,104 @@
+\documentclass{beamer}
+
+% Thème avec un design structuré
+\usetheme{CambridgeUS}
+\usecolortheme{dolphin} % Appliquer un bleu clair à la structure
+\definecolor{subtitlecolor}{rgb}{0.2, 0.4, 0.8} % Bleu clair
+\definecolor{titlecolor}{rgb}{0.0, 0.0, 0.6} % Bleu foncé
+
+
+% Paquets nécessaires
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{graphicx} % Pour redimensionner les tableaux avec \resizebox
+\usepackage{amsmath} % Si vous utilisez des équations
+\usepackage{lipsum} % Pour générer du texte d'exemple (facultatif)
+\usepackage{tikz}
+\usetikzlibrary{shapes, arrows, shadows}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{xcolor} % Pour la gestion des couleurs
+\usepackage{graphicx} % Pour la gestion des graphiques
+\usepackage{amsmath} % Pour les équations mathématiques
+\usepackage{booktabs} % Pour des tables plus élégantes
+\usepackage{tikz}
+\usetikzlibrary{shapes, arrows, shadows}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{booktabs} % Pour une meilleure gestion des tables
+\usepackage{tcolorbox}
+
+% Définition des couleurs bleues avec codes hexadécimaux
+\definecolor{titlecolor}{HTML}{00008B} % Bleu foncé pour le titre
+\definecolor{subtitlecolor}{HTML}{4682B4} % Bleu acier pour les sous-titres
+\definecolor{boxcolor}{HTML}{B0C4DE} % Bleu clair pour les arrière-plans
+
+
+
+
+
+% Titre et métadonnées
+\title[Évaluation des modèles climatiques]{\huge \textbf{Évaluation des modèles climatiques pour les prévisions saisonnières dans la région MENA}}
+\author{\footnotesize Berrahmouch \& El-Badri}
+\institute[]{%
+    \begin{columns}
+        % Colonne gauche - Encadrants externes
+        \column{0.5\textwidth}
+        \textbf{Encadrants Externes :} \\
+        \small
+        \textit{Mme. Wafae Badi} \\
+        DGM, Maroc \\[0.2cm]
+        \textit{M. Nicholas Savage} \\
+        Met Office, Exeter, Royaume-Uni \\
+
+        % Colonne droite - Encadrant interne
+        \column{0.5\textwidth}
+        \textbf{Encadrant Interne :} \\
+        \small
+        \textit{M. Driss Bari} \\
+        École Hassania des Travaux Publics \\
+        et Direction Générale de la Météorologie, Maroc
+    \end{columns}
+}
+
+
+% Logos ajoutés (assurez-vous que les fichiers d'image soient présents)
+\titlegraphic{
+    \begin{tikzpicture}[remember picture, overlay]
+        \node[anchor=north west, xshift=0.5cm, yshift=-0.5cm] at (current page.north west) {\includegraphics[width=1.5cm]{ehtp.jpg}};
+        \node[anchor=north east, xshift=-0.5cm, yshift=-0.5cm] at (current page.north east) {\includegraphics[width=1cm]{DGM.jpg}};
+    \end{tikzpicture}
+}
+
+\begin{document}
+
+% Page de titre
+\begin{frame}
+    \titlepage
+\end{frame}
+
+% Plan de présentation
+\begin{frame}
+    \frametitle{Plan}
+    \tableofcontents
+\end{frame}
+\input{introduction.tex}
+\input{meth_t2m.tex}
+\input{rr.tex}
+
+
+
+
+
+\end{document}

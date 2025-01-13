@@ -1,0 +1,2127 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.12) (preloaded format=pdflatex 2024.12.17)  13 JAN 2025 22:23
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./expose.tex
+(expose.tex
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-11-02>
+(/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamer.cls
+Document Class: beamer 2024/01/06 v3.71 A class for typesetting presentations
+(/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamerbasemodes.sty
+(/home/mohamed/.miktex/texmfs/install/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count196
+)
+\beamer@tempbox=\box52
+\beamer@tempcount=\count197
+\c@beamerpauses=\count198
+
+(/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamerbasedecode.sty
+\beamer@slideinframe=\count199
+\beamer@minimum=\count266
+\beamer@decode@box=\box53
+)
+\beamer@commentbox=\box54
+\beamer@modecount=\count267
+)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)
+\headdp=\dimen141
+\footheight=\dimen142
+\sidebarheight=\dimen143
+\beamer@tempdim=\dimen144
+\beamer@finalheight=\dimen145
+\beamer@animht=\dimen146
+\beamer@animdp=\dimen147
+\beamer@animwd=\dimen148
+\beamer@leftmargin=\dimen149
+\beamer@rightmargin=\dimen150
+\beamer@leftsidebar=\dimen151
+\beamer@rightsidebar=\dimen152
+\beamer@boxsize=\dimen153
+\beamer@vboxoffset=\dimen154
+\beamer@descdefault=\dimen155
+\beamer@descriptionwidth=\dimen156
+\beamer@lastskip=\skip49
+\beamer@areabox=\box55
+\beamer@animcurrent=\box56
+\beamer@animshowbox=\box57
+\beamer@sectionbox=\box58
+\beamer@logobox=\box59
+\beamer@linebox=\box60
+\beamer@sectioncount=\count268
+\beamer@subsubsectionmax=\count269
+\beamer@subsectionmax=\count270
+\beamer@sectionmax=\count271
+\beamer@totalheads=\count272
+\beamer@headcounter=\count273
+\beamer@partstartpage=\count274
+\beamer@sectionstartpage=\count275
+\beamer@subsectionstartpage=\count276
+\beamer@animationtempa=\count277
+\beamer@animationtempb=\count278
+\beamer@xpos=\count279
+\beamer@ypos=\count280
+\beamer@ypos@offset=\count281
+\beamer@showpartnumber=\count282
+\beamer@currentsubsection=\count283
+\beamer@coveringdepth=\count284
+\beamer@sectionadjust=\count285
+\beamer@toclastsection=\count286
+\beamer@tocsectionnumber=\count287
+
+(/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamerbaseoptions.sty
+(/home/mohamed/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+))
+\beamer@paperwidth=\skip50
+\beamer@paperheight=\skip51
+
+(/home/mohamed/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/home/mohamed/.miktex/texmfs/install/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count288
+\Gm@cntv=\count289
+\c@Gm@tempcnt=\count290
+\Gm@bindingoffset=\dimen157
+\Gm@wd@mp=\dimen158
+\Gm@odd@mp=\dimen159
+\Gm@even@mp=\dimen160
+\Gm@layoutwidth=\dimen161
+\Gm@layoutheight=\dimen162
+\Gm@layouthoffset=\dimen163
+\Gm@layoutvoffset=\dimen164
+\Gm@dimlist=\toks18
+
+(/home/mohamed/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg))
+(/home/mohamed/.miktex/texmfs/install/tex/latex/pgf/math/pgfmath.sty
+(/home/mohamed/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfrcs.sty
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-common.
+tex
+\pgfutil@everybye=\toks19
+\pgfutil@tempdima=\dimen165
+\pgfutil@tempdimb=\dimen166
+)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-latex.d
+ef
+\pgfutil@abb=\box61
+)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+(/home/mohamed/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfkeys.sty
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.te
+x
+\pgfkeys@pathtoks=\toks20
+\pgfkeys@temptoks=\toks21
+
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeyslibraryf
+iltered.code.tex
+\pgfkeys@tmptoks=\toks22
+)))
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathutil.code.tex
+\pgf@x=\dimen167
+\pgf@xa=\dimen168
+\pgf@xb=\dimen169
+\pgf@xc=\dimen170
+\pgf@y=\dimen171
+\pgf@ya=\dimen172
+\pgf@yb=\dimen173
+\pgf@yc=\dimen174
+\c@pgf@counta=\count291
+\c@pgf@countb=\count292
+\c@pgf@countc=\count293
+\c@pgf@countd=\count294
+)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathparser.code.t
+ex
+\pgfmath@dimen=\dimen175
+\pgfmath@count=\count295
+\pgfmath@box=\box62
+\pgfmath@toks=\toks23
+\pgfmath@stack@operand=\toks24
+\pgfmath@stack@operation=\toks25
+)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.cod
+e.tex)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.bas
+ic.code.tex)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.tri
+gonometric.code.tex)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.ran
+dom.code.tex)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.com
+parison.code.tex)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.bas
+e.code.tex)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.rou
+nd.code.tex)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.mis
+c.code.tex)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.int
+egerarithmetics.code.tex)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathcalc.code.tex
+)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfloat.code.te
+x
+\c@pgfmathroundto@lastzeros=\count296
+))) (/home/mohamed/.miktex/texmfs/install/tex/latex/base/size11.clo
+File: size11.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgfcore.sty
+(/home/mohamed/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/home/mohamed/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/home/mohamed/.miktex/texmfs/install/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+
+(/home/mohamed/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen176
+\Gin@req@width=\dimen177
+)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/pgf/systemlayer/pgfsys.sty
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys.code.t
+ex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+\pgf@x=\dimen178
+\pgf@y=\dimen179
+\pgf@xa=\dimen180
+\pgf@ya=\dimen181
+\pgf@xb=\dimen182
+\pgf@yb=\dimen183
+\pgf@xc=\dimen184
+\pgf@yc=\dimen185
+\pgf@xd=\dimen186
+\pgf@yd=\dimen187
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count297
+\c@pgf@countb=\count298
+\c@pgf@countc=\count299
+\c@pgf@countd=\count300
+\t@pgf@toka=\toks26
+\t@pgf@tokb=\toks27
+\t@pgf@tokc=\toks28
+\pgf@sys@id@count=\count301
+ (/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-pdftex
+.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-common
+-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsyssoftpat
+h.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count302
+\pgfsyssoftpath@bigbuffer@items=\count303
+)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsysprotoco
+l.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/home/mohamed/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(/home/mohamed/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(/home/mohamed/.miktex/texmfs/install/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcore.code.t
+ex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+ (/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/math/pgfint.code.tex)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepoints.
+code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen188
+\pgf@picmaxx=\dimen189
+\pgf@picminy=\dimen190
+\pgf@picmaxy=\dimen191
+\pgf@pathminx=\dimen192
+\pgf@pathmaxx=\dimen193
+\pgf@pathminy=\dimen194
+\pgf@pathmaxy=\dimen195
+\pgf@xx=\dimen196
+\pgf@xy=\dimen197
+\pgf@yx=\dimen198
+\pgf@yy=\dimen199
+\pgf@zx=\dimen256
+\pgf@zy=\dimen257
+)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathcon
+struct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen258
+\pgf@path@lasty=\dimen259
+)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathusa
+ge.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen260
+\pgf@shorten@start@additional=\dimen261
+)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorescopes.
+code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box63
+\pgf@hbox=\box64
+\pgf@layerbox@main=\box65
+\pgf@picture@serial@count=\count304
+)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoregraphic
+state.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen262
+)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretransfo
+rmations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen263
+\pgf@pt@y=\dimen264
+\pgf@pt@temp=\dimen265
+)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorequick.c
+ode.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreobjects
+.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathpro
+cessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorearrows.
+code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen266
+)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreshade.c
+ode.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen267
+\pgf@sys@shading@range@num=\count305
+\pgf@shadingcount=\count306
+)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreimage.c
+ode.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreexterna
+l.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box66
+)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorelayers.
+code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretranspa
+rency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepattern
+s.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorerdf.cod
+e.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/home/mohamed/.miktex/texmfs/install/tex/latex/pgf/utilities/xxcolor.sty
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count307
+\XC@countmixins=\count308
+)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
+
+(/home/mohamed/.miktex/texmfs/install/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/home/mohamed/.miktex/texmfs/install/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(/home/mohamed/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/home/mohamed/.miktex/texmfs/install/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+(/home/mohamed/.miktex/texmfs/install/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(/home/mohamed/.miktex/texmfs/install/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/gettitlestring/gettitlestring
+.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (/home/mohamed/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count309
+) (/home/mohamed/.miktex/texmfs/install/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen268
+\Hy@linkcounter=\count310
+\Hy@pagecounter=\count311
+
+(/home/mohamed/.miktex/texmfs/install/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count312
+
+(/home/mohamed/.miktex/texmfs/install/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4040.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4040.
+Package hyperref Info: Option `implicit' set `false' on input line 4040.
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count313
+
+(/home/mohamed/.miktex/texmfs/install/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen269
+
+(/home/mohamed/.miktex/texmfs/install/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/home/mohamed/.miktex/texmfs/install/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count314
+\Field@Width=\dimen270
+\Fld@charsize=\dimen271
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+\Hy@abspage=\count315
+
+
+Package hyperref Message: Stopped early.
+
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/home/mohamed/.miktex/texmfs/install/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2024-11-05 v7.01l Hyperref driver for pdfTeX
+
+(/home/mohamed/.miktex/texmfs/install/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count316
+\c@bookmark@seq@number=\count317
+
+(/home/mohamed/.miktex/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck.s
+ty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(/home/mohamed/.miktex/texmfs/install/tex/generic/uniquecounter/uniquecounter.s
+ty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+))
+(/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamerbaserequires.sty
+(/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamerbasecompatibility.
+sty) (/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamerbasefont.sty
+(/home/mohamed/.miktex/texmfs/install/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/home/mohamed/.miktex/texmfs/install/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks29
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/home/mohamed/.miktex/texmfs/install/tex/latex/sansmathaccent/sansmathaccent.s
+ty
+Package: sansmathaccent 2020/01/31
+ (/home/mohamed/.miktex/texmfs/install/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2024/10/24 v3.43 KOMA-Script package (file load hooks)
+
+(/home/mohamed/.miktex/texmfs/install/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2024/10/24 v3.43 KOMA-Script package (using LaTeX hooks)
+
+
+(/home/mohamed/.miktex/texmfs/install/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2024/10/24 v3.43 KOMA-Script package (logo)
+)))))
+(/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamerbasetranslator.sty
+(/home/mohamed/.miktex/texmfs/install/tex/latex/translator/translator.sty
+Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
+))
+(/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamerbasemisc.sty)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamerbasetwoscreens.sty
+) (/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamerbaseoverlay.sty
+\beamer@argscount=\count318
+\beamer@lastskipcover=\skip52
+\beamer@trivlistdepth=\count319
+) (/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamerbasetitle.sty)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamerbasesection.sty
+\c@lecture=\count320
+\c@part=\count321
+\c@section=\count322
+\c@subsection=\count323
+\c@subsubsection=\count324
+)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamerbaseframe.sty
+\beamer@framebox=\box67
+\beamer@frametitlebox=\box68
+\beamer@zoombox=\box69
+\beamer@zoomcount=\count325
+\beamer@zoomframecount=\count326
+\beamer@frametextheight=\dimen272
+\c@subsectionslide=\count327
+\beamer@frametopskip=\skip53
+\beamer@framebottomskip=\skip54
+\beamer@frametopskipautobreak=\skip55
+\beamer@framebottomskipautobreak=\skip56
+\beamer@envbody=\toks30
+\framewidth=\dimen273
+\c@framenumber=\count328
+)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamerbaseverbatim.sty
+\beamer@verbatimfileout=\write4
+)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamerbaseframesize.sty
+\beamer@splitbox=\box70
+\beamer@autobreakcount=\count329
+\beamer@autobreaklastheight=\dimen274
+\beamer@frametitletoks=\toks31
+\beamer@framesubtitletoks=\toks32
+)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamerbaseframecomponent
+s.sty
+\beamer@footins=\box71
+)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamerbasecolor.sty)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamerbasenotes.sty
+\beamer@frameboxcopy=\box72
+)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamerbasetoc.sty)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamerbasetemplates.sty
+\beamer@sbttoks=\toks33
+
+(/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamerbaseauxtemplates.s
+ty (/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamerbaseboxes.sty
+\bmb@box=\box73
+\bmb@colorbox=\box74
+\bmb@boxwidth=\dimen275
+\bmb@boxheight=\dimen276
+\bmb@prevheight=\dimen277
+\bmb@temp=\dimen278
+\bmb@dima=\dimen279
+\bmb@dimb=\dimen280
+\bmb@prevheight=\dimen281
+)
+\beamer@blockheadheight=\dimen282
+))
+(/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamerbaselocalstructure
+.sty (/home/mohamed/.miktex/texmfs/install/tex/latex/tools/enumerate.sty
+Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
+\@enLab=\toks34
+)
+\beamer@bibiconwidth=\skip57
+\c@figure=\count330
+\c@table=\count331
+\abovecaptionskip=\skip58
+\belowcaptionskip=\skip59
+)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamerbasenavigation.sty
+
+(/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamerbasenavigationsymb
+ols.tex)
+\beamer@section@min@dim=\dimen283
+)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamerbasetheorems.sty
+(/home/mohamed/.miktex/texmfs/install/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2024/11/05 v2.17t AMS math features
+\@mathmargin=\skip60
+
+For additional information on amsmath, use the `?' option.
+(/home/mohamed/.miktex/texmfs/install/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/home/mohamed/.miktex/texmfs/install/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks35
+\ex@=\dimen284
+))
+(/home/mohamed/.miktex/texmfs/install/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen285
+)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count332
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count333
+\leftroot@=\count334
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count335
+\DOTSCASE@=\count336
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box75
+\strutbox@=\box76
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen286
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count337
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count338
+\dotsspace@=\muskip18
+\c@parentequation=\count339
+\dspbrk@lvl=\count340
+\tag@help=\toks36
+\row@=\count341
+\column@=\count342
+\maxfields@=\count343
+\andhelp@=\toks37
+\eqnshift@=\dimen287
+\alignsep@=\dimen288
+\tagshift@=\dimen289
+\tagwidth@=\dimen290
+\totwidth@=\dimen291
+\lineht@=\dimen292
+\@envbody=\toks38
+\multlinegap=\skip61
+\multlinetaggap=\skip62
+\mathdisplay@stack=\toks39
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks40
+\thm@bodyfont=\toks41
+\thm@headfont=\toks42
+\thm@notefont=\toks43
+\thm@headpunct=\toks44
+\thm@preskip=\skip63
+\thm@postskip=\skip64
+\thm@headsep=\skip65
+\dth@everypar=\toks45
+)
+\c@theorem=\count344
+)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamerbasethemes.sty))
+(/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamerthemedefault.sty
+(/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamerfontthemedefault.s
+ty)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamercolorthemedefault.
+sty)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamerinnerthemedefault.
+sty
+\beamer@dima=\dimen293
+\beamer@dimb=\dimen294
+)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamerouterthemedefault.
+sty)))
+(/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamerthemeCambridgeUS.s
+ty
+(/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamerinnerthemerounded.
+sty)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamerouterthemeinfoline
+s.sty)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamercolorthemebeaver.s
+ty))
+(/home/mohamed/.miktex/texmfs/install/tex/latex/beamer/beamercolorthemedolphin.
+sty) (/home/mohamed/.miktex/texmfs/install/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
+
+(/home/mohamed/.miktex/texmfs/install/tex/latex/tools/array.sty
+Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
+\col@sep=\dimen295
+\ar@mcellbox=\box77
+\extrarowheight=\dimen296
+\NC@list=\toks46
+\extratabsurround=\skip66
+\backup@length=\skip67
+\ar@cellbox=\box78
+)
+\everycr=\toks47
+\minrowclearance=\skip68
+\rownum=\count345
+)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/lipsum/lipsum.sty
+(/home/mohamed/.miktex/texmfs/install/tex/latex/l3packages/l3keys2e/l3keys2e.st
+y (/home/mohamed/.miktex/texmfs/install/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-11-02 L3 programming layer (loader) 
+
+(/home/mohamed/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count346
+\l__pdf_internal_box=\box79
+))
+Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count347
+\l__lipsum_a_int=\count348
+\l__lipsum_b_int=\count349
+ (/home/mohamed/.miktex/texmfs/install/tex/latex/lipsum/lipsum.ltd.tex))
+(/home/mohamed/.miktex/texmfs/install/tex/latex/pgf/frontendlayer/tikz.sty
+(/home/mohamed/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleshapes.c
+ode.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box80
+)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleplot.cod
+e.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-versi
+on-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen297
+\pgf@nodesepend=\dimen298
+)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-versi
+on-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(/home/mohamed/.miktex/texmfs/install/tex/latex/pgf/utilities/pgffor.sty
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen299
+\pgffor@skip=\dimen300
+\pgffor@stack=\toks48
+\pgffor@toks=\toks49
+))
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/tikz.c
+ode.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryploth
+andlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count350
+\pgfplotmarksize=\dimen301
+)
+\tikz@lastx=\dimen302
+\tikz@lasty=\dimen303
+\tikz@lastxsaved=\dimen304
+\tikz@lastysaved=\dimen305
+\tikz@lastmovetox=\dimen306
+\tikz@lastmovetoy=\dimen307
+\tikzleveldistance=\dimen308
+\tikzsiblingdistance=\dimen309
+\tikz@figbox=\box81
+\tikz@figbox@bg=\box82
+\tikz@tempbox=\box83
+\tikz@tempbox@bg=\box84
+\tikztreelevel=\count351
+\tikznumberofchildren=\count352
+\tikznumberofcurrentchild=\count353
+\tikz@fig@count=\count354
+
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmodulematrix.c
+ode.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count355
+\pgfmatrixcurrentcolumn=\count356
+\pgf@matrix@numberofcolumns=\count357
+)
+\tikz@expandcount=\count358
+
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/libraries/shapes/pgflibra
+ryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/libraries/shapes/pgflibra
+ryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/libraries/shapes/pgflibra
+ryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/libraries/shapes/pgflibra
+ryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibraryshapes.callouts.code.tex
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/libraries/shapes/pgflibra
+ryshapes.callouts.code.tex))
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/libraries/shapes/pgflibra
+ryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodepartlowerbox=\box85
+\pgfnodeparttwobox=\box86
+\pgfnodepartthreebox=\box87
+\pgfnodepartfourbox=\box88
+\pgfnodeparttwentybox=\box89
+\pgfnodepartnineteenbox=\box90
+\pgfnodeparteighteenbox=\box91
+\pgfnodepartseventeenbox=\box92
+\pgfnodepartsixteenbox=\box93
+\pgfnodepartfifteenbox=\box94
+\pgfnodepartfourteenbox=\box95
+\pgfnodepartthirteenbox=\box96
+\pgfnodeparttwelvebox=\box97
+\pgfnodepartelevenbox=\box98
+\pgfnodeparttenbox=\box99
+\pgfnodepartninebox=\box100
+\pgfnodeparteightbox=\box101
+\pgfnodepartsevenbox=\box102
+\pgfnodepartsixbox=\box103
+\pgfnodepartfivebox=\box104
+)))
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryarrow
+s.code.tex
+File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\arrowsize=\dimen310
+))
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibraryshadows.code.tex
+File: tikzlibraryshadows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/home/mohamed/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryfadin
+gs.code.tex
+File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/home/mohamed/.miktex/texmfs/install/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks50
+\inpenc@posthook=\toks51
+)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/babel/babel.sty
+Package: babel 2024/11/30 v24.14 The multilingual framework for pdfLaTeX, LuaLa
+TeX and XeLaTeX
+\babel@savecnt=\count359
+\U@D=\dimen311
+\l@unhyphenated=\language2
+
+(/home/mohamed/.miktex/texmfs/install/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read3
+LaTeX Info: Redefining \textlatin on input line 3834.
+\bbl@dirlevel=\count360
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(/home/mohamed/.miktex/texmfs/install/tex/latex/arabi/bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(/home/mohamed/.miktex/texmfs/install/tex/generic/babel-french/french.ldf
+Language: french 2024-07-25 v3.6c French support from the babel system
+
+
+Package babel Warning: No hyphenation patterns were preloaded for
+(babel)                the language 'French' into the format.
+(babel)                Please, configure your TeX system to add them and
+(babel)                rebuild the format. Now I will use the patterns
+(babel)                preloaded for \language=nohyphenation instead on input l
+ine 87.
+
+\FB@stdchar=\count361
+Package babel Info: Making : an active character on input line 421.
+Package babel Info: Making ; an active character on input line 422.
+Package babel Info: Making ! an active character on input line 423.
+Package babel Info: Making ? an active character on input line 424.
+\FBguill@level=\count362
+\FBold@everypar=\toks52
+\FB@Mht=\dimen312
+\mc@charclass=\count363
+\mc@charfam=\count364
+\mc@charslot=\count365
+\std@mcc=\count366
+\dec@mcc=\count367
+\FB@parskip=\dimen313
+\listindentFB=\dimen314
+\descindentFB=\dimen315
+\labelindentFB=\dimen316
+\labelwidthFB=\dimen317
+\leftmarginFB=\dimen318
+\parindentFFN=\dimen319
+\FBfnindent=\dimen320
+))
+(/home/mohamed/.miktex/texmfs/install/tex/generic/babel/locale/fr/babel-french.
+tex
+Package babel Info: Importing font and identification data for french
+(babel)             from babel-fr.ini. Reported on input line 11.
+) (/home/mohamed/.miktex/texmfs/install/tex/latex/carlisle/scalefnt.sty)
+Package french.ldf Info: No list customisation for the beamer class,
+(french.ldf)             reported on input line 23.
+
+(/home/mohamed/.miktex/texmfs/install/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen321
+\lightrulewidth=\dimen322
+\cmidrulewidth=\dimen323
+\belowrulesep=\dimen324
+\belowbottomsep=\dimen325
+\aboverulesep=\dimen326
+\abovetopsep=\dimen327
+\cmidrulesep=\dimen328
+\cmidrulekern=\dimen329
+\defaultaddspace=\dimen330
+\@cmidla=\count368
+\@cmidlb=\count369
+\@aboverulesep=\dimen331
+\@belowrulesep=\dimen332
+\@thisruleclass=\count370
+\@lastruleclass=\count371
+\@thisrulewidth=\dimen333
+)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(/home/mohamed/.miktex/texmfs/install/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen334
+\captionmargin=\dimen335
+\caption@leftmargin=\dimen336
+\caption@rightmargin=\dimen337
+\caption@width=\dimen338
+\caption@indent=\dimen339
+\caption@parindent=\dimen340
+\caption@hangindent=\dimen341
+Package caption Info: beamer document class detected.
+Package caption Info: french babel package is loaded.
+
+(/home/mohamed/.miktex/texmfs/install/tex/latex/caption/caption-beamer.sto
+File: caption-beamer.sto 2022/01/06 v2.0c Adaption of the caption package to th
+e beamer document classes (AR)
+))
+\c@caption@flags=\count372
+\c@continuedfloat=\count373
+Package caption Info: hyperref package is loaded.
+Package caption Info: Hyperref support is turned off
+(caption)             because hyperref has stopped early.
+)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen342
+\TX@old@table=\dimen343
+\TX@old@col=\dimen344
+\TX@target=\dimen345
+\TX@delta=\dimen346
+\TX@cols=\count374
+\TX@ftn=\toks53
+)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2024/10/22 version 6.4.1 text color boxes
+
+(/home/mohamed/.miktex/texmfs/install/tex/latex/tools/verbatim.sty
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks54
+\verbatim@line=\toks55
+\verbatim@in@stream=\read4
+)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/home/mohamed/.miktex/texmfs/install/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box105
+\tcb@upperbox=\box106
+\tcb@lowerbox=\box107
+\tcb@phantombox=\box108
+\c@tcbbreakpart=\count375
+\c@tcblayer=\count376
+\c@tcolorbox@number=\count377
+\l__tcobox_tmpa_box=\box109
+\l__tcobox_tmpa_dim=\dimen347
+\tcb@temp=\box110
+\tcb@temp=\box111
+\tcb@temp=\box112
+\tcb@temp=\box113
+)
+(expose.aux
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+)
+\openout1 = `expose.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(10.95003pt, 342.2953pt, 10.95003pt)
+* v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
+* \paperwidth=364.19536pt
+* \paperheight=273.14662pt
+* \textwidth=342.2953pt
+* \textheight=244.6939pt
+* \oddsidemargin=-61.31996pt
+* \evensidemargin=-61.31996pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/home/mohamed/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count378
+\scratchdimen=\dimen348
+\scratchbox=\box114
+\nofMPsegments=\count379
+\nofMParguments=\count380
+\everyMPshowfont=\toks56
+\MPscratchCnt=\count381
+\MPscratchDim=\dimen349
+\MPnumerator=\count382
+\makeMPintoPDFobject=\count383
+\everyMPtoPDFconversion=\toks57
+)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/home/mohamed/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package hyperref Info: Link coloring OFF on input line 84.
+
+(expose.out) (expose.out)
+\@outlinefile=\write5
+\openout5 = `expose.out'.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 84.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 84.
+\symnumbers=\mathgroup6
+\sympureletters=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 84.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 84.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 84.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 84.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 84.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 84.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 84.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 84.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 84.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 84.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 84.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 84.
+LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 84.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 84.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 84.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 84.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 84.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 84.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 84.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 84.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 8
+4.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 8
+4.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
+ut line 84.
+
+(/home/mohamed/.miktex/texmfs/install/tex/latex/translator/translator-basic-dic
+tionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/translator/translator-bibliogra
+phy-dictionary-English.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/translator/translator-environme
+nt-dictionary-English.dict
+Dictionary: translator-environment-dictionary, Language: English 
+)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/translator/translator-months-di
+ctionary-English.dict
+Dictionary: translator-months-dictionary, Language: English 
+)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/translator/translator-numbers-d
+ictionary-English.dict
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+(/home/mohamed/.miktex/texmfs/install/tex/latex/translator/translator-theorem-d
+ictionary-English.dict
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+LaTeX Info: Redefining \degres on input line 84.
+LaTeX Info: Redefining \up on input line 84.
+
+
+Package french.ldf Warning: OT1 encoding should not be used for French.
+(french.ldf)                Add \usepackage[T1]{fontenc} to the preamble
+(french.ldf)                of your document; reported on input line 84.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+(expose.nav)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 89.
+
+ (/home/mohamed/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 89.
+
+
+(/home/mohamed/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
+ut line 89.
+
+(/home/mohamed/.miktex/texmfs/install/tex/latex/sansmathaccent/ot1mathkerncmss.
+fd
+File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
+<ehtp.jpg, id=78, 301.125pt x 301.125pt>
+File: ehtp.jpg Graphic file (type jpg)
+<use ehtp.jpg>
+Package pdftex.def Info: ehtp.jpg  used on input line 89.
+(pdftex.def)             Requested size: 42.67912pt x 42.67642pt.
+<DGM.jpg, id=79, 210.7875pt x 248.93pt>
+File: DGM.jpg Graphic file (type jpg)
+<use DGM.jpg>
+Package pdftex.def Info: DGM.jpg  used on input line 89.
+(pdftex.def)             Requested size: 28.45274pt x 33.6003pt.
+
+Overfull \vbox (13.55281pt too high) detected at line 89
+ []
+
+
+
+[1
+
+{/home/mohamed/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map} <./ehtp.jpg> <.
+/DGM.jpg>] (expose.toc)
+
+[2
+
+] (introduction.tex
+<quatre-saisons.jpg, id=165, 463.4916pt x 463.4916pt>
+File: quatre-saisons.jpg Graphic file (type jpg)
+<use quatre-saisons.jpg>
+Package pdftex.def Info: quatre-saisons.jpg  used on input line 12.
+(pdftex.def)             Requested size: 171.14764pt x 171.14972pt.
+
+
+[3
+
+ <./quatre-saisons.jpg>]
+
+[4
+
+]
+<sf_ensemble.png, id=225, 1196.0685pt x 664.1613pt>
+File: sf_ensemble.png Graphic file (type png)
+<use sf_ensemble.png>
+Package pdftex.def Info: sf_ensemble.png  used on input line 34.
+(pdftex.def)             Requested size: 273.83728pt x 152.05461pt.
+
+
+[5
+
+ <./sf_ensemble.png>]) (meth_t2m.tex
+
+[6
+
+]
+
+[7
+
+]
+<mena.jpg, id=320, 1032.85875pt x 557.6835pt>
+File: mena.jpg Graphic file (type jpg)
+<use mena.jpg>
+Package pdftex.def Info: mena.jpg  used on input line 35.
+(pdftex.def)             Requested size: 256.72147pt x 138.61212pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:enter-lab
+el}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.35 \end{frame}
+                
+
+[8
+
+ <./mena.jpg>]
+<arabian_peninsula.png, id=350, 475.7775pt x 475.7775pt>
+File: arabian_peninsula.png Graphic file (type png)
+<use arabian_peninsula.png>
+Package pdftex.def Info: arabian_peninsula.png  used on input line 44.
+(pdftex.def)             Requested size: 256.72147pt x 256.73451pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:enter-lab
+el}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.44 \end{frame}
+                
+Overfull \vbox (84.73053pt too high) detected at line 44
+ []
+
+
+
+[9
+
+ <./arabian_peninsula.png>]
+<north_africa.jpg, id=379, 1032.85875pt x 557.6835pt>
+File: north_africa.jpg Graphic file (type jpg)
+<use north_africa.jpg>
+Package pdftex.def Info: north_africa.jpg  used on input line 53.
+(pdftex.def)             Requested size: 256.72147pt x 138.61212pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:enter-lab
+el}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.53 \end{frame}
+                
+
+[10
+
+ <./north_africa.jpg>]
+
+[11
+
+]
+
+[12
+
+]
+
+[13
+
+]
+
+[14
+
+]
+
+[15
+
+]
+Underfull \hbox (badness 5637) in paragraph at lines 148--148
+[]|\OT1/cmss/m/n/10.95 Brier Score (BS), Calibration,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+\OT1/cmss/m/n/10.95 situations climatiques en pr^^Sedisant des
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+[]|\OT1/cmss/m/n/10.95 Brier Score (BS), Ranked
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 148--148
+\OT1/cmss/m/n/10.95 les ^^Sev^^Senements observ^^Ses (succ^^Res) des non-
+ []
+
+
+
+[16
+
+]
+
+[17
+
+]
+
+[18
+
+]
+
+[19
+
+]
+
+[20
+
+]
+
+[21
+
+]
+</home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/acc/ANOMALY_CORRELAT
+ION_djf_t2m.png, id=797, 1445.4pt x 1300.86pt>
+File: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/acc/ANOMALY_COR
+RELATION_djf_t2m.png Graphic file (type png)
+<use /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/acc/ANOMALY_CORR
+ELATION_djf_t2m.png>
+Package pdftex.def Info: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/
+det/acc/ANOMALY_CORRELATION_djf_t2m.png  used on input line 247.
+(pdftex.def)             Requested size: 239.60567pt x 215.64496pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:enter-lab
+el}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.247 \end{frame}
+                 
+Overfull \vbox (43.64098pt too high) detected at line 247
+ []
+
+
+
+[22
+
+ </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/acc/ANOMALY_CORRELA
+TION_djf_t2m.png>]
+</home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/acc/acc_T2M_mena.png
+, id=830, 1806.75pt x 1300.86pt>
+File: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/acc/acc_T2M_men
+a.png Graphic file (type png)
+<use /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/acc/acc_T2M_mena
+.png>
+Package pdftex.def Info: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/
+det/acc/acc_T2M_mena.png  used on input line 258.
+(pdftex.def)             Requested size: 273.83728pt x 197.16508pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:enter-lab
+el}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.258 \end{frame}
+                 
+Overfull \vbox (25.1611pt too high) detected at line 258
+ []
+
+
+
+[23
+
+ </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/acc/acc_T2M_mena.pn
+g>]
+</home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/rmse/rmse_djf_t2m.pn
+g, id=863, 1445.4pt x 1300.86pt>
+File: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/rmse/rmse_djf_t
+2m.png Graphic file (type png)
+<use /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/rmse/rmse_djf_t2
+m.png>
+Package pdftex.def Info: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/
+det/rmse/rmse_djf_t2m.png  used on input line 269.
+(pdftex.def)             Requested size: 239.60567pt x 215.64496pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:enter-lab
+el}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.269 \end{frame}
+                 
+Overfull \vbox (43.64098pt too high) detected at line 269
+ []
+
+
+
+[24
+
+ </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/rmse/rmse_djf_t2m.p
+ng>]
+</home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/rmse/rmse_T2M_mena.p
+ng, id=895, 1806.75pt x 1300.86pt>
+File: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/rmse/rmse_T2M_m
+ena.png Graphic file (type png)
+<use /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/rmse/rmse_T2M_me
+na.png>
+Package pdftex.def Info: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/
+det/rmse/rmse_T2M_mena.png  used on input line 280.
+(pdftex.def)             Requested size: 273.83728pt x 197.16508pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:enter-lab
+el}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.280 \end{frame}
+                 
+Overfull \vbox (25.1611pt too high) detected at line 280
+ []
+
+
+
+[25
+
+ </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/rmse/rmse_T2M_mena.
+png>]
+</home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_mam_upper_t2m
+.png, id=928, 1445.4pt x 1300.86pt>
+File: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_mam_uppe
+r_t2m.png Graphic file (type png)
+<use /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_mam_upper
+_t2m.png>
+Package pdftex.def Info: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/
+prob/bs/bs_mam_upper_t2m.png  used on input line 293.
+(pdftex.def)             Requested size: 239.60567pt x 215.64496pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:enter-lab
+el}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.293 \end{frame}
+                 
+Overfull \vbox (43.64098pt too high) detected at line 293
+ []
+
+
+
+[26
+
+ </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_mam_upper_t2
+m.png>]
+</home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_T2M_category_
+mena.png, id=961, 1806.75pt x 1300.86pt>
+File: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_T2M_cate
+gory_mena.png Graphic file (type png)
+<use /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_T2M_categ
+ory_mena.png>
+Package pdftex.def Info: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/
+prob/bs/bs_T2M_category_mena.png  used on input line 304.
+(pdftex.def)             Requested size: 273.83728pt x 197.16508pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:enter-lab
+el}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.304 \end{frame}
+                 
+Overfull \vbox (25.1611pt too high) detected at line 304
+ []
+
+
+
+[27
+
+ </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_T2M_category
+_mena.png>]
+</home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_T2M_lead_time
+_mena.png, id=994, 1806.75pt x 1300.86pt>
+File: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_T2M_lead
+_time_mena.png Graphic file (type png)
+<use /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_T2M_lead_
+time_mena.png>
+Package pdftex.def Info: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/
+prob/bs/bs_T2M_lead_time_mena.png  used on input line 316.
+(pdftex.def)             Requested size: 273.83728pt x 197.16508pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:enter-lab
+el}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.316 \end{frame}
+                 
+Overfull \vbox (25.1611pt too high) detected at line 316
+ []
+
+
+
+[28
+
+ </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_T2M_lead_tim
+e_mena.png>]
+</home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_T2M_categor
+y_mena.png, id=1027, 1806.75pt x 1300.86pt>
+File: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_T2M_ca
+tegory_mena.png Graphic file (type png)
+<use /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_T2M_cat
+egory_mena.png>
+Package pdftex.def Info: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/
+prob/roc/roc_T2M_category_mena.png  used on input line 328.
+(pdftex.def)             Requested size: 273.83728pt x 197.16508pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:enter-lab
+el}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.328 \end{frame}
+                 
+Overfull \vbox (25.1611pt too high) detected at line 328
+ []
+
+
+
+[29
+
+ </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_T2M_catego
+ry_mena.png>]
+</home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_T2M_lead_ti
+me_mena.png, id=1060, 1806.75pt x 1300.86pt>
+File: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_T2M_le
+ad_time_mena.png Graphic file (type png)
+<use /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_T2M_lea
+d_time_mena.png>
+Package pdftex.def Info: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/
+prob/roc/roc_T2M_lead_time_mena.png  used on input line 340.
+(pdftex.def)             Requested size: 273.83728pt x 197.16508pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:enter-lab
+el}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.340 \end{frame}
+                 
+Overfull \vbox (25.1611pt too high) detected at line 340
+ []
+
+
+
+[30
+
+ </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_T2M_lead_t
+ime_mena.png>]
+</home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/rela/rela_T2M_mena.
+png, id=1092, 1806.75pt x 1300.86pt>
+File: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/rela/rela_T2M_
+mena.png Graphic file (type png)
+<use /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/rela/rela_T2M_m
+ena.png>
+Package pdftex.def Info: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/
+prob/rela/rela_T2M_mena.png  used on input line 351.
+(pdftex.def)             Requested size: 205.37926pt x 147.85892pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:enter-lab
+el}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.351 \end{frame}
+                 
+
+[31
+
+ </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/rela/rela_T2M_mena
+.png>]) (rr.tex
+</home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/acc/ANOMALY_CORRELAT
+ION_djf_RR.png, id=1126, 1445.4pt x 1300.86pt>
+File: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/acc/ANOMALY_COR
+RELATION_djf_RR.png Graphic file (type png)
+<use /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/acc/ANOMALY_CORR
+ELATION_djf_RR.png>
+Package pdftex.def Info: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/
+det/acc/ANOMALY_CORRELATION_djf_RR.png  used on input line 12.
+(pdftex.def)             Requested size: 239.60567pt x 215.64496pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:enter-lab
+el}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.12 \end{frame}
+                
+Overfull \vbox (43.64098pt too high) detected at line 12
+ []
+
+
+
+[32
+
+ </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/acc/ANOMALY_CORRELA
+TION_djf_RR.png>]
+</home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/acc/acc_RR_mena.png,
+ id=1160, 1806.75pt x 1300.86pt>
+File: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/acc/acc_RR_mena
+.png Graphic file (type png)
+<use /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/acc/acc_RR_mena.
+png>
+Package pdftex.def Info: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/
+det/acc/acc_RR_mena.png  used on input line 23.
+(pdftex.def)             Requested size: 273.83728pt x 197.16508pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:enter-lab
+el}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.23 \end{frame}
+                
+Overfull \vbox (25.1611pt too high) detected at line 23
+ []
+
+
+
+[33
+
+ </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/acc/acc_RR_mena.png
+>]
+</home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/rmse/rmse_djf_RR.png
+, id=1193, 1445.4pt x 1300.86pt>
+File: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/rmse/rmse_djf_R
+R.png Graphic file (type png)
+<use /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/rmse/rmse_djf_RR
+.png>
+Package pdftex.def Info: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/
+det/rmse/rmse_djf_RR.png  used on input line 34.
+(pdftex.def)             Requested size: 239.60567pt x 215.64496pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:enter-lab
+el}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.34 \end{frame}
+                
+Overfull \vbox (43.64098pt too high) detected at line 34
+ []
+
+
+
+[34
+
+ </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/rmse/rmse_djf_RR.pn
+g>]
+</home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/rmse/rmse_RR_mena.pn
+g, id=1225, 1806.75pt x 1300.86pt>
+File: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/rmse/rmse_RR_me
+na.png Graphic file (type png)
+<use /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/rmse/rmse_RR_men
+a.png>
+Package pdftex.def Info: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/
+det/rmse/rmse_RR_mena.png  used on input line 45.
+(pdftex.def)             Requested size: 273.83728pt x 197.16508pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:enter-lab
+el}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.45 \end{frame}
+                
+Overfull \vbox (25.1611pt too high) detected at line 45
+ []
+
+
+
+[35
+
+ </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/rmse/rmse_RR_mena.p
+ng>]
+</home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_mam_upper_RR.
+png, id=1257, 1445.4pt x 1300.86pt>
+File: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_mam_uppe
+r_RR.png Graphic file (type png)
+<use /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_mam_upper
+_RR.png>
+Package pdftex.def Info: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/
+prob/bs/bs_mam_upper_RR.png  used on input line 58.
+(pdftex.def)             Requested size: 239.60567pt x 215.64496pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:enter-lab
+el}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.58 \end{frame}
+                
+Overfull \vbox (43.64098pt too high) detected at line 58
+ []
+
+
+
+[36
+
+ </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_mam_upper_RR
+.png>]
+</home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_RR_category_m
+ena.png, id=1290, 1806.75pt x 1300.86pt>
+File: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_RR_categ
+ory_mena.png Graphic file (type png)
+<use /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_RR_catego
+ry_mena.png>
+Package pdftex.def Info: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/
+prob/bs/bs_RR_category_mena.png  used on input line 69.
+(pdftex.def)             Requested size: 273.83728pt x 197.16508pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:enter-lab
+el}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.69 \end{frame}
+                
+Overfull \vbox (25.1611pt too high) detected at line 69
+ []
+
+
+
+[37
+
+ </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_RR_category_
+mena.png>]
+</home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_RR_lead_time_
+mena.png, id=1324, 1806.75pt x 1300.86pt>
+File: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_RR_lead_
+time_mena.png Graphic file (type png)
+<use /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_RR_lead_t
+ime_mena.png>
+Package pdftex.def Info: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/
+prob/bs/bs_RR_lead_time_mena.png  used on input line 81.
+(pdftex.def)             Requested size: 273.83728pt x 197.16508pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:enter-lab
+el}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.81 \end{frame}
+                
+Overfull \vbox (25.1611pt too high) detected at line 81
+ []
+
+
+
+[38
+
+ </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_RR_lead_time
+_mena.png>]
+</home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_RR_category
+_mena.png, id=1357, 1806.75pt x 1300.86pt>
+File: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_RR_cat
+egory_mena.png Graphic file (type png)
+<use /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_RR_cate
+gory_mena.png>
+Package pdftex.def Info: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/
+prob/roc/roc_RR_category_mena.png  used on input line 95.
+(pdftex.def)             Requested size: 273.83728pt x 197.16508pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:enter-lab
+el}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.95 \end{frame}
+                
+Overfull \vbox (25.1611pt too high) detected at line 95
+ []
+
+
+
+[39
+
+ </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_RR_categor
+y_mena.png>]
+</home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_mam_middle_
+RR.png, id=1390, 1445.4pt x 1300.86pt>
+File: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_mam_mi
+ddle_RR.png Graphic file (type png)
+<use /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_mam_mid
+dle_RR.png>
+Package pdftex.def Info: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/
+prob/roc/roc_mam_middle_RR.png  used on input line 106.
+(pdftex.def)             Requested size: 239.60567pt x 215.64496pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:enter-lab
+el}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.106 \end{frame}
+                 
+Overfull \vbox (43.64098pt too high) detected at line 106
+ []
+
+
+
+[40
+
+ </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_mam_middle
+_RR.png>]
+</home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_mam_upper_R
+R.png, id=1423, 1445.4pt x 1300.86pt>
+File: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_mam_up
+per_RR.png Graphic file (type png)
+<use /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_mam_upp
+er_RR.png>
+Package pdftex.def Info: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/
+prob/roc/roc_mam_upper_RR.png  used on input line 118.
+(pdftex.def)             Requested size: 239.60567pt x 215.64496pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:enter-lab
+el}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.118 \end{frame}
+                 
+Overfull \vbox (43.64098pt too high) detected at line 118
+ []
+
+
+
+[41
+
+ </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_mam_upper_
+RR.png>]
+</home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_RR_lead_tim
+e_mena.png, id=1456, 1806.75pt x 1300.86pt>
+File: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_RR_lea
+d_time_mena.png Graphic file (type png)
+<use /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_RR_lead
+_time_mena.png>
+Package pdftex.def Info: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/
+prob/roc/roc_RR_lead_time_mena.png  used on input line 131.
+(pdftex.def)             Requested size: 273.83728pt x 197.16508pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:enter-lab
+el}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.131 \end{frame}
+                 
+Overfull \vbox (25.1611pt too high) detected at line 131
+ []
+
+
+
+[42
+
+ </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_RR_lead_ti
+me_mena.png>]
+</home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/rela/rela_diagram_s
+on_RR.png, id=1489, 1445.4pt x 1300.86pt>
+File: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/rela/rela_diag
+ram_son_RR.png Graphic file (type png)
+<use /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/rela/rela_diagr
+am_son_RR.png>
+Package pdftex.def Info: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/
+prob/rela/rela_diagram_son_RR.png  used on input line 142.
+(pdftex.def)             Requested size: 205.37926pt x 184.83853pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:enter-lab
+el}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.142 \end{frame}
+                 
+Overfull \vbox (12.83455pt too high) detected at line 142
+ []
+
+
+
+[43
+
+ </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/rela/rela_diagram_
+son_RR.png>]
+Overfull \hbox (4.50385pt too wide) in paragraph at lines 161--161
+[]|\OT1/cmss/bx/n/10.95 Metric|  
+ []
+
+
+Overfull \hbox (0.8234pt too wide) in paragraph at lines 161--161
+[]|\OT1/cmss/m/n/10.95 RMSE|  
+ []
+
+
+Overfull \hbox (5.84212pt too wide) in paragraph at lines 161--161
+[]|\OT1/cmss/m/n/10.95 ROCSS|  
+ []
+
+
+Overfull \vbox (25.19592pt too high) detected at line 161
+ []
+
+
+
+[44
+
+])
+\tf@nav=\write6
+\openout6 = `expose.nav'.
+
+\tf@toc=\write7
+\openout7 = `expose.toc'.
+
+\tf@snm=\write8
+\openout8 = `expose.snm'.
+
+ (expose.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-11-02>
+ ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `expose.out' has not changed.
+(rerunfilecheck)             Checksum: AFBCC0D27FACC4E84C40A1F0FE6D8172;1676.
+ ) 
+Here is how much of TeX's memory you used:
+ 33861 strings out of 475560
+ 722261 string characters out of 5769136
+ 1178382 words of memory out of 5000000
+ 55991 multiletter control sequences out of 15000+600000
+ 569688 words of font info for 76 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 128i,16n,123p,383b,778s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/mohamed/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcss09
+00.pk> </home/mohamed/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tc
+ss1095.pk> </home/mohamed/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi60
+0/tcss1440.pk> </home/mohamed/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/d
+pi600/tcsx1095.pk></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsf
+onts/cm/cmex10.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/ams
+fonts/cm/cmmi8.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/ams
+fonts/cm/cmss10.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/am
+sfonts/cm/cmss12.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/a
+msfonts/cm/cmss8.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/a
+msfonts/cm/cmss9.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/a
+msfonts/cm/cmssbx10.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/publi
+c/amsfonts/cm/cmssi10.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/pub
+lic/amsfonts/cm/cmssi8.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb>
+Output written on expose.pdf (44 pages, 13972574 bytes).
+PDF statistics:
+ 1634 PDF objects out of 1728 (max. 8388607)
+ 101 named destinations out of 1000 (max. 500000)
+ 496 words of extra memory for PDF output out of 10000 (max. 10000000)
+
