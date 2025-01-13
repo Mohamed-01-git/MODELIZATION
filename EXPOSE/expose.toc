@@ -8,4 +8,4 @@
 \beamer@subsectionintoc {3}{2}{Evaluation Probabiliste}{26}{0}{3}
 \beamer@sectionintoc {4}{Evaluation des Précipitations}{32}{0}{4}
 \beamer@subsectionintoc {4}{1}{Evaluation Déterministe}{32}{0}{4}
-\beamer@subsectionintoc {4}{2}{Evaluation Déterministe}{36}{0}{4}
+\beamer@subsectionintoc {4}{2}{Evaluation Probabiliste}{36}{0}{4}

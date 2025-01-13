@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.12) (preloaded format=pdflatex 2024.12.17)  13 JAN 2025 22:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.12) (preloaded format=pdflatex 2024.12.17)  13 JAN 2025 22:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2094,7 +2094,7 @@ L3 programming layer <2024-11-02>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `expose.out' has not changed.
-(rerunfilecheck)             Checksum: AFBCC0D27FACC4E84C40A1F0FE6D8172;1676.
+(rerunfilecheck)             Checksum: 6E8EBC1FCF239456EF5A2359AAF95380;1673.
  ) 
 Here is how much of TeX's memory you used:
  33861 strings out of 475560
@@ -2119,7 +2119,7 @@ msfonts/cm/cmssbx10.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/publi
 c/amsfonts/cm/cmssi10.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/pub
 lic/amsfonts/cm/cmssi8.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb>
-Output written on expose.pdf (44 pages, 13972574 bytes).
+Output written on expose.pdf (44 pages, 13972499 bytes).
 PDF statistics:
  1634 PDF objects out of 1728 (max. 8388607)
  101 named destinations out of 1000 (max. 500000)
