@@ -154,9 +154,10 @@ def plot_determinist(df,variable,mask_it,zone):
         axe[i].set_xlabel("",fontsize=15)
         axe[i].set_ylabel("LEAD TIME",fontsize=20)
         axe[i].set_title(f'{center}',fontsize=20)
+        sns.set(font_scale=2)
 
     subtitle=f"{df.metric[0]}  for {variable}  per  LEAD TIME {zone}"
-    fig.suptitle(subtitle, fontsize=16, fontweight='bold', y=0.981)  
+    fig.suptitle(subtitle, fontsize=20, fontweight='bold', y=0.981)  
     # fig.suptitle(f"{df.metric[0]}  for {variable}  per  PERIOD ", fontsize=16, fontweight='bold', y=0.981)
     for j in range(i + 1, len(axe)):
         fig.delaxes(axe[j])

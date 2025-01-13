@@ -152,10 +152,11 @@ def plot_roc(df,variable,TYPE,mask_it,zone):
         axe[i].set_xlabel("",fontsize=15)
         axe[i].set_ylabel(f"{TYPE}",fontsize=20)
         axe[i].set_title(f'{center}',fontsize=20)
+        sns.set(font_scale=2)
 
     subtitle=f"{df.metric[0]}  for {variable}  per  {TYPE}  {zone}"
 
-    fig.suptitle(subtitle, fontsize=16, fontweight='bold', y=0.981)  
+    fig.suptitle(subtitle, fontsize=20, fontweight='bold', y=0.981)  
     # fig.suptitle(f"{df.metric[0]} {variable} / {TYPE} North Africa", fontsize=16, fontweight='bold', y=0.981)
     for j in range(i + 1, len(axe)):
         fig.delaxes(axe[j])

@@ -139,6 +139,7 @@ def plot_determinist(df,variable,mask_it,zone):
         axe[i].set_xlabel("",fontsize=15)
         axe[i].set_ylabel("LEAD TIME",fontsize=20)
         axe[i].set_title(f'Center: {center}',fontsize=20)
+        sns.set(font_scale=2)
         
     subtitle=f"{df.metric[0]}  for {variable}  per  LEAD TIME {zone}"
         

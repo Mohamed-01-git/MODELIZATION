@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.12) (preloaded format=pdflatex 2024.12.17)  11 JAN 2025 23:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.12) (preloaded format=pdflatex 2024.12.17)  12 JAN 2025 23:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1244,7 +1244,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.53 ... evaluation results}{36}{subsection.5.1.2}
+l.53 ... evaluation results}{35}{subsection.5.1.2}
                                                   % [1])
 \tf@toc=\write6
 \openout6 = `main.toc'.
@@ -3311,6 +3311,9 @@ L3 programming layer <2024-11-02>
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: C7E8D636080DCB0DF24B151458381913;7750.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -3320,7 +3323,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  30973 strings out of 475560
  598150 string characters out of 5769136
- 1508130 words of memory out of 5000000
+ 1508127 words of memory out of 5000000
  53074 multiletter control sequences out of 15000+600000
  569628 words of font info for 75 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -3522,7 +3525,7 @@ cmss17.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm
 m/cmsy8.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/c
 m/cmti10.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/public/amsfonts/
 cm/cmti9.pfb>
-Output written on main.pdf (98 pages, 28118446 bytes).
+Output written on main.pdf (98 pages, 28571291 bytes).
 PDF statistics:
  1267 PDF objects out of 1440 (max. 8388607)
  309 named destinations out of 1000 (max. 500000)
