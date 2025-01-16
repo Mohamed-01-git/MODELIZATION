@@ -1,3 +1,5 @@
+\section{Evaluation des Précipitations}
+\subsection{Evaluation Déterministe}
 \begin{frame}{Précipitation}
 \framesubtitle{Déterministe - ACC}
 
@@ -41,6 +43,8 @@
     \label{fig:enter-label}
 \end{figure}
 \end{frame}
+
+\subsection{Evaluation Probabiliste}
 
 \begin{frame}{Précipitation}
 \framesubtitle{Probabiliste - BS (0 pour un BS meilleur)}
@@ -153,5 +157,27 @@ ROC & ALL & ALL & ALL \\ \hline
 ROCSS & ECMWF & ECMWF & UKMO, CMCC-35 \\ \hline
 
 \end{tabular}
+\caption{Comparaison des Metriques dans MENA, North Africa, et Arabian Peninsula pour les Précipitations.}
+\label{tab:temperature_metrics}
+\end{table}
+\end{frame}
+
+\begin{frame}
+\begin{table}[h!]
+\centering
+\begin{tabular}{|>{\raggedright\arraybackslash}m{1cm}|>{\raggedright\arraybackslash}m{3cm}|>{\raggedright\arraybackslash}m{3cm}|>{\raggedright\arraybackslash}m{3cm}|}
+\hline
+\textbf{Metric} & \textbf{MENA} & \textbf{North Africa} & \textbf{Arabian Peninsula} \\ \hline
+ACC            & ECMWF, METEO-FRANCE, ECCC-3 & ECMWF, UKMO, ECCC-3 & ECMWF, UKMO, DWD \\ \hline
+RMSE           & UKMO, ECMWF & METEO-FRANCE & METEO-FRANCE \\ \hline
+R²             & ECMWF       & ECMWF         & ECMWF \\ \hline
+BS             & METEO-FRANCE, ECMWF, CMCC-35, UKMO & ECMWF, UKMO, CMCC-35 & ECMWF, UKMO, CMCC-35 \\ \hline
+RELA           & ALL & ALL & ALL \\ \hline
+RPS            & ECMWF       & ECMWF         & ECMWF \\ \hline
+ROC            & ALL  & ALL    & ALL  \\ \hline
+ROCSS          & ALL  & ALL    & ALL  \\ \hline
+\end{tabular}
+\caption{Comparaison des Metriques dans MENA, North Africa, et Arabian Peninsula pour la  TEMPERATURE.}
+\label{tab:temperature_metrics}
 \end{table}
 \end{frame}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.12) (preloaded format=pdflatex 2024.12.17)  13 JAN 2025 22:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.12) (preloaded format=pdflatex 2024.12.17)  16 JAN 2025 10:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1143,6 +1143,9 @@ LaTeX Warning: Label `fig:enter-label' multiply defined.
 
 LaTeX Warning: Label `fig:enter-label' multiply defined.
 
+
+LaTeX Warning: Label `tab:temperature_metrics' multiply defined.
+
 )
 \openout1 = `expose.aux'.
 
@@ -1753,7 +1756,7 @@ l.351 \end{frame}
  </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/rela/rela_T2M_mena
 .png>]) (rr.tex
 </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/acc/ANOMALY_CORRELAT
-ION_djf_RR.png, id=1126, 1445.4pt x 1300.86pt>
+ION_djf_RR.png, id=1125, 1445.4pt x 1300.86pt>
 File: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/acc/ANOMALY_COR
 RELATION_djf_RR.png Graphic file (type png)
 <use /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/acc/ANOMALY_CORR
@@ -1778,7 +1781,7 @@ Overfull \vbox (43.64098pt too high) detected at line 12
  </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/acc/ANOMALY_CORRELA
 TION_djf_RR.png>]
 </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/acc/acc_RR_mena.png,
- id=1160, 1806.75pt x 1300.86pt>
+ id=1159, 1806.75pt x 1300.86pt>
 File: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/acc/acc_RR_mena
 .png Graphic file (type png)
 <use /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/acc/acc_RR_mena.
@@ -1803,7 +1806,7 @@ Overfull \vbox (25.1611pt too high) detected at line 23
  </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/acc/acc_RR_mena.png
 >]
 </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/rmse/rmse_djf_RR.png
-, id=1193, 1445.4pt x 1300.86pt>
+, id=1192, 1445.4pt x 1300.86pt>
 File: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/rmse/rmse_djf_R
 R.png Graphic file (type png)
 <use /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/rmse/rmse_djf_RR
@@ -1828,7 +1831,7 @@ Overfull \vbox (43.64098pt too high) detected at line 34
  </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/rmse/rmse_djf_RR.pn
 g>]
 </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/rmse/rmse_RR_mena.pn
-g, id=1225, 1806.75pt x 1300.86pt>
+g, id=1224, 1806.75pt x 1300.86pt>
 File: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/rmse/rmse_RR_me
 na.png Graphic file (type png)
 <use /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/rmse/rmse_RR_men
@@ -1853,7 +1856,7 @@ Overfull \vbox (25.1611pt too high) detected at line 45
  </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/rmse/rmse_RR_mena.p
 ng>]
 </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_mam_upper_RR.
-png, id=1257, 1445.4pt x 1300.86pt>
+png, id=1256, 1445.4pt x 1300.86pt>
 File: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_mam_uppe
 r_RR.png Graphic file (type png)
 <use /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_mam_upper
@@ -1878,7 +1881,7 @@ Overfull \vbox (43.64098pt too high) detected at line 58
  </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_mam_upper_RR
 .png>]
 </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_RR_category_m
-ena.png, id=1290, 1806.75pt x 1300.86pt>
+ena.png, id=1289, 1806.75pt x 1300.86pt>
 File: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_RR_categ
 ory_mena.png Graphic file (type png)
 <use /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_RR_catego
@@ -1903,7 +1906,7 @@ Overfull \vbox (25.1611pt too high) detected at line 69
  </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_RR_category_
 mena.png>]
 </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_RR_lead_time_
-mena.png, id=1324, 1806.75pt x 1300.86pt>
+mena.png, id=1323, 1806.75pt x 1300.86pt>
 File: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_RR_lead_
 time_mena.png Graphic file (type png)
 <use /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_RR_lead_t
@@ -1928,7 +1931,7 @@ Overfull \vbox (25.1611pt too high) detected at line 81
  </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/bs/bs_RR_lead_time
 _mena.png>]
 </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_RR_category
-_mena.png, id=1357, 1806.75pt x 1300.86pt>
+_mena.png, id=1356, 1806.75pt x 1300.86pt>
 File: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_RR_cat
 egory_mena.png Graphic file (type png)
 <use /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_RR_cate
@@ -1953,7 +1956,7 @@ Overfull \vbox (25.1611pt too high) detected at line 95
  </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_RR_categor
 y_mena.png>]
 </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_mam_middle_
-RR.png, id=1390, 1445.4pt x 1300.86pt>
+RR.png, id=1389, 1445.4pt x 1300.86pt>
 File: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_mam_mi
 ddle_RR.png Graphic file (type png)
 <use /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_mam_mid
@@ -1978,7 +1981,7 @@ Overfull \vbox (43.64098pt too high) detected at line 106
  </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_mam_middle
 _RR.png>]
 </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_mam_upper_R
-R.png, id=1423, 1445.4pt x 1300.86pt>
+R.png, id=1422, 1445.4pt x 1300.86pt>
 File: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_mam_up
 per_RR.png Graphic file (type png)
 <use /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_mam_upp
@@ -2003,7 +2006,7 @@ Overfull \vbox (43.64098pt too high) detected at line 118
  </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_mam_upper_
 RR.png>]
 </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_RR_lead_tim
-e_mena.png, id=1456, 1806.75pt x 1300.86pt>
+e_mena.png, id=1455, 1806.75pt x 1300.86pt>
 File: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_RR_lea
 d_time_mena.png Graphic file (type png)
 <use /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_RR_lead
@@ -2028,7 +2031,7 @@ Overfull \vbox (25.1611pt too high) detected at line 131
  </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/roc/roc_RR_lead_ti
 me_mena.png>]
 </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/rela/rela_diagram_s
-on_RR.png, id=1489, 1445.4pt x 1300.86pt>
+on_RR.png, id=1488, 1445.4pt x 1300.86pt>
 File: /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/rela/rela_diag
 ram_son_RR.png Graphic file (type png)
 <use /home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/rela/rela_diagr
@@ -2052,27 +2055,56 @@ Overfull \vbox (12.83455pt too high) detected at line 142
 
  </home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/prob/rela/rela_diagram_
 son_RR.png>]
-Overfull \hbox (4.50385pt too wide) in paragraph at lines 161--161
+Overfull \hbox (4.50385pt too wide) in paragraph at lines 163--163
 []|\OT1/cmss/bx/n/10.95 Metric|  
  []
 
 
-Overfull \hbox (0.8234pt too wide) in paragraph at lines 161--161
+Overfull \hbox (0.8234pt too wide) in paragraph at lines 163--163
 []|\OT1/cmss/m/n/10.95 RMSE|  
  []
 
 
-Overfull \hbox (5.84212pt too wide) in paragraph at lines 161--161
+Overfull \hbox (5.84212pt too wide) in paragraph at lines 163--163
 []|\OT1/cmss/m/n/10.95 ROCSS|  
  []
 
 
-Overfull \vbox (25.19592pt too high) detected at line 161
+Overfull \vbox (63.19592pt too high) detected at line 163
  []
 
 
 
 [44
+
+]
+Overfull \hbox (4.50385pt too wide) in paragraph at lines 183--183
+[]|\OT1/cmss/bx/n/10.95 Metric|  
+ []
+
+
+Overfull \hbox (0.8234pt too wide) in paragraph at lines 183--183
+[]|\OT1/cmss/m/n/10.95 RMSE|  
+ []
+
+
+Overfull \hbox (5.84212pt too wide) in paragraph at lines 183--183
+[]|\OT1/cmss/m/n/10.95 ROCSS|  
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{tab:temperatu
+re_metrics}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.183 \end{frame}
+                 
+Overfull \vbox (5.5865pt too high) detected at line 183
+ []
+
+
+
+[45
 
 ])
 \tf@nav=\write6
@@ -2097,10 +2129,10 @@ Package rerunfilecheck Info: File `expose.out' has not changed.
 (rerunfilecheck)             Checksum: 6E8EBC1FCF239456EF5A2359AAF95380;1673.
  ) 
 Here is how much of TeX's memory you used:
- 33861 strings out of 475560
- 722261 string characters out of 5769136
- 1178382 words of memory out of 5000000
- 55991 multiletter control sequences out of 15000+600000
+ 33868 strings out of 475560
+ 722364 string characters out of 5769136
+ 1179382 words of memory out of 5000000
+ 55995 multiletter control sequences out of 15000+600000
  569688 words of font info for 76 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,16n,123p,383b,778s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2119,9 +2151,9 @@ msfonts/cm/cmssbx10.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/publi
 c/amsfonts/cm/cmssi10.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/pub
 lic/amsfonts/cm/cmssi8.pfb></home/mohamed/.miktex/texmfs/install/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb>
-Output written on expose.pdf (44 pages, 13972499 bytes).
+Output written on expose.pdf (45 pages, 13979741 bytes).
 PDF statistics:
- 1634 PDF objects out of 1728 (max. 8388607)
- 101 named destinations out of 1000 (max. 500000)
+ 1667 PDF objects out of 1728 (max. 8388607)
+ 104 named destinations out of 1000 (max. 500000)
  496 words of extra memory for PDF output out of 10000 (max. 10000000)
 

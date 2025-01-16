@@ -236,6 +236,8 @@
 \begin{frame}{Température}
 \framesubtitle{Déterministe - ACC}
 
+\section{Evaluation de la Température}
+\subsection{Evaluation Déterministe}
 \begin{figure}
     \centering
     \includegraphics[width=0.7\linewidth]{/home/mohamed/EHTPIII/MODELISATION/Report_25_11/plots/det/acc/ANOMALY_CORRELATION_djf_t2m.png}
@@ -276,6 +278,8 @@
     \label{fig:enter-label}
 \end{figure}
 \end{frame}
+
+\subsection{Evaluation Probabiliste}
 
 \begin{frame}{Température}
 \framesubtitle{Probabiliste - BS (0 pour un BS meilleur)}
