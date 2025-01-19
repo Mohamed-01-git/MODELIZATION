@@ -1,0 +1,168 @@
+@book{mcguffie2014,
+  title = {A Climate Modelling Primer},
+  author = {McGuffie, K. and Henderson-Sellers, A.},
+  year = {2014},
+  publisher = {Wiley},
+  doi = {10.1002/9781118687853},
+  url = {https://doi.org/10.1002/9781118687853}
+}
+
+@article{flato2013,
+  title = {Evaluation of Climate Models},
+  author = {Flato, G. and others},
+  year = {2013},
+  journal = {IPCC AR5 Chapter 9},
+  url = {https://www.ipcc.ch/report/ar5/wg1/chapter-9-evaluation-of-climate-models/}
+}
+
+@article{doblas2013,
+  title = {Seasonal climate predictability and forecasting: Status and prospects},
+  author = {Doblas-Reyes, F. J. and García-Serrano, J. and Lienert, F. and Biescas, A. P. and Rodrigues, L. R.},
+  year = {2013},
+  journal = {Nature Geoscience},
+  doi = {10.1038/ngeo1714},
+  url = {https://doi.org/10.1038/ngeo1714}
+}
+
+@article{palmer1994,
+  title = {The prospects for seasonal forecasting—a review paper},
+  author = {Palmer, T. N. and Anderson, D. L.},
+  year = {1994},
+  journal = {Quarterly Journal of the Royal Meteorological Society},
+  doi = {10.1256/smsqj.50402},
+  url = {https://doi.org/10.1256/smsqj.50402}
+}
+
+@article{werner2024,
+  title = {Seasonal forecasts to support cropping decisions},
+  author = {Werner, M. and Linés, C.},
+  year = {2024},
+  journal = {EGUsphere},
+  doi = {10.5194/egusphere-egu24-13436},
+  url = {https://doi.org/10.5194/egusphere-egu24-13436}
+}
+
+@article{hunt2020,
+  title = {Seasonal Forecast Based Preharvest Hedging},
+  author = {Hunt, K. and others},
+  year = {2020},
+  journal = {Agricultural Economics},
+  doi = {10.22004/AG.ECON.309761},
+  url = {https://doi.org/10.22004/AG.ECON.309761}
+}
+
+@article{portele2021,
+  title = {Seasonal forecasts offer economic benefits for hydrological decision-making},
+  author = {Portele, T. and others},
+  year = {2021},
+  journal = {Scientific Reports},
+  doi = {10.1038/s41598-021-89564-y},
+  url = {https://doi.org/10.1038/s41598-021-89564-y}
+}
+
+@article{macLeod2023,
+  title = {Translating seasonal climate forecasts into water balance forecasts},
+  author = {MacLeod, D. and others},
+  year = {2023},
+  journal = {PLOS Climate},
+  doi = {10.1371/journal.pclm.0000138},
+  url = {https://doi.org/10.1371/journal.pclm.0000138}
+}
+
+@article{castino2023,
+  title = {Towards seasonal prediction of extreme temperature indices},
+  author = {Castino, F. and others},
+  year = {2023},
+  journal = {EMS Annual Meeting},
+  doi = {10.5194/ems2023-590},
+  url = {https://doi.org/10.5194/ems2023-590}
+}
+
+@article{goodess2022,
+  title = {The Value-Add of Tailored Seasonal Forecast Information},
+  author = {Goodess, C. M. and others},
+  year = {2022},
+  journal = {Climate},
+  doi = {10.3390/cli10100152},
+  url = {https://doi.org/10.3390/cli10100152}
+}
+
+@article{dunn2020,
+  title = {The changing climate of MENA},
+  author = {Dunn, R. and others},
+  year = {2020},
+  journal = {NASA GISS Publications},
+  url = {https://pubs.giss.nasa.gov/abs/gu00200u.html}
+}
+
+@article{latif2011,
+  title = {ENSO predictability and regional climate impacts},
+  author = {Latif, M. and Keenlyside, N.},
+  year = {2011},
+  journal = {Journal of Climate},
+  doi = {10.1175/2010JCLI3405.1},
+  url = {https://doi.org/10.1175/2010JCLI3405.1}
+}
+
+@article{lorenz1963,
+  title = {Deterministic Nonperiodic Flow},
+  author = {Lorenz, E. N.},
+  year = {1963},
+  journal = {Journal of the Atmospheric Sciences},
+  volume = {20},
+  number = {2},
+  pages = {130--141},
+  doi = {10.1175/1520-0469(1963)020<0130:DNF>2.0.CO;2}
+}
+
+@techreport{wmo2024,
+  title = {Guidance on Verification of Operational Seasonal Climate Forecasts},
+  author = {World Meteorological Organization},
+  year = {2024},
+  url = {https://library.wmo.int/records/item/56227-guidance-on-verification-of-operational-seasonal-climate-forecasts}
+}
+
+@article{perkins2020,
+  title = {Increasing trends in regional heatwaves},
+  author = {Perkins-Kirkpatrick, S. E. and Lewis, S. C.},
+  year = {2020},
+  journal = {Nature Communications},
+  doi = {10.1038/s41467-020-16970-7},
+  url = {https://doi.org/10.1038/s41467-020-16970-7}
+}
+
+@article{seneviratne2021,
+  title = {Metrics for climate model evaluation: A review},
+  author = {Seneviratne, S. I. and others},
+  year = {2021},
+  journal = {Nature Communications},
+  doi = {10.1038/s43247-021-00094-x},
+  url = {https://doi.org/10.1038/s43247-021-00094-x}
+}
+
+@article{nikraftar2024,
+  title = {Impact-Based Evaluation of Seasonal Forecast Models},
+  author = {Zahir Nikraftar and Rendani Mbuvha and Mojtaba Sadegh and Willem A. Landman},
+  year = {2024},
+  journal = {Earth's Future},
+  doi = {10.1029/2024EF004936},
+  url = {https://doi.org/10.1029/2024EF004936}
+}
+
+@article{deAndrade2019,
+  title = {Challenges in modeling land surface processes in extratropical regions},
+  author = {De Andrade, F. and others},
+  year = {2019},
+  journal = {Journal of Geophysical Research: Atmospheres},
+  doi = {10.1029/2019JD030123},
+  url = {https://doi.org/10.1029/2019JD030123}
+}
+
+@article{meteoFrance2020,
+  title = {Probabilistic Evaluation of Seasonal Precipitation Re-forecasting},
+  author = {Météo-France},
+  year = {2020},
+  journal = {Climate Dynamics},
+  doi = {10.1007/s00382-020-05369-1},
+  url = {https://doi.org/10.1007/s00382-020-05369-1}
+}

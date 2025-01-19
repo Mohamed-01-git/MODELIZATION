@@ -20,13 +20,13 @@
 \usepackage{tabularx} % For flexible column widths
 \usepackage{geometry} % Adjust page margins if needed
 \geometry{margin=1in}
-
+\addbibresource{references.bib} % Link to your .bib file
 \DeclareUnicodeCharacter{200B}{}
 
 
 
 \usepackage[backend=biber,style=apa]{biblatex} % Utilisez le style APA ou un autre style selon les besoins
-\addbibresource{references.bib} % Lien vers le fichier de bibliographie
+%\addbibresource{references.bib} % Lien vers le fichier de bibliographie
 
 %\lhead{\leftmark} % en-tête gauche-chapitre
 \lhead{\rightmark} % en-tête gauche-section
@@ -49,11 +49,12 @@
 \input{results.tex} 
 %\input{north_peninsula.tex} 
 \input{conclusion.tex}
-%\input{Results.tex}
-%\input{focus_on_North_Africa.tex}
+\input{perspectif.tex}
+\input{references.tex}
 \clearpage
 \listoffigures
 \clearpage
 \listoftables
-
+\clearpage
+\printbibliography
 \end{document}

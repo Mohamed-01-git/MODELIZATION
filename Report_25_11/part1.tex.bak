@@ -23,8 +23,7 @@
 %
 %
 %
-%\usepackage[backend=biber,style=apa]{biblatex} % Utilisez le style APA ou un autre style selon les besoins
-%\addbibresource{references.bib} % Lien vers le fichier de bibliographie
+
 %
 %%\lhead{\leftmark} % en-tête gauche-chapitre
 %\lhead{\rightmark} % en-tête gauche-section
@@ -85,7 +84,7 @@
 
 \chapter*{Acknowledgments}
 \addcontentsline{toc}{chapter}{Acknowledgments}
-\vskip-3.3em  
+\vskip-5em  
 
 We would like to express our deepest gratitude to \textbf{Mrs. Wafae Badi} for her unwavering support and invaluable guidance throughout this project. Her insightful counsel and constant encouragement enabled us to overcome various challenges and maintain our focus. Her dedication to fostering progress, coupled with her constructive feedback and open-minded approach, were instrumental in shaping the direction of this work. Her mentorship has truly been a cornerstone of our journey, and we are profoundly grateful for her invaluable contributions.  
 \\
@@ -102,7 +101,8 @@ We are also immensely grateful to \textbf{Mr. Bari}, whose dedicated supervision
 In addition, we would like to acknowledge the support received through the \textbf{WISER MENA project}. \textbf{Nicholas Savage’s time was funded via the WISER MENA project.} The Weather and Climate Information Services (WISER) Programme is funded with UK International Development from the UK government and led by the Met Office in the UK. This work has been partially supported by UK International Development from the UK government; however, the views expressed do not necessarily reflect the UK government’s official policies.  
 \\
 
-Lastly, we extend our heartfelt appreciation to all those who, directly or indirectly, contributed to this project. Your cooperation, guidance, and belief in our work have made this journey a fulfilling and enlightening experience. While this project is a testament to hard work and collaboration, it is also a reflection of the collective effort and support of everyone who believed in its success. To you, we owe our sincere thanks.
+Lastly, we extend our heartfelt appreciation to all those who, directly or indirectly, contributed to this project. Your cooperation, guidance, and belief in our work have made this journey a fulfilling and enlightening experience. While this project is a testament to hard work and collaboration, it is also a reflection of the collective effort and support of everyone who believed in its success. To you, we owe our sincere thanks.  
+
 
 \chapter*{Preface}
 \addcontentsline{toc}{chapter}{Preface}
@@ -112,15 +112,53 @@ The MENA seasonal forecasting models have undergone both probabilistic and deter
 
 Due to climatic extremes in the MENA region, agriculture, human livelihood, and natural resources are heavily affected. Consequently, it has become almost necessary to have forecasts of seasons that are credible so as to characterize the impacts, or to enhance preparedness. Although seasonal forecasting models have been widely researched and practiced in many parts of the world, their use in MENA countries’ local level remains scarce. This gap is resolved in this study, providing new knowledge and tools for climate scientists working in the region.\\
 
-In this work, we intend to broaden the knowledge fabric of climate change science by focusing on the climate change and variability vulnerability of the MENA region. The results obtained not only improve the comprehension of the dynamics of the local climate, but also lays a framework for specific approach to be employed for adaptation strategies.\\
+This study evaluates major climate modeling centers to assess the accuracy of their seasonal forecasting models for the MENA region, with a specific focus on the Arabian Peninsula and North Africa. By analyzing both deterministic and probabilistic approaches, it aims to identify the most precise models, providing actionable insights for climate resilience. These efforts address the pressing need for reliable forecasts to mitigate the impacts of climate variability and extreme events on agriculture, water resources, and human livelihoods.
+The primary goal of this study is to evaluate seasonal forecasting models for temperature and precipitation in the MENA region. By employing both deterministic and probabilistic approaches, this research seeks to identify reliable forecasting tools that address the socio-economic impacts of climate variability and extreme weather events. 
+
+The MENA seasonal forecasting models have undergone both probabilistic and deterministic evaluations. This research study is regarded as the pioneering work and the first of its kind in this area, which significantly contributes to advancing situational context understanding and improvement in seasonal forecasting models. Given the alarming rate of increase in the impacts caused by extreme climatic events, including severe droughts, extreme heat, and other climate-sensitive issues in the MENA region, this work plays a pivotal role in mitigating these challenges.\\
+
+Due to climatic extremes in the MENA region, agriculture, human livelihoods, and natural resources are profoundly affected. Consequently, it has become essential to have credible seasonal forecasts to characterize these impacts and enhance preparedness. While seasonal forecasting models have been extensively studied and applied globally, their local-level application within MENA countries remains limited.\\
 
 We are immensely grateful to every individual or organization who has helped support this project and guided us through uncharted territory in the spectrum of MENA climate predictions.\\
 \chapter{Overview and Rationale of the Study}
-The last couple of decades have witnessed a surge in demand for seasonal climate forecasting. Global advancements in space science and technology have lead to the better anticipation of climate seasons up to a through range of 3-12 months. This is crucial for effective planning in major industries like agriculture or energy management, among others. These advancements breed an increased dependence on seasonal forecasting and in turn create a higher demand for accurate forecasting mechanisms. Therefore two central methodologies have witnessed prominence – deterministic and probabilistic methods. A hindsight understanding of these mechanisms is imperative, as they are useful for evaluating and understanding the shortcomings and effectiveness of different models employed in forecasting seasonal amps.\\
 
-Probabilistic forecasts take one step forward, do not try to predict an ideal scenario and present different potential outcomes, each with a defined probability. Efforts, though different, instruct towards the same ends; meeting a specific operational/strategic need. Lorenz’s butterfly effect presents the case for one such endeavor- it shows how a non-linear system’s response can drastically alter depending on the initial conditions. Such chaos is especially present in weather and climate systems where even the slightest details can have large ramifications over longer periods.\\
+The last couple of decades have witnessed a surge in demand for seasonal climate forecasting. Global advancements in space science and technology have led to better anticipation of climate seasons up to a range of 3--12 months. This is crucial for effective planning in major industries like agriculture and energy management, among others. These advancements breed an increased dependence on seasonal forecasting and, in turn, create a higher demand for accurate forecasting mechanisms. Therefore, two central methodologies have witnessed prominence -- deterministic and probabilistic methods. A hindsight understanding of these mechanisms is imperative, as they are useful for evaluating and understanding the shortcomings and effectiveness of different models employed in forecasting seasonal variations.\
 
-In this context, the current study focuses on developing relationships that integrate conceptual advancements in seasonal forecasting efforts with practical and applicable methods. The geographical focus of this study is the **MENA region (Middle East and North Africa)**, a zone characterized by its diverse climatic conditions and critical socio-economic dependence on accurate seasonal forecasts. The MENA region is particularly vulnerable to climate variability due to its arid and semi-arid environments, limited water resources, and reliance on agriculture and energy. By analyzing seasonal forecasting within this region, the study seeks to address key challenges and contribute to sustainable climate-resilient solutions.\\
+Probabilistic forecasts take one step forward, do not try to predict an ideal scenario, and present different potential outcomes, each with a defined probability. Efforts, though different, instruct toward the same ends: meeting specific operational and strategic needs. Lorenz’s butterfly effect presents the case for one such endeavor -- it shows how a non-linear system’s response can drastically alter depending on the initial conditions. Such chaos is especially present in weather and climate systems, where even the slightest details can have large ramifications over longer periods.\\
+
+\section{Objectives of the Study}
+
+The study's primary aim is to evaluate the effectiveness of seasonal climate forecasting models, focusing on their applicability and performance in the \textbf{MENA region}. By doing so, the study intends to address the critical need for accurate and reliable forecasts to mitigate the socio-economic impacts of climate variability in this region.
+
+\subsection{Specific Objectives}
+
+\begin{enumerate}
+    \item \textbf{Evaluation of Deterministic Models:}
+    \begin{itemize}
+        \item Assess the performance of deterministic forecasting models in predicting key climate variables such as temperature and precipitation.
+        \item Analyze how deterministic models capture short-term climate dynamics and their suitability for high-precision applications.
+    \end{itemize}
+
+    \item \textbf{Evaluation of Probabilistic Models:}
+    \begin{itemize}
+        \item Investigate the reliability, discrimination, and sharpness of probabilistic models in representing climate variability.
+        \item Examine their capacity to provide actionable insights for medium- to long-term strategic planning and risk management.
+    \end{itemize}
+
+    \item \textbf{Comparative Analysis:}
+    \begin{itemize}
+        \item Compare the strengths and limitations of deterministic and probabilistic models, emphasizing their application in the MENA region.
+        \item Identify scenarios where one model type may outperform the other.
+    \end{itemize}
+
+    \item \textbf{Regional Focus:}
+    \begin{itemize}
+        \item Highlight the unique challenges faced in the MENA region due to its arid and semi-arid climate, limited water resources, and vulnerability to extreme weather events.
+    \end{itemize}
+\end{enumerate}
+
+By fulfilling these objectives, the study seeks to advance the understanding of seasonal forecasting models, contributing to their practical implementation within the MENA region  , with focus on  Arabian Peninsula and North Africa.
+
 
 
 
